@@ -1,0 +1,49 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-04T17:23:58-03:00
+
+====== DescricaoAntiga ======
+Criado segunda 04 abril 2022
+
+TELA DE CONFIRMAÇÃO DE EXCLUSÃO DE AVALIADOR
+Todos os campos exibidos devem estar desabilitados para a edição.
+Tem certeza que deseja excluir este avaliador?
+	* CPF
+	* Nome completo
+	* Nome de usuário
+	* Email
+	* Data do início da atividade como avaliador
+	* Quantidade do máximo de provas avaliador
+	* Validade da certificação do avaliador
+	* Qualificação do avaliador
+	* Data da conclusão do curso
+	* Suspenso Avaliador 
+	* Ativo Avaliador 
+	* Em Atividade avaliador
+Botões: “Voltar à Lista” e “Excluir” (RN 1)
+REGRA DE NEGÓCIO
+RN 1 – Ao excluir um avaliador, o sistema deve alterar a situação do avaliador para inativo e excluir o papel (role) de “Avaliador” do usuário em questão.
+
+
+
+TELA DE ALTERAÇÃO DE DADOS DO AVALIADOR
+	* CPF (desabilitado) 
+	* Nome completo (desabilitado)
+	* Nome de usuário (desabilitado) 
+	* Email (desabilitado) 
+	* Data do início da atividade como avaliador (obrigatório) – RN 1
+	* Quantidade do máximo de provas avaliador (obrigatório) – RN 2
+	* Validade da certificação do avaliador (obrigatório) – RN 1
+	* Qualificação do avaliador (obrigatório) – RN 3
+	* Data da conclusão do curso (obrigatório) – RN 1
+	* Suspenso Avaliador 
+	* Ativo Avaliador (desabilitado) – informação alterada quando o avaliador é excluído
+	* Em Atividade avaliador
+Botões: “Voltar à Lista” e “Salvar”
+
+REGRAS DE NEGÓCIO
+RN 1: As datas e horários informados devem ser válidos.
+RN 2: Campo numérico com valor padrão 4.
+RN 3: Opções: ELE, SME e ELE e SME.
+
+

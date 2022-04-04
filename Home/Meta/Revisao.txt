@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-04T17:18:57-03:00
+
+====== Revisao ======
+Criado segunda 04 abril 2022
+
+Itens a serem revistos na descrição são marcados com palavras-chave:
+
+#caducou#item# - item ficou obsoleto devido à implementação de novo item.  

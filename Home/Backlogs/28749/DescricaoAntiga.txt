@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-04T17:17:11-03:00
+
+====== DescricaoAntiga ======
+Criado segunda 04 abril 2022
+
+Essa tela foi substituída pela nova tela de avaliador. É preciso sinalizar isso no item. ###caducou###

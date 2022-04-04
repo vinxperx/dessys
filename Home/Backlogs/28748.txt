@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-04T16:28:59-03:00
+
+====== 28748 ======
+Criado segunda 04 abril 2022
+
+**Título**: ADM Criar tela pesquisar avaliadores
+**Tipo**: Desenvolvimento de nova tela
+**Implementação**: [[Implementacao:Sprints:Sprint02A|Sprint02A]]
+**Status**: [[Meta:StatusDeItens:Producao|Producao]]
+**Arquivos**: [[./|pasta]]
+**Wireframe**: [[./28748_wireframe.png|wireframe 01]] 
+**Tela:** Pesquisar Avaliador
+
+#caducou#30462#
+
+Descrição: Neste item o usuário, A3, pode pesquisar os avaliadores por CPF, nome ou nome de usuário. Avaliadores são usuários que podem aplicar provas nas instituições credenciadas. 
+

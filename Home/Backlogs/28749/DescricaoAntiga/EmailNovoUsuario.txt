@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-04T17:17:28-03:00
+
+====== EmailNovoUsuario ======
+Criado segunda 04 abril 2022
+
+Assunto:
+"Primeiro acesso de piloto"
+
+Texto do E-mail:
+"Bem vindo ao sysdea <<Nome da pessoa>>,
+Seu nome de usuário é o <<Nome de usuário>>
+e sua senha de acesso é <<Senha inicial gerada pelo sistema>>."

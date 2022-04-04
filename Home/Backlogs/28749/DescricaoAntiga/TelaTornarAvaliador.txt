@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-04T17:18:27-03:00
+
+====== TelaTornarAvaliador ======
+Criado segunda 04 abril 2022
+
+TELA PARA ADICIONAR O PAPEL DE AVALIADOR A PESSOA/USUÁRIO EXISTENTE NO SISTEMA
+	* CPF (desabilitado) 
+	* Nome completo (desabilitado)
+	* Nome de usuário (desabilitado) 
+	* Email (desabilitado) 
+	* Data do início da atividade como avaliador (obrigatório) – RN 1
+	* Quantidade do máximo de provas avaliador (obrigatório) – RN 2
+	* Validade da certificação do avaliador (obrigatório) – RN 1
+	* Qualificação do avaliador (obrigatório) – RN 3
+	* Data da conclusão do curso (obrigatório) – RN 1
+	* Suspenso Avaliador 
+	* Ativo Avaliador (desabilitado) – padrão ativo – RN 4
+	* Em Atividade avaliador
+Botões: “Voltar à Lista” e “Salvar”
+
+REGRAS NEGOCIAIS
+RN 1: As datas informadas devem ser válidas.
+RN 2: Campo numérico com valor padrão 4.
+RN 3: Opções: ELE, SME e ELE e SME.
+RN 4: Desabilitado. Valor padrão: ativo.

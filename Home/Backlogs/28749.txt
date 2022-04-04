@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-04T17:07:09-03:00
+
+====== 28749 ======
+Criado segunda 04 abril 2022
+
+**Título**: ADM Criar tela pesquisar avaliadores
+**Tipo**: Desenvolvimento de nova tela
+Módulo: ADM
+**Implementação**: [[Implementacao:Sprints:Sprint02A|Sprint02A]]
+**Status**: [[Meta:StatusDeItens:Producao|Producao]]
+**Arquivos**: [[./|pasta]]
+
+Descrição: Neste item o usuário, A3, pode cadastrar um novo avaliador.  
+
+A tela foi substituída pela tela de cadastrar usuários. 	#caducou#30462#

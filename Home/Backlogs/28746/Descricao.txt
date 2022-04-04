@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-04T17:04:04-03:00
+
+====== Descricao ======
+Criado segunda 04 abril 2022
+
+**Enquanto** usuário Auxiliares Administrativos ANAC (A3) logado,
+**Quero** uma tela, acessada a partir de ApoioAdministrativoANAC>Alterar Dados da Prova
+**Para** realizar melhorias com relação a versão da prova
+
+O A3 acessará essa tela, e pesquisará a prova pelo número SySDEA. Então, aparecerá: 
+
+1) uma lista para que se escolha a versão da prova.  
+2) três campos com datas chave da prova: Data/Hora do Agendamento, Data/Hora do Início da Prova e Data/Hora do Fim da Prova.
+3) um botão de 'Confirmar Alterações'
+
+Uma vez clicado no botão 'Confirmar Alterações', o sistema checa se a lista ou algum dos três campos foram preenchidos. Se for o caso, para cada um deles, o sistema altera o dado correspondente, seja a versão de prova aplicada, seja a data correspondente. 
+
+Caso o A3 mude a versão da prova, o sistema deve inserir uma 'Observação' automática para aquela prova dizendo: 'A prova teve a versão [nome da antiga versão] alterada para a versão [nome da nova versão] pelo usuário [nome do usuário] em [data e hora].' 
+
+Caso o A3 mude datas ou hora da prova, o sistema cria uma 'Observação' automática para cada data alterada - ‘A prova teve a data XXXXX alterada de [data antiga] para [data nova] pelo usuário [nome do usuário] em [data e hora].”

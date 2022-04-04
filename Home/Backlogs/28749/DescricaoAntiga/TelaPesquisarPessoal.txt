@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-04T17:18:09-03:00
+
+====== TelaPesquisarPessoal ======
+Criado segunda 04 abril 2022
+
+TELA DE PESQUISA DE PESSOAL
+Campos de filtro de pesquisa:
+	* CPF – RN 1
+	* Nome 
+	* Nome de usuário – RN 2
+	* Botão “Limpar” e botão “Pesquisar” – RN 3
+Resultado da pesquisa:
+CPF, Nome, Nome de usuário, Email e opção “Tornar Avaliador”
+REGRAS NEGOCIAIS
+RN 1: O campo CPF (máscara 999.999.999-99) não pode ser igual a algum CPF já cadastrado no sistema.
+RN 2: Tanto o nome de usuário (sem acentos, cedilha, hífen, til e outros caracteres especiais, exceto ponto) quanto o e-mail não podem ser iguais aos já cadastrados no 
+RN 3: a funcionalidade apenas consulta pessoas/usuários que não possuem papel de Avaliador no sistema ou cujo papel foi excluído através da funcionalidade de pesquisa de Avaliadores.

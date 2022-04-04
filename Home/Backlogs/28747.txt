@@ -1,16 +1,14 @@
 Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
-Creation-Date: 2022-04-04T15:52:38-03:00
+Creation-Date: 2022-04-04T17:22:32-03:00
 
-====== 28746 ======
+====== 28747 ======
 Criado segunda 04 abril 2022
 
-**Título**: ADM Alterar Dados da Prova
+**Título**: ADM Criar tela alterar/excluir Avaliadores
 **Tipo**: Desenvolvimento de nova tela
 **Módulo**: ADM
 **Implementação**: [[Implementacao:Sprints:Sprint01A|Sprint01A]]
 **Status**: [[Meta:StatusDeItens:Producao|Producao]]
 **Arquivos**: [[./|pasta]]
-**Wireframe 1**: [[./28746_wireframe.png|28746_wireframe.png]]
-
-
+**Wireframe 1**: 

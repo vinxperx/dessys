@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-04T17:24:17-03:00
+
+====== Descricao ======
+Criado segunda 04 abril 2022
+
+**Descrição:**
+ 
+Enquanto usuário Auxiliar Administrativos ANAC (A3) logado
+Quero dispor de funcionalidades de exclusão e alteração de Avaliadores
+Para realizar correções nos cadastros de avaliadores
+  
+**Critério de Aceitação:**
+ 
+001 - Dado que o usuário A3 acione a opção "Excluir" na tela de pesquisa de Avaliadores
+Então o sistema exibe uma tela de confirmação com todos os dados do Avaliador (wireframe WireframeExcluirAlterarAvaliador.docx)
+E disponibiliza as opções "Voltar à Lista" e "Excluir"
+Dado que o usuário acione a opção "Excluir"
+Então o sistema exclui o avaliador logicamente da base de dados
+ 
+ 
+002 - Dado que o usuário A3 acione a opção "Alterar" na tela de pesquisa de Avaliadores
+Então o sistema exibe uma tela com todos os dados do Avaliador (wireframe WireframeExcluirAlterarAvaliador.docx)
+E disponibiliza as opções "Voltar à Lista" e "Salvar"
+Dado que o usuário altere os campos que desejar
+E acione a opção "Salvar"
+Então o sistema altera as informações do avaliador.

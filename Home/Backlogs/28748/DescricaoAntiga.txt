@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-04T17:03:23-03:00
+
+====== DescricaoAntiga ======
+Criado segunda 04 abril 2022
+
+Título: Avaliador – Detalhes
+Todos os campos devem estar desabilitados para edição:
+	* CPF
+	* Nome completo
+	* Nome de usuário
+	* Email
+	* Data do início da atividade como avaliador
+	* Quantidade do máximo de provas avaliador
+	* Validade da certificação do avaliador
+	* Qualificação do avaliador
+	* Data da conclusão do curso
+	* Em Atividade avaliador
+	* Suspenso Avaliador
+	* Ativo Avaliador
+
+
+Botões: “Voltar à Lista” e “Alterar” (ao ser acionado, redireciona para a tela de alteração)
