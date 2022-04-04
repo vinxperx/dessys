@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-04T15:52:38-03:00
+
+====== 28746 ======
+Criado segunda 04 abril 2022
+
+**Número do pedido**: 28746
+**Credencial**: Apoio Administrativo ANAC
+Tipo: Desenvolvimento de nova tela
+Módulo: ADM
+Sprint: 01
+Permanência: Impactada pelo módulo de aplicação
+Status: Implementado
+Arquivos: pasta
+
+Descrição: Item

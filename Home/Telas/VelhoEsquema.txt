@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-04T15:42:21-03:00
+
+====== VelhoEsquema ======
+Criado segunda 04 abril 2022
+
+No velho esquema o sysdea se inicia numa tela do SySDEAADM que pode ou não condizer ao módulo de prova. 
