@@ -1,0 +1,32 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-05T10:19:30-03:00
+
+====== Descricao ======
+Criado terça 05 abril 2022
+
+[[28750|Item]]
+
+**Descrição**
+
+Enquanto usuário Auxiliar Administrativo (A3) vindo de ‘ConsultarContratos’ (backlog 29274)
+Quero dispor de funcionalidades de alteração dos contratos
+Para realizar alterações no status Ativo ou Inativo e nas Datas dos cadastros de contratos de entidades-avaliador
+
+
+**Critério de Aceitação**
+
+001 - Dado que o usuário altere a data de início para aquele contrato
+E a data seja válida
+E o usuário clique no botão ‘Salvar’  
+Então o sistema salva as informações para aquele contrato.
+ 
+002 - Dado que o usuário clique no botão ‘Ativo’ para um contrato
+E o novo status seja 'Inativo'
+Então o sistema preenche automaticamente a data de fim do contrato conforme a RN2
+E salva o registro
+ 
+003 - Dado que o usuário clique no botão ‘Ativo’ para um contrato
+E o novo status seja ‘Ativo’
+Então o sistema altera a data de fim do contrato conforme a RN2
+E salva o registro.

@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-05T10:52:32-03:00
+
+====== TiposDeBacklogs ======
+Criado terça 05 abril 2022
+
+1) Desenvolvimento: #desenvolvimento#  Especificam desenvolvimento de novas telas que não existiam de nenhuma forma antes. 
+2) Novas funcionalidades: #novafuncionalidade# Novas funcionalidades em telas existentes, por exemplo, um botão novo.
+3) Recriação: #recriacao# Desenvolvimento de novas telas que já existiam antes, e que mudam completamente a concepção de algo que já foi feito. 
+4) Correção: #correcao# Correção de um problema que estava atrapalhando o pleno funcionamento da funcionalidade. 

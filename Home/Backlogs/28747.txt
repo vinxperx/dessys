@@ -6,9 +6,11 @@ Creation-Date: 2022-04-04T17:22:32-03:00
 Criado segunda 04 abril 2022
 
 **Título**: ADM Criar tela alterar/excluir Avaliadores
-**Tipo**: Desenvolvimento de nova tela
-**Módulo**: ADM
+**Tipo**: #desenvolvimento#
+**Módulo**: #adm#
 **Implementação**: [[Implementacao:Sprints:Sprint01A|Sprint01A]]
 **Status**: [[Meta:StatusDeItens:Producao|Producao]]
 **Arquivos**: [[./|pasta]]
 **Wireframe 1**: 
+
+[[+Descricao|Descricao]]

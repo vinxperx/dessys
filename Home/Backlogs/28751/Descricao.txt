@@ -1,0 +1,45 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-05T10:04:09-03:00
+
+====== Descricao ======
+Criado terça 05 abril 2022
+
+Enquanto usuário Auxiliar Administrativo ANAC (A3) logado vindo de ConsultarContratos (backlog [[29274]])
+Quero uma funcionalidade para cadastrar novos contratos
+Para realizar novos cadastros de contratos de entidades-avaliador
+
+**Critério de aceitação**
+
+**001 – Dado que** o usuário chegou à tela Cadastrar Contrato vindo de Consultar Contratos tendo feito uma busca por Avaliador
+**Então** o sistema exibe os outros campos em branco
+**E** sugere o nome do Avaliador objeto da busca na tela da qual ele veio (Consultar Contratos)
+E.g.: Se ele clicou em Criar Novo Contrato enquanto pesquisava a Avaliadora Simone, a tela Cadastrar Contratos carrega o campo de texto “Nome do avaliador” já com o nome de Simone.
+ 
+002 – Dado que o usuário chegou à tela CadastrarContrato vindo de ConsultarContratos tendo feito uma busca por Entidade
+Então o sistema exibe os outros campos em branco
+E sugere o nome da Entidade objeto da busca na tela da qual ele veio (ConsultarContratos)
+E.g.: Se ele clicou em Criar Novo Contrato enquanto pesquisava a Entidade ‘EPA’, a tela CadastrarContratos carrega o campo de texto “Nome entidade” já com o nome de EPA.
+ 
+003 – Dado que o usuário chegou à tela CadastrarContrato vindo de ConsultarContratos sem ter feito uma busca
+Então o sistema exibe todos os campos de cadastro de contrato em branco
+Dado que o usuário preencheu os campos de cadastro corretamente
+E o usuário aciona o botão ‘Salvar’
+Então o sistema registra o novo contrato entre Avaliador e a Entidade
+ 
+004 – Dado que o usuário chegou à tela Cadastrar Contratos vindo de Consultar Contratos sem ter feito uma busca
+Então o sistema exibe todos os campos de cadastro de contrato em branco
+Dado que o usuário preencheu os campos de cadastro incorretamente
+E o usuário aciona o botão ‘Salvar’
+Então o sistema emite uma mensagem de obrigatoriedade.
+ 
+005 – Dado que o usuário escolheu um avaliador e uma entidade nos campos correspondentes
+E o Avaliador e a Entidade não estejam já relacionados num contrato ativo
+E o usuário aciona o botão ‘Salvar’
+Então o sistema registra um novo contrato entre o Avaliador e a Entidade
+ 
+006 – Dado que o usuário escolha um par Avaliador-Entidade
+E este par já possua contrato ativo
+Ou o usuário deixe de preencher algum campo obrigatório
+E o usuário aciona o botão ‘Salvar’
+Então o sistema emite uma mensagem de erro. 

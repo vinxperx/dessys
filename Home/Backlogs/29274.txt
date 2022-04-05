@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-05T10:00:32-03:00
+
+====== 29274 ======
+Criado terça 05 abril 2022
+
+**Título**: ADM ConsultarContratos 
+**Tipo**: Desenvolvimento de nova tela
+**Módulo**: #adm#
+**Sprint**: [[Implementacao:Sprints:Sprint03A|Sprint03A]]
+**Status**: [[Meta:StatusDeItens:Producao|Producao]]
+**Wireframe**: [[./29274_wireframe.png|wireframe 01]]  
+**Arquivos**: [[./|pasta]]
+
+[[+Descricao|Descricao]]: Neste item o usuário, A3, pode consultar os contratos entre as entidades credenciadas e os examinadores.
+
+#problema# Este item tem problemas que precisam de correções: 1) O filtro não funciona.  

@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-05T09:59:45-03:00
+
+====== Sprint03A ======
+Criado terça 05 abril 2022
+
+**Data de desenvolvimento**: 14/08/2019 - 28/08/2019
+**Comentários**:
+**Itens**: 
+
+1) [[Backlogs:29274|29274 - ADM ConsultarContratos]]
+2) [[Backlogs:28751|28751 - ADM Criar tela cadastrar contrato]]
+3) [[Backlogs:28750|28750 - ADM Criar tela alterar contrato]]

@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-05T11:03:30-03:00
+
+====== 28755 ======
+Criado terça 05 abril 2022
+
+**Tipo**: #correcao#
+**Módulo**: #adm#
+**Sprint**: [[Implementacao:Sprints:Sprint04A|Sprint04A]]
+**Status**:  [[Meta:StatusDeItens:Producao|Producao]]
+**Arquivos**: [[./|pasta]]
+
+[[+Descricao|Descricao]]: A TI tornou funcional a tela de resetar senha. 

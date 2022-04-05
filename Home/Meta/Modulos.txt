@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-05T10:58:47-03:00
+
+====== Modulos ======
+Criado terça 05 abril 2022
+
+Módulo admnistrativo: #adm# funcionalidades do módulo responsável por gerir as informações das provas. 

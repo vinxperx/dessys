@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-05T09:59:59-03:00
+
+====== 28751 ======
+Criado terça 05 abril 2022
+
+**Título**: ADM Criar tela cadastrar contrato
+**Tipo**: #desenvolvimento#
+**Módulo**: #adm#
+**Sprint**: [[Implementacao:Sprints:Sprint03A|Sprint03A]]
+**Status**:  [[Meta:StatusDeItens:Producao|Producao]]
+**Wireframe**: [[./28751_wireframe.png|wireframe 01]]  
+**Arquivos**: [[./|pasta]]
+
+[[+Descricao|Descricao]]: Neste item o usuário, A3, pode editar os contratos entre as entidades credenciadas e os examinadores, na prática, habilitando-os a aparecer na lista de examinadores daquela instituição, podendo assim receber provas, por exemplo.  
+
+#naofunciona#
+
+Quando a gente digita o nome da instituição ou do avaliador, ele simplesmente apaga. 
+

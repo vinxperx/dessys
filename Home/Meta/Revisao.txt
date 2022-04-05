@@ -7,4 +7,7 @@ Criado segunda 04 abril 2022
 
 Itens a serem revistos na descrição são marcados com palavras-chave:
 
+#naofunciona# - item não funciona
+#problema# - item funciona, mas tem um problema
+#teste# - testes são necessários
 #caducou#item# - item ficou obsoleto devido à implementação de novo item.  

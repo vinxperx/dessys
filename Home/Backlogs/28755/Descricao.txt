@@ -1,0 +1,44 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-05T11:05:16-03:00
+
+====== Descricao ======
+Criado terça 05 abril 2022
+
+Descrição
+Enquanto usuário estiver na tela de login
+Quero que a tela do "esqueceu sua senha" se torne funcional
+Para que o usuário possa alterar sua senha
+
+Critério de aceitação
+
+001 - Dado que o usuário não lembre de sua senha
+E clique no botão " Esqueceu sua senha"
+Então o sistema solicita o e-mail do usuário
+Dado que o usuário preencha o campo do e-mail corretamente
+E acione o botão ‘Enviar’
+Então o sistema notificará o envio 
+E enviará um e-mail ao usuário para redefinir a senha
+ 
+002 - Dado que o usuário não lembre de sua senha
+E clique no botão " Esqueceu sua senha"
+Então o sistema solicita o e-mail do usuário
+Dado que o usuário preencha o campo do e-mail com um e-mail não registrado no sistema
+E acione o botão ‘Enviar’
+Então o sistema notificará que houve um erro
+ 
+003 - Dado que o usuário não lembre de sua senha
+E clique no botão " Esqueceu sua senha"
+Então o sistema solicita o e-mail do usuário
+Dado que o usuário preencha o campo do e-mail incorretamente
+E acione o botão ‘Enviar’
+Então o sistema notificará um erro
+ 
+ 
+ 
+RN 1 – Critérios de senha válida:
+	* Possuir entre 6 – 12 caracteres;
+	* Ser alfanumérica;
+	* Mínimo de 1 letra maiúscula ou minúscula.
+ 
+RN 2 – Ao ser solicitada a recuperação de senha, o sistema redefine a senha atual do e-mail para uma aleatória criada pelo sistema, mas ela deverá está dentro da regra de validação da senha (RN 1).

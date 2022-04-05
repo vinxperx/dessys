@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-05T11:06:10-03:00
+
+====== 28757 ======
+Criado terça 05 abril 2022
+
+**Título**: ADM Mudar tela inicial
+**Tipo**: #correcao#
+**Módulo**: #adm#
+**Sprint**: [[Implementacao:Sprints:Sprint04A|Sprint04A]]
+**Status**:  [[Meta:StatusDeItens:Producao|Producao]]
+**Wireframe**: [[../wireframe - TelaInicialFiscal.png|wireframe TelaInicialFiscal.png]], [[../wireframe - TelaInicialAvaliador.png|wireframe TelaInicialAvaliador.png]], [[../wireframe - TelaInicialA3.png|wireframe TelaInicialA3.png]], [[../wireframe - TelaInicialA2.png|wireframe TelaInicialA2.png]].
+**Arquivos**: [[./|pasta]]
+
+[[+Descricao|Descricao]]: O usuário era redirecionado para um index inadequado.

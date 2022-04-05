@@ -6,12 +6,12 @@ Creation-Date: 2022-04-04T17:07:09-03:00
 Criado segunda 04 abril 2022
 
 **Título**: ADM Criar tela pesquisar avaliadores
-**Tipo**: Desenvolvimento de nova tela
-Módulo: ADM
+**Tipo**: #desenvolvimento#
+**Módulo**: #adm#
 **Implementação**: [[Implementacao:Sprints:Sprint02A|Sprint02A]]
 **Status**: [[Meta:StatusDeItens:Producao|Producao]]
 **Arquivos**: [[./|pasta]]
 
-Descrição: Neste item o usuário, A3, pode cadastrar um novo avaliador.  
+[[+Descricao|Descricao]]: Neste item o usuário, A3, pode cadastrar um novo avaliador.  
 
 A tela foi substituída pela tela de cadastrar usuários. 	#caducou#30462#

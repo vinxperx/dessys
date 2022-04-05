@@ -1,0 +1,35 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-05T10:14:32-03:00
+
+====== Descricao ======
+Criado terça 05 abril 2022
+
+**Descrição**
+**Enquanto** usuário Auxiliar Administrativo (A3) logado
+**Quero** dispor de funcionalidades de pesquisa de contratos por meio de entidades e avaliadores
+**Para** acessar contratos Entidade-Avaliador
+
+**Critério de Aceitação**
+001 - Dado que o usuário A3 acesse a tela Consultar Contratos
+Então o sistema emite uma lista com o nome das Entidades, e os avaliadores a ela vinculados, bem como o número de seus contratos e o status do contrato com os avaliadores
+ 
+002 - Dado que o usuário A3 utilize o campo de texto “Entidade” 
+E escreva o nome da entidade
+Então o sistema emite uma lista com o nome dos avaliadores a ela vinculados, o número de seus contratos e o status do contrato com os avaliadores
+ 
+003 - Dado que o usuário A3 utilize o campo de texto “Avaliador” 
+E escreva o nome do avaliador
+Então o sistema mostra uma lista com o nome das entidades a ele vinculados, o número de seus contratos e os status dos contratos com as Entidades
+ 
+004 - Dado que o usuário A3 clique na ação de alterar
+Então o sistema o redireciona para a tela de “Alterar Contrato" (backlog 28750)
+ 
+005- Dado que o usuário clique em Criar Novo Contrato
+Então o sistema o redireciona para a tela de "Cadastrar Contrato” (backlog 28751)
+
+(wireframe ConsultarContratos.png)
+
+RN – Os campos de texto para a pesquisa deverão ser de ‘autocomplete’.
+
+RN 2 - Os contratos inativos (SN_VALIDO = Falso) devem ser exibidos com o background cinza, no padrão da identidade visual, para lembrar o inativo das caixas de inserção de dados que ficam inativas. 

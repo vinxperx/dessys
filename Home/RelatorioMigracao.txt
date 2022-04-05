@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-05T10:50:02-03:00
+
+====== RelatorioMigracao ======
+Criado terça 05 abril 2022
+
+1) Os nomes dos backlogs estavam errados em relação ao TFS
+2) Backlogs estavam com informações relativas às telas
+2) Nomes da sprint04 estavam errados no CherryTree

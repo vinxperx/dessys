@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-05T11:06:03-03:00
+
+====== 28756 ======
+Criado terça 05 abril 2022
+
+**Título**: ADM Mudar o Index 
+**Tipo**: #correcao#
+**Módulo**: #adm#
+**Sprint**: [[Implementacao:Sprints:Sprint04A|Sprint04A]]
+**Status**:  [[Meta:StatusDeItens:Producao|Producao]]
+**Arquivos**: [[./|pasta]]
+
+[[+Descricao|Descricao]]: O usuário era redirecionado para um index inadequado.
