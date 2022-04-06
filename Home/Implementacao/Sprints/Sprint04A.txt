@@ -9,7 +9,7 @@ Criado terça 05 abril 2022
 **Comentários**:
 **Itens**: 
 
-1) [[Backlogs:28752|28752 - ADM Impedir a criação de registros duplicados]]
-2) [[Backlogs:28755|28755 - ADM Tornar funcional a tela de resetar senha]]
-3) [[Backlogs:28756|28756 - ADM Mudar o Index]]
-4) [[Backlogs:28757|28757 - ADM Mudar tela inicial]]
+1. [[Backlogs:28752|28752 - ADM Impedir a criação de registros duplicados]]
+2. [[Backlogs:28755|28755 - ADM Tornar funcional a tela de resetar senha]]
+3. [[Backlogs:28756|28756 - ADM Mudar o Index]]
+4. [[Backlogs:28757|28757 - ADM Mudar tela inicial]]

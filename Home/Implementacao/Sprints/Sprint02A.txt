@@ -11,6 +11,6 @@ Criado segunda 04 abril 2022
 
 **Backlogs desenvolvidos**: 
 
-1) [[Backlogs:28748|28748 ADM Criar tela pesquisar avaliadores]]
-2) [[Backlogs:28747|28747 ADM Criar tela alterar/excluir Avaliadores]]
-3) [[Backlogs:28749|28749 ADM Criar tela pesquisar avaliadores]]
+1. [[Backlogs:28748|28748 ADM Criar tela pesquisar avaliadores]]
+2. [[Backlogs:28747|28747 ADM Criar tela alterar/excluir Avaliadores]]
+3. [[Backlogs:28749|28749 ADM Criar tela pesquisar avaliadores]]

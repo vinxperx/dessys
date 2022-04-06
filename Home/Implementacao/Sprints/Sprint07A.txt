@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-06T16:46:50-03:00
+
+====== Sprint07A ======
+Criado quarta 06 abril 2022
+
+1. [[Backlogs:29681|29861 - ADM AplicaAvaliação]]
+2. [[Backlogs:29860|29860 - ADM EscolherAvaliacao]]
+3. [[Backlogs:27613|27613 - PRV Pesquisar Réguas]]
+4. [[Backlogs:27614|27614 - PRV CadastrarRéguas]]
+5. [[Backlogs:29682|29682 - PRV AlterarRégua]]

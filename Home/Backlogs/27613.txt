@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-06T16:48:32-03:00
+
+====== 27613 ======
+Criado quarta 06 abril 2022
+
+**Título**: PRV Pesquisar Réguas
+**Tipo**: #desenvolvimento
+**Módulo**: #prv#
+**Sprint: **[[Implementacao:Sprints:Sprint07A|Sprint07A]]
+**Status**: [[Meta:StatusDeItens:Producao|Producao]]
+**Wireframe**: [[./27613_wireframe.png|wireframe 01]], [[./27613_wireframe_2.png|wireframe 02]].
+**Arquivos**: [[./|pasta]]

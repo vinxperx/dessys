@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-06T16:48:13-03:00
+
+====== 29861 ======
+Criado quarta 06 abril 2022
+
+**Título**: ADM AplicarAvaliacao
+**Tipo**: #desenvolvimento
+**Módulo**: #adm#
+**Sprint: **[[Implementacao:Sprints:Sprint07A|Sprint07A]]
+**Status**: [[Meta:StatusDeItens:Producao|Producao]]
+**Wireframe**: [[./ListarAvaliações.jpg|wireframe 01]], [[./AplicarProva.jpg|wireframe 02]]. 
+**Arquivos**: [[./|pasta]]
+
+Esta tela era uma solução para tentar tirar da mão do credenciado a escolha de versões, mas nunca chegou a ser implementada. 

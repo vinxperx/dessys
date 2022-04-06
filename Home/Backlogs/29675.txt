@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-05T17:49:10-03:00
+
+====== 29675 ======
+Criado terça 05 abril 2022
+
+**Título**: PRV Alterar Mídia
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv#
+**Sprint**: [[Implementacao:Sprints:Sprint05A|Sprint05A]]
+**Status**: [[Meta:StatusDeItens:Producao|Producao]]
+**Wireframe**: [[./29675_wireframe.png|wireframe 01]].   
+**Arquivos**: [[./|pasta]]

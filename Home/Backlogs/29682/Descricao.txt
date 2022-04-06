@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-06T17:06:46-03:00
+
+====== Descricao ======
+Criado quarta 06 abril 2022
+
+**Descrição**
+
+Enquanto usuário Avaliador na tela Alterar Régua
+Quero Alterar Réguas
+Para que seja possível corrigir algum erro existente
+
+**Critério de Aceitação**
+
+001- Dado que o usuário Avaliador alterou de modo válido a régua
+E clicou em “Alterar”
+Então o sistema registra a alteração da “Régua”
+ 
+002- Dado que o usuário Avaliador preencheu algum campo de alteração incorretamente
+E clicou em “Alterar”
+Então o sistema emite uma mensagem de erro
+ 
+(Wireframe - EditarRégua.jpg)
+ 
+RN1 – O sistema não permite que os títulos das réguas sejam iguais.

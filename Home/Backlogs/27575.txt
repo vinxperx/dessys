@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-05T17:18:16-03:00
+
+====== 27575 ======
+Criado terça 05 abril 2022
+
+**Título**: PRV Logar tela inicial
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv#
+**Implementação**: [[Implementacao:Sprints:Sprint05A|Sprint05A]]
+**Status**: [[Meta:StatusDeItens:Producao|Producao]]
+**Wireframe**: [[./27575_wireframe.jpg|wireframe 01]], [[./27575_wireframe_2.png|wireframe 02]]
+**Arquivos**: [[./|pasta]]
+
+**Descrição**: Menu SySDEA Prova. A partir de sua aba ‘Avaliador’ no SySDEA ADM, o usuário com credencial de avaliador ele  ou avaliador sme pode entrar no SySDEA_PRV, acessando a tela ‘Menu SySDEA Prova’. 

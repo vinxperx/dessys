@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-06T16:48:38-03:00
+
+====== 27614 ======
+Criado quarta 06 abril 2022
+
+**Título**: PRV CadastrarRéguas
+**Tipo**: #desenvolvimento
+**Módulo**: #prv#
+**Sprint: **[[Implementacao:Sprints:Sprint07A|Sprint07A]]
+**Status**: [[Meta:StatusDeItens:Producao|Producao]]
+**Wireframe**: [[./27614_wireframe.png|wireframe 01]].
+**Arquivos**: [[./|pasta]]

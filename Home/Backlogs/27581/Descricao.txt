@@ -1,0 +1,58 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-05T17:33:59-03:00
+
+====== Descricao ======
+Criado terça 05 abril 2022
+
+**Descrição**
+Enquanto usuário Avaliador com cargo “Elaborador”
+Quero dispor de funcionalidades de pesquisa de mídias
+Para que seja possível pesquisar, cadastrar ou alterar as mídias. 
+
+**Critério de aceitação**
+001 – Dado que o usuário Avaliador esteja no menu de ‘Elaboração’
+E clique em ‘Mídia’
+Então o sistema o redireciona para a tela de “PesquisarMídias”
+Dado o usuário na tela “PesquisarMídias”
+Então o sistema revela uma lista contendo todas as mídias cadastradas.
+
+002 – Dado que o usuário preencha algum dos campos de pesquisa 
+E esteja correto
+E clique em “Pesquisar”
+Então o sistema apresenta os resultados filtrados
+
+003 – Dado que o usuário clique em “Cadastrar mídia”
+Então o sistema o redireciona para a tela “CadastrarMídia” 
+
+004 – Dado que o usuário preencha algum dos campos de pesquisa corretamente
+E clique em “Pesquisar”
+Então o sistema apresenta os resultados filtrados
+Dado que o usuário identifique sua mídia
+E clique na ação de alterar
+Então o sistema o redireciona para a tela de “AlterarMídia”
+
+005 – Dado que o usuário preencha algum dos campos de pesquisa corretamente
+E clique em “Pesquisar”
+Então o sistema apresenta os resultados filtrados
+Dado que o usuário identifique sua mídia
+E clique na ação de visualizar
+Então o sistema o expande a opção clicada como está em (Wireframe – PesquisarMídia-Visualizar.jpg)
+
+006 – Dado que o usuário clique no botão 'Clonar' de uma mídia x
+Então o sistema abre a tela de Cadastro
+E preenche automaticamente os campos com as informações de x 
+E deixa os campos abertos para edição. 
+
+
+(Wireframe – PesquisarMídia.jpg) 
+
+RN – Os tipos de mídia são: 
+	* Instrução para o ELE;
+	* Instrução para o candidato;
+	* Transcrição de áudio;
+	* Áudio;
+	* Imagem;
+	* Vídeo. 
+ 
+RN1 – Caso a mídia já tenha sido instanciada em uma prova, o botão de alterar será “desabilitado”.

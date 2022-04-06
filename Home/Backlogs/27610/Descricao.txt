@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-05T17:28:25-03:00
+
+====== Descricao ======
+Criado terça 05 abril 2022
+
+**Descrição**
+Enquanto usuário do sistema com credencial de Avaliador.
+Quero poder acessar funções de elaborações de prova (por enquanto, apenas as relacionadas a "Mídia") 
+Para criar ou alterar algum item da prova.
+
+**Critério de Aceitação**
+001 - Dado que o usuário com papel Avaliador acesse o SySDEA-Prova
+Dado que o usuário clique em “Mídia”
+Então o sistema o redireciona para a tela de “Pesquisar Mídias”
+ 
+002 - Dado que o usuário com papel Avaliador acesse o SySDEA-Prova”
+Dado que o usuário clique em “SySDEA ADM”
+Então o sistema o redireciona para a tela do “SySDEA ADM”

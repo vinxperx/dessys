@@ -5,6 +5,9 @@ Creation-Date: 2022-04-05T10:50:02-03:00
 ====== RelatorioMigracao ======
 Criado terça 05 abril 2022
 
-1) Os nomes dos backlogs estavam errados em relação ao TFS
-2) Backlogs estavam com informações relativas às telas
-2) Nomes da sprint04 estavam errados no CherryTree
+1. Os nomes dos backlogs estavam errados em relação ao TFS
+2. Backlogs estavam com informações relativas às telas
+3. Nomes da sprint04 estavam errados no cherrytree
+4. O item [[Backlogs:29675|29675]] estava sem descrição no cherrytree
+5. 29681 Estava sem descrição no cherrytree
+6. O item 27614 estava sem descrição no cherrytree

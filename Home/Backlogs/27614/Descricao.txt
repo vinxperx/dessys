@@ -1,0 +1,46 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-06T17:00:40-03:00
+
+====== Descricao ======
+Criado quarta 06 abril 2022
+
+**Descrição**
+
+Enquanto usuário Avaliador vindo da tela Pesquisar Réguas
+Quero cadastrar novas réguas
+Para que seja possível cadastrar novas réguas
+
+**Critério de Aceitação**
+
+001 - Dado que o usuário “Elaborador” acesse a funcionalidade "Cadastrar Régua"
+E preencha todos os campos obrigatórios: Título, Critério e Tipo de régua (wireframe – CRegua2.jpg)
+E adicione ao menos um item de régua (critério 002)
+E clique em "Salvar"
+Então o sistema registra a nova régua
+
+002 - Dado que o usuário “Elaborador” queira adicionar um item à régua
+E preencha o campo "Descrição"
+E clique em "Adicionar"
+Então o sistema adiciona o item da régua a lista (wireframe – CRegua3.jpg)
+
+003 - Dado que o usuário “Elaborador” deseje excluir um item já adicionado à régua
+E clique na opção "Excluir" referente ao item que deseje excluir
+Então o sistema remove o item da régua da lista (wireframe – CRegua3.jpg)
+
+004 - Dado que o usuário “Elaborador” acesse a funcionalidade "Cadastrar Régua"
+E preencha todos os campos obrigatórios: Título, Critério e Tipo de régua (wireframe – CRegua2.jpg)
+E não adicione nenhum item de régua (critério 002)
+E clique em "Salvar"
+Então o sistema exibe a mensagem "É necessário informar ao menos um item de régua!"  
+
+RN1(Todos) - Os títulos das réguas serão únicos, ou seja, não haverá repetição.
+E as descrições da régua não podem estar vazias.
+
+RN2- O cadastro da régua:
+·         Título da régua – Obrigatório
+·         Critério – Obrigatório
+·         Tipo de régua – Obrigatório
+·         Descrição – Obrigatório e deve possuir no mínimo 1 descrição adicionada para que ela possa ser salva.
+
+RN3 – O botão “limpar” resetará todos os campos

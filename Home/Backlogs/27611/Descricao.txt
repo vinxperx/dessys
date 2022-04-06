@@ -1,0 +1,34 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-06T16:28:55-03:00
+
+====== Descricao ======
+Criado quarta 06 abril 2022
+
+**Descrição**
+
+Enquanto usuário Avaliador
+Quero ver uma lista “Tags” já criadas
+Para que seja possível localizar tags existentes
+E acessar as funcionalidades de cadastro, visualização ou alteração de Tags
+
+**Critério de Aceitação**
+
+001- Dado que o usuário Avaliador acionou a tela de tags
+Então o sistema o redireciona para a lista de todas as Tags já registradas
+ 
+002 - Dado que o usuário Avaliador clique no botão “Alterar”
+Então o sistema o redireciona para a tela de “AlterarTag"
+ 
+003 - Dado que o usuário Avaliador clique no botão “Cadastrar Tag”
+Então o sistema o redireciona para a tela de “Cadastrar Tag"
+ 
+004 - Dado que o usuário Avaliador preencha algum dos campos de pesquisa 
+E esteja correto
+E clique em “Pesquisar”
+Então o sistema apresenta os resultados filtrados
+
+RN1- O campo de "Categoria" será de dropbox
+O campo de "Tag" será de autopreenchimento
+
+ 

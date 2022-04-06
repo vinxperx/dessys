@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-06T16:24:54-03:00
+
+====== 29707 ======
+Criado quarta 06 abril 2022
+
+**Título**: PRV AlterarCategoriaTag
+**Tipo**: #desenvolvimento
+**Módulo**: #prv#
+**Sprint: **[[Implementacao:Sprints:Sprint06A|Sprint06A]]
+**Status**: [[Meta:StatusDeItens:Producao|Producao]]
+**Wireframe**: [[./29707_wireframe.png|wireframe 01]]  
+**Arquivos**: [[./|pasta]]
+
+Implementou a tela de Pesquisar categoria de tags. 

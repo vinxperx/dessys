@@ -1,0 +1,38 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-06T16:49:33-03:00
+
+====== Descricao ======
+Criado quarta 06 abril 2022
+
+**Descrição**
+
+Enquanto usuário avaliador
+Quero que o sistema escolha aleatoriamente a versão de prova que será aplicada
+Para que o usuário só saiba a versão da prova que será aplicada meia hora antes
+
+**Critério de Aceitação**
+
+001- Dado que o usuário Avaliador clique em “Iniciar Avaliação”
+E clique em “Iniciar” na tela de Listar Avaliações (wireframe – ListarAvaliações.jpg)
+Então o sistema mostrará a tela contendo toda a revisão da avaliação
+E mostrará automaticamente a versão a ser utilizada. (wireframe – AplicarProva.jpg) 
+EM VEZ DE mostrar uma drop box para que o examinador escolha, como ocorre atualmente. 
+ 
+RN1- A tela será em tudo idêntica à atual, exceto nas mudanças descritas aqui. 
+
+As duas mudanças dizem respeito ao drop down e à escolha aleatória de versões. 
+
+O drop down será convertido num campo não-editável. O sistema escolherá a versão de modo randômico, levando em conta três restrições.
+ 
+Primeira restrição, o tipo de prova, se avião ou helicóptero.
+ 
+Segunda, a lista de versões já realizadas por aquele candidato. Assim, do mesmo modo que hoje não aparecem no drop down as versões de prova já realizadas pelo candidato, no novo arranjo devem ser excluídas do sorteio as versões com que o candidato já teve contato.
+
+Terceira restrição: versões de prova ativas.
+ 
+Exemplo:
+
+Um usuário escolheu prova tipo avião para um piloto (cf. backlog 29860). As versões de prova ativas de avião são da 12 à 22. O candidato já teve contato com a 12. Então o sistema escolhe uma versão randomicamente, entre 13 e 22. 
+ 
+RN2- O acesso ao botão de “Iniciar” na tela de “Iniciar Avaliação” deverá ser permitido ao faltar 30 minutos para o começo da avaliação.

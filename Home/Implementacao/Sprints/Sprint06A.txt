@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-05T18:03:06-03:00
+
+====== Sprint06A ======
+Criado terça 05 abril 2022
+
+1. [[Backlogs:29706|29706 - PRV PesquisarCategoriaTag]]
+2. [[Backlogs:29705|29705 - CadastrarCategoriaTag]]
+3. [[Backlogs:29707|29707 - PRV AlterarCategoriaTag]]
+4. [[Backlogs:27611|27611 - PRV PesquisarTags]]
+5. [[Backlogs:27612|27612 - PRV CadastrarTags]]
+6. [[Backlogs:29681|29681 - PRV AlterarTag]]
