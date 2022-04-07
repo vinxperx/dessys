@@ -5,6 +5,11 @@ Creation-Date: 2022-04-05T17:16:28-03:00
 ====== Sprint05A ======
 Criado terça 05 abril 2022
 
+
+**Data de desenvolvimento**: 10/09/2019 - 27/09/2019
+**Comentários**:
+**Itens**: 
+
 1. [[Backlogs:27575|27575 - FazerLogin]]
 2. [[Backlogs:27610|27610 - RefazerMenuDeElaboracao]]
 3. [[Backlogs:27581|27581 - PesquisarMidia]]

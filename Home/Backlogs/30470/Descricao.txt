@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T16:10:21-03:00
+
+====== Descricao ======
+Criado quinta 07 abril 2022
+
+**Descrição**
+
+**Enquanto** usuário do sistema com credencial de Entidade
+**Quero** poder criar um agendamento
+**Para** para marcar um horário para a realização de uma aplicação de prova ao candidato
+
+
+**Critério de Aceitação**
+**001** – Dado que o usuário preencha corretamente os campos
+**E** clique em criar
+**Então** o sistema cria o agendamento (RN1)
+ 
+**002** – Dado que o usuário preencha incorretamente os campos
+**E** clique em criar
+**Então** o sistema notifica o erro
+ 
+ 
+**RN1**: O campo “Modelo de exame” deve disponibilizar ao credenciado os modelos em produção disponíveis para a entidade credenciada: 
+Os modelos que constam da lista 'Em produção' ou 'Em teste', conforme ajustado em 'DefinirModelosEmProduçãoOuTeste';
+Os modelos disponibilizados para cada entidade específica são ajustados em PRV_ADM_DefinirParâmetrosDeEntidade·         
+**RN 2**: Ao criar, o agendamento recebe o status Agendamento Unificado AU# 2 "Reservado".

@@ -5,6 +5,10 @@ Creation-Date: 2022-04-07T08:49:51-03:00
 ====== Sprint08A ======
 Criado quinta 07 abril 2022
 
+**Data de desenvolvimento**: 01/11/2019 - 22/11/2019
+**Comentários**:
+**Itens**: 
+
 1. [[Backlogs:28753|28753 - CadastrarPool]]
 2. [[Backlogs:28754|28754 - AlterarPool]]
 3. [[Backlogs:27577|27577 - PesquisarPool]]

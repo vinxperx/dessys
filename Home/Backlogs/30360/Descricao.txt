@@ -5,3 +5,49 @@ Creation-Date: 2022-04-07T15:05:52-03:00
 ====== Descricao ======
 Criado quinta 07 abril 2022
 
+**Descrição**
+
+**Enquanto** usuário Avaliador
+**Quero** poder acessar um gerador de exemplos de provas
+**Para** compor manualmente a escolha de questões em um determinado modelo
+
+**Critério de Aceitação**
+
+**001** - Dado que o avaliador esteja na tela de Pesquisar Modelos (PesquisarModeloExemplo.png)
+**E** clique no botão “Exemplo” de um modelo de prova
+**Então** o sistema redireciona o avaliador para a tela de “Gerar Exemplo de Prova”
+ 
+**002**- Dado que o Avaliador acesse a tela de “Gerar Exemplo de Prova” (GerarExemploModelo.png)
+**Então** o sistema mostra a modalidade marcada “Composição” (será adicionada uma outra modalidade em breve chamada “Sorteio”)
+**Dado** que o avaliador opte pela modalidade “Composição”
+**Então** o sistema mostrará todas as Partes do modelo com seus respectivos pools
+**E** solicitará que o usuário escolha uma questão para cada Slot
+**Dado** que o usuário clique no botão “Escolher Questão”
+**Então** uma janela modal será aberta (EscolherQuestaoModal.png)
+ 
+**003**- Dado que o usuário esteja com a janela Escolher Questão aberta
+**E** o usuário queira adicionar as questões aos slots
+**E** já tenha selecionado a questão para o slot 
+**E** tenha clicado em “Adicionar”
+**Então** o sistema fecha a janela modal de “Adicionar questões”
+ 
+**004**- Dado que o usuário queira gerar/visualizar uma instância de prova
+**E** clique em “Gerar Prova”
+**Então** o sistema abre um modal 
+**E** disponibiliza sua visualização do exemplo de prova
+ 
+**RN1** – Ao escolher uma questão, ela não deve ser disponibilizada para ser escolhida novamente em outro slot.
+ 
+**RN2** – Ao oferecer questões para escolha, o sistema só mostrará as questões que estão no pool que está configurado para aquele slot específico.
+ 
+**RN3** - A primeira aba sempre será "Resumo da Prova" e ela irá conter o sumário, com as respectivas partes do modelo e algumas informações adicionais. As informações adicionais não são editáveis.
+ 
+**RN4** – As partes serão divididas em abas que não poderão ser fechadas. Mas o usuário poderá acessá-las diretamente.
+ 
+**RN5** – Cada questão de cada parte será separada pelo sistema de accordion. Como exemplo “Situation 1”, “Situation 2”. (ExemploProvaMODAL.png)
+ 
+**RN6** - Nome do modelo: o nome do modelo cadastrado
+           Modalidade: a modalidade em que o exemplo foi gerado. Por enquanto, só é possível escolher Composição.
+           Data de criação: data na qual o exemplo foi gerado.
+ 
+

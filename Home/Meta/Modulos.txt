@@ -7,3 +7,4 @@ Criado terça 05 abril 2022
 
 **Módulo administrativo**: #adm# funcionalidades do módulo responsável por gerir as informações das provas. 
 **Módulo de provas**: #prv# funcionalidades do módulo responsável por aplicar o exame. 
+**Módulo administrativo revamp**: #adm# #cor# 

@@ -5,6 +5,11 @@ Creation-Date: 2022-04-05T18:03:06-03:00
 ====== Sprint06A ======
 Criado terça 05 abril 2022
 
+
+**Data de desenvolvimento**: 15/09/2019 - 14/10/2019
+**Comentários**:
+**Itens**: 
+
 1. [[Backlogs:29706|29706 - PesquisarCategoriaTag]]
 2. [[Backlogs:29705|29705 - CadastrarCategoriaTag]]
 3. [[Backlogs:29707|29707 - AlterarCategoriaTag]]

@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T15:45:05-03:00
+
+====== 30949 ======
+Criado quinta 07 abril 2022
+
+**Título**: PesquisarTag
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação**: [[Implementacao:Sprints:Sprint12A|Sprint12A]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Wireframe**:  [[./30949_wireframe.png|wireframe01]].
+**Arquivos**: [[./|pasta]]
+
+

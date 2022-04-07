@@ -5,6 +5,11 @@ Creation-Date: 2022-04-07T10:35:32-03:00
 ====== Sprint09A ======
 Criado quinta 07 abril 2022
 
+**Data de desenvolvimento**: 07/01/2020 - 22/01/2020
+**Comentários**:
+**Itens**: 
+
+
 1. [[Backlogs:30059|30059 - PesquisarParte]]
 2. [[Backlogs:30060|30060 - CadastrarParte]]
 3. [[Backlogs:30061|30061 - AlterarParte]] 

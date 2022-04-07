@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T15:35:50-03:00
+
+====== Descricao ======
+Criado quinta 07 abril 2022
+
+**Descrição**
+**Enquanto** usuário na tela CadastrarTags
+**Quero** uma funcionalidade de Peso
+**Para** que seja possível cadastrar novas Tags incluindo essa variável.
+
+**Critério de Aceitação**
+
+Adicionar o campo de “Peso”.
+
+**RN1** – O campo será do tipo decimal, com duas casas decimais, com valor minimo -1 e valor máximo +1 (Ex.: -1.00, -0.35, 0.4, 0.99, 1).
+**RN2** – O valor padrão do campo será 1.00.  

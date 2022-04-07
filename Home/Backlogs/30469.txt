@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T16:01:42-03:00
+
+====== 30469 ======
+Criado quinta 07 abril 2022
+
+**Título**: PesquisarAgendamento
+**Tipo**: #desenvolvimento#
+**Módulo**: #adm# #cor#
+**Implementação**: [[Implementacao:Sprints:Sprint14A|Sprint14A]]
+**Wireframe**: [[./30469_wireframe_1.png|wireframe01]], [[./30469_wireframe_2.png|wireframe02]], [[./30469_wireframe_3.png|wireframe03]], [[./30469_wireframe_4.png|wireframe04]], [[./30469_wireframe_5.png|wireframe05]].
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[./|pasta]]
+
+**Função**: O agendamento no formato antigo é contraintuitivo e confuso, tendo sido necessário refazer a interface de forma a evitar erros no futuro.  
+
+

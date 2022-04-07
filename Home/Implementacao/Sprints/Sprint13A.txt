@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T15:50:03-03:00
+
+====== Sprint13A ======
+Criado quinta 07 abril 2022
+
+**Data de desenvolvimento**: 26/03/2020 - 17/04/2020
+**Comentários**:
+**Itens**: 
+
+1. [[Backlogs:30846|30846 - FazerSorteio]]
+2. [[Backlogs:31223|31223 - MelhorarStackBinario]]

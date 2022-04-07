@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T15:45:46-03:00
+
+====== Descricao ======
+Criado quinta 07 abril 2022
+
+**Descrição**
+
+**Enquanto** usuário na tela PesquisarTags
+**Quero** que seja exibido o Peso da Tag
+**Para** que seja possível decidir a pertinência de editar essa Tag.
+
+**Critério de Aceitação**
+
+Adicionar o campo de “Peso”, que deve ser exibido em uma coluna
+
+**RN1** – O campo será do tipo decimal, com duas casas decimais, com valor minimo -1 e valor máximo +1 (Ex.: -1.00, -0.35, 0.4, 0.99, 1).
+**RN2** – O valor padrão do campo será 1.00 .  

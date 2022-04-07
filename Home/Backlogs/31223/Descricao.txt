@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T15:57:03-03:00
+
+====== Descricao ======
+Criado quinta 07 abril 2022
+
+**Descrição**
+
+**Enquanto** usuário do sistema acessando Modelo>Alterar Stack
+**Quero** poder ter um dropbox para definir o Onset de um stack binário
+**Para** para poder escolher um valor para o Onset que seja 1, 2 ou 3
+
+**Critério de Aceitação**
+
+**001** – Dado que o usuário escolha a opção "Binário" na Radiobox do stack
+**Então** o sistema mostra, além do campo para definir igualdade ou diferença TAMBÉM um campo dropbox para definir o Onset da stack. (RN1, RN2)
+
+**RN1** - A dropbox deve ter como valor pré-definido 1. 
+**RN2** - A dropbox deve ter apenas os valores 1, 2 ou 3. 
+

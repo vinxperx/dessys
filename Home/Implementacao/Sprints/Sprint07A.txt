@@ -5,6 +5,10 @@ Creation-Date: 2022-04-06T16:46:50-03:00
 ====== Sprint07A ======
 Criado quarta 06 abril 2022
 
+**Data de desenvolvimento**: 15/10/2019 - 01/11/2019
+**Comentários**:
+**Itens**: 
+
 1. [[Backlogs:29681|29861 - AplicarVersaoDeAvaliacao]]
 2. [[Backlogs:29860|29860 - EscolherVersaoDeAvaliacao]]
 3. [[Backlogs:27613|27613 - PesquisarRegua]]

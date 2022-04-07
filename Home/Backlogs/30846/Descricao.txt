@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T15:50:24-03:00
+
+====== Descricao ======
+Criado quinta 07 abril 2022
+
+**Descrição**
+
+**Enquanto** usuário 
+**Quero** poder criar uma prova de exemplo usando também o algoritmo de sorteio
+**Para** que o próprio sistema sorteie quais questões serão escolhidas para a prova.
+
+**Critério de Aceitação**
+
+**001**- Dado que o usuário na tela “Gerar Exemplo de Prova”
+**Então** o sistema disponibiliza no campo “Modalidade de sorteio”, a opção "Sorteio"
+ 
+**002**- Dado que o usuário selecionou Sorteio
+**Então** o sistema mostra a checkbox “Gerar extrato?”
+ 
+**003** - Dado que o usuário clicou em “Gerar extrato?”
+**E** clicou em “Gerar Prova”
+**Então** o sistema realiza o sorteio
+**E** exibe a prova gerada em uma janela modal
+**E** realiza o download automaticamente do arquivo compactado do Extrato
+ 
+**004** - Dado que o usuário selecionou Sorteio
+**E** não marcou a checkbox “Gerar extrato?”
+**E** clicou em “Gerar Prova”
+**Então** o sistema realiza o sorteio
+**E** exibe a prova gerada em uma janela modal
+
+**RN1** - Extrato de Sorteio
+
+O extrato de sorteio contém um arquivo de índice e diversas planilhas organizadas em pastas, que são algumas daquelas descritas no documento de descrição de sorteio. 
+
+**RN2** - O extrato de sorteio deverá refletir o processo de sorteio de uma instância de teste do modelo escolhido, de modo que o usuário poderá verificar se a aplicação de tags tem o efeito desejado nas probabilidades. 
+
+**RN3** - Deverá ser gerada uma única planilha de controle de sorteio dividida em cabeçalho (um registro de cada apenas) e registros (vários).

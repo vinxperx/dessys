@@ -1,0 +1,61 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T16:05:05-03:00
+
+====== Descricao ======
+Criado quinta 07 abril 2022
+
+**Descrição**
+
+**Enquanto** usuário do sistema com credencial de Entidade
+**Quero** poder acessar as funcionalidades
+**Para** criar agendamento, visualizar agendamentos, visualizar agendamentos antigos, confirmar agendamentos e cancelar.
+
+**Critério de Aceitação**
+
+**001** - Dado que o usuário queira verificar agendamentos de candidatos  
+**E** esteja na tela do menu de Entidade
+**E** clique no botão “Agendamentos”
+**Então** o sistema redireciona para a tela Pesquisar Agendamentos. (RN0)
+ 
+**002** – Dado que o usuário queira pesquisar um agendamento         
+**E** esteja na tela de “Pesquisar Agendamentos”
+**E** preencha corretamente os dados de Canac
+**E**/OU Data
+**Então** o sistema filtra os dados solicitados.
+ 
+**003** – Dado que o usuário queira cadastrar um agendamento         
+**E** esteja na tela de “Pesquisar Agendamentos”
+**E** clique no botão “Criar Agendamento”
+**Então** o sistema redireciona para a tela de “Criar agendamento”
+ 
+**004** – Dado que o usuário queira verificar um agendamento antigo
+**E** esteja na tela de “Pesquisar Agendamentos”
+**E** clique no botão “Histórico de Agendamentos”
+**Então** o sistema redireciona para a tela de “Histórico de agendamentos”
+ 
+**005** – Dado que o usuário clique em confirmar agendamento (RN3)         
+**Então** o sistema abre uma janela modal de confirmação de agendamento 
+**Dado** que o usuário clicou em confirmar 
+**Então** o sistema confirma o agendamento daquele candidato para a aplicação (RN1)
+
+ 
+**006** – Dado que o usuário queira verificar detalhes de um agendamento  
+**E** esteja na tela de “Pesquisar Agendamentos”
+**E** clique em “Detalhes”
+**Então** o sistema redireciona para a tela de “Detalhes”
+ 
+ 
+**007** – Dado que o usuário queira cancelar um agendamento
+**E** esteja na tela de “Pesquisar Agendamentos”
+**E** clique em “Detalhes”
+**E** clique em “cancelar”
+**E** confirme
+**Então** o sistema cancela o agendamento (RN3)
+
+
+**RN0** - Nesta tela serão exibidos os agendamentos no status "Reservado" (AU#2) e "Confirmado" (AU#3)
+**RN1** - Confirmar o agendamento muda o status de "Reservado" (AU#2) para "Confirmado" (AU#3)
+**RN2** - O status do agendamento muda para "Cancelado", e o agendamentoAtivo do piloto muda para 'false'.
+**RN3** - O botão para confirmar agendamento só será ativado caso o agendamento esteja no status "Reservado"
+

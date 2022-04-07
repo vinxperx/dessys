@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T15:33:03-03:00
+
+====== 30474 ======
+Criado quinta 07 abril 2022
+
+**Título**: CadastrarTag
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação**: [[Implementacao:Sprints:Sprint12A|Sprint12A]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Wireframe**: [[./30474_wireframe.png|wireframe01]].
+**Arquivos**: [[./|pasta]]
+

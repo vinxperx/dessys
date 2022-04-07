@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T15:49:06-03:00
+
+====== 30846 ======
+Criado quinta 07 abril 2022
+
+**Título**: FazerSorteio
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação**: [[Implementacao:Sprints:Sprint13A|Sprint13A]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Wireframe**: 
+**Arquivos**: [[./|pasta]]
