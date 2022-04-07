@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T11:12:02-03:00
+
+====== 30061 ======
+Criado quinta 07 abril 2022
+
+**Título**: AlterarParte
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação**: [[Implementacao:Sprints:Sprint09A|Sprint09A]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Wireframe**: [[./30061_wireframe.png|wireframe 01]].
+**Arquivos**: [[./|pasta]]

@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T10:42:08-03:00
+
+====== 30060 ======
+Criado quinta 07 abril 2022
+
+**Título**: CadastrarParte
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv#
+**Implementação**: [[Implementacao:Sprints:Sprint09A|Sprint09A]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Wireframe**: [[./30060_wireframe_1.png|wireframe 01]], [[./30060_wireframe_2.png|wireframe 02]].
+**Arquivos**: [[./|pasta]]

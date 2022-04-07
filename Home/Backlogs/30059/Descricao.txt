@@ -1,0 +1,39 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T10:36:08-03:00
+
+====== Descricao ======
+Criado quinta 07 abril 2022
+
+**Descrição**
+
+Enquanto usuário Avaliador
+Quero poder acessar a lista de partes já cadastradas no sistema
+Para acessar as funcionalidades de cadastro, visualização ou alteração de partes
+
+**Critério de aceitação**
+
+001- Dado que o usuário Avaliador acionou a tela de “Pesquisar Partes”
+Então o sistema o redireciona para a lista de todas as “Partes” já registradas
+002 - Dado que o usuário Avaliador escreva o “Número da Parte”
+E clique em “Pesquisar”
+Então o sistema mostra na lista somente o item que corresponda a pesquisa
+
+003 - Dado que o usuário Avaliador escreva o “Nome da Parte”
+E clique em “Pesquisar”
+Então o sistema mostra na lista somente o item que corresponda a pesquisa
+ 
+004- Dado que o usuário Avaliador clicou em “Cadastrar Parte”
+Então o sistema o redireciona para a tela de “Cadastrar Parte”
+
+005 – Dado que o usuário clique no botão 'Clonar' de uma parte x
+Então o sistema abre a tela de Cadastro
+E preenche automaticamente os campos com as informações de x 
+E deixa os campos abertos para edição. 
+
+006- Dado que o usuário Avaliador clique no botão “visualizar”
+Então o sistema o expande a opção clicada como está em (Wireframe - ListarParte - Visualização.jpg)
+
+RN1 – Os campos de texto para a pesquisa serão de autopreenchimento.
+
+ 

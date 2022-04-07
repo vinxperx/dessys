@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T10:35:56-03:00
+
+====== 30059 ======
+Criado quinta 07 abril 2022
+
+**Título**: PesquisarParte
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação**: [[Implementacao:Sprints:Sprint09A|Sprint09A]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Wireframe**: [[./30059_wireframe_1.png|wireframe 01]], [[./30059_wireframe_2.png|wireframe 02]], [[./30059_wireframe_3.png|wireframe 03]].
+**Arquivos**: [[./|pasta]]

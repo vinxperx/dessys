@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T10:35:32-03:00
+
+====== Sprint09A ======
+Criado quinta 07 abril 2022
+
+1. [[Backlogs:30059|30059 - PesquisarParte]]
+2. [[Backlogs:30060|30060 - CadastrarParte]]
