@@ -7,9 +7,9 @@ Criado quarta 06 abril 2022
 
 **Título**: AplicarVersaoDeAvaliacao
 **Tipo**: #desenvolvimento
-**Módulo**: #prv#
+**Módulo**: #adm#
 **Sprint: **[[Implementacao:Sprints:Sprint06A|Sprint06A]]
-**Status**: [[Meta:StatusDeItens:Producao|Producao]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
 **Wireframe**: [[./29681_wireframe.png|wireframe 01]]  
 **Arquivos**: [[./|pasta]]
 

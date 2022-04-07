@@ -7,8 +7,8 @@ Criado quarta 06 abril 2022
 
 **Título**: PesquisarTag
 **Tipo**: #desenvolvimento#
-**Módulo**: #prv#
+**Módulo**: #prv# #ela#
 **Sprint: **[[Implementacao:Sprints:Sprint06A|Sprint06A]]
-**Status**: [[Meta:StatusDeItens:Producao|Producao]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
 **Wireframe**: [[./27611_wireframe.png|wireframe 01]].
 **Arquivos**: [[./|pasta]]

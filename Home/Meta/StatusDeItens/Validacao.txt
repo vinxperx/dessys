@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T10:16:56-03:00
+
+====== Validacao ======
+Criado quinta 07 abril 2022
+
+Um item está em validação quando ele foi testado e homologado no ambiente de validação.

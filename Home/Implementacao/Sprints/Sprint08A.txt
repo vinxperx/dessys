@@ -9,5 +9,5 @@ Criado quinta 07 abril 2022
 2. [[Backlogs:28754|28754 - AlterarPool]]
 3. [[Backlogs:27577|27577 - PesquisarPool]]
 4. [[Backlogs:27655|27655 - PesquisarQuestao]]
-5. [[Backlogs:28754|28754 - CadastrarQuestao]]
+5. [[Backlogs:27574|27574 - CadastrarQuestao]]
 6. [[Backlogs:29685|29685 - AlterarQuestao]] 

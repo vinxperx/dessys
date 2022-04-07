@@ -9,7 +9,7 @@ Criado quarta 06 abril 2022
 **Tipo**: #desenvolvimento#
 **Módulo**: #adm#
 **Sprint: **[[Implementacao:Sprints:Sprint07A|Sprint07A]]
-**Status**: [[Meta:StatusDeItens:Producao|Producao]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
 **Wireframe**: [[./29860_wireframe_agendamento.jpg|wireframe 01]], [[./29860_wireframe_agendamento_2.jpg|wireframe 02]], [[./29860_wireframe_agendamento_3.jpg|wireframe 03]]. 
 **Arquivos**: [[./|pasta]]
 

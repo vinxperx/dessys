@@ -7,8 +7,8 @@ Criado quarta 06 abril 2022
 
 **Título**: CadastrarTag
 **Tipo**: #desenvolvimento#
-**Módulo**: #prv#
+**Módulo**: #prv# #ela#
 **Sprint: **[[Implementacao:Sprints:Sprint06A|Sprint06A]]
-**Status**: [[Meta:StatusDeItens:Producao|Producao]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
 **Wireframe**: [[./27612_wireframe.png|wireframe 01]], [[./27612_wireframe_cadastrar_tag.jpg|wireframe 02]]
 **Arquivos**: [[./|pasta]]
