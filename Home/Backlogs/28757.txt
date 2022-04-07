@@ -5,7 +5,7 @@ Creation-Date: 2022-04-05T11:06:10-03:00
 ====== 28757 ======
 Criado terça 05 abril 2022
 
-**Título**: ADM Mudar tela inicial
+**Título**: MudarTelaInicial
 **Tipo**: #correcao#
 **Módulo**: #adm#
 **Sprint**: [[Implementacao:Sprints:Sprint04A|Sprint04A]]

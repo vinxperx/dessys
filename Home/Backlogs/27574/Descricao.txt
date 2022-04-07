@@ -1,0 +1,55 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T09:54:59-03:00
+
+====== Descricao ======
+Criado quinta 07 abril 2022
+
+**Descrição**
+
+Enquanto usuário avaliador logado
+Quero uma funcionalidade de cadastro de questão
+Para que seja possível cadastrar novas questões
+
+**Critério de Aceitação**
+
+001 - Dado que o usuário Avaliador preencheu todos os campos
+E clicou em “Salvar”
+Então o sistema salva a nova “Questão”
+ 
+002 - Dado que o usuário Avaliador não tenha preenchido todos os campos obrigatórios
+E o usuário clicou em “Salvar”
+Então o sistema emite uma notificação dos erros.
+ 
+003 - Dado que o usuário não tenha adicionado ao menos uma linha
+E clique em “Salvar”
+Então o sistema notificará que é necessário adicionar ao menos uma linha.
+
+004 - Dado que o usuário não tenha adicionado ao menos uma tag
+E clique em “Salvar”
+Então o sistema notificará que é necessário adicionar ao menos uma tag.
+ 
+005 - Dado que o usuário selecione a opção "Mídia" como tipo de conteúdo da linha
+Então o sistema exibe o botão "Pesquisar Mídia"
+
+006 - Dado que o usuário clique no botão "Pesquisar Mídia"
+Então o sistema exibe a janela modal de pesquisar Mídia
+
+007 - Dado que o usuário clique no botão "Pesquisar Régua"
+Então o sistema exibe a janela modal de pesquisa de Réguas
+
+008 - Dado que o usuário clique no botão "Adicionar Linha"
+E não tenha pesquisado Mídia ou Régua, de acordo com o tipo de conteúdo selecionado
+Então o sistema exibe mensagem de erro
+
+009 - Dado que o usuário queira reordenar as linhas adicionadas
+E clique nos botões pertencentes à coluna "Ordem"
+Então o sistema reordena a linha de acordo com o botão clicado
+   
+RN1 - Tipo de conteúdo: Mídia, Régua
+ 
+RN2 - Uma questão pode ter diferentes tags adicionadas a ela.
+
+RN3 - O "título da questão" deverá ter nome único, não poderá ser repetido.
+
+RN4 - A questão deve ter ao menos uma tag e uma linha adicionadas.

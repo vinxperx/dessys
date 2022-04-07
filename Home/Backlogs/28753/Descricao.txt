@@ -1,0 +1,50 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T08:54:04-03:00
+
+====== Descricao ======
+Criado quinta 07 abril 2022
+
+**Descrição**
+
+Enquanto usuário Avaliador
+Quero poder acessar a tela de cadastrar novas pools
+Para cadastrar novos pools de questões
+
+**Critério de Aceitação**
+
+001 - Dado que o usuário Avaliador preencheu todos os campos
+E clicou em “Salvar”
+Então o sistema salva o novo Pool
+
+002 - Dado que o usuário Avaliador não tenha preenchido todos os campos obrigatórios
+E o usuário clicou em “Salvar”
+Então o sistema emite uma notificação dos erros.
+
+003 - Dado que o usuário não tenha adicionado questões
+E clique em “Salvar”
+Então o sistema notificará que é necessário adicionar ao menos uma questão.
+
+004 - Dado que o usuário clique no botão "Pesquisar Questões"
+Então o sistema exibe a janela modal de pesquisa de questões
+
+005 - Dado que o usuário queira adicionar questões ao Pool
+E já tenha realizado a pesquisa (janela modal de pesquisa de questões)
+E tenha selecionado as questões que deseja adicionar
+E clique no botão "Adicionar selecionadas"
+Então o sistema exibe fecha a janela modal de pesquisa de questões
+E exibe as questões selecionadas no cadastro do Pool
+
+006 - Dado que o usuário Avaliador deseje excluir uma questão adicionada ao Pool
+E clicou no correspondente botão "Excluir"
+Então o sistema removerá a questão do pool.
+
+007 - Dado que o usuário queira selecionar questões através da janela modal de pesquisa de questões
+E não tenha informado nenhum filtro para a pesquisa
+Então o sistema exibe mensagem informado que ao menos um filtro de pesquisa deve ser informado
+
+RN1 – O máximo de questões selecionadas de uma só vez para adicionar ao pool serão de 4 itens selecionados.
+
+RN2 – O campo de “Título” e “Descrição” são obrigatórios
+
+RN3 – O pool deverá ter no mínimo UMA questão  

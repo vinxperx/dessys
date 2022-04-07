@@ -5,8 +5,8 @@ Creation-Date: 2022-04-05T17:16:28-03:00
 ====== Sprint05A ======
 Criado terça 05 abril 2022
 
-1. [[Backlogs:27575|27575 - PRV Logar Tela inicial]]
-2. [[Backlogs:27610|27610 - PRV MenuDeElaboração]]
-3. [[Backlogs:27581|27581 - PRV PesquisarMídias]] 
-4. [[Backlogs:27578|27578 - PRV CadastrarMídia]]
-5. [[Backlogs:29675|29675 - PRV Alterar Mídia]]
+1. [[Backlogs:27575|27575 - FazerLogin]]
+2. [[Backlogs:27610|27610 - RefazerMenuDeElaboracao]]
+3. [[Backlogs:27581|27581 - PesquisarMidia]]
+4. [[Backlogs:27578|27578 - CadastrarMidia]]
+5. [[Backlogs:29675|29675 - AlterarMidia]]

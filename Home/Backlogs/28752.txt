@@ -5,7 +5,7 @@ Creation-Date: 2022-04-05T10:51:20-03:00
 ====== 28752 ======
 Criado terça 05 abril 2022
 
-**Título**: ADM Impedir criação de registros duplicados
+**Título**: BloquearDuplicacaoDeRegistro
 **Tipo**: #correcao#
 **Módulo**: #adm#
 **Sprint**: [[Implementacao:Sprints:Sprint04A|Sprint04A]]

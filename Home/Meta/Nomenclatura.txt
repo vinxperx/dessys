@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T09:17:26-03:00
+
+====== Nomenclatura ======
+Criado quinta 07 abril 2022
+
+A nomenclatura de itens obedece aos seguintes padrões:
+
+1. **Verbo**: que descreve a principal função da tela. Por exemplo, criar, alterar, excluir, impedir, etc.
+2. **Complemento verbal**: que define o verbo. Criar**Registro**, Alterar**InfoDeProva**. O complemento deve ser um sintagma nominal e não deve conter verbos. Por exemplo, ImpedirDuplicacaoDeRegistros é ok, enquanto ImpedirRegistrosqueSaoDuplicados não. 
+3. **Maiúsculas e Minúsculas**: Adota-se o padrão double camel, em que cada palavra tem a primeira letra em maiúscula sem espaçamento entre si. 
+4. **Singular e plural**: as palavras devem estar sempre no singular. Preferencialmente devem ser usado nomes de 'massa' em vez de quantificadores (ex. info em vez de dados). 

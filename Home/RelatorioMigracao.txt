@@ -6,8 +6,10 @@ Creation-Date: 2022-04-05T10:50:02-03:00
 Criado terça 05 abril 2022
 
 1. Os nomes dos backlogs estavam errados em relação ao TFS
-2. Backlogs estavam com informações relativas às telas
-3. Nomes da sprint04 estavam errados no cherrytree
-4. O item [[Backlogs:29675|29675]] estava sem descrição no cherrytree
-5. 29681 Estava sem descrição no cherrytree
-6. O item 27614 estava sem descrição no cherrytree
+2. Procedeu-se à padronização dos nomes conforme [[Meta:Nomenclatura|nomenclatura padronizada]].
+3. Backlogs estavam com informações relativas às telas
+4. Nomes da sprint04 estavam errados no cherrytree
+5. O item [[Backlogs:29675|29675]] estava sem descrição no cherrytree
+6. 29681 Estava sem descrição no cherrytree
+7. O item 27614 estava sem descrição no cherrytree
+8. O item 28753 estava sem descrição no cherrytree

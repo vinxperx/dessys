@@ -5,7 +5,7 @@ Creation-Date: 2022-04-05T10:00:32-03:00
 ====== 29274 ======
 Criado terça 05 abril 2022
 
-**Título**: ADM ConsultarContratos 
+**Título**: ConsultarContrato 
 **Tipo**: Desenvolvimento de nova tela
 **Módulo**: #adm#
 **Sprint**: [[Implementacao:Sprints:Sprint03A|Sprint03A]]

@@ -1,0 +1,39 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T08:51:29-03:00
+
+====== Descricao ======
+Criado quinta 07 abril 2022
+
+**Descrição**
+
+Enquanto usuário Avaliador
+Quero poder acessar a lista de pools já cadastradas no sistema
+Para acessar as funcionalidades de cadastro, visualização, clonagem ou alteração de pools
+
+**Critério de Aceitação**
+
+001 - Dado que o usuário Avaliador acionou a tela de “Pool”
+Então o sistema o redireciona para a lista de todas as “Pools” já registradas
+ 
+002 - Dado que o usuário Avaliador clicou em “Cadastrar Pool”
+Então o sistema o redireciona para a tela de “Cadastrar Pool”
+ 
+003 - Dado que o usuário Avaliador preencheu o campo de “Número do Pool”
+Ou preencheu campo de “Título do pool”
+E clicou em “Pesquisar”
+Então o sistema realiza a busca filtrando a pesquisa pelos campos preenchidos
+ 
+004 - Dado que o usuário Avaliador clicou em “Visualizar”
+Então o sistema o redireciona para a tela “Visualizar Pool”
+
+005 - Dado que o usuário Avaliador clicou em “Alterar”
+Então o sistema o redireciona para a tela “Alterar Pool”
+
+006 - Dado que o usuário Avaliador clicou no botão “Clonar” de um pool x
+Então o sistema o redireciona para a tela de cadastro
+E preenche automaticamente os campos com as informações de x
+E deixa os campos abertos para edição
+
+ 
+RN1- Botão “Limpar” limpa todos os campos da tela.

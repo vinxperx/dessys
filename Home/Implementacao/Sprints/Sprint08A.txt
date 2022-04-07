@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T08:49:51-03:00
+
+====== Sprint08A ======
+Criado quinta 07 abril 2022
+
+1. [[Backlogs:28753|28753 - CadastrarPool]]
+2. [[Backlogs:28754|28754 - AlterarPool]]
+3. [[Backlogs:27577|27577 - PesquisarPool]]
+4. [[Backlogs:27655|27655 - PesquisarQuestao]]
+5. [[Backlogs:28754|28754 - CadastrarQuestao]]
+6. [[Backlogs:29685|29685 - AlterarQuestao]] 

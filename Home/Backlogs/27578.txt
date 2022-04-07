@@ -5,7 +5,7 @@ Creation-Date: 2022-04-05T17:39:36-03:00
 ====== 27578 ======
 Criado terça 05 abril 2022
 
-**Título**: PRV CadastrarMídia
+**Título**: CadastrarMidia
 **Tipo**: #desenvolvimento#
 **Módulo**: #prv#
 **Implementação**: [[Implementacao:Sprints:Sprint05A|Sprint05A]]

@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T09:03:20-03:00
+
+====== 27655 ======
+Criado quinta 07 abril 2022
+
+**Título**: PesquisarQuestao
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv#
+**Implementação**: [[Implementacao:Sprints:Sprint08A|Sprint08A]]
+**Status**: [[Meta:StatusDeItens:Producao|Producao]]
+**Wireframe**: [[./27655_wireframe_1.png|wireframe 01]], [[./27655_wireframe_2.png|wireframe 02]].
+**Arquivos**: [[./|pasta]]

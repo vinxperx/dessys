@@ -5,7 +5,7 @@ Creation-Date: 2022-04-04T17:07:09-03:00
 ====== 28749 ======
 Criado segunda 04 abril 2022
 
-**Título**: ADM Criar tela pesquisar avaliadores
+**Título**: CadastrarAvaliador
 **Tipo**: #desenvolvimento#
 **Módulo**: #adm#
 **Implementação**: [[Implementacao:Sprints:Sprint02A|Sprint02A]]

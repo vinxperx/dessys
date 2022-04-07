@@ -11,4 +11,4 @@ Criado segunda 04 abril 2022
 
 **Backlogs desenvolvidos**: 
 
-1. [[Backlogs:28746|28746 ADM Alterar Dados da Prova]]
+1. [[Backlogs:28746|28746 - AlterarInfoDeProva]]

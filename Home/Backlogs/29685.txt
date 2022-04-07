@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T10:03:49-03:00
+
+====== 29685 ======
+Criado quinta 07 abril 2022
+
+**Título**: AlterarQuestao
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv#
+**Implementação**: [[Implementacao:Sprints:Sprint08A|Sprint08A]]
+**Status**: [[Meta:StatusDeItens:Producao|Producao]]
+**Wireframe**: [[./29685_wireframe.png|wireframe 01]].
+**Arquivos**: [[./|pasta]]

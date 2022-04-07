@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T08:58:50-03:00
+
+====== 28754 ======
+Criado quinta 07 abril 2022
+
+**Título**: AlterarPool
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv#
+**Implementação**: [[Implementacao:Sprints:Sprint08A|Sprint08A]]
+**Status**: [[Meta:StatusDeItens:Producao|Producao]]
+**Wireframe**: [[./wireframe_1.png|wireframe 01]], [[./wireframe_2.png|wireframe 02]].
+**Arquivos**: [[./|pasta]]
