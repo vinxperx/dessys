@@ -1,0 +1,80 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T11:58:04-03:00
+
+====== Descricao ======
+Criado quinta 07 abril 2022
+
+**Descrição**
+
+**Enquanto** usuário Avaliador logado
+**Quero** acessar a tela de alterar modelo de prova
+**Para** que seja utilizado para a alteração de modelos de prova
+
+**Critério de Aceitação**
+
+**001 - Dado que** o Avaliador preencha os dados corretamente
+**E** clicou em “Salvar”
+**Então** o sistema salva o novo modelo.
+ 
+~~REMOVIDO~~
+~~002 - Dado que o Avaliador preencha os dados incorretamente~~
+~~E clicou em “Salvar”~~
+~~Então o sistema notificará o erro.~~
+ 
+**003 - Dado que** o Avaliador não tenha preenchido todos os campos obrigatórios
+**E** clicou em “Salvar”
+**Então** o sistema emite uma notificação dos erros
+ 
+**004 - Dado que** o Avaliador clique no botão “Adicionar Parte”
+**Então** o sistema exibe a janela modal de pesquisa de Partes
+ 
+**005 – Dado** que o usuário queira adicionar Partes
+**E** já tenha realizado a pesquisa (janela modal de pesquisa de parte)
+**E** tenha selecionado as Partes que deseja adicionar
+**E** clique no botão “Adicionar”
+**Então** o sistema fecha a janela modal de pesquisa de Partes
+ 
+**006 – Dado que** o usuário clique no botão “Adicionar Stack”
+**Então** o sistema exibe a janela modal de configurar Stack
+ 
+**007- Dado que** o usuário queira adicionar Stack
+**E** esteja com a janela modal aberta de configurar Stack
+**E** tenha preenchido todos os campos obrigatórios
+**E** clique em “Adicionar”
+**Então** o sistema adiciona no modelo
+ 
+**008- Dado que** o usuário queria adicionar Stack
+**E** ao escolher tipo de tag “Gradual”
+E escreveu um número de -0.99 até 10
+Então o sistema irá aceitar
+ 
+**008- Dado que** o usuário queria adicionar Stack
+**E** ao escolher tipo de tag “Gradual”
+**E** escreveu um número diferente de -0.99 até 10
+**Então** o sistema irá recusar
+ 
+**009- Dado que** o usuário queira adicionar Stack
+**E** já tenha configurado a Stack
+**E** selecionou os slots que estarão vinculados a aquela Stack
+**E** clique em “Adicionar”
+**Então** o sistema adiciona a configuração
+**E** fecha a janela modal
+**E** volta para a tela de configurar o modelo para continuar o Cadastro de modelo
+ 
+**RN1** – O “Título do modelo”, “Descrição”, “Parte” são itens obrigatórios.
+ 
+**RN2** – O botão de “Adicionar Stack” só será válido após ter sido adicionado “Parte” ao modelo, pois o stack irá se vincular aos slots das “Partes”.
+ 
+**RN3** – As partes ao serem registradas terão um botão de ordem para organizá-las
+ 
+**RN4** - Categoria de Tag, Regime de cálculo, Magnitude e OnSet são campos obrigatórios
+ 
+**RN5** – Tipo de Stack: O usuário selecionando o tipo “Gradual” será disponibilizado um campo para que seja digitado um valor de (-0.99 até 10). Este valor será utilizado para ajudar a efetuar o sorteio.
+Caso o usuário escolha o tipo “Binário” será liberado um DropBox de (Igualdade ou Diferença).
+ 
+**RN6** - On set terá em seu Dropbox os números 0,1,2,3
+ 
+**RN7 -** Caso o stack já tenha sido adicionado ao modelo e o elaborador do modelo queira realizar alguma alteração nas partes. Ele deverá retirar os stacks cadastrados para que possa realizar as ações.
+ 
+**RN8** – Não é necessário o modelo ter a presença de stack.

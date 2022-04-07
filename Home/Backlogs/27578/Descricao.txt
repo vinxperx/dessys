@@ -6,77 +6,78 @@ Creation-Date: 2022-04-05T17:42:02-03:00
 Criado terça 05 abril 2022
 
 **Descrição**
-Enquanto usuário Avaliador na tela “CadastrarMídia”
-Quero poder cadastrar as mídias 
-Para que sejam registradas novas questões no sistema. .
+
+**Enquanto** usuário Avaliador na tela “CadastrarMídia”
+**Quero** poder cadastrar as mídias 
+**Para** que sejam registradas novas questões no sistema. .
 
 **Critério de aceitação**
-001 – Dado que o usuário Avaliador preencha os campos corretamente 
-E clique em “salvar”
-Então o sistema cadastra a nova mídia
+**001** – Dado que o usuário Avaliador preencha os campos corretamente 
+**E** clique em “salvar”
+**Então** o sistema cadastra a nova mídia
  
-002 - Dado que o usuário Avaliador preencha os campos incorretamente 
-E clique em “salvar”
-Então o sistema notifica um erro, indicando o campo com erro.
+**002** - Dado que o usuário Avaliador preencha os campos incorretamente 
+**E** clique em “salvar”
+**Então** o sistema notifica um erro, indicando o campo com erro.
  
-003- Dado que o usuário Avaliador no campo de tipo de mídia escolha “Instrução para o ELE”
-Então o sistema libera um campo de texto
+**003**- Dado que o usuário Avaliador no campo de tipo de mídia escolha “Instrução para o ELE”
+**Então** o sistema libera um campo de texto
 Dado que o usuário redija o texto de sua instrução
-E tenha todos os outros campos preenchidos corretamente
-E clique em “salvar”
-Então o sistema cadastra a nova mídia como uma mídia do tipo 'Instrução para o ELE'.
+**E** tenha todos os outros campos preenchidos corretamente
+**E** clique em “salvar”
+**Então** o sistema cadastra a nova mídia como uma mídia do tipo 'Instrução para o ELE'.
  
-004- Dado que o usuário Avaliador no campo de tipo de mídia escolha “Instrução para o candidato”
-Então o sistema libera um campo de texto
+**004**- Dado que o usuário Avaliador no campo de tipo de mídia escolha “Instrução para o candidato”
+**Então** o sistema libera um campo de texto
 Dado que o usuário redija o texto de sua instrução
-E tenha todos os outros campos preenchidos corretamente
-E clique em “salvar”
-Então o sistema cadastra a nova mídia  como uma mídia do tipo 'Instrução para o candidato'.
+**E** tenha todos os outros campos preenchidos corretamente
+**E** clique em “salvar”
+**Então** o sistema cadastra a nova mídia  como uma mídia do tipo 'Instrução para o candidato'.
  
-005- Dado que o usuário Avaliador no campo de tipo de mídia escolha “Transcrição de áudio”
-Então o sistema libera um campo de texto
+**005**- Dado que o usuário Avaliador no campo de tipo de mídia escolha “Transcrição de áudio”
+**Então** o sistema libera um campo de texto
 Dado que o usuário redija o texto transcrito do áudio
-E tenha todos os outros campos preenchidos corretamente
-E clique em “salvar”
-Então o sistema cadastra a nova mídia  como uma mídia do tipo 'Transcrição de áudio'.
+**E** tenha todos os outros campos preenchidos corretamente
+**E** clique em “salvar”
+**Então** o sistema cadastra a nova mídia  como uma mídia do tipo 'Transcrição de áudio'.
  
-006- Dado que o usuário Avaliador no campo de tipo de mídia escolha “Áudio”
-Então o sistema habilita o anexo
+**006**- Dado que o usuário Avaliador no campo de tipo de mídia escolha “Áudio”
+**Então** o sistema habilita o anexo
 Dado que o usuário clique no “+”
-E adicione o áudio
-Então o sistema mostra um campo de pré-visualização
+**E** adicione o áudio
+**Então** o sistema mostra um campo de pré-visualização
 Dado que o usuário clique no botão de “PLAY”
-Então o sistema reproduz o áudio
+**Então** o sistema reproduz o áudio
 Dado que o usuário verifique que o áudio está correto
-E clique em “STOP” (Para que a reprodução do áudio pare)
-E tenha todos os outros campos preenchidos corretamente
-E clique em “salvar”
-Então o sistema cadastra a nova mídia como uma mídia do tipo 'áudio'.
+**E** clique em “STOP” (Para que a reprodução do áudio pare)
+**E** tenha todos os outros campos preenchidos corretamente
+**E** clique em “salvar”
+**Então** o sistema cadastra a nova mídia como uma mídia do tipo 'áudio'.
  
-007- Dado que o usuário Avaliador no campo de tipo de mídia escolha “Vídeo”
-Então o sistema habilita o anexo
+**007**- Dado que o usuário Avaliador no campo de tipo de mídia escolha “Vídeo”
+**Então** o sistema habilita o anexo
 Dado que o usuário clique no “+”
-E adicione o vídeo
-Então o sistema mostra um campo de pré-visualização
+**E** adicione o vídeo
+**Então** o sistema mostra um campo de pré-visualização
 Dado que o usuário clique no botão de “PLAY”
-Então o sistema reproduz o vídeo
+**Então** o sistema reproduz o vídeo
 Dado que o usuário verifique que o vídeo está correto
-E clique em “STOP” (Para que a reprodução do vídeo pare)
-E tenha todos os outros campos preenchidos corretamente
-E clique em “salvar”
-Então o sistema cadastra a nova mídia como vídeo.
+**E** clique em “STOP” (Para que a reprodução do vídeo pare)
+**E** tenha todos os outros campos preenchidos corretamente
+**E** clique em “salvar”
+**Então** o sistema cadastra a nova mídia como vídeo.
  
-008- Dado que o usuário Avaliador no campo de tipo de mídia escolha “Imagem”
-Então o sistema habilita o anexo
+**008**- Dado que o usuário Avaliador no campo de tipo de mídia escolha “Imagem”
+**Então** o sistema habilita o anexo
 Dado que o usuário clique no “+”
-E adicione a imagem
-Então o sistema mostra um campo de pré-visualização da imagem
+**E** adicione a imagem
+**Então** o sistema mostra um campo de pré-visualização da imagem
 Dado que o usuário tenha todos os outros campos preenchidos corretamente
-E clique em “salvar”
-Então o sistema cadastra a nova mídia como 'Imagem'.
+**E** clique em “salvar”
+**Então** o sistema cadastra a nova mídia como 'Imagem'.
  
  
-RN1 – Os tipos de mídia, a serem armazenadas para diferentes usos do sistema posteriormente, com formatações específicas para cada uma, são:
+**RN1** – Os tipos de mídia, a serem armazenadas para diferentes usos do sistema posteriormente, com formatações específicas para cada uma, são:
 	* Instrução para o ELE - (variável);
 	* Instrução para o candidato (variável);
 	* Transcrição de áudio (variável);
@@ -84,18 +85,18 @@ RN1 – Os tipos de mídia, a serem armazenadas para diferentes usos do sistema
 	* Imagem - 10MB;
 	* Vídeo - 50MB. 
  
-RN2 – As mídias de áudio e vídeo terão um player para que elas possam ser reproduzidas em sua pré-visualização.
+**RN2** – As mídias de áudio e vídeo terão um player para que elas possam ser reproduzidas em sua pré-visualização.
   
-RN3 - Imagens só podem ser no formato “.png” ou “.jpg”
+**RN3** - Imagens só podem ser no formato “.png” ou “.jpg”
 Vídeos no formato “.mp4”
 Áudios no formato “.mp3”
 
 Transcrição de áudio e instruções destravarão o campo de texto, para que nele possa ser inserido o conteúdo.
  
-RN4 – O botão de “Limpar” resetará todos os campos do cadastro.
+**RN4** – O botão de “Limpar” resetará todos os campos do cadastro.
  
-RN5 - A mídia só poderá ser salva se TODOS os campos estiverem preenchidos
+**RN5** - A mídia só poderá ser salva se TODOS os campos estiverem preenchidos
 
-RN6 - Caso a mídia não seja de: áudio, vídeo ou imagem, então o botão de anexo será desabilitado.
+**RN6** - Caso a mídia não seja de: áudio, vídeo ou imagem, então o botão de anexo será desabilitado.
  
 (Wireframe – CadastrarMídia.jpg; CadastrarMídia2.jpg; CadastrarMídia3.jpg)

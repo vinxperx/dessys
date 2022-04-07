@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T11:43:06-03:00
+
+====== Descricao ======
+Criado quinta 07 abril 2022
+
+**Descrição**
+
+Enquanto usuário Avaliador
+Quero poder acessar a lista de modelos já cadastrados no sistema
+Para acessar as funcionalidades de cadastro, alteração, clonagem ou visualização de modelos
+
+**Critério de Aceitação**
+
+**001 - Dado que** o usuário Avaliador clique no botão “Alterar”
+**Então** o sistema o redireciona para a tela de “AlterarModelo" correspondente ao modelo x
+**E** carrega automaticamente o modelo x
+ 
+**002 - Dado que** o usuário Avaliador clique no botão “Cadastrar Modelo”
+**Então** o sistema o redireciona para a tela de “CadastrarModelo"
+ 
+**003 – Dado que** o usuário clique no botão 'Clonar' de um modelo x
+**Então** o sistema abre a tela de Cadastro
+**E** preenche automaticamente os campos com as informações de x 
+**E** deixa os campos abertos para edição. 

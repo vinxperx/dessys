@@ -7,12 +7,12 @@ Criado terça 05 abril 2022
 
 **Descrição**
 
-Enquanto usuário logado no SySDEA ADM
-Quero poder ser redirecionado ao site do SySDEA Prova
-Para receber o acesso ao sistema de acordo com o meu nível de acesso
+**Enquanto** usuário logado no SySDEA ADM
+**Quero** poder ser redirecionado ao site do SySDEA Prova
+**Para** receber o acesso ao sistema de acordo com o meu nível de acesso
 
 **Critério de Aceitação**
 
-001- Dado que o usuário esteja logado na tela inicial do SySDEA-ADM
-E tenha credencial de Avaliador
-Então na aba "Avaliador", haverá um botão chamado SySDEA-Prova, que ao ser clicado, redireciona o usuário para a tela inicial do módulo SySDEA-Prova.
+**001**- Dado que o usuário esteja logado na tela inicial do SySDEA-ADM
+**E** tenha credencial de Avaliador
+**Então** na aba "Avaliador", haverá um botão chamado SySDEA-Prova, que ao ser clicado, redireciona o usuário para a tela inicial do módulo SySDEA-Prova.

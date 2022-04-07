@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T11:57:13-03:00
+
+====== 30362 ======
+Criado quinta 07 abril 2022
+
+**Título**: AlterarModelo
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação**: [[Implementacao:Sprints:Sprint10A|Sprint10A]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Wireframe**: [[./30362_wireframe.png|wireframe 01]], [[./30362_wireframe_2.png|wireframe 02]], [[./30362_wireframe_3.png|wireframe 03]]. 
+**Arquivos**: [[./|pasta]]

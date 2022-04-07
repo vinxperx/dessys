@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T11:47:02-03:00
+
+====== 30332 ======
+Criado quinta 07 abril 2022
+
+**Título**: CadastrarModelo
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação**: [[Implementacao:Sprints:Sprint10A|Sprint10A]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Wireframe**: [[./30332_wireframe.png|wireframe 01]], [[./30332_wireframe_2.png|wireframe 02]], [[./30332_wireframe_3.png|wireframe 03]], [[./30332_wireframe_4.png|wireframe 04]]. 
+**Arquivos**: [[./|pasta]]

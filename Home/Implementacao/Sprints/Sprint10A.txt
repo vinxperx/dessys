@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T11:42:29-03:00
+
+====== Sprint10A ======
+Criado quinta 07 abril 2022
+
+1. [[Backlogs:30331|30331 - PesquisarModelo]]
+2. [[Backlogs:30332|30332 - CadastrarModelo]]
+3. [[Backlogs:30362|30362 - AlterarModelo]]

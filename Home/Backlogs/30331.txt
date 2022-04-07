@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T11:42:46-03:00
+
+====== 30331 ======
+Criado quinta 07 abril 2022
+
+**Título**: PesquisarModelo
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação**: [[Implementacao:Sprints:Sprint10A|Sprint10A]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Wireframe**: [[./30331_wireframe.png|wireframe 01]], [[./30331_wireframe_2.png|wireframe 02]].
+**Arquivos**: [[./|pasta]]
