@@ -7,30 +7,30 @@ Criado quarta 06 abril 2022
 
 **Descrição**
 
-Enquanto usuário Avaliador
-Quero poder acessar a lista de réguas já cadastradas no sistema
-Para acessar as funcionalidades de cadastro, visualização, clonagem ou alteração de réguas
+**Enquanto** usuário Avaliador
+**Quero** poder acessar a lista de réguas já cadastradas no sistema
+**Para** acessar as funcionalidades de cadastro, visualização, clonagem ou alteração de réguas
 
 **Critério de Aceitação**
 
-001- Dado que o usuário Avaliador acionou a tela de réguas
-Então o sistema o redireciona para a tela “Pesquisar Réguas” com uma lista de réguas já registradas
+**001**- Dado que o usuário Avaliador acionou a tela de réguas
+**Então** o sistema o redireciona para a tela “Pesquisar Réguas” com uma lista de réguas já registradas
  
-002 - Dado que o usuário Avaliador clique no botão “Alterar” em ações
-Então o sistema o redireciona para a tela de “Alterar Régua"
+**002** - Dado que o usuário Avaliador clique no botão “Alterar” em ações
+**Então** o sistema o redireciona para a tela de “Alterar Régua"
   
-003 - Dado que o usuário Avaliador clique no botão “Cadastrar régua”
-Então o sistema o redireciona para a tela de “Cadastrar Régua"
+**003** - Dado que o usuário Avaliador clique no botão “Cadastrar régua”
+**Então** o sistema o redireciona para a tela de “Cadastrar Régua"
  
-004- Dado que o usuário efetue a busca pelo título da régua e/ou pelo critério
-Então o sistema mostrará os resultados de acordo com a pesquisa
+**004**- Dado que o usuário efetue a busca pelo título da régua e/ou pelo critério
+**Então** o sistema mostrará os resultados de acordo com a pesquisa
  
-005 – Dado que o usuário clique no botão 'Clonar' de uma régua x
-Então o sistema abre a tela de Cadastro
-E preenche automaticamente os campos com as informações de x 
-E deixa os campos abertos para edição. 
+**005** – Dado que o usuário clique no botão 'Clonar' de uma régua x
+**Então** o sistema abre a tela de Cadastro
+**E** preenche automaticamente os campos com as informações de x 
+**E** deixa os campos abertos para edição. 
 
-006 - Dado que o usuário Avaliador clique no botão “Visualizar”
-Então o sistema o redireciona para a tela de “Visualizar Régua"
+**006** - Dado que o usuário Avaliador clique no botão “Visualizar”
+**Então** o sistema o redireciona para a tela de “Visualizar Régua"
   
-RN1 – O campo de texto do “Título da régua” será de autopreenchimento.
+**RN1** – O campo de texto do “Título da régua” será de autopreenchimento.

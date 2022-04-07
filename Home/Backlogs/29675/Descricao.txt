@@ -5,18 +5,18 @@ Creation-Date: 2022-04-05T17:57:43-03:00
 ====== Descricao ======
 Criado terça 05 abril 2022
 
-Descrição
+**Descrição**
 
-Enquanto usuário Avaliador na tela "Alterar Mídia"
-Quero poder alterar as mídias
-Para que possam ser modificadas
+**Enquanto** usuário Avaliador na tela "Alterar Mídia"
+**Quero** poder alterar as mídias
+**Para** que possam ser modificadas
 
-001 - Dado que o usuário Avaliador preencha os campos obrigatórios
-E clique em "Salvar"
-Então o sistema salva a mudança.
+**001** - Dado que o usuário Avaliador preencha os campos obrigatórios
+**E** clique em "Salvar"
+**Então** o sistema salva a mudança.
 
-002 - Dado que o usuário Avaliador não preencha os campos obrigatórios
-E clicou em "Salvar"
-Então o sistema notifica o erro. 
+**002** - Dado que o usuário Avaliador não preencha os campos obrigatórios
+**E** clicou em "Salvar"
+**Então** o sistema notifica o erro. 
 
-RN1 - Os campos de alteração devem ser preenchidos obrigatoriamente.
+**RN1** - Os campos de alteração devem ser preenchidos obrigatoriamente.

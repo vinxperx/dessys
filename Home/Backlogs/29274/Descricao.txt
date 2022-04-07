@@ -11,22 +11,22 @@ Criado terça 05 abril 2022
 **Para** acessar contratos Entidade-Avaliador
 
 **Critério de Aceitação**
-001 - Dado que o usuário A3 acesse a tela Consultar Contratos
-Então o sistema emite uma lista com o nome das Entidades, e os avaliadores a ela vinculados, bem como o número de seus contratos e o status do contrato com os avaliadores
+**001** - Dado que o usuário A3 acesse a tela Consultar Contratos
+**Então** o sistema emite uma lista com o nome das Entidades, e os avaliadores a ela vinculados, bem como o número de seus contratos e o status do contrato com os avaliadores
  
-002 - Dado que o usuário A3 utilize o campo de texto “Entidade” 
-E escreva o nome da entidade
-Então o sistema emite uma lista com o nome dos avaliadores a ela vinculados, o número de seus contratos e o status do contrato com os avaliadores
+**002** - Dado que o usuário A3 utilize o campo de texto “Entidade” 
+**E** escreva o nome da entidade
+**Então** o sistema emite uma lista com o nome dos avaliadores a ela vinculados, o número de seus contratos e o status do contrato com os avaliadores
  
-003 - Dado que o usuário A3 utilize o campo de texto “Avaliador” 
-E escreva o nome do avaliador
-Então o sistema mostra uma lista com o nome das entidades a ele vinculados, o número de seus contratos e os status dos contratos com as Entidades
+**003** - Dado que o usuário A3 utilize o campo de texto “Avaliador” 
+**E** escreva o nome do avaliador
+**Então** o sistema mostra uma lista com o nome das entidades a ele vinculados, o número de seus contratos e os status dos contratos com as Entidades
  
-004 - Dado que o usuário A3 clique na ação de alterar
-Então o sistema o redireciona para a tela de “Alterar Contrato" (backlog 28750)
+**004** - Dado que o usuário A3 clique na ação de alterar
+**Então** o sistema o redireciona para a tela de “Alterar Contrato" (backlog 28750)
  
-005- Dado que o usuário clique em Criar Novo Contrato
-Então o sistema o redireciona para a tela de "Cadastrar Contrato” (backlog 28751)
+**005**- Dado que o usuário clique em Criar Novo Contrato
+**Então** o sistema o redireciona para a tela de "Cadastrar Contrato” (backlog 28751)
 
 (wireframe ConsultarContratos.png)
 

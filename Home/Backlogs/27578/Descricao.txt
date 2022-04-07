@@ -22,33 +22,33 @@ Criado terça 05 abril 2022
  
 **003**- Dado que o usuário Avaliador no campo de tipo de mídia escolha “Instrução para o ELE”
 **Então** o sistema libera um campo de texto
-Dado que o usuário redija o texto de sua instrução
+**Dado** que o usuário redija o texto de sua instrução
 **E** tenha todos os outros campos preenchidos corretamente
 **E** clique em “salvar”
 **Então** o sistema cadastra a nova mídia como uma mídia do tipo 'Instrução para o ELE'.
  
 **004**- Dado que o usuário Avaliador no campo de tipo de mídia escolha “Instrução para o candidato”
 **Então** o sistema libera um campo de texto
-Dado que o usuário redija o texto de sua instrução
+**Dado** que o usuário redija o texto de sua instrução
 **E** tenha todos os outros campos preenchidos corretamente
 **E** clique em “salvar”
 **Então** o sistema cadastra a nova mídia  como uma mídia do tipo 'Instrução para o candidato'.
  
 **005**- Dado que o usuário Avaliador no campo de tipo de mídia escolha “Transcrição de áudio”
 **Então** o sistema libera um campo de texto
-Dado que o usuário redija o texto transcrito do áudio
+**Dado** que o usuário redija o texto transcrito do áudio
 **E** tenha todos os outros campos preenchidos corretamente
 **E** clique em “salvar”
 **Então** o sistema cadastra a nova mídia  como uma mídia do tipo 'Transcrição de áudio'.
  
 **006**- Dado que o usuário Avaliador no campo de tipo de mídia escolha “Áudio”
 **Então** o sistema habilita o anexo
-Dado que o usuário clique no “+”
+**Dado** que o usuário clique no “+”
 **E** adicione o áudio
 **Então** o sistema mostra um campo de pré-visualização
-Dado que o usuário clique no botão de “PLAY”
+**Dado** que o usuário clique no botão de “PLAY”
 **Então** o sistema reproduz o áudio
-Dado que o usuário verifique que o áudio está correto
+**Dado** que o usuário verifique que o áudio está correto
 **E** clique em “STOP” (Para que a reprodução do áudio pare)
 **E** tenha todos os outros campos preenchidos corretamente
 **E** clique em “salvar”
@@ -56,12 +56,12 @@ Dado que o usuário verifique que o áudio está correto
  
 **007**- Dado que o usuário Avaliador no campo de tipo de mídia escolha “Vídeo”
 **Então** o sistema habilita o anexo
-Dado que o usuário clique no “+”
+**Dado** que o usuário clique no “+”
 **E** adicione o vídeo
 **Então** o sistema mostra um campo de pré-visualização
-Dado que o usuário clique no botão de “PLAY”
+**Dado** que o usuário clique no botão de “PLAY”
 **Então** o sistema reproduz o vídeo
-Dado que o usuário verifique que o vídeo está correto
+**Dado** que o usuário verifique que o vídeo está correto
 **E** clique em “STOP” (Para que a reprodução do vídeo pare)
 **E** tenha todos os outros campos preenchidos corretamente
 **E** clique em “salvar”
@@ -69,10 +69,10 @@ Dado que o usuário verifique que o vídeo está correto
  
 **008**- Dado que o usuário Avaliador no campo de tipo de mídia escolha “Imagem”
 **Então** o sistema habilita o anexo
-Dado que o usuário clique no “+”
+**Dado** que o usuário clique no “+”
 **E** adicione a imagem
 **Então** o sistema mostra um campo de pré-visualização da imagem
-Dado que o usuário tenha todos os outros campos preenchidos corretamente
+**Dado** que o usuário tenha todos os outros campos preenchidos corretamente
 **E** clique em “salvar”
 **Então** o sistema cadastra a nova mídia como 'Imagem'.
  

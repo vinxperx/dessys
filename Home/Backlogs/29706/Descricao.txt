@@ -7,18 +7,18 @@ Criado terça 05 abril 2022
 
 **Descrição**
 
-Enquanto usuário Avaliador vindo da TelaInicial
-Quero ver uma lista “Categorias de Tags” já criadas
-Para que seja possível localizar tags existentes
-E acessar as funcionalidades de cadastro, visualização ou alteração de Categoria de Tags
+**Enquanto** usuário Avaliador vindo da TelaInicial
+**Quero** ver uma lista “Categorias de Tags” já criadas
+**Para** que seja possível localizar tags existentes
+**E** acessar as funcionalidades de cadastro, visualização ou alteração de Categoria de Tags
 
 **Critério de aceitação**
 
-001- Dado que o usuário Avaliador acionou a tela de categorias de tags
-Então o sistema o redireciona para a lista de todas as Categorias de Tags já registradas
+**001**- Dado que o usuário Avaliador acionou a tela de categorias de tags
+**Então** o sistema o redireciona para a lista de todas as Categorias de Tags já registradas
  
-002 - Dado que o usuário Avaliador clique no botão “Alterar”
-Então o sistema o redireciona para a tela de “Alterar Categoria Tag"
+**002** - Dado que o usuário Avaliador clique no botão “Alterar”
+**Então** o sistema o redireciona para a tela de “Alterar Categoria Tag"
  
-003 - Dado que o usuário Avaliador clique no botão “Cadastrar Categoria Tag”
-Então o sistema o redireciona para a tela de “Cadastrar Categoria Tag"
+**003** - Dado que o usuário Avaliador clique no botão “Cadastrar Categoria Tag”
+**Então** o sistema o redireciona para a tela de “Cadastrar Categoria Tag"

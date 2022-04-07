@@ -5,28 +5,28 @@ Creation-Date: 2022-04-05T11:11:05-03:00
 ====== Descricao ======
 Criado terça 05 abril 2022
 
-Descrição
-Enquanto usuário logado
-Quero ser direcionado automaticamente para a primeira tela com funções relevantes
-Para agilizar o uso do sistema
+**Descrição**
+**Enquanto** usuário logado
+**Quero** ser direcionado automaticamente para a primeira tela com funções relevantes
+**Para** agilizar o uso do sistema
 
-Critério de Aceitação
-001 - Dado que um usuário que possua entre suas credenciais a de Fiscal efetue seu login
-Então o sistema o colocará na tela Fiscalização e Recurso.
+**Critério de Aceitação**
+**001** - Dado que um usuário que possua entre suas credenciais a de Fiscal efetue seu login
+**Então** o sistema o colocará na tela Fiscalização e Recurso.
 ([[../wireframe - TelaInicialFiscal.png|wireframe TelaInicialFiscal.png]])
  
-002 – Dado que um usuário que possua entre seus papéis o de Avaliador efetue seu login
-Então o sistema o colocará na tela Avaliador. ([[../wireframe - TelaInicialAvaliador.png|wireframe TelaInicialAvaliador.png]])
+**002** – Dado que um usuário que possua entre seus papéis o de Avaliador efetue seu login
+**Então** o sistema o colocará na tela Avaliador. ([[../wireframe - TelaInicialAvaliador.png|wireframe TelaInicialAvaliador.png]])
  
-003 - Dado que um usuário que possua entre suas credenciais a de A3(Avaliador ANAC) efetue seu login
-Então o sistema o colocará na tela ApoioAdministrativoANAC.
+**003** - Dado que um usuário que possua entre suas credenciais a de A3(Avaliador ANAC) efetue seu login
+**Então** o sistema o colocará na tela ApoioAdministrativoANAC.
 ([[../wireframe - TelaInicialA3.png|wireframe TelaInicialA3.png]])
  
-004 – Dado que um usuário que possua entre suas credenciais a de A2 (Entidade) efetue seu login
-Então o sistema o colocará na tela Entidade. ([[../wireframe - TelaInicialA2.png|wireframe TelaInicialA2.png]])
+**004** – Dado que um usuário que possua entre suas credenciais a de A2 (Entidade) efetue seu login
+**Então** o sistema o colocará na tela Entidade. ([[../wireframe - TelaInicialA2.png|wireframe TelaInicialA2.png]])
  
-005 – Dado que um usuário sem nenhuma das credenciais anteriores efetue seu login
-Então o sistema o colocará na tela Configurações.
+**005** – Dado que um usuário sem nenhuma das credenciais anteriores efetue seu login
+**Então** o sistema o colocará na tela Configurações.
  
  
 RN - Os critérios acima são como uma cláusula IF aninhadas em sequência. Se a 001 for verdadeira, as outras devem ser desprezadas. Assim:

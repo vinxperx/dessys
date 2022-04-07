@@ -13,7 +13,7 @@ Criado quinta 07 abril 2022
 
 **Critério de Aceitação**
 
-**001 - Dado que** o Avaliador preencha os dados corretamente
+**001** - Dado que o Avaliador preencha os dados corretamente
 **E** clicou em “Salvar”
 **Então** o sistema salva o novo modelo.
  
@@ -22,39 +22,39 @@ Criado quinta 07 abril 2022
 ~~E clicou em “Salvar”~~
 ~~Então o sistema notificará o erro.~~
  
-**003 - Dado que** o Avaliador não tenha preenchido todos os campos obrigatórios
+**003** - Dado que o Avaliador não tenha preenchido todos os campos obrigatórios
 **E** clicou em “Salvar”
 **Então** o sistema emite uma notificação dos erros
  
-**004 - Dado que** o Avaliador clique no botão “Adicionar Parte”
+**004** - Dado que o Avaliador clique no botão “Adicionar Parte”
 **Então** o sistema exibe a janela modal de pesquisa de Partes
  
-**005 – Dado** que o usuário queira adicionar Partes
+**005** – Dado que o usuário queira adicionar Partes
 **E** já tenha realizado a pesquisa (janela modal de pesquisa de parte)
 **E** tenha selecionado as Partes que deseja adicionar
 **E** clique no botão “Adicionar”
 **Então** o sistema fecha a janela modal de pesquisa de Partes
  
-**006 – Dado que** o usuário clique no botão “Adicionar Stack”
+**006** – Dado que o usuário clique no botão “Adicionar Stack”
 **Então** o sistema exibe a janela modal de configurar Stack
  
-**007- Dado que** o usuário queira adicionar Stack
+**007**- Dado que o usuário queira adicionar Stack
 **E** esteja com a janela modal aberta de configurar Stack
 **E** tenha preenchido todos os campos obrigatórios
 **E** clique em “Adicionar”
 **Então** o sistema adiciona no modelo
  
-**008- Dado que** o usuário queria adicionar Stack
+**008**- Dado que o usuário queria adicionar Stack
 **E** ao escolher tipo de tag “Gradual”
-E escreveu um número de -0.99 até 10
-Então o sistema irá aceitar
+**E** escreveu um número de -0.99 até 10
+**Então** o sistema irá aceitar
  
-**008- Dado que** o usuário queria adicionar Stack
+**008**- Dado que o usuário queria adicionar Stack
 **E** ao escolher tipo de tag “Gradual”
 **E** escreveu um número diferente de -0.99 até 10
 **Então** o sistema irá recusar
  
-**009- Dado que** o usuário queira adicionar Stack
+**009**- Dado que o usuário queira adicionar Stack
 **E** já tenha configurado a Stack
 **E** selecionou os slots que estarão vinculados a aquela Stack
 **E** clique em “Adicionar”
@@ -75,6 +75,6 @@ Caso o usuário escolha o tipo “Binário” será liberado um DropBox de (Igua
  
 **RN6** - On set terá em seu Dropbox os números 0,1,2,3
  
-**RN7 -** Caso o stack já tenha sido adicionado ao modelo e o elaborador do modelo queira realizar alguma alteração nas partes. Ele deverá retirar os stacks cadastrados para que possa realizar as ações.
+**RN7** - Caso o stack já tenha sido adicionado ao modelo e o elaborador do modelo queira realizar alguma alteração nas partes. Ele deverá retirar os stacks cadastrados para que possa realizar as ações.
  
 **RN8** – Não é necessário o modelo ter a presença de stack.

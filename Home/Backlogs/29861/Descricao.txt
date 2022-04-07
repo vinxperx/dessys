@@ -7,19 +7,19 @@ Criado quarta 06 abril 2022
 
 **Descrição**
 
-Enquanto usuário avaliador
-Quero que o sistema escolha aleatoriamente a versão de prova que será aplicada
-Para que o usuário só saiba a versão da prova que será aplicada meia hora antes
+**Enquanto** usuário avaliador
+**Quero** que o sistema escolha aleatoriamente a versão de prova que será aplicada
+**Para** que o usuário só saiba a versão da prova que será aplicada meia hora antes
 
 **Critério de Aceitação**
 
-001- Dado que o usuário Avaliador clique em “Iniciar Avaliação”
-E clique em “Iniciar” na tela de Listar Avaliações (wireframe – ListarAvaliações.jpg)
-Então o sistema mostrará a tela contendo toda a revisão da avaliação
-E mostrará automaticamente a versão a ser utilizada. (wireframe – AplicarProva.jpg) 
+**001**- Dado que o usuário Avaliador clique em “Iniciar Avaliação”
+**E** clique em “Iniciar” na tela de Listar Avaliações (wireframe – ListarAvaliações.jpg)
+**Então** o sistema mostrará a tela contendo toda a revisão da avaliação
+**E** mostrará automaticamente a versão a ser utilizada. (wireframe – AplicarProva.jpg) 
 EM VEZ DE mostrar uma drop box para que o examinador escolha, como ocorre atualmente. 
  
-RN1- A tela será em tudo idêntica à atual, exceto nas mudanças descritas aqui. 
+**RN1**- A tela será em tudo idêntica à atual, exceto nas mudanças descritas aqui. 
 
 As duas mudanças dizem respeito ao drop down e à escolha aleatória de versões. 
 
@@ -35,4 +35,4 @@ Exemplo:
 
 Um usuário escolheu prova tipo avião para um piloto (cf. backlog 29860). As versões de prova ativas de avião são da 12 à 22. O candidato já teve contato com a 12. Então o sistema escolhe uma versão randomicamente, entre 13 e 22. 
  
-RN2- O acesso ao botão de “Iniciar” na tela de “Iniciar Avaliação” deverá ser permitido ao faltar 30 minutos para o começo da avaliação.
+**RN2**- O acesso ao botão de “Iniciar” na tela de “Iniciar Avaliação” deverá ser permitido ao faltar 30 minutos para o começo da avaliação.

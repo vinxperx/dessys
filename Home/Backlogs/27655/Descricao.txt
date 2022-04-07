@@ -7,27 +7,27 @@ Criado quinta 07 abril 2022
 
 **Descrição**
 
-Enquanto usuário Avaliador
-Quero poder acessar a lista de questões já cadastradas no sistema
-Para acessar as funcionalidades relacionadas a questão (especificadas posteriormente)
+**Enquanto** usuário Avaliador
+**Quero** poder acessar a lista de questões já cadastradas no sistema
+**Para** acessar as funcionalidades relacionadas a questão (especificadas posteriormente)
 
 **Critério de Aceitação**
 
-001- Dado que o usuário Avaliador veio da tela inicial
-Então o sistema mostra a tela contendo os campos do wireframe.
+**001**- Dado que o usuário Avaliador veio da tela inicial
+**Então** o sistema mostra a tela contendo os campos do wireframe.
  
-002 - Dado que o usuário Avaliador clique no botão “Alterar”
-Então o sistema o redireciona para a tela de “Alterar Questão" correspondente à questão x
-E carrega automaticamente a questão  x
+**002** - Dado que o usuário Avaliador clique no botão “Alterar”
+**Então** o sistema o redireciona para a tela de “Alterar Questão" correspondente à questão x
+**E** carrega automaticamente a questão  x
  
-003 - Dado que o usuário Avaliador clique no botão “Cadastrar questão”
-Então o sistema o redireciona para a tela de “Cadastrar Questão" de uma questão em branco 
+**003** - Dado que o usuário Avaliador clique no botão “Cadastrar questão”
+**Então** o sistema o redireciona para a tela de “Cadastrar Questão" de uma questão em branco 
 
-004 – Dado que o usuário clique no botão 'Clonar' de uma questão x
-Então o sistema abre a tela de Cadastro
-E preenche automaticamente os campos com as informações de x 
-E deixa os campos abertos para edição. 
+**004** – Dado que o usuário clique no botão 'Clonar' de uma questão x
+**Então** o sistema abre a tela de Cadastro
+**E** preenche automaticamente os campos com as informações de x 
+**E** deixa os campos abertos para edição. 
 
-005 - Dado que o usuário Avaliador clique no botão “Visualizar”
-Então o sistema o redireciona para a tela de “Visualizar Questão" 
+**005** - Dado que o usuário Avaliador clique no botão “Visualizar”
+**Então** o sistema o redireciona para a tela de “Visualizar Questão" 
 

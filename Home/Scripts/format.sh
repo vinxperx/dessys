@@ -1,7 +1,5 @@
 #!/bin/bash
-for D in *; do
-    if [ -d "${D}"; then
-        echo "${D}"
-    fi
+for i in *.mp3; do
+    print("${i}")
 done
 

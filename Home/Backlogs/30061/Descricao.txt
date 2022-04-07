@@ -14,22 +14,22 @@ Criado quinta 07 abril 2022
 
 **Critério de Aceitação**
 
-**001 - Dado que** o usuário Avaliador preencheu corretamente
+**001** - Dado que o usuário Avaliador preencheu corretamente
 **E** clique em “Salvar”
 **Então** o sistema salva a Parte
  
-**002 - Dado que** o usuário Avaliador não preencha os campos 
+**002** - Dado que o usuário Avaliador não preencha os campos 
 **E** clique em “Salvar”
 **Então** o sistema emite uma mensagem de erro, abaixo dos campos correspondentes
  
-**003 – Dado que** o usuário não tenha adicionado Slots
+**003** – Dado que o usuário não tenha adicionado Slots
 **E** clique em “Salvar”
 **Então** o sistema notificará que é necessário adicionar ao menos um Slot
  
-**004 – Dado que** o usuário clique o botão “Pesquisar Mídias” para introdução ou fechamento
+**004** – Dado que o usuário clique o botão “Pesquisar Mídias” para introdução ou fechamento
 **Então** o sistema exibe uma janela modal de Introdução / Fechamento - Escolha a Mídia
  
-**005 – Dado que** o usuário queira adicionar Mídias para a introdução da parte e/ou fechamento da Parte
+**005** – Dado que o usuário queira adicionar Mídias para a introdução da parte e/ou fechamento da Parte
 **E** selecione o tipo: Introdução
 **Ou** Fechamento
 **E** já tenha realizado a pesquisa (janela modal de pesquisa de mídias)
@@ -38,17 +38,17 @@ Criado quinta 07 abril 2022
 **Então** o sistema fecha a janela modal de pesquisa de mídias
 **E** exibe as mídias adicionadas
  
-**006 – Dado que** o usuário clique no botão “Adicionar Slot”
+**006** – Dado que o usuário clique no botão “Adicionar Slot”
 **Então** o sistema exibe a janela modal de pesquisa para vincular um único pool ao Slot a ser criado
  
-**007 – Dado que **o usuário queira adicionar slots à Parte
+**007** – Dado que o usuário queira adicionar slots à Parte
 **E** já tenha realizado a pesquisa (janela modal de adicionar Slot)
 **E** tenha selecionado o pool que deseja adicionar RN5
 **E** clique no botão “Adicionar”
 **Então** o sistema fecha a janela modal de (Escolher pool)  
 **E** exibe os slots criados no “Slots da parte: “
  
-**008 – Dado que** o usuário Avaliador deseje excluir uma mídia adicionada a introdução e/ou fechamento da parte
+**008** – Dado que o usuário Avaliador deseje excluir uma mídia adicionada a introdução e/ou fechamento da parte
 **Ou** que o usuário queira excluir um “Slot” adicionado a “Slots da parte”
 **E** clicou no correspondente botão “Excluir”
 **Então** o sistema removerá o item de onde está adicionado.
@@ -65,6 +65,6 @@ As mídias que poderão ser escolhidas neste campo só podem ser do tipo:
  
 **RN4** – Só é permitida uma mídia para introdução e outra para fechamento – total de duas.
 **RN5** – Cada slot conterá obrigatoriamente um único pool – 0 pools ou 2+ pools não são possíveis.
-**RN 6** – Não existe restrição quanto aos slots compartilharem o mesmo pool. Por exemplo, o primeiro, segundo e terceiro slots podem conter o mesmo pool. 
+RN 6 – Não existe restrição quanto aos slots compartilharem o mesmo pool. Por exemplo, o primeiro, segundo e terceiro slots podem conter o mesmo pool. 
 Obs: O slot armazena o pool nele. O slot será utilizado futuramente para trabalhar em conjunto com o “Stack”, que ainda será relatado.
 **RN7** – O botão de Adicionar introdução à parte ou fechamento à parte será RadioButton

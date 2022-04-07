@@ -7,13 +7,13 @@ Criado quinta 07 abril 2022
 
 **Descrição**
 
-Enquanto usuário Avaliador logado
-Quero acessar a tela de cadastrar modelo de prova
-Para que seja utilizado para a criação de modelos de prova
+**Enquanto** usuário Avaliador logado
+**Quero** acessar a tela de cadastrar modelo de prova
+**Para** que seja utilizado para a criação de modelos de prova
 
 **Critério de Aceitação**
 
-**001 - Dado que** o Avaliador preencha os dados corretamente
+**001** - Dado que o Avaliador preencha os dados corretamente
 **E** clicou em “Salvar”
 **Então** o sistema salva o novo modelo.
  
@@ -22,31 +22,31 @@ Para que seja utilizado para a criação de modelos de prova
 ~~E clicou em “Salvar”~~
 ~~Então o sistema notificará o erro.~~
  
-**003 - Dado** que o Avaliador não tenha preenchido todos os campos obrigatórios
-E clicou em “Salvar”
-Então o sistema emite uma notificação dos erros
+**003** - Dado que o Avaliador não tenha preenchido todos os campos obrigatórios
+**E** clicou em “Salvar”
+**Então** o sistema emite uma notificação dos erros
  
-**004 - Dado que** o Avaliador clique no botão “Adicionar Parte”
-Então o sistema exibe a janela modal de pesquisa de Partes
+**004** - Dado que o Avaliador clique no botão “Adicionar Parte”
+**Então** o sistema exibe a janela modal de pesquisa de Partes
  
-**005 – Dado que** o usuário queira adicionar Partes
+**005** – Dado que o usuário queira adicionar Partes
 **E** já tenha realizado a pesquisa (janela modal de pesquisa de parte)
 **E** tenha selecionado as Partes que deseja adicionar
 **E** clique no botão “Adicionar”
 **Então** o sistema fecha a janela modal de pesquisa de Partes
  
-**006 – Dado que** o usuário clique no botão “Adicionar Stack”
+**006** – Dado que o usuário clique no botão “Adicionar Stack”
 **Então** o sistema exibe a janela modal de Adicionar Stack
 **E** carrega as opções de configuração daquele stack
 **E** carrega a seção de rastreabilidade do stack conforme os slots já cadastrados para o modelo
  
-**007- Dado que** o usuário queira adicionar Stack
+**007**- Dado que o usuário queira adicionar Stack
 **E** esteja com a janela modal aberta de Adicionar Stack
 **E** tenha preenchido todos os campos obrigatórios
 **E** clique em “Adicionar”
 **Então** o sistema adiciona no modelo
  
-**008- Dado que** o usuário queria adicionar Stack
+**008**- Dado que o usuário queria adicionar Stack
 **E** optou por um Regime de cálculo “Gradual” ou "Binário" (RN5)
 **E** inseriu os parâmetros do regime adequadamente (RN6, RN7, RN8, RN9)
 **E** selecionou os slots que estarão vinculados a aquela Stack
@@ -63,20 +63,20 @@ RN de modelo:
  
 **RN3** – As partes ao serem registradas terão um botão de ordem para organizá-las
  
-**RN de Stack**
+RN de Stack
  
 **RN4** - Categoria de Tag, Regime de cálculo, OnSet são campos obrigatórios
  
 **RN5** – Regime de cálculo da stack: O usuário precisa escolher um regime, gradual ou binário.
  
-**RN 6** – O OnSet é um parâmetro obrigatório para o regime gradual, sendo escolhido por meio de uma Dropbox que aceita os valores 0, 1, 2 ou 3.
+RN 6 – O OnSet é um parâmetro obrigatório para o regime gradual, sendo escolhido por meio de uma Dropbox que aceita os valores 0, 1, 2 ou 3.
  
-**RN 7** – O valor default da Onset é 1.
+RN 7 – O valor default da Onset é 1.
  
-**RN 8** – Os parâmetros para o Regime gradual são: Onset, Cumulativa (Sim/Não) e Magnitude (-0,99 a 10).
+RN 8 – Os parâmetros para o Regime gradual são: Onset, Cumulativa (Sim/Não) e Magnitude (-0,99 a 10).
  
-**RN 9** – Os parâmetros para o regime binário serão de 'Igualdade' ou 'Diferença'.
+RN 9 – Os parâmetros para o regime binário serão de 'Igualdade' ou 'Diferença'.
  
-**RN10 **- O stack não aceita edição. Caso o stack já tenha sido adicionado ao modelo e o elaborador do modelo queira realizar alguma alteração nas partes, deverá retirar os stacks cadastrados para que possa realizar as ações.
+**RN10** - O stack não aceita edição. Caso o stack já tenha sido adicionado ao modelo e o elaborador do modelo queira realizar alguma alteração nas partes, deverá retirar os stacks cadastrados para que possa realizar as ações.
  
 **RN11** – Stacks não são obrigatórios. Modelos podem ser cadastrados sem stacks.

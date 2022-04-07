@@ -7,18 +7,18 @@ Criado quarta 06 abril 2022
 
 **Descrição**
 
-Enquanto usuário Avaliador na tela Alterar Categoria Tag
-Quero Alterar Categoria Tags
-Para que seja possível corrigir algum erro existente
+**Enquanto** usuário Avaliador na tela Alterar Categoria Tag
+**Quero** Alterar Categoria Tags
+**Para** que seja possível corrigir algum erro existente
 
 **Critério de aceitação**
 
-001- Dado que o usuário Avaliador preencheu todos os campos válidos de alteração corretamente
-E clicou em “Alterar”
-Então o sistema registra a alteração
+**001**- Dado que o usuário Avaliador preencheu todos os campos válidos de alteração corretamente
+**E** clicou em “Alterar”
+**Então** o sistema registra a alteração
  
-002- Dado que o usuário Avaliador preencheu algum dos campos válidos de alteração incorretamente
-E clicou em “Alterar”
-Então o sistema emite uma mensagem de erro
+**002**- Dado que o usuário Avaliador preencheu algum dos campos válidos de alteração incorretamente
+**E** clicou em “Alterar”
+**Então** o sistema emite uma mensagem de erro
  
-RN1 - O preenchimento do campo "Categoria" deverá ser único
+**RN1** - O preenchimento do campo "Categoria" deverá ser único

@@ -7,28 +7,28 @@ Criado quarta 06 abril 2022
 
 **Descrição**
 
-Enquanto usuário Avaliador na tela Cadastrar Tags
-Quero uma funcionalidade de cadastro
-Para que seja possível cadastrar novas Tags
+**Enquanto** usuário Avaliador na tela Cadastrar Tags
+**Quero** uma funcionalidade de cadastro
+**Para** que seja possível cadastrar novas Tags
 
 **Critério de Aceitação**
 
-001- Dado que o usuário Avaliador preencheu todos os campos corretamente
-E clicou em “Salvar”
-Então o sistema registra a nova “Tag”
+**001**- Dado que o usuário Avaliador preencheu todos os campos corretamente
+**E** clicou em “Salvar”
+**Então** o sistema registra a nova “Tag”
  
-002- Dado que o usuário Avaliador preencheu os campos e haja algo incorreto
-E o usuário clicou em “Salvar”
-Então o sistema emite uma mensagem notificando os erros.
+**002**- Dado que o usuário Avaliador preencheu os campos e haja algo incorreto
+**E** o usuário clicou em “Salvar”
+**Então** o sistema emite uma mensagem notificando os erros.
 
-RN1- Todos os campos deverão ser preenchidos para que a TAG seja salva.
+**RN1**- Todos os campos deverão ser preenchidos para que a TAG seja salva.
  
-RN2- O botão “Limpar” reseta todos os campos.
+**RN2**- O botão “Limpar” reseta todos os campos.
  
-RN3- O campo do nome da TAG deverá ser único, não poderá ser permitido registrar uma Tag que tenha o nome igual.
+**RN3**- O campo do nome da TAG deverá ser único, não poderá ser permitido registrar uma Tag que tenha o nome igual.
 
-RN4 - Campos a serem cadastrados na tag
+**RN4** - Campos a serem cadastrados na tag
 
 Tag: 50 caracteres.
 Categoria: ligado às categorias cadastradas.
-Descrição:  100 caracteres.
+**Descrição**:  100 caracteres.

@@ -7,39 +7,39 @@ Criado segunda 04 abril 2022
 
 **Descrição**
 
-Enquanto usuário Auxiliares Administrativos ANAC (A3)
-Quero dispor de um botão chamado "Avaliadores", na tela de "Apoio administrativo ANAC"
-Para consultar avaliadores já cadastrados
-E acessar as funcionalidades de cadastro, visualização, alteração e exclusão de avaliadores
+**Enquanto** usuário Auxiliares Administrativos ANAC (A3)
+**Quero** dispor de um botão chamado "Avaliadores", na tela de "Apoio administrativo ANAC"
+**Para** consultar avaliadores já cadastrados
+**E** acessar as funcionalidades de cadastro, visualização, alteração e exclusão de avaliadores
 
 **Critério de Aceitação**
 
-001 - Dado que um usuário "A3" acesse a funcionalidade de pesquisa de Avaliadores
-Então o sistema exibe tela com os botões "Criar Novo Avaliador", "Limpar" e "Pesquisar", e os seguintes campos de filtro de pesquisa (wireframe PesquisarAvaliador.png):
+**001** - Dado que um usuário "A3" acesse a funcionalidade de pesquisa de Avaliadores
+**Então** o sistema exibe tela com os botões "Criar Novo Avaliador", "Limpar" e "Pesquisar", e os seguintes campos de filtro de pesquisa (wireframe PesquisarAvaliador.png):
 - CPF (Regex \d{3}[.]\d{3}[.]\d{3}[-]\d{2} ou \d{11});
 - Nome completo;
 - Nome de usuário (Sem acentos, cedilha, hífen, til e outros caracteres especiais, exceto ponto).
  
-002 - Dado que um usuário "A3" acesse a funcionalidade de pesquisa de Avaliadores
-E preencha o filtro que desejar com uma opção válida
-E acione a opção "Pesquisar"
-Então o sistema exibe o resultado da pesquisa com as informações: CPF, Nome completo, Nome de usuário, Email e as opções "Detalhes", "Alterar" e "Excluir".
+**002** - Dado que um usuário "A3" acesse a funcionalidade de pesquisa de Avaliadores
+**E** preencha o filtro que desejar com uma opção válida
+**E** acione a opção "Pesquisar"
+**Então** o sistema exibe o resultado da pesquisa com as informações: CPF, Nome completo, Nome de usuário, Email e as opções "Detalhes", "Alterar" e "Excluir".
  
-003 - Dado que o usuário "A3" acesse a funcionalidade de pesquisa de Avaliadores
-E acione a opção "Criar Novo Avaliador"
-Então o sistema redireciona o usuário para a funcionalidade de cadastro de Avaliadores (item de backlog 28749).
+**003** - Dado que o usuário "A3" acesse a funcionalidade de pesquisa de Avaliadores
+**E** acione a opção "Criar Novo Avaliador"
+**Então** o sistema redireciona o usuário para a funcionalidade de cadastro de Avaliadores (item de backlog 28749).
  
-004 - Dado que o usuário "A3" acesse a funcionalidade de pesquisa de Avaliadores
-E realize uma pesquisa
-E acione a opção "Detalhes" referente a um avaliador pesquisado
-Então o sistema redireciona o usuário para a tela de visualização dos dados do avaliador (wireframe VisualizarAvaliador.docx).
+**004** - Dado que o usuário "A3" acesse a funcionalidade de pesquisa de Avaliadores
+**E** realize uma pesquisa
+**E** acione a opção "Detalhes" referente a um avaliador pesquisado
+**Então** o sistema redireciona o usuário para a tela de visualização dos dados do avaliador (wireframe VisualizarAvaliador.docx).
  
-005 - Dado que o usuário "A3" acesse a funcionalidade de pesquisa de Avaliadores
-E realize uma pesquisa
-E acione as opções "Alterar" ou "Excluir" referente a um avaliador pesquisado
-Então o sistema redireciona o usuário para a respectiva funcionalidade acessada (item de backlog 28747).
+**005** - Dado que o usuário "A3" acesse a funcionalidade de pesquisa de Avaliadores
+**E** realize uma pesquisa
+**E** acione as opções "Alterar" ou "Excluir" referente a um avaliador pesquisado
+**Então** o sistema redireciona o usuário para a respectiva funcionalidade acessada (item de backlog 28747).
 
-006 - Dado que o usuário "A3" acesse a funcionalidade de pesquisa de Avaliadores
-E realize uma pesquisa com CPF Inválido 
-OU realize uma pesquisa sem preencher nenhum critério  
-Então o sistema deve exibir uma mensagem de alerta: 'É preciso definir um critério para a pesquisa'. 
+**006** - Dado que o usuário "A3" acesse a funcionalidade de pesquisa de Avaliadores
+**E** realize uma pesquisa com CPF Inválido 
+**OU** realize uma pesquisa sem preencher nenhum critério  
+**Então** o sistema deve exibir uma mensagem de alerta: 'É preciso definir um critério para a pesquisa'. 

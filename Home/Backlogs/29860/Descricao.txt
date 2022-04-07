@@ -7,20 +7,20 @@ Criado quarta 06 abril 2022
 
 **Descrição**
 
-Enquanto usuário Entidade acessando a tela Agendamentos do dia
-Quero ter nessa tela também a funcionalidade de escolher o 'Tipo de avaliação'
-Para alterar a prova que será aplicada: prova para piloto de avião
-Ou prova para piloto de helicóptero
+**Enquanto** usuário Entidade acessando a tela Agendamentos do dia
+**Quero** ter nessa tela também a funcionalidade de escolher o 'Tipo de avaliação'
+**Para** alterar a prova que será aplicada: prova para piloto de avião
+**Ou** prova para piloto de helicóptero
 
 **Critério de Aceitação**
 
-001- Dado que o usuário Entidade entrou na tela de “Agendamentos do Dia”
+**001**- Dado que o usuário Entidade entrou na tela de “Agendamentos do Dia”
 (wireframe – Agendamento.jpg)
-E clicou em “Habilitar Avaliação”
-Então o sistema mostra a tela contendo toda a revisão do cadastro, conforme já consta no sistema
+**E** clicou em “Habilitar Avaliação”
+**Então** o sistema mostra a tela contendo toda a revisão do cadastro, conforme já consta no sistema
 
-E requer do usuário que escolha o Tipo de prova, por enquanto apenas dois tipos: 
+**E** requer do usuário que escolha o Tipo de prova, por enquanto apenas dois tipos: 
                  1) Avião; 
                  2) Helicóptero.
 
-RN1- O botão será do estilo Radio Button e deverá vir pré-selecionado na avaliação para piloto de “Avião”.
+**RN1**- O botão será do estilo Radio Button e deverá vir pré-selecionado na avaliação para piloto de “Avião”.

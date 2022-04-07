@@ -13,9 +13,9 @@ Criado terça 05 abril 2022
 
 **Critério de Aceitação**
 **001** - Dado que o usuário com papel Avaliador acesse o SySDEA-Prova
-Dado que o usuário clique em “Mídia”
+**Dado** que o usuário clique em “Mídia”
 **Então** o sistema o redireciona para a tela de “Pesquisar Mídias”
  
 **002** - Dado que o usuário com papel Avaliador acesse o SySDEA-Prova”
-Dado que o usuário clique em “SySDEA ADM”
+**Dado** que o usuário clique em “SySDEA ADM”
 **Então** o sistema o redireciona para a tela do “SySDEA ADM”
