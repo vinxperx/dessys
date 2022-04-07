@@ -1,5 +1,5 @@
 Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
+Wiki-Format: zim 0.6
 Creation-Date: 2022-04-07T08:53:26-03:00
 
 ====== 28753 ======
@@ -12,3 +12,5 @@ Criado quinta 07 abril 2022
 **Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
 **Wireframe**: [[./28753_wireframe_1.png|wireframe 01]], [[./28753_wireframe_2.png|wireframe 02]].
 **Arquivos**: [[./|pasta]]
+
+[[.\28753_wireframe_1.png|wireframe]] 
