@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T17:58:54-03:00
+
+====== Descricao ======
+Criado quinta 07 abril 2022
+
+**Descrição**
+
+**Enquanto** usuário Gestor
+**Quero** poder cadastrar as variáveis que regulam os tempos de aplicação de prova
+**Para**  setar as variáveis conforme a necessidade.
+
+
+**Critério de Aceitação**
+**001** – Dado que o esteja na aba do menu “Administrativo”
+**E** clique no botão “Parâmetros de aplicação”
+**Então** o sistema o redireciona para a tela “Definir Parâmetros de aplicação”
+ 
+**002** – Dado que o usuário preencha os campos
+**E** clique em salvar
+**Então** o sistema salva
+ 
+ 
+**RN1** - O preenchimento dos campos não será obrigatório. Eles possuirão um “default” para quando não forem preenchidos.
+**RN2** – Todo o tempo é expresso em minutos.
+**RN3** – Só serão aceitos caracteres de 0 a 9.

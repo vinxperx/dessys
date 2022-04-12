@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-08T10:53:32-03:00
+
+====== Descricao ======
+Criado sexta 08 abril 2022
+
+**Descrição**
+
+**Enquanto** usuário do sistema acessando PesquisarQuestao([[27655]])
+**Quero** poder ter como critério de pesquisa a Descrição da questão
+**Para** poder refinar a pesquisa
+
+**Critério de aceitação**
+
+**001** - Dado que o usuário na tela de PesquisarQuestao
+**E** preencha a lacuna de descrição
+**E** clique em pesquisar
+**Então** o sistema filtra os resultados.
+
+**RN1** - O campo da descrição ao ter dígitos ele apresenta sugestões de nomes, seguindo os dígitos do usuário.
+

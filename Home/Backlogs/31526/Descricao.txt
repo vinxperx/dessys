@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-08T10:41:26-03:00
+
+====== Descricao ======
+Criado sexta 08 abril 2022
+
+**Descrição**
+
+**Enquanto** usuário do sistema acessando PesquisarTag
+**Quero** poder consultar a coluna de ID das Tags na lista das tags
+**Para** poder verificar o identificador da Tag
+
+**Critério de Aceitação**
+
+**001** - Dado que o usuário entre na tela de "Pesquisar Tag"
+**E** realize a pesquisa
+**Então** o sistema mostra uma lista com as tags consultadas com as seguintes colunas: ID, Categoria, Tag, Peso e Ações  
+

@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-08T11:04:59-03:00
+
+====== Descricao ======
+Criado sexta 08 abril 2022
+
+**Descrição**
+
+**Enquanto** usuário do sistema acessando CriarAgendamento
+**Quero** que o sistema não deixe dois ou mais agendamentos de um mesmo piloto por CANAC
+**Para** não permitir diversos agendamentos de um mesmo candidato.
+
+**Critério de Aceitação**
+**001** - Dado que o usuário entre na tela de "CriarAgendamento"
+**E** preencha os campos corretamente
+**E** clique em "Criar"
+**Então** o sistema agenda o piloto(RN1)
+
+**RN1**- O agendamento só deve ser liberado caso: 1) [a variável 'possuiAgendamentoAtivo' daquele piloto for 'Falsa'] AND [não houver nenhum agendamento vinculado ao CANAC que esteja nos #statusunificado "Reservado", "Confirmado" ou "Autorizado"]. 

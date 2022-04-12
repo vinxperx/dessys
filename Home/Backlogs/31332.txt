@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T18:02:22-03:00
+
+====== 31332 ======
+Criado quinta 07 abril 2022
+
+**Título**: DefinirParametroDeEntidade
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ges#
+**Implementação**: [[Implementacao:Sprints:Sprint17A|Sprint17A]]
+**Wireframe**: 
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[./|pasta]]
+
+

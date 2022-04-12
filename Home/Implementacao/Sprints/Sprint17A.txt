@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-08T10:34:26-03:00
+
+====== Sprint17A ======
+Criado sexta 08 abril 2022
+
+1. [[Backlogs:31525|31525 - MelhoriaCadastrarQuestao]]
+2. [[Backlogs:31526|31526 - MelhoriaPesquisarTag]]
+3. [[Backlogs:31529|31529 - MelhoriaPesquisarModelo]]
+4. [[Backlogs:31531|31531 - MelhoriaPesquisarCategoriaTag]]
+5. [[Backlogs:31530|31530 - MelhoriaPesquisarRegua]]
+6. [[Backlogs:31524|31524 - MelhoriaPesquisarQuestao]]
+7. [[Backlogs:31532|31532 - MelhorarAgendamentoUnificado]]

@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T17:41:04-03:00
+
+====== Sprint15A ======
+Criado quinta 07 abril 2022
+
+**Data de desenvolvimento**: 04/05/2020 - 06/05/2020
+**Comentários**:
+**Itens**: 
+
+1. [[Backlogs:31330|31330 - DefinirModeloPorRegimeDeProva]]
+2. [[Backlogs:30471|30471 - ExibirHistoricoDeAgendamento]]

@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-08T10:45:47-03:00
+
+====== Descricao ======
+Criado sexta 08 abril 2022
+
+**Descrição**
+
+**Enquanto** usuário do sistema acessando PesquisarModelos
+**Quero**  ter um cabeçalho de pesquisa
+**E** a coluna de ID
+**Para** poder realizar o procedimento de pesquisa e ter acesso a informação do ID do modelo.
+
+**Critério de Aceitação**
+
+**001** - Dado que o usuário entre na tela de "PesquisarModelo"
+**Então** o sistema mostra uma lista com os modelos cadastrados com as seguintes colunas: ID, Modelo, Gerar Provas e Ações  
+
+**002** - Dado que o usuário entre na tela de "PesquisarModelo"
+**E** preencha o campo de Modelo (RN1)
+**E** clique em "Pesquisar"
+**Então** o sistema filtra os modelos adequando ao resultado
+
+**RN1** - Este campo de pesquisa é de autopreenchimento. 

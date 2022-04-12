@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-08T11:36:51-03:00
+
+====== MelhoriaPlanejada ======
+Criado sexta 08 abril 2022
+
+Ainda é uma melhoria sem implementação e sem backlog esboçado, basicamente só o pedido.

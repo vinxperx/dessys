@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-08T10:48:55-03:00
+
+====== Descricao ======
+Criado sexta 08 abril 2022
+
+**Descrição**
+
+**Enquanto** usuário do sistema acessando PesquisarCategoriaTag
+**Quero** poder ter como coluna o ID da Categoria Tag
+**Para** poder verificar o ID.
+
+**Critério de Aceitação**
+
+**001** - Dado que o usuário entre na tela de "PesquisarCategoriaTag"
+**Então** o sistema mostra uma lista com a categoria tag apresentando as colunas de: ID, Categoria e ações.
+

@@ -13,3 +13,4 @@ A nomenclatura do título de itens obedece aos seguintes padrões:
 4. **Maiúsculas e Minúsculas**: Adota-se o padrão double camel, em que cada palavra tem a primeira letra em maiúscula sem espaçamento entre si. 
 5. **Singular e plural**: as palavras devem estar sempre no singular. Preferencialmente devem ser usado nomes de 'massa' em vez de quantificadores (ex. info em vez de dados). 
 6. **Acentos e caracteres especiais**: não se devem utilizar acentos ou caracteres especiais. Por exemplo, 'Ação' deve ser escrita como 'Acao'.
+7. **Melhorias**: um item pode ser uma melhoria de um item já existente e que já contenha verbo. Neste caso é possível colocar um substantivo como primeiro nome do item: CorrecaoFazerLogin, MelhoriaAlterarTag, etc. Entretanto, se o candidato a nome resultante não tiver verbo (MelhoriaAgendamentoUnificado) é importante transformar o primeiro termo em verbo (MelhorarAgendamentoUnificado).

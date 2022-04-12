@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T17:51:08-03:00
+
+====== 30471 ======
+Criado quinta 07 abril 2022
+
+**Título**: ExibirHistoricoDeAgendamentos
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ges#
+**Implementação**: [[Implementacao:Sprints:Sprint15A|Sprint15A]]
+**Wireframe**: [[./30471_wireframe_2.png|wireframe01]], [[./30471_wireframe_3.png|wireframe02]], [[./30471_wireframe.png|wireframe03]].
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[./|pasta]]
+
+
+
+

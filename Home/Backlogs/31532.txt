@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-08T11:02:16-03:00
+
+====== 31532 ======
+Criado sexta 08 abril 2022
+
+**Título**: MelhorarAgendamentoUnificado
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação**: [[Implementacao:Sprints:Sprint17A|Sprint17A]]
+**Wireframe**: 
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[./|pasta]]
+

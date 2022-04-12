@@ -1,0 +1,38 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T17:51:39-03:00
+
+====== Descricao ======
+Criado quinta 07 abril 2022
+
+**Descrição**
+
+**Enquanto** usuário do sistema com credencial de Entidade
+**Quero** poder acessar funcionalidades de histórico
+**Para** verificar agendamentos que estão no status "Cancelado" (AU#3) ou "Concluído" (AU#7)
+
+
+**Critério de Aceitação**
+**001** – Dado que o usuário queira verificar agendamentos no status de agendamento "Concluído" ou "Cancelado"
+**E** esteja na tela de “Pesquisar Agendamentos”
+**E** clique no botão “Histórico de Agendamentos”
+**Então** o sistema redireciona para a tela de “Histórico de Agendamentos”
+ 
+**002** – Dado que o usuário queira pesquisar um agendamento         
+**E** esteja na tela de “Histórico de Agendamentos”
+**E** preencha corretamente os dados de CANAC
+**E**/OU Data
+**E** clique em “Pesquisar”
+**Então** o sistema filtra os dados solicitados.
+ 
+**003** – Dado que o usuário queira filtrar por Status
+**E** clique selecione o status
+**E** clique em “Pesquisar”
+**Então** o sistema filtra os dados solicitados
+
+**RN1** - As provas que aparecem nesta tela serão aquelas cujos agendamentos estão nos status:
+Cancelado
+Concluído
+
+**RN2** - Quando o status de agendamento estiver em 'Concluído', o que será mostrado nessa tela vai depender também do status de prova, conforme wireframe em anexo. Por exemplo, uma prova com status de agendamento 'Concluído' e status de prova 'Fiscalização Administrativa' aparece nessa tela como 'Recebido pela ANAC'.
+ 

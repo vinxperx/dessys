@@ -1,0 +1,33 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T17:43:30-03:00
+
+====== Descricao ======
+Criado quinta 07 abril 2022
+
+**Descrição**
+
+**Enquanto** usuário com credencial de Gestor/Administrador
+**Quero** poder definir quais modelos poderão ser utilizados em cada regime de aplicação de prova (teste ou produção)
+**OU** numa lista de 'Em teste' o modelos de prova nesse regime
+**A fim** de que o sistema saiba quais modelos estejam disponíveis nas respectivas telas de Agendamento – em teste ou produção. 
+
+
+**Critério de Aceitação**
+**001** - Dado que o usuário veio do menu Administrativo
+**E** esteja logado com a credencial apropriada
+**Então** o sistema mostra uma lista contendo todas os modelos definidos por cada tipo de regime de prova (Produção ou Teste). 
+
+**002** - Dado que o usuário escolha um modelo de prova no campo Modelo (RN1)
+**E** escolha uma das lista (produção ou teste) para incluir aquela prova
+**E** clique em 'Adicionar'
+**E** confirme a adição numa tela de Pop-Up
+**Então** o sistema adiciona aquele modelo / regime de prova.  
+
+**003** - Dado que o usuário clique no botão 'Excluir' de um dos itens da lista 
+**E** confirme a exclusão numa tela de POP-UP
+**Então** o sistema exclui aquela prova daquela lista. (RN2)
+**Então** o sistema exclui o modelo / regime de prova escolhido.
+ 
+RN 1- O sistema deve mostrar aqui somente os modelos que não estão em nenhuma das duas lista, 'produção' ou 'teste'.
+RN 2 - O sistema então deve voltar a exibir a prova no campo drop-down Modelo. 

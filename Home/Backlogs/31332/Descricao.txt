@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-07T18:03:06-03:00
+
+====== Descricao ======
+Criado quinta 07 abril 2022
+
+**Descrição**
+
+**Enquanto** usuário Gestor
+**Quero** definir quais modelos (por regime de prova) estarão disponíveis 
+**Para**  que cada entidade possa utilizar na aplicação de suas provas.
+
+
+**Critério de Aceitação**
+**001** – Dado que o usuário esteja na aba do menu “Administrativo”
+**E** clique no botão “Parâmetros de entidade”
+**Então** o sistema o redireciona para a tela “Pesquisar Escola”
+ 
+**002** – Dado que o usuário visualize a lista de Entidades (escolas)
+**E** clique em parâmetros
+**Então** o sistema abre uma tela pop-up
+**Para** configurar os modelos / regime de prova que serão disponibilizados para a entidade (escola)
+ 
+**003** – Dado que o usuário na tela pop-up
+**E** selecione a checkbox correspondente ao tipo de aplicação permitida para a entidade (escola)
+**E** clique em salvar
+**Então** o sistema salva as novas configurações
+ 
+**RN1**- Serão listados na tela do pop-up os modelos / regime de prova definidos na funcionalidade "Definir Modelos por Regime de prova" 
