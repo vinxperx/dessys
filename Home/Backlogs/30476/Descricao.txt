@@ -1,0 +1,44 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-12T11:44:43-03:00
+
+====== Descricao ======
+Criado terça 12 abril 2022
+
+**Descrição**
+**Enquanto** usuário Avaliador
+**Quero** ver um histórico de avaliações
+**Para** que seja possível localizar avaliações antigas
+**E** poder acessar as funcionalidades de verificar os detalhes
+
+
+**Critério de Aceitação**
+**001** – Dado que o usuário queira ver o histórico de aplicações
+**E** clique em “Histórico de Aplicações”
+**Então** o sistema o redireciona para a tela de “Histórico de Aplicações” (wireframe - 1- PesquisarAplicação - Histórico)
+ 
+**002** – Dado que o usuário na tela de “Histórico de Aplicações”  
+**E** preencha corretamente o campo de pesquisa
+**E** clique em Pesquisar
+**Então** o sistema filtra os dados
+**E** mostra o resultado
+ 
+**003** – Dado que o usuário na tela de “Histórico de Aplicações”  
+**E** clique no botão "Detalhes"
+**Então** o sistema o redireciona para a tela "HistoricoDetalhes" 
+(wireframe - 2-  PesquisarAplicação - HistóricoDetalhes)
+
+**RN1** - A lista será ordenada por data e horário da avaliação.
+**RN2** - A busca por CANAC só é permitida números 0-9.
+**RN3** - Campo de observações somente para leitura
+**RN4** - Configuração da tela detalhes 
+
+Status - O status aqui será diferente do status geral do sistema, alguns status serão agrupados, enquanto outros serão mostrados, já que é conveniente filtrar as informações que chegam ao credenciado. 
+Aqui ele só verá processos cujas provas já foram aplicadas. Assim ele só verá 6 combinações de tipos de status de prova ou agendamento unificado (AU#) do SySDEA ADM:
+
+1) 'Em atribuição'(prova) - quando a prova já tiver sido aplicada e estiver 'em atribuição' de níveis (correção); 
+2)    'Cancelado'(AU#) - quando o agendamento tiver sido cancelado sem aplicação. 
+3)   Em revisão(prova) - quando o status for 'Em revisão', significando que os dois Avaliadores já atribuíram as notas. 
+4)   Encaminhado para ANAC(prova) - Qualquer status posterior a 'Em revisão', exceto o status 'Arquivada'(Prova), cf. #5 e aqueles sob o guarda-chuva de 'Recurso' (cf. #6) 
+5)   Arquivada (prova) - Status de prova, quando ela for terminada. 
+6)   Recurso (prova) - Qualquer prova que esteja nos status de 'Processo reaberto para recurso...', 'Pré-recurso, 'Recurso análise administrativa', incluindo tudo até o status 'Recurso preparando documentos de resposta'. (cf. wireframe status.xlsx)

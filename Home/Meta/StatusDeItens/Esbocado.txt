@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-12T11:36:25-03:00
+
+====== Esbocado ======
+Criado terça 12 abril 2022
+
+Um item que existe no cherrytree, etc., mas não está no TFS

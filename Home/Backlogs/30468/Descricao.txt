@@ -1,0 +1,55 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-12T11:27:47-03:00
+
+====== Descricao ======
+Criado terça 12 abril 2022
+
+**Descrição**
+
+**Enquanto** usuário logado
+**Quero** ver uma lista de “Pilotos” que têm agendamentos de aplicação no Agendamento Unificado (AU#) “Confirmado”, “Autorizado” e “Expirado” separados em duas seções:Para Aplicação e Pendentes
+**Para** que seja possível listar e acessar funcionalidade relacionadas à aplicação
+
+**Critério de Aceitação**
+
+**001** – Dado que o usuário avaliador queira acessar a tela “PesquisarAplicação”
+**E** clique em “Aplicações” na tela "MenuAplicação" 
+**Então** o sistema o redireciona para a tela de “Pesquisar Aplicação” (wireframe - 1 - PesquisarAplicação.png), (RN 5)
+Onde o sistema exibe agendamentos separados em duas seções, 'Pendentes' e 'Para aplicação' conforme explicado abaixo: 
+     Para aplicação: agendamentos nos status AU#2 Confirmado e AU#3 Autorizado
+     Pendentes: AU#5 Expirados. 
+ 
+**002** - Dado que o usuário preencha corretamente “Canac” (RN2)
+**E** clique em “Pesquisar”
+**Então** o sistema o mostra o resultado.
+ 
+**003** - Dado que o usuário preencha incorretamente “Canac”
+**E** clique em “Pesquisar”
+**Então** o sistema notifica o erro
+ 
+~~004 - Dado que o usuário localize o piloto agendado~~
+~~E clique em “Aplicar” (RN 6)(RN 9)~~
+~~Então o sistema o redireciona para a tela de “Aplicação” (Backlog 30457)~~
+   
+**005** – Dado que o usuário esteja na tela de “PesquisarAplicação”  
+**E** clique em 'Cancelar' 
+**Então** o sistema abre uma janela modal para escrever a observação
+**E** confirmar o cancelamento da aplicação.
+ 
+**006** – Dado que o usuário esteja na janela de modal de “Cancelar”  
+**E** escreva a observação do cancelamento
+**E** clique em confirmar (RN 8)
+**Então** o sistema registra o cancelamento
+**E** a observação
+ 
+~~007 – Dado que o usuário queira inserir chave da prova manual~~
+~~E clique em Inserir chave (RN 7)~~
+~~Então o sistema redireciona para a tela de “InserirChave”~~
+ 
+ 
+**RN1**- A lista será ordenada por data e horário da avaliação.
+**RN2** - A busca por CANAC só é permitida números 0-9.
+**RN3** - As informações de agendamento e horário do (Agendamento Unificado AU#) serão buscadas no SySDEA-ADM. 
+**RN4** - Não será permitida ao avaliador a edição das informações de Agendamento. 
+**RN5** - Devem ser exibidos apenas os agendamentos de provas que têm o próprio usuário como o examinador ELE.  

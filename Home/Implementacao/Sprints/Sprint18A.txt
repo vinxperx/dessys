@@ -5,4 +5,10 @@ Creation-Date: 2022-04-08T11:18:45-03:00
 ====== Sprint18A ======
 Criado sexta 08 abril 2022
 
+**Data de desenvolvimento**: 26/05/2020 - 05/06/2020
+**Comentários**:
+**Itens**: 
+
 1. [[Backlogs:30456|30456 - ExibirMenuAplicacao]]
+2. [[Backlogs:30468|30468 - PesquisarAplicacao]] 
+3. [[Backlogs:30476|30476 - ExibirHistoricoDeAplicacao]]

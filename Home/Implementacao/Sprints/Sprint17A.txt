@@ -5,6 +5,10 @@ Creation-Date: 2022-04-08T10:34:26-03:00
 ====== Sprint17A ======
 Criado sexta 08 abril 2022
 
+**Data de desenvolvimento**: 26/05/2020 - 05/06/2020
+**Comentários**:
+**Itens**: 
+
 1. [[Backlogs:31525|31525 - MelhoriaCadastrarQuestao]]
 2. [[Backlogs:31526|31526 - MelhoriaPesquisarTag]]
 3. [[Backlogs:31529|31529 - MelhoriaPesquisarModelo]]

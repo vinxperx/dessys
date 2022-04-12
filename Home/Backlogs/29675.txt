@@ -5,7 +5,7 @@ Creation-Date: 2022-04-05T17:49:10-03:00
 ====== 29675 ======
 Criado terça 05 abril 2022
 
-**Título**: PRV Alterar Mídia
+**Título**: AlterarMidia
 **Tipo**: #desenvolvimento#
 **Módulo**: #prv#
 **Sprint**: [[Implementacao:Sprints:Sprint05A|Sprint05A]]
