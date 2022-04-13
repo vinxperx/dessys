@@ -12,11 +12,3 @@ Criado terça 12 abril 2022
 **Wireframe**: [[./30468_wireframe.png|wireframe01]], [[./30468_wireframe_2.png|wireframe02]], [[./30468_wireframe_3.png|wireframe03]], [[./30468_wireframe_4.png|wireframe04]], [[./30468_wireframe_5.png|wireframe05]]
 **Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
 **Arquivos**: [[./|pasta]]
-
-
-
-
-
-
-
-

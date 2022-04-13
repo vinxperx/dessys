@@ -1,0 +1,54 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-04-13T11:09:58-03:00
+
+====== Descricao ======
+Criado quarta-feira 13 abril 2022
+
+Enquanto usuário
+
+Quero poder gerar uma prova offline em formato HTML
+
+Para que seja possível aplicar uma prova sem conexão
+
+001 – Dado que o usuário esteja na tela do menu “Fiscalização e Recurso”
+
+E clique no botão “Prova Offline”
+
+Então o sistema redireciona para a tela de “Gerar Prova Offline”
+
+ 
+
+002- Dado que o usuário esteja na tela de “Gerar Prova Offline”
+
+E selecione o modelo em produção
+
+E clique em Gerar
+
+Então o sistema gera uma prova
+
+E habilita um botão para o download do pacote (RN5)
+
+ 
+
+ 
+
+RN1 - A aplicação deverá ser gerada pelo algoritmo de sorteio, mas sem considerar nenhum candidato, o que significa que não haverá Lista de questões interditadas anterior à prova.
+
+RN2 – A aba de “Resumo de Prova” deverá conter:
+
+·         Sumário
+
+·         Chave manual de prova (Localizada também em informações adicionais)
+
+RN 3 - A prova em OFFLINE deverá ter os extratos normais de uma prova, que devem ser armazenados no sistema para que a tabela de controle de sorteio seja recuperada quando a prova for registrada pelo avaliador.   
+
+RN 4 - Quando gerada, essa prova não estará vinculada a nenhum candidato. Apenas no momento de 'Inserir Chave' é que a prova será vinculada a um candidato. 
+
+RN 5 – O conteúdo de download será de um pacote .zip que deverá incluir s arquivos necessários para visualizar a prova:
+
+·         Avaliação.html (Arquivo que abrirá a prova para ser aplicada, seu formato será o mesmo que a prova online, contendo apenas alterações na aba de “Resumo de Prova”, como dito na RN3)
+
+·         Pastas com os arquivos de apoio (scripts, imagens, etc)
+
+·         Chave.txt (Documento contendo a data em que a prova foi gerada e novamente relatando a chave da prova)

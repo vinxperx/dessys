@@ -1,5 +1,5 @@
 Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
+Wiki-Format: zim 0.6
 Creation-Date: 2022-04-05T10:50:02-03:00
 
 ====== RelatorioMigracao ======
@@ -16,3 +16,4 @@ Criado terça 05 abril 2022
 9. O item 30059 estava sem descrição no cherrytree
 10. O item 30060 estava sem descrição no cherrytree
 11. O item 31524 estava sem descrição no cherrytree
+12. O item 30468 os wireframes estavam diferentes

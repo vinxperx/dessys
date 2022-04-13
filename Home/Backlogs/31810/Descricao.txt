@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-04-13T11:28:47-03:00
+
+====== Descricao ======
+Criado quarta-feira 13 abril 2022
+
+Enquanto usuário na tela de Alterar Pool
+
+Quero ver na lista a coluna Tags no lugar da coluna Título
+
+Para ver as Tags que estão cadastradas para cada questão 
+
+001 – Dado que o usuário esteja na tela de “Alterar Pool”
+
+Então o sistema mostrará a lista de com a coluna “Tag” em vez da coluna “Título”(RN1)
+
+
+
+RN1 - A célula contendos as tags deve estar no formato {T1, T2, T3,..., TN}, onde TX é cada tag associada àquela questão, ordenadas de forma crescente. Exemplo, uma questão que esteja marcada com as tags 1, 34 e 28 aparece como {1, 28, 34}.
