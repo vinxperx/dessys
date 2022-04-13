@@ -1,0 +1,122 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-04-13T09:58:08-03:00
+
+====== Descricao ======
+Criado quarta-feira 13 abril 2022
+
+Enquanto usuário logado
+Quero ver uma lista de “Pilotos” que têm agendamentos de aplicação no Agendamento Unificado (AU#) “Confirmado”, “Autorizado” e “Expirado” separados em duas seções:Para Aplicação e Pendentes
+Para que seja possível listar e acessar funcionalidade relacionadas à aplicação
+
+
+
+ 001 – Dado que o usuário avaliador queira acessar a tela “PesquisarAplicação”
+
+E clique em “Aplicações” na tela "MenuAplicação" 
+
+Então o sistema o redireciona para a tela de “Pesquisar Aplicação” (wireframe - 1 - PesquisarAplicação.png), (RN 5)
+
+Onde o sistema exibe agendamentos separados em duas seções, 'Pendentes' e 'Para aplicação' conforme explicado abaixo: 
+
+ Para aplicação: agendamentos nos status AU#2 Confirmado e AU#3 Autorizado
+
+ Pendentes: AU#5 Expirados. 
+
+ 
+
+002 - Dado que o usuário preencha corretamente “Canac” (RN2)
+E clique em “Pesquisar”
+
+Então o sistema o mostra o resultado.
+
+ 
+
+003 - Dado que o usuário preencha incorretamente “Canac”
+E clique em “Pesquisar”
+
+Então o sistema notifica o erro
+
+ 
+
+004 - Dado que o usuário localize o piloto agendado
+E clique em “Aplicar” (RN 6)(RN 9)
+
+Então o sistema o redireciona para a tela de “Aplicação” (Backlog 30457)
+
+   
+
+005 – Dado que o usuário esteja na tela de “PesquisarAplicação”  
+
+E clique em 'Cancelar' 
+
+Então o sistema abre uma janela modal para escrever a observação
+
+E confirmar o cancelamento da aplicação.
+
+ 
+
+006 – Dado que o usuário esteja na janela de modal de “Cancelar”  
+
+E escreva a observação do cancelamento
+
+E clique em confirmar (RN 8)
+
+Então o sistema registra o cancelamento
+E a observação
+
+ 
+
+007 – Dado que o usuário queira inserir chave da prova manual
+
+E clique em Inserir chave (RN 7)
+
+Então o sistema redireciona para a tela de “InserirChave”
+
+ 
+
+ 
+
+RN1- A lista será ordenada por data e horário da avaliação.
+
+RN 2 - A busca por CANAC só é permitida números 0-9.
+
+RN 3 - As informações de agendamento e horário do (Agendamento Unificado AU#) serão buscadas no SySDEA-ADM. 
+
+RN 4 - Não será permitida ao avaliador a edição das informações de Agendamento. 
+
+RN 5 - Devem ser exibidos apenas os agendamentos de provas que têm o próprio usuário como o examinador ELE.  
+
+
+
+
+
+Mudanças no status de agendamento
+
+RN 6 - O botão de “Aplicar” só estará habilitado quando o agendamento estiver no status AU# de “Autorizada”. 
+
+ 
+
+RN 7 - Dado que agendamento entre no status AU# “Expirado”, então o agendamento será realocado para a lista de pendências, e o botão Inserir chave será habilitado.
+
+ 
+
+RN 8 - Quando o agendamento é cancelado: 
+
+	   a) a prova vai para o status AU#4 de “Cancelado”, e; 
+
+	   b) a variável agendamentoAtivo do piloto é setada em 'false'.
+
+ 
+
+RN 9 - Quando o usuário clicar em Aplicar o agendamento sofrerá todas as consequências descritas no documento 'Descrição dos Status.docx', sobretudo: 
+
+a) O Tempo Efetivo de Início da prova é registrado em DT_INICIO_AVALIACAO; 2) Seu status será alterado para AU# 6 “Iniciada”.  
+
+ 
+
+RN 10 - AU# é uma abreviação de Agendamento unificado ('Equivalência dos status', em anexo). O agendamento unificado contém os status a serem mostrados para os usuários, e a equivalência em termos de tabela de horário e agendamento. 
+
+ 
+
+RN 11 - O status exibido no campo status seguirá as diretrizes de 'Status aplicação' e serão implementadas conforme disposto na rotina PRV_AUT_RotinaDeControleDeStatus. 

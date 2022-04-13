@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-04-13T09:57:41-03:00
+
+====== 30468 ======
+Criado quarta-feira 13 abril 2022
+
+**Título**: PesquisarAplicacao
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: **[[Implementacao:Sprints:Sprint18A|Sprint18A]]
+**Wireframe**: [[.\wireframe_1.png|wireframe_1]] / [[.\wireframe_2.png|wireframe_2]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\30468|pasta]]

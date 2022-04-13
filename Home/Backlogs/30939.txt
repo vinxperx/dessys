@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-04-13T11:09:52-03:00
+
+====== 30939 ======
+Criado quarta-feira 13 abril 2022
+
+**Título**: GerarProvaOffline
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação**: [[Implementacao:Sprints:Sprint18A|Sprint18A]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Wireframe**: [[.\30939_wireframe.png|Wireframe01]] / [[.\30939_wireframe_5.png|Wireframe02]] / [[.\30939_wireframe_2.png|Wireframe03]] / [[.\30939_wireframe_3.png|Wireframe04]]
+**Arquivos**: [[..\30939|pasta]]

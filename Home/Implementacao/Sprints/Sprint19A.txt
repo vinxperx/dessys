@@ -1,9 +1,9 @@
 Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.6
-Creation-Date: 2022-04-08T11:18:45-03:00
+Creation-Date: 2022-04-13T11:23:29-03:00
 
-====== Sprint18A ======
-Criado sexta 08 abril 2022
+====== Sprint19A ======
+Criado quarta-feira 13 abril 2022
 
 1. [[Backlogs:30456|30456 - ExibirMenuAplicacao]]
 2. [[Backlogs:30468|30468 - PesquisarAplicacao]]

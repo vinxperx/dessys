@@ -1,11 +1,11 @@
 Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
+Wiki-Format: zim 0.6
 Creation-Date: 2022-04-07T09:06:39-03:00
 
 ====== 27754 ======
 Criado quinta 07 abril 2022
 
-**Título**: PRV CadastrarQuestão
+**Título**: CadastrarQuestão
 **Tipo**: #desenvolvimento#
 **Módulo**: #prv#
 **Implementação**: [[Implementacao:Sprints:Sprint08A|Sprint08A]]

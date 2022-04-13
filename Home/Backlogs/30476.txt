@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-04-13T10:43:36-03:00
+
+====== 30476 ======
+Criado quarta-feira 13 abril 2022
+
+**Título**: ExibirHistoricoDeAplicacao
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação**: [[Implementacao:Sprints:Sprint18A|Sprint18A]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Wireframe**: [[.\30476_wireframe.png|wireframe01]]. / [[.\30476_wireframe_2.png|wireframe02.]]
+**Arquivos**: [[..\30476|pasta]]
+
