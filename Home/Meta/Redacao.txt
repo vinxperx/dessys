@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-14T10:07:10-03:00
+
+====== Redacao ======
+Criado quinta 14 abril 2022
+
+#semnegrito# - itens de descrição sem formatação em negrito
+
+#semwireframe# - itens de backlog sem wireframe
