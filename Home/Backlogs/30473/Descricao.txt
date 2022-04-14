@@ -1,0 +1,47 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-04-14T12:30:00-03:00
+
+====== Descricao ======
+Criado quinta-feira 14 abril 2022
+
+Enquanto usuário
+
+Quero poder testar o comportamento de exibição de mídias de áudio, vídeo e imagem
+
+Para verificar se não há nenhum problema de compatibilidade na execução das mídias.
+
+
+001 - Dado que o usuário esteja no Menu de aplicação
+
+E queira verificar se as mídias estão reproduzindo corretamente no navegador que será utilizado
+
+E clique em Teste de mídia
+
+Então o sistema o redireciona para a tela de “Teste da Mídias”
+
+ 
+
+002 – Dado que o usuário esteja na tela “Teste da Mídias”
+
+Então o sistema gera um exemplo de prova usando o modelo apropriado. (RN1, RN3)
+
+ 
+
+RN1 – O modelo de prova usado para o ‘Teste de Mídia’ será o modelo definido como estando na condição 'Modelo de Teste de Mídia' na tela PRV_GER_DefinirModeloDeTesteDeMídia.
+
+
+
+RN 2 - O modelo de prova gerado em Teste de Mídia não é marcado como instanciado pelo sistema. 
+
+
+
+RN 3 - A exibição do modelo será semelhante à de Gerar Exemplo Prova, com as seguintes diferenças:
+
+1) Não há opção de baixar o extrato do sorteio; 
+
+2) O usuário não escolhe o modelo de exibição. 
+
+3) O título do modelo não é exibido. Em vez disso, é exibido 'Teste de Mídia', não importa o modelo utilizado. 
+
+4) Não há aba de 'Resumo de prova', apenas as partes. 

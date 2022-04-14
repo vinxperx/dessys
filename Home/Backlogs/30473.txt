@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-04-14T12:29:54-03:00
+
+====== 30473 ======
+Criado quinta-feira 14 abril 2022
+
+
+**Título**: TesteDeMídias
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ges#
+**Implementação**: [[Implementacao:Sprints:Sprint19A|Sprint19A]]
+**Wireframe**: [[.\30473_wireframe.png|wireframe01]], [[.\30473_wireframe_2.png|wireframe02]], [[.\30473_wireframe_3.png|wireframe03]]. [[.\30473_wireframe_4.png|wireframe04]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\30473|pasta]]
+
+

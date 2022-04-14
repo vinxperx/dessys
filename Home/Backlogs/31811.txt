@@ -1,16 +1,14 @@
 Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.6
-Creation-Date: 2022-04-13T11:28:41-03:00
+Creation-Date: 2022-04-14T12:45:44-03:00
 
-====== 31810 ======
-Criado quarta-feira 13 abril 2022
+====== 31811 ======
+Criado quinta-feira 14 abril 2022
 
-**Título**: MelhorarAlterarPool
+**Título**: MelhorarVisualizarPool
 **Tipo**: #desenvolvimento#
 **Módulo**: #prv# #ela#
 **Implementação**: [[Implementacao:Sprints:Sprint19A|Sprint19A]]
-**Wireframe**: [[.\31810_wireframe.png|Wireframe01]]
+**Wireframe**: [[.\31811_wireframe.png|Wireframe01]]
 **Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
-**Arquivos**: [[..\31810|pasta]]
-
-
+**Arquivos**: [[..\31811|pasta]]

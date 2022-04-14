@@ -5,7 +5,11 @@ Creation-Date: 2022-04-13T11:23:29-03:00
 ====== Sprint19A ======
 Criado quarta-feira 13 abril 2022
 
-1. [[Backlogs:30456|30456 - ExibirMenuAplicacao]]
-2. [[Backlogs:30468|30468 - PesquisarAplicacao]]
-3. [[Backlogs:30476|30476 - ExibirHistoricoDeAplicacao]]
-4. [[Backlogs:30939|30939 - GerarProvaOffline]]
+**Data de desenvolvimento**: 10/07/2020 a 31/07/2020
+**Comentários**:
+**Itens**: 
+
+1. [[Backlogs:31810|31810 - MelhoriaAlterarPool]]
+2. [[Backlogs:30487|30487 - GerarEstatísticaProva]]
+3. [[Backlogs:30473|30473 - TesteDeMídias]]
+4. [[Backlogs:31811|31811 - MelhoriaVisualizarPool]]

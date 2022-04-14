@@ -1,0 +1,100 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-04-14T11:58:38-03:00
+
+====== Descricao ======
+Criado quinta-feira 14 abril 2022
+
+Enquanto usuário Avaliador
+
+Quero poder a janela modal de Gerar Estatísticas de modelos
+
+Para verificar as estatísticas das questões e pools
+
+001 - Dado que o avaliador esteja na tela de “Gerar Estatísticas de Modelo”
+
+E preencha o “Número de instâncias” (n)
+
+E preencha o “Número de candidatos” (c)
+
+E clique no botão “Gerar”
+
+Então o sistema simula a geração de provas, sorteando n instâncias de prova para c candidatos
+
+E disponibiliza a consolidação dos ids das questões escolhidas (e nada mais) num arquivo .CSV que ficará disponível para download.
+
+
+
+RN1 - Número de candidatos: Min. 1 - Max. 10.000 
+
+		   Número de instâncias: Min. 1 - Max. 10.000
+
+
+
+
+
+RN 2 - A primeira linha da tabela conterá os cabeçalhos:  
+
+
+
+			   Instância, Candidato, Slot x, Protocolo x, Slot x + 1, Protocolo x + 1, .... Protocolo n, Slot n
+
+
+
+RN3: O arquivo CSV terá a primeira coluna listando o id das instância (de 1 a n). 
+
+
+
+RN 4: Para cada coluna do tipo "Slot x", o sistema deve preencher os ids das questões escolhidas naquela instância (linha).
+
+
+
+RN 5:  O algoritmo para gerar cada linha da simulação deve ser idêntico ao algoritmo para sortear as provas reais. 
+
+
+
+RN 6: Cada slot terá duas colunas, uma especificando o id da questão escolhida (slot x), outra especificando o protocolo do resultado do sorteio (protocolo x). 
+
+
+
+RN 7: O protocolo é um código que indicará quão bem-sucedida foi a escolha de uma questão para determinado slot:
+
+						   0 - Se a escolha foi bem-sucedida;
+
+						   1 - Se a aplicação das tags impediu o sistema de escolher ao menos uma questão; 
+
+						   2 - Se a lista de questões interditadas do candidato impediu o sistema de escolher ao menos uma questão. 
+
+
+
+RN 8: Para cada questão, o sistema preencherá a coluna protocolo x.
+
+
+
+RN 9: Caso haja protocolo diferente de 0, o sistema deve escolher uma questão aleatória, anotando o protocolo e observando as RN 10, 11 e 12. 
+
+
+
+RN 10: No caso de protocolo 1, o sistema deve ignorar completamente as tags, e escolher uma nova questão levando em conta apenas a Lista de Questões Interditadas para aquele candidato. 
+
+
+
+RN 11: No caso de protocolo 2, o sistema deve ignorar Lista de Questões Interditadas do Candidato. 
+
+
+
+RN 12: No caso de protocolo 2, o sistema deve ainda verificar se a questão sorteada já foi escolhida nesta instância de prova. Se sim, deve sortear novamente, até obter uma nova questão. 
+
+
+
+
+
+OBS:
+
+
+
+
+
+
+
+Objetivo: Testar modelo de prova para saber com qual quantidade de instâncias e/ou candidatos o sistema apresentará os respectivos protocolos 1 ou 2. 

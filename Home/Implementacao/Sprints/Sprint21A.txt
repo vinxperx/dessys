@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-04-14T13:13:14-03:00
+
+====== Sprint21A ======
+Criado quinta-feira 14 abril 2022
+
+**Data de desenvolvimento**: 10/08/2020 a 03/09/2020
+**Comentários**:
+**Itens**: 
+
+1. [[Backlogs:30457|30457 - Aplicação]]

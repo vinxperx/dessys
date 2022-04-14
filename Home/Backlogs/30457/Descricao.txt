@@ -1,0 +1,86 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-04-14T13:17:32-03:00
+
+====== Descricao ======
+Criado quinta-feira 14 abril 2022
+
+Enquanto usuário do sistema
+
+Quero poder acessar funções de aplicação da prova
+
+Para aplicar a instância da prova para o candidato
+
+
+001 – Dado que o usuário queira aplicar a prova
+
+E esteja na tela de “Pesquisar Aplicação”
+
+E clique no botão “Aplicar”
+
+Então o sistema redireciona para a tela de “Aplicação”
+
+ 
+
+002- Dado que o usuário avaliador esteja na tela de “Aplicação”
+
+Então o sistema libera a visualização da prova (wireframe 1 - Aplicação - Resumo-Prova.png).
+
+ 
+
+003- Dado que o usuário clique nas “Partes” exibidas no sumário
+
+Então o sistema abre a parte correspondente
+E muda a aba correspondente.
+
+ 
+
+004- Dado que o usuário clique em uma das abas
+
+Então a visualização será correspondente à aba escolhida.
+
+(wireframe 2 - Aplicação - Parte-Prova)
+
+ 
+
+005- Dado que o usuário clique no botão “Concluir Situation” (wireframe 3 - Aplicação - Questão-Prova.png)
+
+Então o sistema finaliza a situation correspondente. (RN2)
+
+ 
+
+006- Dado que o usuário clique no botão “Concluir Avaliação” (wireframe 1 - Aplicação - Resumo-Prova.png)
+
+Então o sistema finaliza a Avaliação. (RN3, RN4)  
+
+ 
+
+RN1 – As questões serão divididas por accordions.
+
+RN2 - Ao concluir a “Situation” o “accordion” muda de cor para “verde”. Essa mudança não terá persistência no sistema, servindo apenas para auxiliar o aplicador. 
+
+RN3 – O botão de “Concluir avaliação” estará presente na tela de resumo da prova e na ultima questão da última Parte.
+
+RN 4 - Uma vez que o usuário clique no botão para finalizar a prova, ou transcorra uma quantidade de tempo que ultrapasse o Tempo Máximo de Término da Prova, o sistema realiza três ações: 1) registra o Tempo de Encerramento Efetivo da prova em DT_FIM_AVALIACAO; 2) Muda o status para Agendamento Unificado AU# 7 Concluído (Agendamento = 7, Horário = 7, Avaliacao = 4), e, se online, fecha a janela. 
+
+RN5 - Os nomes "Situation 1", "Situation 2", "Situation 3"... presente nos wireframes terão a numeração de acordo com o slot , seguido do título da questão.
+
+Exemplo: 1- Decolagem.
+
+RN6 – A tela Resumo de prova conterá as informações do candidato e da aplicação.
+
+
+
+RN 7 - Uma vez que a guia/janela for aberta, a prova deverá ter a capacidade de ser aplicada offline, incluindo textos, áudios, vídeos e imagens.
+
+RN 8 - Uma vez o botão Aplicar na tela Pesquisar Avaliação for clicado, o sistema deve passar o registro do candidato para o status AU# Iniciada. A prova ficará no status 3 Chave Gerada. 
+
+RN 9 - Uma vez que a prova for gerada (status 3, chave gerada), a chave da prova também deve ser gerada e registrada para posterior recuperação. 
+
+RN 10 - A descrição dos tempos de prova se encontra no wireframe 'Tempos de aplicação'. 
+RN 11 - A descrição dos status de prova e agendamento unificado (AU#) relativos à aplicação se encontra no wireframe 'Status prova'.
+
+RN 12 - O Tempo Efetivo de Início da prova, que é quando o usuário clica em 'Aplicar', será registrado em DT_INICIO_AVALIACAO.
+
+RN 13 - As entidades de conteúdo bem como entidades estatísticas devem ser alterada para Instanciadas caso aplicável, conforme Instanciação (em anexo). 
+

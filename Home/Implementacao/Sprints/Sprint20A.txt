@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-04-14T12:53:08-03:00
+
+====== Sprint20A ======
+Criado quinta-feira 14 abril 2022
+
+**Data de desenvolvimento**: 20/07/2020 a 31/07/2020
+**Comentários**:
+**Itens**: 
+
+1. [[Backlogs:30460|30460 - MenuFiscalizacao]]
+2. [[Backlogs:31850|31850 - PesquisarAgendamento]]

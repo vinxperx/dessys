@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-04-14T13:17:24-03:00
+
+====== 30457 ======
+Criado quinta-feira 14 abril 2022
+
+**Título**: Aplicação
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: [[Implementacao:Sprints:Sprint21A|Sprint21A]]**
+**Wireframe**: [[.\30457_wireframe_1.png|wireframe01]]. [[.\30457_wireframe_2.png|wireframe02]] [[.\30457_wireframe_3.png|wireframe03]] [[.\30457_wireframe_4.png|wireframe04]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\30457|pasta]]

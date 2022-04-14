@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-04-14T11:56:47-03:00
+
+====== 30487 ======
+Criado quinta-feira 14 abril 2022
+
+**Título**: GerarEstatísticaProva
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #apl#
+**Implementação**: [[Implementacao:Sprints:Sprint19A|Sprint19A]]
+**Wireframe**: [[.\30487_wireframe.png|Wireframe01]], [[.\30487_wireframe2.png|Wireframe02]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\30487|pasta]]
+
+Antigo: PRV_ELA_GerarEstatísticaProva
