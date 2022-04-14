@@ -5,15 +5,17 @@ Creation-Date: 2022-04-12T11:49:10-03:00
 ====== ChecklistImportacaoSprints ======
 Criado terça 12 abril 2022
 
-1. Colocar o nome do item no padrão lá no TFS
-2. Cria um novo backlog com número
-3. Copia o cabeçalho de um backlog similar (de preferência da mesma sprint)
-4. Corrige o título do backlog no Zim
-5. Cria um novo arquivo chamado 'Descricao', subordinado ao item
-6. Acha o item no cherrytree
-7. Copia o texto do backlog e cola em 'Descricao'
-8. Copia os scripts para a pasta do item (opcional)
-9. Roda os scripts (opcional)
-10. Formata os links de wireframe (opcional)
-11. Cria o link do backlog no item de sprint
-12. Sinaliza no cherrytree que o item foi importado (maça preta). 
+1. Anotar o nome antigo no item: A partir das Sprints B (quando recomeça a contagem)
+2. Colocar o nome do item no padrão lá no TFS
+3. Cria um novo backlog com número
+4. Copia o cabeçalho de um backlog similar (de preferência da mesma sprint)
+5. Corrige o título do backlog no Zim
+6. Cola o título antigo lá embaixo no item
+7. Cria um novo arquivo chamado 'Descricao', subordinado ao item
+8. Acha o item no cherrytree
+9. Copia o texto do backlog e cola em 'Descricao'
+10. Copia os scripts para a pasta do item (opcional)
+11. Roda os scripts (opcional)
+12. Formata os links de wireframe (opcional)
+13. Cria o link do backlog no item de sprint
+14. Sinaliza no cherrytree que o item foi importado (maça preta). 
