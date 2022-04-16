@@ -1,5 +1,5 @@
 Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
+Wiki-Format: zim 0.4
 Creation-Date: 2022-04-14T12:57:43-03:00
 
 ====== 30460 ======
@@ -8,9 +8,16 @@ Criado quinta-feira 14 abril 2022
 **Título**: MenuAplicacao
 **Tipo**: #desenvolvimento#
 **Módulo**: #prv# #ela#
-**Implementação: [[Implementacao:Sprints:Sprint20A|Sprint20A]]**
+**Implementação: **[[Implementacao:Sprints:Sprint20A|Sprint20A]]
 **Wireframe**: [[.\30460_wireframe.png|wireframe01]].
 **Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
 **Arquivos**: [[..\30460|pasta]]
 
 Antigo: PRV_FIS_MenuFiscalização
+
+#reprovado#
+
+1. O título não está no padrão Verbo + Substantivo. 
+2. O título contém caracteres especiais.
+3. O título não está coerente entre o TFS e a descrição.
+4. A descrição não foi formatada, nem há marcação de que o item precise de scripts. 

@@ -1,5 +1,5 @@
 Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
+Wiki-Format: zim 0.4
 Creation-Date: 2022-04-14T11:56:47-03:00
 
 ====== 30487 ======
@@ -14,3 +14,8 @@ Criado quinta-feira 14 abril 2022
 **Arquivos**: [[..\30487|pasta]]
 
 Antigo: PRV_ELA_GerarEstatísticaProva
+
+#reprovado#
+
+1. O Título contém caracteres especiais
+2. Não há formatação no item Descricao, nem marcação com hashtag #formatardescricao#

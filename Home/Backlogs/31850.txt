@@ -1,5 +1,5 @@
 Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
+Wiki-Format: zim 0.4
 Creation-Date: 2022-04-14T13:03:05-03:00
 
 ====== 31850 ======
@@ -8,9 +8,15 @@ Criado quinta-feira 14 abril 2022
 **Título**: PesquisarAgendamento
 **Tipo**: #desenvolvimento#
 **Módulo**: #prv# #ela#
-**Implementação: [[Implementacao:Sprints:Sprint20A|Sprint20A]]**
-**Wireframe**: [[.\31850_wireframe.png|wireframe01]]. [[.\31850_wireframe2.png|wireframe02]]
+**Implementação: **[[Implementacao:Sprints:Sprint20A|Sprint20A]]
+**Wireframe**: [[.\31850_wireframe.png|wireframe01]], [[.\31850_wireframe2.png|wireframe02]]
 **Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
 **Arquivos**: [[..\31850|pasta]]
 
 Antigo: PRV_FIS_PesquisarAgendamento
+
+#reprovado#
+
+
+1. A descrição do item está em branco. Se não houver descrição no Cherrytree, coletar no TFS.
+2. Não há formatação no item Descricao, nem marcação com hashtag #formatardescricao#
