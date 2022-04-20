@@ -1,11 +1,11 @@
 Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
+Wiki-Format: zim 0.6
 Creation-Date: 2022-04-14T13:17:24-03:00
 
 ====== 30457 ======
 Criado quinta-feira 14 abril 2022
 
-**Título**: Aplicação
+**Título**: FazerAplicacao
 **Tipo**: #desenvolvimento#
 **Módulo**: #prv# #ela#
 **Implementação: **[[Implementacao:Sprints:Sprint21A|Sprint21A]]
@@ -15,7 +15,7 @@ Criado quinta-feira 14 abril 2022
 
 #reprovado#
 
-1. O título não está no padrão Verbo + Substantivo. 
-2. O título contém caracteres especiais.
+1. O título não está no padrão Verbo + Substantivo. corrigido
+2. O título contém caracteres especiais. corrigido
 3. A descrição não foi formatada, nem há marcação de que o item precise de scripts. 
 

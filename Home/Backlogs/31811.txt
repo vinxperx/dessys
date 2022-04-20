@@ -1,11 +1,11 @@
 Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
+Wiki-Format: zim 0.6
 Creation-Date: 2022-04-14T12:45:44-03:00
 
 ====== 31811 ======
 Criado quinta-feira 14 abril 2022
 
-**Título**: MelhorarVisualizarPool
+**Título**: MelhoriaVisualizarPool
 **Tipo**: #desenvolvimento#
 **Módulo**: #prv# #ela#
 **Implementação**: [[Implementacao:Sprints:Sprint19A|Sprint19A]]
@@ -15,5 +15,5 @@ Criado quinta-feira 14 abril 2022
 
 #reprovado#
 
-1. O título não está no padrão (dois verbos)
+1. O título não está no padrão (dois verbos) corrigido
 2. Não há formatação no item Descricao, nem marcação com hashtag #formatardescricao#

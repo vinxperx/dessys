@@ -1,11 +1,11 @@
 Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
+Wiki-Format: zim 0.6
 Creation-Date: 2022-04-14T12:57:43-03:00
 
 ====== 30460 ======
 Criado quinta-feira 14 abril 2022
 
-**Título**: MenuAplicacao
+**Título**: AcessarMenuFiscalizacao
 **Tipo**: #desenvolvimento#
 **Módulo**: #prv# #ela#
 **Implementação: **[[Implementacao:Sprints:Sprint20A|Sprint20A]]
@@ -17,7 +17,7 @@ Antigo: PRV_FIS_MenuFiscalização
 
 #reprovado#
 
-1. O título não está no padrão Verbo + Substantivo. 
-2. O título contém caracteres especiais.
-3. O título não está coerente entre o TFS e a descrição.
+1. O título não está no padrão Verbo + Substantivo. corrigido
+2. O título contém caracteres especiais. corrigido
+3. O título não está coerente entre o TFS e a descrição. corrigido
 4. A descrição não foi formatada, nem há marcação de que o item precise de scripts. 

@@ -1,11 +1,11 @@
 Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
+Wiki-Format: zim 0.6
 Creation-Date: 2022-04-14T12:29:54-03:00
 
 ====== 30473 ======
 Criado quinta-feira 14 abril 2022
 
-**Título**: TesteDeMídias
+**Título**: ExibirTesteDeMidias
 **Tipo**: #desenvolvimento#
 **Módulo**: #prv# #ges#
 **Implementação**: [[Implementacao:Sprints:Sprint19A|Sprint19A]]
@@ -15,6 +15,6 @@ Criado quinta-feira 14 abril 2022
 
 #reprovado#
 
-1. O item está com título incoerente
-2. O Título estava com dois \n no começo 
+1. O item está com título incoerente corrigido
+2. O Título estava com dois \n no começo corrigido
 3. Não há formatação no item Descricao, nem marcação com hashtag #formatardescricao#

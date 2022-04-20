@@ -1,0 +1,312 @@
+html,
+body {
+    height: 100%;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #ffffff;
+}
+.wrap {
+    position: relative;
+    margin: 0 auto; /* center, not in IE5 */
+    height: auto !important; /* real browsers */
+    height: 100%; /* IE6: treaded as min-height*/
+    min-height: 100%; /* real browsers */
+    padding-bottom: 60px;
+}
+
+.tab-content {
+    margin-top: 15px;
+}
+
+textarea, input {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    font-size: 12px !important;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: "gotham-htf-thin";
+	src: url("../../../Fonts/gotham-htf-thin.eot");
+	src: url("../../../Fonts/gotham-htf-thin.ttf");
+	src: url("../../../Fonts/gotham-htf-thin.woff");
+}
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: "gotham-htf-book";
+	src: url("../../../Fonts/gotham-htf-book.eot");
+	src: url("../../../Fonts/gotham-htf-book.ttf");
+	src: url("../../../Fonts/gotham-htf-book.woff");
+}
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: "gotham-htf-medium";
+	src: url("../../../Fonts/gotham-htf-medium.eot");
+	src: url("../../../Fonts/gotham-htf-medium.ttf");
+	src: url("../../../Fonts/gotham-htf-medium.woff");
+}
+
+.jumbotron h1,
+.jumbotron .h1 {
+  font-size:1.8em;
+}
+
+.nav, .pagination, .carousel, .panel-title a {
+    cursor: pointer;
+}
+
+.navbar-header{
+     font-family: 'gotham-htf-book';
+}
+
+.navbar-anac, .navbar-brand {
+    padding: 6px 20px 7px 5px !important;
+}
+
+    .navbar-anac span, 
+    .navbar-brand span,
+    .navbar-brand h1 {
+        padding: 9px 0 0 0;
+        display: inline-block;
+        font-size: 18px;
+        font-family: 'gotham-htf-book';
+        line-height: 20px;
+        color: #ffffff;
+        margin:0;
+    }
+    .navbar-brand > img{
+        display: inline-block;
+    }
+.navbar-anac {
+    float: right !important;
+    padding: 6px 0 7px 5px !important;
+}
+
+.navbar-inverse {
+    background-color: #1d618f;
+    border-color: #19537a;
+}
+
+    .navbar-inverse .navbar-brand {
+        color: #ffffff;
+    }
+
+        .navbar-inverse .navbar-brand:hover,
+        .navbar-inverse .navbar-brand:focus {
+            color: #ffffff;
+            background-color: transparent;
+        }
+
+    .navbar-inverse .navbar-text {
+        color: #ffffff;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: #ffffff;
+        cursor:pointer;
+    }
+
+        .navbar-inverse .navbar-nav > li > a:hover,
+        .navbar-inverse .navbar-nav > li > a:focus {
+            color: #ffffff;
+            background-color: transparent;
+        }
+
+    .navbar-inverse .navbar-nav > .active > a,
+    .navbar-inverse .navbar-nav > .active > a:hover,
+    .navbar-inverse .navbar-nav > .active > a:focus {
+        color: #ffffff;
+        background-color: #144465;
+    }
+
+    .navbar-inverse .navbar-nav > .disabled > a,
+    .navbar-inverse .navbar-nav > .disabled > a:hover,
+    .navbar-inverse .navbar-nav > .disabled > a:focus {
+        color: #ffffff;
+        background-color: transparent;
+    }
+
+    .navbar-inverse .navbar-toggle {
+        border-color: #fff;
+    }
+
+        .navbar-inverse .navbar-toggle:hover,
+        .navbar-inverse .navbar-toggle:focus {
+            background-color: #174d71;
+        }
+
+        .navbar-inverse .navbar-toggle .icon-bar {
+            background-color: #ffffff;
+        }
+
+    .navbar-inverse .navbar-collapse,
+    .navbar-inverse .navbar-form {
+        border-color: #174d71;
+    }
+
+    .navbar-inverse .navbar-nav > .open > a,
+    .navbar-inverse .navbar-nav > .open > a:hover,
+    .navbar-inverse .navbar-nav > .open > a:focus {
+        background-color: #144465;
+        color: #ffffff;
+    }
+
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
+        border-color: #19537a;
+    }
+
+    .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+        background-color: #19537a;
+    }
+
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+
+        .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+        .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+            color: #ffffff;
+            background-color: transparent;
+        }
+
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #ffffff;
+        background-color: #144465;
+    }
+
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ffffff;
+        background-color: transparent;
+    }
+}
+
+.navbar-inverse .navbar-link {
+    color: #ffffff;
+}
+
+    .navbar-inverse .navbar-link:hover {
+        color: #ffffff;
+    }
+.form-group {
+    margin: 0 0 15px 0 !important;
+}
+
+
+.help-block {
+    margin: 0 !important;
+}
+
+
+.obrigatorio {
+    color: red;
+}
+
+#ui-datepicker-div {
+    width: 208px;
+}
+
+div.ui-datepicker {
+    font-size: 11px;
+}
+
+caption {
+    padding: 15px !important;
+    background: #EEE;
+    font-size: 16px !important;
+    font-weight: bold;
+}
+
+.page-header {
+    margin: 0 0 20px 0;
+}
+
+    .page-header h4 {
+        margin: 0;
+    }
+
+.btn-acao {
+    min-width: 76px;
+}
+
+.div-validacao {
+    height: 20px;
+    display: inline-block;
+}
+
+.popover {
+    min-width: 200px;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto;
+    /* Negative indent footer by its height */
+    margin: 0 auto -50px;
+    /* Pad bottom by footer height */
+    padding: 0 0 50px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+    height: 50px;
+}
+
+legend {
+    font-size: 16px;
+}
+
+.breadcrumb {
+    margin: 0 0 15px 0;
+}
+
+.alert {
+    padding: 10px 35px 10px 20px;
+    margin-bottom: 5px;
+}
+
+.modal.modal-wide .modal-dialog {
+    width: 90%;
+}
+
+.modal-wide .modal-body {
+    overflow-y: auto;
+}
+
+.panel-heading-collapse h4:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    color: grey;
+}
+
+.panel-heading-collapse h4.collapsed:after {
+    content: "\e080";
+}
+
+.panel-title-collapse {
+    cursor: pointer;
+}
+
+.navbar-inverse .navbar-nav > li > .relogio_texto {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
+    color: #fff;
+    position: relative;
+    display: block;
+}

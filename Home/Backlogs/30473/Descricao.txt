@@ -32,11 +32,11 @@ RN1 – O modelo de prova usado para o ‘Teste de Mídia’ será o modelo defi
 
 
 
-RN 2 - O modelo de prova gerado em Teste de Mídia não é marcado como instanciado pelo sistema. 
+RN2 - O modelo de prova gerado em Teste de Mídia não é marcado como instanciado pelo sistema. 
 
 
 
-RN 3 - A exibição do modelo será semelhante à de Gerar Exemplo Prova, com as seguintes diferenças:
+RN3 - A exibição do modelo será semelhante à de Gerar Exemplo Prova, com as seguintes diferenças:
 
 1) Não há opção de baixar o extrato do sorteio; 
 
