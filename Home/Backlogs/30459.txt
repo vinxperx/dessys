@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-02T13:00:56-03:00
+
+====== 30459 ======
+Criado segunda 02 maio 2022
+
+**Título**: GerarEstatisticasDeProducao
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: **[[Implementacao:Sprints:Sprint23A|Sprint23A]]
+**Wireframe**: [[./1 - Estatistica.png|wireframe01]], [[./2 - Estatistica - Questão - MODAL.png|wireframe02]], [[./30459_wireframe.png|wireframe03]], [[./3 - Estatistica - Questão_Download.png|wireframe04]], [[./4 - Estatistica - Pool - MODAL.png|wireframe05]], [[./5 - Estatistica - Pool_Download.png|wireframe06]], [[./6 - Estatistica - Modelo em Teste.png|wireframe07]], [[./CSV - EstatísticasDePool.xlsx|wireframe08]], [[./CSV - Estatísticas de Questão.csv|wireframe09]], [[./CSV - EstatísticasDeQuestão.xlsx|wireframe10]], [[./Descrição das Estatísticas de produção e teste.docx|wireframe11]], [[./EstatísticasDeModelo.rar|wireframe12]], [[./EstatísticasDeModeloTeste.rar|wireframe13]], [[./Estatísticas de Modelo.zip|wireframe14]], [[./Sugestão - Estatísticas - Produção - 1.png|wireframe15]],[[./Sugestão - Estatísticas - Produção - 2.png|wireframe16]], [[./Sugestão - Estatísticas - Produção - 3.png|wireframe17]], [[./Sugestão - Estatísticas - Teste - 1.png|wireframe18]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[./|pasta]]
+
+#erronoTFS#
+#syncTFS#
+
+**Antigo**: PRV_ELA_Estatísticas_De_Produção
+

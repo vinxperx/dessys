@@ -11,3 +11,5 @@ Itens a serem revistos na descrição são marcados com palavras-chave:
 #problema# - item funciona, mas tem um problema
 #teste# - testes são necessários
 #caducou#item# - item ficou obsoleto devido à implementação de novo item.  
+#erronoTFS# - a descrição do item tem erro(s) no texto do TFS
+#syncTFS# - a descrição do item se baseou no TFS

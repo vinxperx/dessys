@@ -1,0 +1,76 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-02T13:29:16-03:00
+
+====== Descricao ======
+Criado segunda 02 maio 2022
+
+**Descrição**
+
+**Enquanto** usuário
+**Quero** poder ter dois tipos de listas: Consulta e Calibração
+**Para** Efetuar as funcionalidades de visualizar, download, mudar status da prova para calibração, mudar status da prova para consulta ou arquivar
+
+**Critério de Aceitação**
+
+**001** – Dado que o usuário esteja na tela de menu "Fiscalização"
+**E** clique no botão "Consulta"
+**Então** o sistema redireciona para a tela de “Consulta Fiscal”
+
+**002** – Dado que o usuário esteja na tela “Consulta Fiscal”
+**Então** o sistema exibe duas listas
+Uma primeira contendo provas no status ‘31 - Consulta’
+Uma segunda contendo provas no status ‘34 - Calibração’
+
+**003** – Dado que o usuário esteja na tela “Consulta Fiscal”
+**Então** o sistema permite busca por número Sysdea 
+**Dado que** o usuário efetue a pesquisa
+**Então** o sistema retorna o resultado encontrado
+Provas em Consulta
+
+**004** – Dado que o usuário localize uma prova na lista Consulta
+**E** clique no botão “Visualizar”
+**Então** o sistema o redireciona para a tela de “Visualizar Aplicação Fiscal”
+
+**005** – Dado que o usuário localize uma prova na lista Consulta
+**E** clique no botão “Download”
+**Então** o sistema efetua o download da prova (RN1)
+
+**006** – Dado que o usuário localize uma prova na lista Consulta
+**E** clique no botão “Calibração” (RN2)
+**E** o usuário realize a confirmação da alteração
+**Então** o sistema muda o status da prova para 34 - Calibração (RN3)
+
+**007** – Dado que o usuário localize uma prova na lista Consulta
+**E** clique no botão “Arquivar”
+**E** o usuário realize a confirmação da alteração
+**Então** o sistema muda o status da prova para 17 - Arquivado (RN4).
+Provas em calibração
+
+**007** – Dado que o usuário localize uma prova na lista Calibração
+**E** clique no botão “Visualizar”
+**Então** o sistema o redireciona para a tela de “Visualizar Aplicação Fiscal”
+
+**008** – Dado que o usuário localize uma prova na lista Calibração
+**E** clique no botão “Download”
+**Então** o sistema efetua o download da prova (RN1)
+
+**009** – Dado que o usuário localize uma prova na lista Calibração
+**E** clique no botão “Consulta” (RN2)
+**E** o usuário realize a confirmação da alteração
+**Então** o sistema muda o status da prova (RN5)
+
+**010** – Dado que o usuário localize uma prova na lista Calibração
+**E** clique no botão “Arquivar”
+**E** o usuário realize a confirmação da alteração
+**Então** o sistema muda o status da prova (RN4)
+
+**RN1** – O sistema irá efetuar o download da prova que já foi instanciada. A finalidade é a visualização da prova offline para fins de consulta pelos fiscais.
+
+**RN2** – O botão de “Calibração” estará presente na lista de provas em consulta. O botão “Consulta” estará presente na lista de provas em calibração.
+
+**RN3** – “Provas em consulta” apresenta somente as provas que estão no status 31 - “Consulta”. Sendo assim, quando o usuário clicar no botão “Calibração”, o sistema irá, após confirmação do usuário, alterar o status da prova para o 34 – “Calibração”, e então o item será retirado dessa lista e colocado na lista “Provas em calibração”.
+
+**RN4** – As provas presentes nas duas listas podem ter seus status, após confirmação do usuário, mudados tanto de 31 – Consulta quanto 34 – Calibração para o 17 – Arquivado.
+
+ **RN5** – “Provas em calibração” apresenta somente as provas que estão no status 34 - “Calibração”. Sendo assim, quando o usuário clicar no botão “Consulta”, o sistema irá, após confirmação do usuário, alterar o status da prova para o 31 – “Consulta” e então o item será retirado dessa lista e colocado na lista “Provas em consulta”

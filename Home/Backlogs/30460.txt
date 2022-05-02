@@ -11,7 +11,7 @@ Criado quinta-feira 14 abril 2022
 **Implementação: **[[Implementacao:Sprints:Sprint20A|Sprint20A]]
 **Wireframe**: [[.\30460_wireframe.png|wireframe01]].
 **Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
-**Arquivos**: [[..\30460|pasta]]
+**Arquivos**: [[..\30460|p]][[..\30460|a]][[..\30460|s]][[..\30460|t]][[..\30460|a]]
 
 Antigo: PRV_FIS_MenuFiscalização
 

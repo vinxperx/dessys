@@ -1,0 +1,97 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-02T13:02:46-03:00
+
+====== Descricao ======
+Criado segunda 02 maio 2022
+
+**Descrição**
+
+**Enquanto** usuário elaborador do sistema
+**Quero** poder acessar a tela de estatística no menu elaboração
+**Para** verificar as estatísticas de: modelos de teste, modelos em produção, questão e pool.
+
+
+**001** – Dado que o usuário esteja na tela do menu "Elaboração”
+**E** clique no botão “Estatísticas”
+**Então** o sistema o redireciona para a tela de “Estatísticas”
+
+**002** – Dado que o usuário esteja na tela de “Estatísticas”
+**E** selecione um item do campo "Regime de prova"
+**Então** o sistema exibe exibe os itens do campo "Estatísticas por" (RN1)
+
+**002** – Dado que o usuário esteja na tela de “Estatísticas”
+**E** selecione o item "Questão" no campo "Estatísticas por"
+**Então** abre uma janela modal “Pesquisar Questão”
+
+**003**- Dado que o usuário esteja na janela modal “Pesquisar Questão”
+**Então** o sistema pesquisa e exibe uma lista das questões cadastradas
+
+ 
+
+**004** – Dado que o usuário esteja na janela modal “Pesquisar Questão”
+**E** preencha algum campo de pesquisa (RN2)(RN3)(RN4)
+**E** clique no botão “Pesquisar”
+**Então** o sistema filtra o resultado da lista das questões
+
+**005** – Dado que o usuário localizou a questão
+**E** clique no botão “Selecionar”
+**Então** o sistema fecha a janela modal “Pesquisar Questão”
+**E** volta para a tela de “Estatística” exibindo as informações da questão selecionada
+**E** disponibilizando o botão "Pesquisar" (que ao ser clicado abre a modal “Pesquisar Questão”)
+**E** disponibilizando o botão "Download" 
+
+
+**007** – Dado que o usuário esteja na tela de “Estatísticas”
+**E** selecione o item "Pool" no campo "Estatísticas por"
+**Então** abre uma janela modal “Pesquisar Pool”
+
+**008** – Dado que o usuário esteja na janela modal “Pesquisar Pool”
+**Então** o sistema pesquisa e exibe uma lista com os pools cadastrados
+
+**009** – Dado que o usuário na janela modal “Pesquisar Pool”
+**E** preencha algum campo de pesquisa (RN4)
+**E** clique no botão “Pesquisar”
+**Então** o sistema filtra o resultado da lista dos pools
+
+**010** – Dado que o usuário localizou o pool
+**E** clicou em selecionar
+**Então** o sistema fecha a janela modal “Pesquisar Pool”
+**E** volta para a tela de “Estatística” exibindo as informações do pool selecionado
+**E** disponibilizando o botão "Pesquisar" (que ao ser clicado abre a modal “Pesquisar Pool”)
+**E** disponibilizando o botão "Download" 
+
+**013** – Dado que o usuário esteja na tela de “Estatísticas”
+**E** selecione o item "Modelo" no campo "Estatísticas por"
+**Então** o sistema exibe os modelos cadastrados no sistema
+
+
+**013** – Dado que o usuário selecione o modelo
+**Então** o sistema exibe as informações do modelo selecionado
+**E** disponibiliza o botão "Download" (RN5)(RN6)(RN7)
+
+
+**RN1** – Serão disponibilizados no campo "Estatísticas por" os seguintes itens dependendo do tipo de regime selecionado: 
+- Produção: Modelo, Pool e Questão
+- Teste: Modelo
+
+**RN2** – Categoria de Tag e Tag serão campos de Dropbox.
+
+**RN3** – O campo “Tag” só estará disponível após ser escolhida a “Categoria de tag”, porque a Tag é vinculada a categoria de tag.
+
+**RN4** – Os campos de “Título da questão” (da modal de pesquisa questões) e “Título do pool” (da modal de pesquisa de pools) serão de autopreenchimento.
+
+**RN5** – Os arquivos de estatísticas serão em formato .CSV. Dependendo da seleção do campo "Estatísticas por", o sistema gera estatísticas /arquivos diferentes.
+
+**RN6** – Só será possível realizar um processo de download de estatísticas por vez.
+
+Exemplo:
+
+Caso o usuário efetue o processo de gerar estatística de uma questão e inicie o processo de gerar estatística de um pool então o sistema limpará o campo de questões selecionadas.
+
+
+**RN7** – Os arquivos de Estatística De Modelos, tanto de aplicação quanto de teste, serão agrupados em um arquivo compactado, porque ao ser gerado a estatística de modelo o sistema disponibilizará três tipos de arquivos no formato .CSV:
+
+			 QuestõesQuantidadeDeOcorrencia
+			 QuestõesInstâncias
+			 QuestõesCanac

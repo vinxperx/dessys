@@ -13,5 +13,7 @@ Criado segunda 02 maio 2022
 **Wireframe**: [[./030320201459.7z|wireframe01]], [[./31733_wireframe_2.png|wireframe02]], [[./31733_wireframe_3.png|wireframe03]], [[./31733_wireframe_4.png|wireframe04]], [[./31733_wireframe.png|wireframe05]], [[./Descrição das planilhas.docx|wireframe06]], [[./Detalhes - chave automática.png|wireframe07]], [[./DetalhesFiscal - Wireframe.png|wireframe08]], [[./Detalhes - nova chave manual.png|wireframe09]]
 **Arquivos**: [[./|pasta]]
 
+#syncTFS#
+
 **Antigo:** PRV_FIS_DetalhesAplicaçãoFiscal
 

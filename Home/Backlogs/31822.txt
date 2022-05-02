@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-02T13:27:06-03:00
+
+====== 31822 ======
+Criado segunda 02 maio 2022
+
+**Título**: DesarquivarProvaParaConsultaOuCalibracao
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #fis#
+**Implementação: **[[Implementacao:Sprints:Sprint23A|Sprint23A]]
+**Wireframe**: [[./31822_wireframe.png|wireframe01]], [[./Consulta Fiscal.png|wireframe02]], [[./pictures.sh|wireframe03]], [[./TELA CONSULTA.png|wireframe04]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[./|pasta]]
+
+#syncTFS#
+
+Antigo: PRV_FIS_DesarquivarProvaParaConsultaOuCalibração
+
