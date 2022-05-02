@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-02T12:49:39-03:00
+
+====== 31733 ======
+Criado segunda 02 maio 2022
+
+**Título**: DetalhesAplicacaoFiscal
+**Tipo**: #desenvolvimento#
+**Módulo**: #adm# 
+**Implementação**: [[Implementacao:Sprints:Sprint22A|Sprint22A]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Wireframe**: [[./030320201459.7z|wireframe01]], [[./31733_wireframe_2.png|wireframe02]], [[./31733_wireframe_3.png|wireframe03]], [[./31733_wireframe_4.png|wireframe04]], [[./31733_wireframe.png|wireframe05]], [[./Descrição das planilhas.docx|wireframe06]], [[./Detalhes - chave automática.png|wireframe07]], [[./DetalhesFiscal - Wireframe.png|wireframe08]], [[./Detalhes - nova chave manual.png|wireframe09]]
+**Arquivos**: [[./|pasta]]
+
+**Antigo:** PRV_FIS_DetalhesAplicaçãoFiscal
+

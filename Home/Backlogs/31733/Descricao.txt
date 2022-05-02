@@ -1,0 +1,82 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-02T12:50:30-03:00
+
+====== Descricao ======
+Criado segunda 02 maio 2022
+
+**Descrição**
+
+**Enquanto** usuário 
+**Quero** poder ver detalhes das aplicações 
+**Para** efetuar a ação necessária
+
+**Critério de Aceitação**
+
+**001** – Dado que o usuário esteja na tela de “Pesquisar Aplicação Fiscal”
+**E** clique no botão “Detalhes” 
+**Então** o sistema redireciona para a tela de “Detalhes Aplicação Fiscal”
+
+**002** – Dado que o usuário esteja na tela de “Detalhes Aplicação Fiscal” 
+**E** preencha a chave manual
+**E** o sistema verifique que a chave manual existe e não esteja sendo usada em outra prova
+**E** clique em “Salvar” 
+**Então** o sistema exibe uma mensagem de confirmação dizendo:
+“Você substituirá a chave da prova. Deseja prosseguir?”
+**E** se o usuário clicar em “Sim” 
+**Então** O sistema salva as alterações
+**E** vincula a nova instância offline à prova cadastrada (RN4)
+**E** se o usuário clicar em “Não”
+**Então** o sistema não salva as alterações
+
+**003** – Dado que o usuário esteja na tela de “Detalhes Aplicação Fiscal” 
+**E** preencha a chave manual
+**E** o sistema verifique que a prova não pode receber a chave manual (RN 6)
+**E** clique em “Salvar” 
+**Então** o sistema mostra uma mensagem de erro e não realiza o registro
+
+**004**- Dado que o usuário esteja na tela de “Pesquisar Aplicação Fiscal”
+**E** clique em “Extrato”
+**Então** o sistema baixa o pacote de planilhas de Extrato para aquela prova (RN 8)
+
+**005** – Dado que o usuário esteja na tela de “Detalhes Aplicação Fiscal”
+**E** o botão “Enviar para Consulta” esteja ativado (RN7)
+ clique em “Consulta”
+**Então** o sistema muda o status da prova para “31 – Consulta”
+
+**RN1** – A chave manual precisa ser verificada pelo sistema como uma chave manual que foi gerada previamente, numa versão offline.
+
+**RN2** – Chaves automáticas (geradas online) nunca podem ser apagadas. Apenas chaves de provas offline podem ser substituídas nessa tela. Por isso, o campo para inserir nova chave manual só deve ser habilitado se a prova já possuir uma chave manual prévia. 
+
+**RN3** – Ao editar a chave o sistema vincula a prova à nova instância offline. 
+
+**RN4** - Adicionar uma nova chave para a prova só será permitida se a prova estiver no  status de prova F.A
+
+**RN5** - No momento de inserção da prova, o sistema deve verificar a lista de questões interditadas do candidato. Cinco aspectos devem ser revisados:
+
+
+	Quais questões devem ser removidas da lista de questões interditadas do candidato porque pertenciam somente à instância de prova cuja chave foi removida;
+
+	Quais questões devem permanecer, porque estão ligadas a outras instâncias anteriores com que o candidato teve contato; 
+
+	Quais devem ser acrescentadas, porque são inéditas para o candidato e estão ligadas a essa nova versão de prova offline, cuja chave está sendo inserida. 
+
+	Os extratos da prova devem ser ligados a essa nova versão offline;
+
+	Questões que já constavam da lista de questões interditadas daquele candidato, por estarem ligadas a outras versões, e que se repetiram nessa versão offline devem ser marcadas com o protocolo 2 no extrato, indicando que o candidato entrou em contato com uma questão repetida. 
+
+RN 6 - O sistema não deve registrar a chave nova caso:
+
+	A prova seguiu o fluxo normal e possui chave automática; 
+
+	A nova chave manual não existe; 
+
+	O campo de inserção ainda esteja em branco (o que apagaria a chave manual anterior sem subsitituí-la); 
+
+	A chave manual já foi usada em outra prova.
+
+RN 7 - O botão Enviar para consulta só estará ativo se o status daquela prova for ‘17 - Arquivado’. Caso contrário, ele estará desativado. 
+
+RN 8 - O pacote de planilhas de extrato consistirá do pacote de planilhas conforme descrito em 'Descrição das planilhas.docx' e conforme o anexo '030320201459.zip'. 
+
+RN 9 - Caso a prova não tenha instância vinculada (apenas versão antiga) o sistema deve exibir uma mensagem padrão: "Não há instância vinculada a esta prova/agendamento".

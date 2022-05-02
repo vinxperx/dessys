@@ -1,0 +1,51 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-02T12:33:43-03:00
+
+====== Descricao ======
+Criado segunda 02 maio 2022
+
+**Descrição**
+
+**Enquanto** usuário
+
+**Quero** poder visualizar avaliações aplicadas
+
+**Para** consulta 
+
+**Critério de Aceitação**
+
+**001** - Dado que o usuário esteja na tela “Pesquisar Aplicação Fiscal”
+
+**E** clique em “Visualizar”
+
+**Então** o sistema o redireciona para a tela de “Visualizar Aplicação Fiscal”
+
+ 
+
+**002** – Dado que o usuário esteja na tela “Visualizar Aplicação Fiscal”
+
+**Então** o sistema mostra a prova aplicada
+
+ 
+
+**003** - Dado que o usuário clique em uma das abas
+
+**Então** a visualização será correspondente à aba escolhida.
+
+ 
+**RN1** - O fiscal pode visualizar a prova quantas vezes quiser.
+
+**RN2** – A visualização não possui nenhuma restrição quanto ao tempo ou registro no sistema.
+
+**RN3**- A tela inicial da avaliação contém um cabeçalho composto pelos seguintes itens:
+
+1) Nome e CANAC do candidato;
+
+2) Data em que a prova foi realizada;
+
+3) Modelo de prova aplicado e regime (Produção ou teste);
+
+4) ELE e SME;
+
+5) Instituição.

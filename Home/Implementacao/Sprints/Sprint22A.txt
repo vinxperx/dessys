@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-02T12:17:36-03:00
+
+====== Sprint22A ======
+Criado segunda 02 maio 2022
+
+**Data de desenvolvimento**: 02/09/2020 a 11/09/2020
+**Comentários**:
+**Itens**: 
+1. [[Backlogs:31219|31219 - PesquisarAplicacaoFiscal]]
+2. [[Backlogs:31295|31295 - VisualizarAplicacaoFiscal]]
+3. [[Backlogs:31733|31733 - DetalhesAplicacaoFiscal]]

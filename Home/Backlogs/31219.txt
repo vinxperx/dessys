@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-02T12:18:03-03:00
+
+====== 31219 ======
+Criado segunda 02 maio 2022
+
+**Título**: PesquisarAplicacaoFiscal
+**Tipo**: #desenvolvimento#
+**Módulo**: #adm# 
+**Implementação**: [[Implementacao:Sprints:Sprint22A|Sprint22A]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Wireframe**: [[./31219_wireframe_2.png|wireframe01]], [[./31219_wireframe_3.png|wireframe02]], [[./31219_wireframe_4.png|wireframe03]], [[./31219_wireframe.png|wireframe04]]
+**Arquivos**: [[./|pasta]]
+
+**Antigo:** PRV_FIS_PesquisarAplicaçãoFiscal
+
+
+
+
+

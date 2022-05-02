@@ -1,0 +1,41 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-02T12:20:30-03:00
+
+====== Descricao ======
+Criado segunda 02 maio 2022
+
+**Descrição**
+**Enquanto** usuário
+**Quero** poder realizar uma pesquisa nas aplicações ativas
+**Para** acessar funcionalidades de fiscalização
+
+**Critério de Aceitação**
+**001** – Dado que o usuário esteja na tela de “Menu de Fiscalização”
+**E** clique no botão “Aplicações”
+**Então** o sistema redireciona para a tela de “Pesquisar Aplicação Fiscal”
+ 
+**002** – Dado que o usuário esteja na tela “Pesquisar Aplicação Fiscal”
+**Então** o sistema mostra a tela de filtro 
+**Dado** que o usuário esteja na tela de “Pesquisar Aplicação Fiscal”
+**E** queira efetuar uma pesquisa para filtrar a aplicação
+**E** busque por Número Sysdea (RN1, RN2)
+**E** clique em “Pesquisar
+**Então** o sistema retorna os resultados
+ 
+**003** - Dado que o usuário esteja na tela de “Pesquisar Aplicação Fiscal”
+**E** realizou a pesquisa
+**Então** o sistema mostra os resultados com os botões de ações.
+ 
+**004** - Dado que o usuário esteja na tela de “Pesquisar Aplicação Fiscal”
+**E** com o resultado da pesquisa 
+**E** clique em “Visualizar” (RN3)
+**Então** o sistema redireciona para a tela de “Visualizar Aplicação Fiscal”
+ 
+**005** - Dado que o usuário esteja na tela de “Pesquisar Aplicação Fiscal”
+**E** clique em “Detalhes” (RN3)
+**Então** o sistema redireciona para a tela de “Detalhes Aplicação Fiscal”
+ 
+**RN1** – A pesquisa retornará resultados de aplicações nos status de prova que vão do “4(Em atribuição) ao 29(Sobrestado)”, “31(Consulta)” e 34 (Calibração)
+**RN2** – Número Sysdea é equivalente ao número de ID da prova.
+**RN3** - Caso a prova não esteja ligada a nenhuma instância de prova (apenas a uma versão antiga), e o usuário clique em "visualizar" ou "detalhes", o sistema deve exibir a mensagem padrão: "Não há instância vinculada a esta prova/agendamento".
