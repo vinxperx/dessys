@@ -5,41 +5,41 @@ Creation-Date: 2022-04-14T13:03:16-03:00
 ====== Descricao ======
 Criado quinta-feira 14 abril 2022
 
-Enquanto usuário logado
+**Enquanto** usuário logado
 
-Quero ver uma lista de “Pilotos” que têm agendamentos de aplicação no Status Agendamento Unificado (AU#) “Reservado”, “Confirmado”, “Cancelado”, “Autorizado” e “Expirado” nas entidades de aplicação
+**Quero** ver uma lista de “Pilotos” que têm agendamentos de aplicação no Status Agendamento Unificado (AU#) “Reservado”, “Confirmado”, “Cancelado”, “Autorizado” e “Expirado” nas entidades de aplicação
 
-Para que seja possível verificar o agendamento geral das entidades.
+**Para** que seja possível verificar o agendamento geral das entidades.
 
-001 – Dado que o usuário na tela de “Menu fiscalização”
+**001** – Dado que o usuário na tela de “Menu fiscalização”
 
-E clique no botão “ Ver todos agendamentos ” 
+**E** clique no botão “ Ver todos agendamentos ” 
 
-Então o sistema redireciona o usuário para a tela de “Agendamento Geral”
-
-
-002 – Dado que o usuário esteja na tela “Agendamento Geral”
-
-Então o sistema retorna a lista com o agendamento de todas as entidades (RN1)
+**Então** o sistema redireciona o usuário para a tela de “Agendamento Geral”
 
 
-003 – Dado que o usuário esteja na tela “Agendamento Geral”
+**002** – Dado que o usuário esteja na tela “Agendamento Geral”
 
-E busque por CANAC 
-
-Ou busque por Entidade
-
-Então o sistema retorna a lista com os resultados filtrados
+**Então** o sistema retorna a lista com o agendamento de todas as entidades (RN1)
 
 
-004 – Dado que o usuário esteja na tela “Agendamento Geral”
+**003** – Dado que o usuário esteja na tela “Agendamento Geral”
 
-E clique no botão “Detalhes”
+**E** busque por CANAC 
 
-Então o sistema redireciona para a tela de “Agendamento Geral - Detalhes”
+**Ou** busque por Entidade
+
+**Então** o sistema retorna a lista com os resultados filtrados
 
 
-RN1 – O default de exibição da lista será ordenação por Nome de entidade (1) e Nome completo (2), podendo ser reordenado por cliques nas colunas.
+**004** – Dado que o usuário esteja na tela “Agendamento Geral”
 
-RN2 – A lista será formada por agendamentos nos status Agendamento Unificado (AU#) “Reservado”, “Confirmado”, “Cancelado”, “Autorizado” e “Expirado”.
+**E** clique no botão “Detalhes”
+
+**Então** o sistema redireciona para a tela de “Agendamento Geral - Detalhes”
+
+
+**RN1** – O default de exibição da lista será ordenação por Nome de entidade (1) e Nome completo (2), podendo ser reordenado por cliques nas colunas.
+
+**RN2** – A lista será formada por agendamentos nos status Agendamento Unificado (AU#) “Reservado”, “Confirmado”, “Cancelado”, “Autorizado” e “Expirado”.
 

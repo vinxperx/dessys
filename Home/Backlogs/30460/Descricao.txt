@@ -5,14 +5,14 @@ Creation-Date: 2022-04-14T12:57:54-03:00
 ====== Descricao ======
 Criado quinta-feira 14 abril 2022
 
-Enquanto usuário .
+**Enquanto** usuário .
 
-Quero poder acessar o menu de Fiscalização
+**Quero** poder acessar o menu de Fiscalização
 
-Para acessar as funcionalidades de Fiscal
+**Para** acessar as funcionalidades de Fiscal
 
-001 - Dado que o usuário acesse o SySDEA-Prova
+**001** - Dado que o usuário acesse o SySDEA-Prova
 
-E clique na aba Fiscalização
+**E** clique na aba Fiscalização
 
-Então o sistema o redireciona para o menu de fiscalização
+**Então** o sistema o redireciona para o menu de fiscalização

@@ -5,37 +5,37 @@ Creation-Date: 2022-04-13T11:09:58-03:00
 ====== Descricao ======
 Criado quarta-feira 13 abril 2022
 
-Enquanto usuário
+**Enquanto** usuário
 
-Quero poder gerar uma prova offline em formato HTML
+**Quero** poder gerar uma prova offline em formato HTML
 
-Para que seja possível aplicar uma prova sem conexão
+**Para** que seja possível aplicar uma prova sem conexão
 
-001 – Dado que o usuário esteja na tela do menu “Fiscalização e Recurso”
+**001** – Dado que o usuário esteja na tela do menu “Fiscalização e Recurso”
 
-E clique no botão “Prova Offline”
+**E** clique no botão “Prova Offline”
 
-Então o sistema redireciona para a tela de “Gerar Prova Offline”
-
- 
-
-002- Dado que o usuário esteja na tela de “Gerar Prova Offline”
-
-E selecione o modelo em produção
-
-E clique em Gerar
-
-Então o sistema gera uma prova
-
-E habilita um botão para o download do pacote (RN5)
+**Então** o sistema redireciona para a tela de “Gerar Prova Offline”
 
  
 
+**002**- Dado que o usuário esteja na tela de “Gerar Prova Offline”
+
+**E** selecione o modelo em produção
+
+**E** clique em Gerar
+
+**Então** o sistema gera uma prova
+
+**E** habilita um botão para o download do pacote (RN5)
+
  
 
-RN1 - A aplicação deverá ser gerada pelo algoritmo de sorteio, mas sem considerar nenhum candidato, o que significa que não haverá Lista de questões interditadas anterior à prova.
+ 
 
-RN2 – A aba de “Resumo de Prova” deverá conter:
+**RN1** - A aplicação deverá ser gerada pelo algoritmo de sorteio, mas sem considerar nenhum candidato, o que significa que não haverá Lista de questões interditadas anterior à prova.
+
+**RN2** – A aba de “Resumo de Prova” deverá conter:
 
 ·         Sumário
 

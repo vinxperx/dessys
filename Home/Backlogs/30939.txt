@@ -13,5 +13,3 @@ Criado quarta-feira 13 abril 2022
 **Wireframe**: [[.\30939_wireframe.png|Wireframe01]], [[.\30939_wireframe_5.png|Wireframe02]], [[.\30939_wireframe_2.png|Wireframe03]], [[.\30939_wireframe_3.png|Wireframe04]]
 **Arquivos**: [[..\30939|pasta]]
 
-#formatardescricao#
-
