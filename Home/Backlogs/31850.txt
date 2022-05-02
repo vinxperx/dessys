@@ -1,5 +1,5 @@
 Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
+Wiki-Format: zim 0.4
 Creation-Date: 2022-04-14T13:03:05-03:00
 
 ====== 31850 ======
@@ -15,8 +15,5 @@ Criado quinta-feira 14 abril 2022
 
 Antigo: PRV_FIS_PesquisarAgendamento
 
-#reprovado#
+#formatardescricao#
 
-
-1. A descrição do item está em branco. Se não houver descrição no Cherrytree, coletar no TFS. corrigido
-2. Não há formatação no item Descricao, nem marcação com hashtag #formatardescricao#

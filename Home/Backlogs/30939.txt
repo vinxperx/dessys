@@ -1,5 +1,5 @@
 Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
+Wiki-Format: zim 0.4
 Creation-Date: 2022-04-13T11:09:52-03:00
 
 ====== 30939 ======
@@ -13,8 +13,5 @@ Criado quarta-feira 13 abril 2022
 **Wireframe**: [[.\30939_wireframe.png|Wireframe01]], [[.\30939_wireframe_5.png|Wireframe02]], [[.\30939_wireframe_2.png|Wireframe03]], [[.\30939_wireframe_3.png|Wireframe04]]
 **Arquivos**: [[..\30939|pasta]]
 
-#reprovado#
+#formatardescricao#
 
-1. Não há formatação no item Descricao, nem marcação com hashtag #formatardescricao#
-2. Links com numeração trocada. corrigido 
-3. Estão faltando arquivos com relação à pasta do Cherrytree e TFS. Copiar todos os arquivos. corrigido

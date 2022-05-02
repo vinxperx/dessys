@@ -1,5 +1,5 @@
 Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
+Wiki-Format: zim 0.4
 Creation-Date: 2022-04-14T12:45:44-03:00
 
 ====== 31811 ======
@@ -13,7 +13,4 @@ Criado quinta-feira 14 abril 2022
 **Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
 **Arquivos**: [[..\31811|pasta]]
 
-#reprovado#
-
-1. O título não está no padrão (dois verbos) corrigido
-2. Não há formatação no item Descricao, nem marcação com hashtag #formatardescricao#
+#formatardescricao#

@@ -1,0 +1,205 @@
+commit ad529b8b6224d271c6832af0ab58459c2780b7ae
+Author: Cordeir0 <lucasecordeiro@hotmail.com>
+Date:   Wed Apr 20 10:52:25 2022 -0300
+
+    correções #reprovado#
+    
+    correção dos itens com a #reprovado#
+
+commit 7e708459659a7fef5abeaa2f0775119b3090b1bd
+Author: Marcus <marcuspercinoto@gmail.com>
+Date:   Tue Apr 19 10:18:10 2022 -0300
+
+    Detalhamento do Meta
+    
+    Com exemplos de nomenclatura.
+
+commit 1eeb5e14eacc36fc3936f1a019eae7361980c6bd
+Author: Marcus <marcuspercinoto@gmail.com>
+Date:   Sat Apr 16 11:38:14 2022 -0300
+
+    Correções sprint 18-21
+    
+    Os itens com correções foram marcados com a hashtag #reprovado#.
+    Para obter uma lista completa, rode:
+    
+    grep -Rni '#reprovado#' ./
+    
+    Resultado:
+    
+    ./Home/Backlogs/31850.txt:18:#reprovado#
+    ./Home/Backlogs/30457.txt:16:#reprovado#
+    ./Home/Backlogs/30487.txt:18:#reprovado#
+    ./Home/Backlogs/31810.txt:17:#reprovado#
+    ./Home/Backlogs/30473.txt:16:#reprovado#
+    ./Home/Backlogs/30460.txt:18:#reprovado#
+    ./Home/Backlogs/30939.txt:16:#reprovado#
+    ./Home/Backlogs/31811.txt:16:#reprovado#
+
+commit d808f6100f3192cc6061fbafa47da185f4725932
+Author: Cordeir0 <lucasecordeiro@hotmail.com>
+Date:   Thu Apr 14 13:25:20 2022 -0300
+
+    Sprints 18A a 21A
+    
+    feitas
+
+commit a6bd1945c41520902b7c0274c067582d9ecce67b
+Author: Marcus <marcuspercinoto@gmail.com>
+Date:   Thu Apr 14 10:08:52 2022 -0300
+
+    Redacao
+    
+    Itens de redação, hashtags combinadas vão nesse documento para facilitar buscas.
+
+commit 9649d7f6c52cca77fd7c22049ad48f48e8071e63
+Author: Marcus <marcuspercinoto@gmail.com>
+Date:   Thu Apr 14 10:01:11 2022 -0300
+
+    Checklist atualizado
+    
+    Com manutenção do nome antigo para os itens das sprint B.
+
+commit 10a2055d8477a2d98040cc4118cfb0b3722316a2
+Merge: 9cf239d 1166ca1
+Author: Marcus <marcuspercinoto@gmail.com>
+Date:   Wed Apr 13 14:24:50 2022 -0300
+
+    Merge branch 'main' of https://github.com/vinxperx/dessys into main
+    
+    Houve um merge acidental, com resolução manual. Sprint 18A completa.
+
+commit 1166ca1df41d2346103b35376e5bb08c43b59130
+Author: Cordeir0 <lucasecordeiro@hotmail.com>
+Date:   Wed Apr 13 11:40:21 2022 -0300
+
+    Sprint 18A e começo da 19A
+    
+    Itens adicionados para a migração
+
+commit 9cf239d9add0b95bb261dd79f4f12cb5400426ab
+Author: Marcus <marcuspercinoto@gmail.com>
+Date:   Tue Apr 12 12:07:23 2022 -0300
+
+    Sprint 18 incompleta
+    
+    A sprint em que expliquei para o Lucas, que está entrando no projeto.
+
+commit 1a1e334fe9c8be8fccdc0840e2ed23aae0a3bc03
+Author: Marcus <marcuspercinoto@gmail.com>
+Date:   Tue Apr 12 11:16:09 2022 -0300
+
+    Sprint 15 A
+
+commit dd5c63322b8eaa0a3e684262acb6935898e9f2c2
+Author: Marcus <marcuspercinoto@gmail.com>
+Date:   Thu Apr 7 16:19:50 2022 -0300
+
+    Sprint até 14
+    
+    Mais formatação das Descrições.
+    Mais padronização dos wireframes.
+
+commit 69e625667a1ebf6c84caaec4bbe65cffbe22a340
+Author: Marcus <marcuspercinoto@gmail.com>
+Date:   Thu Apr 7 15:26:44 2022 -0300
+
+    Depois do script de formatação das Descrições
+    
+    Todas as descrições de backlogs com negrito.
+
+commit 3a981b28803981cb91a93396024afa4820f13295
+Author: Marcus <marcuspercinoto@gmail.com>
+Date:   Thu Apr 7 14:59:12 2022 -0300
+
+    antesscript
+
+commit c67fb3bd52c3a48f46da4da20f49196edb280f37
+Author: Marcus <marcuspercinoto@gmail.com>
+Date:   Thu Apr 7 11:36:03 2022 -0300
+
+    Sprint 09A completa
+    
+    Foram completados os arquivos da sprint 09A, bem como foi mudado o teste de sprint.
+
+commit 6b2f9765c73ce800d58bb367191101898bf0947f
+Author: Cordeir0 <lucasecordeiro@hotmail.com>
+Date:   Thu Apr 7 11:31:21 2022 -0300
+
+    teste link .\
+
+commit 472a1e87ee2e73945d3146cfea96f65516deab5a
+Author: Marcus <marcuspercinoto@gmail.com>
+Date:   Thu Apr 7 11:20:04 2022 -0300
+
+    Sprint09Incompleto
+
+commit bbe716923ab02ace61c7c1464773a792ebeeb6ff
+Author: Marcus <marcuspercinoto@gmail.com>
+Date:   Thu Apr 7 10:25:32 2022 -0300
+
+    Status dos itens corrigidos
+    
+    O status dos itens estava com todos em produção. Foi colocado conforme memória, alguns em produção enquanto a maioria em
+    validação.
+
+commit e5afc61070e3f7a148f644d9ba23bd62871948b6
+Author: Marcus <marcuspercinoto@gmail.com>
+Date:   Thu Apr 7 10:07:27 2022 -0300
+
+    Sprint 07 e 08
+    
+    Também foi padronizada a nomenclatura dos backlogs conforme descrito em Meta/Nomenclatura.
+
+commit 0a83e519eb660be417b6fbbd0f99a0bf5b3f4174
+Author: Marcus <marcuspercinoto@gmail.com>
+Date:   Wed Apr 6 17:12:57 2022 -0300
+
+    Sprints até a 07A
+    
+    Com todos os backlogs implícitos.
+    
+    Também começou a ser feito o relatório detalhando os problemas encontrados no Cherrytree.
+
+commit 77befa66f1767c3fb7a5d546cbf9f23d7ee8f9d6
+Author: Marcus <marcuspercinoto@gmail.com>
+Date:   Tue Apr 5 11:24:02 2022 -0300
+
+    Itens da sprint 03 e 04
+    
+    Foram desenvolvidos os itens das sprints 03 e 04, que são os backlogs:
+    28746, 28747, 28748, 28749, 28750, 28751, 28752 e 28755.
+    
+    Além disso foram padronizadas hashtags para os módulos, tipos de backlogs e revisões necessárias.
+
+commit 2be398a8e91d9955a604f968b7865335ca1b71df
+Author: Marcus <marcuspercinoto@gmail.com>
+Date:   Mon Apr 4 17:32:17 2022 -0300
+
+    Sprints 01 e 02
+    
+    Detalhadas as sprints 01 e 02, referentes aos links
+    
+    Implementação>Sprints>Sprint01
+    Implementação>Sprints>Sprint02
+    
+    Detalhados os backlogs 28746, 28747, 28748 e 28749 referentes a
+    
+    NoTFS>Produção>28746
+    NoTFS>Produção>28747
+    NoTFS>Produção>28748
+    NoTFS>Produção>28749
+    
+    Diversos itens foram suprimidos porque seu texto passou a fazer parte orgânica da descrição no Zim.
+
+commit 53953a4add80a3a62dc0f138c2445e4e3dc56c24
+Author: Marcus <marcuspercinoto@gmail.com>
+Date:   Mon Apr 4 16:11:36 2022 -0300
+
+    Inicial
+
+commit 7a54cc2efb0d55d0dd4ab3201e6a9ab3b6bd2e51
+Author: vinxperx <38542962+vinxperx@users.noreply.github.com>
+Date:   Mon Apr 4 16:07:38 2022 -0300
+
+    Initial commit

@@ -1,5 +1,5 @@
 Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
+Wiki-Format: zim 0.4
 Creation-Date: 2022-04-14T11:58:38-03:00
 
 ====== Descricao ======
@@ -27,22 +27,13 @@ E disponibiliza a consolidação dos ids das questões escolhidas (e nada mais) 
 
 RN1 - Número de candidatos: Min. 1 - Max. 10.000 
 
-		   Número de instâncias: Min. 1 - Max. 10.000
-
-
-
-
-
+Número de instâncias: Min. 1 - Max. 10.000
 RN 2 - A primeira linha da tabela conterá os cabeçalhos:  
 
-
-
-			   Instância, Candidato, Slot x, Protocolo x, Slot x + 1, Protocolo x + 1, .... Protocolo n, Slot n
-
+Instância, Candidato, Slot x, Protocolo x, Slot x + 1, Protocolo x + 1, .... Protocolo n, Slot n
 
 
 RN3: O arquivo CSV terá a primeira coluna listando o id das instância (de 1 a n). 
-
 
 
 RN 4: Para cada coluna do tipo "Slot x", o sistema deve preencher os ids das questões escolhidas naquela instância (linha).
@@ -59,11 +50,17 @@ RN 6: Cada slot terá duas colunas, uma especificando o id da questão escolhida
 
 RN 7: O protocolo é um código que indicará quão bem-sucedida foi a escolha de uma questão para determinado slot:
 
+'''
 						   0 - Se a escolha foi bem-sucedida;
+'''
 
+'''
 						   1 - Se a aplicação das tags impediu o sistema de escolher ao menos uma questão; 
+'''
 
+'''
 						   2 - Se a lista de questões interditadas do candidato impediu o sistema de escolher ao menos uma questão. 
+'''
 
 
 
@@ -84,8 +81,6 @@ RN 11: No caso de protocolo 2, o sistema deve ignorar Lista de Questões Interdi
 
 
 RN 12: No caso de protocolo 2, o sistema deve ainda verificar se a questão sorteada já foi escolhida nesta instância de prova. Se sim, deve sortear novamente, até obter uma nova questão. 
-
-
 
 
 
