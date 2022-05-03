@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-02T17:04:10-03:00
+
+====== 32088 ======
+Criado segunda 02 maio 2022
+
+**Título**: PesquisarAgendamento
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: **[[Implementacao:Sprints:Sprint24A|Sprint24A]]
+**Wireframe**: 
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[./|pasta]]
+
+Antigo: PRV_FIS_PesquisarAgendamento

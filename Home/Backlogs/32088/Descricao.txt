@@ -1,0 +1,48 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-02T17:04:32-03:00
+
+====== Descricao ======
+Criado segunda 02 maio 2022
+
+Descrição
+
+Enquanto usuário 
+Quero poder ter acesso as aplicações 
+Para utilizar a funcionalidade de correção
+
+
+Critério de Aceitação
+
+001 - Dado que o usuário esteja na tela do “Menu Correção” 
+
+E clique em “Pesquisar Correção”
+
+Então o sistema o redireciona para a tela de “Pesquisar Correção”
+
+002 – Dado que o usuário esteja na tela “Pesquisar Correção”
+
+Então o sistema mostra uma lista das avaliações para correção (RN1)
+
+003 - Dado que o usuário esteja na tela “Pesquisar Correção”
+
+E clique em no botão “Visualizar”
+
+Então o sistema o redireciona para a tela de “Visualizar Correção”
+
+004 – Dado que o usuário esteja na tela “Pesquisar Correção”
+
+E queira efetuar uma pesquisa
+
+E preencha Busca por Canac
+
+E/Ou Busca por n° Sysdea
+
+E clique em pesquisar
+
+Então o sistema mostra os resultados da pesquisa
+
+
+RN1 – As avaliações que estarão na lista estarão nos status de prova "Chave gerada(3)", “Em atribuição(4)”, “Em revisão(5)” e “Pós-avaliação(6)”
+
+RN2 – A lista só irá exibir as avaliações em que o usuário fizer parte da aplicação da prova como avaliador ELE, avaliador SME ou 3ª escuta
