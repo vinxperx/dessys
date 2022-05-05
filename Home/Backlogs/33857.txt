@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T16:41:14-03:00
+
+====== 33857 ======
+Criado quinta-feira 05 maio 2022
+
+**Título**: COR_distribuicao_de_processos
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: [[Implementacao:Sprints:SSprint05B|Sprint5B]]**
+**Wireframe**: [[.\33857_wireframe.png|wireframe01]],  
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\33857|pasta]]
+
+#erronoTFS#
+#syncTFS#

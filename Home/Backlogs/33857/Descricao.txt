@@ -1,0 +1,41 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T16:41:19-03:00
+
+====== Descricao ======
+Criado quinta-feira 05 maio 2022
+
+Enquanto usuário acessar a tela ‘Distruibuição de Processos’
+Quero poder distribuir processos para minha carga de Fiscal
+
+Para prosseguir com o andamento do processo distribuido
+
+001-Dado que o usuário na tela ‘Distribuição de Processos'
+
+E selecione um processo
+E escolha um Fiscal
+E clique em Encaminhar
+Então Sistema irá carregar uma mensagem padrão de confirmação (RN1)
+E processo será encaminhado para carga de fiscal selecionado (RN2)
+
+
+RN1 – O Sistema irá carregar a mensagem de confirmação “Deseja encaminhar esse(s) processo(s) para a carga do9a) fiscal XXXX(nome do fiscal selecionado)?”
+
+
+
+RN2- Quando os processos forem distribuídos, os seguintes registros serão gerados:
+
+
+
+Processos       ||          Status Tabela Avaliação       ||          Tabela Fiscalização
+
+FA                   ||           07 -> 09                                  ||           NR* 20
+FC1                 ||           12 -> 13                                  ||           NR* 50
+FC2                 ||           14 -> 15                                  ||           NR* 60
+Rec1               ||           18 -> 22                                  ||          NR* 150
+Rec2               ||           24 -> 25                                  ||           NR* 160
+
+*NR – Novo registro na tabela Fiscalização, nos moldes do que acontece hoje, com o ID_AVALIACAO, ID_USUARIO – quem for fazer a fiscalização, DT_INICIO_FISCALIZACAO = data em que o processo é distribuído, e resultado conforme listado.
+
+
+

@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T15:23:35-03:00
+
+====== 33299 ======
+Criado quinta-feira 05 maio 2022
+
+**Título**: ADM_PesquisarAgendamentoDoPiloto
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: [[Implementacao:Sprints:SSprint04B|Sprint4B]]**
+**Wireframe**: [[.\wireframe_1.png|wireframe01]], 
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\33299|pasta]]
+
+#erronoTFS#
+#syncTFS#

@@ -1,0 +1,94 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T16:06:44-03:00
+
+====== Descricao ======
+Criado quinta-feira 05 maio 2022
+
+Enquanto usuário com a credencial de Apoio Administrativo ANAC na aba de Apoio Administrativo ANAC
+Quero poder desarquivar processos
+Para enviá-los para recurso, edição de recurso ou e-mail.
+
+001- Dado que o usuário venha da aba Apoio Administrativo ANAC
+Então a página exibe como default uma lista de provas de acordo com os critérios iniciais (RN1)
+
+ 
+
+002 - Dado que o usuário pesquise (RN2) por
+Ou número de avaliação Sysdea
+Ou por CANAC
+Ou por data (data divulgação resultado)
+Então o sistema deixa de exibir as avaliações da lista default
+
+E em vez disso exibe uma lista de provas que correspondam à busca
+E uma série de ações possíveis para cada registro.(RN3)
+
+ 
+
+003 – Dado que o usuário clique em ‘Detalhes’
+
+Então o sistema redirecionará o usuário para a tela Detalhes da Avaliação
+
+E retornará automaticamente a busca para aquele registro pelo Id_Avaliação.
+
+ 
+
+004 – Dado que o usuário clique em Visualizar Provas por CANAC
+
+Então o sistema redirecionará o usuário para a tela Provas por CANAC
+
+E retornará automaticamente a busca para aquele CANAC.
+
+ 
+
+005 – Dado que o usuário clique no botão para 'Envio de e-mail' (RN7)
+E confirme depois da mensagem-padrão(RN5)
+Então o sistema faz os registros de desarquivamento para ‘Envio de E-mail’ nas tabelas (RN6)
+
+
+
+006 – Dado que o usuário clique no botão ‘Recurso’
+Então sistema irá redirecionar o processo de acordo com a sua situação(RN4)
+
+
+Regras de negócio
+RN1 - Serão exibidas inicialmente as 20 provas mais recentes no status (17 - Arquivado) com AVALALIACAO:DT_DIVULGACACAO_RESULTADO superior a 1 dias e inferior a 60 dias da data de hoje.
+
+Exemplo:Uma prova foi arquivada em 2 de maio de 2021 e estamos em 04 de maio do mesmo ano. Esta prova será exibida, como também serão exibidas duas provas arquivadas em 01 de abril e 03 de março As provas com data de divulgação de dezembro de 2020, ou 25 de fevereiro de 2021 não serão exibidas por default – somente se forem alvo de pesquisa específica.
+
+RN2 -A busca terá por objeto todos os processos em Status =17 e não apenas aqueles limitados pela (RN1).
+
+RN3 – Cada item da lista dará ao usuário a possibilidade de:
+
+1)   Desarquivar a prova para novo recurso
+
+2)   Desarquivar a prova para edição de recurso
+
+3)   Desarquivar a prova para envio de segundo e-mail
+
+4)   Visualizar o histórico da prova(Detalhes)
+
+5)   Visualizar provas por CANAC daquele candidato
+
+
+
+RN4 – O sistema irá carregar a opção ‘Recurso’ de acordo com a verificação,
+
+1. Caso o processo tenha um registro de recurso atrelado a si na tabela ‘Recurso’,
+
+Então, quando o usuário clicar no botão ‘Recurso’, será redirecionado para uma tela pop-up para a edição das informações do recurso. (33553)
+
+2. Caso o processo Não tenha um recurso atrelado a si
+
+Então, quando o usuário clicar no botão ‘Recurso’, será redirecionado para uma tela pop-up para o cadastro de um novo recurso. (33553)
+ 
+
+RN5- Caso o usuário clique na opção ‘Envio de E-mail’, então o sistema irá mostrar uma mensagem padrão de confirmação para o caso clicado.
+
+1)      Caso usuário clique em ‘Envio de E-mail’ então sistema irá carregar uma mensagem padrão de confirmação: “Deseja desarquivar essa prova para o Envio de E-mail?”
+
+RN6 - Os registros no caso do desarquivamento para ‘Envio de E-mail’ serão apenas na tabela Avaliação. O processo sairá dos Status:
+Status - 17 (Arquivada) vai para o Status - 16 (Envio de e-mail para o candidato, Doc FA).
+
+
+RN7-O sistema irá desarquivar a prova para envio de E-mail. (RN5) .

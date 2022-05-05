@@ -1,0 +1,52 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T15:05:47-03:00
+
+====== Descricao ======
+Criado quinta-feira 05 maio 2022
+
+Enquanto usuário com a credencial '07 - Entidade'
+
+Quero ter acesso exclusivo à aba Entidade
+
+Para restringir acessos aos usuários
+
+
+001 – Dado que o usuário possua a credencial "07 - Entidade"
+
+Então o sistema disponibiliza o “Menu de Entidade” na forma de aba.
+
+ 
+
+002- Dado que o usuário possua a credencial de “07 - Entidade"
+
+E tente conexão por meio de um link para qualquer tela a que o “Menu de Entidade” dê acesso
+
+Então o sistema permite o acesso.
+
+ 
+
+003 – Dado que o usuário não possua a credencial de “07 - Entidade”
+
+Então o sistema não disponibiliza o “Menu de Entidade”.
+
+ 
+
+004 - Dado que o usuário não possua a credencial de “07 - Entidade"
+
+E tente conexão por meio de um link para qualquer tela a que o “Menu de Entidade” dê acesso exclusivo
+
+Então o sistema não permite o carregamento da tela.
+
+005-Dado que o usuário não possua a credencial de '07 - Entidade' 
+E não possua nenhuma das credencias exigidas para uma tela compartilhada
+E tente conexão por meio de um link qualquer para tela que a aba dê acesso compartilhado
+Então o sistema não permite o acesso 
+
+ 
+
+ 
+
+RN1 - O menu de administração apresenta conteúdos para serem utilizados pela credencial de “07 - Entidade”
+
+As telas que o menu de administração apresenta serão restringidas completamente ao usuário com a credencial. Sendo assim assim, os usuários que não possuírem a credencial não terão em seus acessos ao “Menu de Entidade” e não será permitida a visualização de qualquer conteúdo daquele menu e das janelas de acessos de seus botões, restringindo até mesmo o acesso direto através de link.

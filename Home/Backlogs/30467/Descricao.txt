@@ -1,0 +1,70 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T11:47:07-03:00
+
+====== Descricao ======
+Criado quinta-feira 05 maio 2022
+
+Enquanto usuário Administrador
+
+Quero poder listar os usuários cadastrados
+
+E ter as funcionalidades de cadastrar um novo usuário, bem como alterar, visualizar ou ativar/inativar usuário existente.
+
+
+001- Dado que o usuário acesse a aba de Administrador
+
+Então o sistema mostrará os acessos que aquela aba permite
+
+ 
+
+002- Dado que o usuário esteja na tela do “Menu Administração” clique no botão “Usuários”
+
+Então o sistema o redireciona para a tela de “Pesquisar Usuários”
+
+ 
+
+003 - Dado que o usuário preencheu o campo de Pesquisa corretamente
+
+E clicou em “Pesquisar”
+
+Então o sistema filtra os resultados para o usuário
+
+ 
+
+004 - Dado que a pesquisa não produza resultados
+
+Então o sistema exibe uma mensagem informando o usuário.
+
+ 
+
+005 - Dado que o usuário clique no botão “Cadastrar Usuário”
+
+Então o sistema o redireciona para a tela de cadastrar usuário.
+
+ 
+
+006 - Dado que o usuário clique no botão de ação “Alterar”
+
+Então o sistema o redireciona para a tela de alterar usuário.
+
+ 
+
+007 - Dado que o usuário clique no botão “Ativar” ou "Inativar" (RN1)
+
+Então o sistema o exibe uma mensagem de confirmação
+
+E o usuário confirma a operação
+
+Então o sistema altera o status do usuário (RN2)
+
+
+
+
+008- Dado que o usuário clique em "Visualizar"
+Então o sistema o redireciona para a tela de visualizar.
+
+RN1 - O botão exibe o texto "Ativar" ou "Inativar", caso o status do usuário seja "Inativo" ou "Ativo", respectivamente. 
+
+RN2 - O status do usuário define se o mesmo pode ou não se autenticar no sistema. 
+

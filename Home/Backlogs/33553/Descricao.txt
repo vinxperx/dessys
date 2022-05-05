@@ -1,0 +1,144 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T16:14:44-03:00
+
+====== Descricao ======
+Criado quinta-feira 05 maio 2022
+
+Enquanto usuário com a credencial de Apoio Adminitrativo ANAC durante o desarquivamento de um processo (33303)
+Quero poder inserir informações relevantes para o desarquivamento
+Para confirmar a operação.
+
+001- Dado que o usuário venha da tela de Desarquivamento Processo
+
+E o processo selecionado tenha Recurso vinculado
+
+Então o sistema exibe a funcionalidade de desarquivamento com edição do Recurso (RN1, RN2)
+
+
+
+002- Dado que o usuário venha da tela de Desarquivamento Processo
+
+E o processo selecionado não tenha Recurso vinculado
+
+Então o sistema exibe a funcionalidade de desarquivamento com cadastro de Novo Recurso (RN1, RN2)
+
+
+
+003- Dado que o usuário clique em ‘Desarquivar’
+
+Então sistema irá mostrar uma mensagem (RN3)
+
+ 
+
+004- Dado que o usuário Salve a Edição do Recurso
+
+Então sistema faz o checkout (RN4, RN5)
+
+005- Dado que o usuário registre um ‘Novo Recurso’
+
+Então sistema faz o checkout (RN4, RN6)
+
+ 
+
+Regras de negócio
+RN1 – Os dados e opções de desarquivamento se dividem em:
+
+1)      Cabeçalho (leitura):
+
+a. Nome Completo (Somente letras)
+
+b. N° Processo (somente números)
+
+c. CANAC (somente números)
+
+d. N° Avaliação SySDEA (somente números)
+
+e. Data da Prova DD/MM/AAAA
+
+
+
+ 
+
+RN2 - Quando usuário vindo da tela (33303), o processo poderá ter dois carregamentos de edições diferentes sendo eles:
+
+ 
+
+A. Se o processo já tiver um recurso atrelado a si, então carregará:
+
+a. Protocolo SEI: somente números, único
+
+b. Data de Entrada Recurso: DD/MM/AAAA
+
+     
+
+B. Se o processo não tiver um recurso atrelado a si, então carregará:
+
+a. Protocolo SEI: em branco
+
+b. Data de Entrada Recurso: DD/MM/AAAA em branco
+
+ 
+
+RN3- Quando o usuário clicar em salvar, poderá ter 2 tipos de mensagem dependendo de qual caso veio da tela anterior (33303)
+
+ 
+
+A. Se usuário veio com um processo com um ‘Recurso atrelado, então o sistema irá mostrar a seguinte mensagem:
+
+ “Desejar salvar a edição do Recurso? O antigo será apagado.”
+
+ 
+
+B. Se usuário veio com um processo que não tenha um ‘Recurso’ atrelado, então o sistema irá mostrar a seguinte mensagem:
+
+ “Desejar salvar o Recurso?”
+
+ 
+
+RN4- O campo 'Observação' armazenará comentários do usuário e deverá ter permanência. O texto armazenado na observação será igual a =CONCATENAR(A + B + C), onde:
+
+
+A = Nome completo do usuário (da tabela Pessoa_SySDEA) responsável pelo desarquivamento + ";"
+
+1. B = "Data:" + Data(DD/MM/AAAA HH:MM:SS)
+
+2. C = "Obs:" + [Conteúdo da observação]
+
+ 
+
+RN5- Os registros no caso do desarquivamento para ‘Edição de Recurso’ serão:
+
+1. Na tabela Avaliação – O status muda de 17 (Arquivada) para 18 (Distribuição para Rec1)
+
+2. Na tabela Fiscalização – Os registros de Resultado de Fiscalização serão multiplicado por -1 (negativado) nos seguintes casos:
+
+a)      Registros com Resultado de Fiscalização > 100 e < 200
+
+3. Na tabela Nota – Os registros de Nota serão multiplicados por -1 (negativados) nos seguintes casos:
+
+a)      Registros com Contexto nota igual a:
+
+i. 6 – Nota de primeiro fiscal em recurso;
+
+ii.      7 – Nota de segundo fiscal em recurso;
+
+iii.    10 – Nota final da ANAC em Rec.
+
+4. Na tabela Recurso – O registro de recurso relacionado com o processo terá seu resultado recurso negativado (multiplicado por -1. Um novo registro na tabela Recurso será criado, como se o processo tivesse sido desarquivado para recurso pela primeira vez (Cf. RN6)
+
+RN6- Os registros no caso do desarquivamento para ‘Novo Recurso’ permanecerão os mesmos, com exceção da tabela de fiscalização:
+
+1. Tabela Avaliação
+
+a)      Status – 17 (Arquivada) vai para o Status – 18 (Processo reaberto para recurso, aguardando distribuição)
+
+2. Tabela Recurso:
+
+a)      Novo Registro como hoje Status – 1 (em Andamento) e outros registros similares à tabela de hoje
+
+3. Tabela fiscalização
+
+Não será feito mais o registro em Status 170.
+
+ 

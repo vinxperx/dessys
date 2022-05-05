@@ -5,3 +5,9 @@ Creation-Date: 2022-05-04T11:27:51-03:00
 ====== SSprint05B ======
 Criado quarta-feira 04 maio 2022
 
+1. [[Backlogs:33310|33310 - ADM_Listagem_De_Processos_parte 2]]
+2. [[Backlogs:33299|33303 - COR_Desarquivamento_processos]]
+3. [[Backlogs:33553|33553 - ADM_Desarquivamento_processo_recurso]]
+4. [[Backlogs:33308|33308 - ADM_Recurso 1 (Análise do parecer 1)]]
+5. [[Backlogs:33309|33309 - ADM_Recurso 2 (Análise do Parecer 2)]]
+6. [[Backlogs:33857|33857 - COR_distribuicao_de_processos]]

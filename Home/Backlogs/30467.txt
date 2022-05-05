@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T11:46:52-03:00
+
+====== 30467 ======
+Criado quinta-feira 05 maio 2022
+
+**Título**: PRV_GER_PesquisarUsuário
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: [[Implementacao:Sprints:SSprint03B|Sprint3B]] **
+**Wireframe**: [[.\PesquisarUsuario.png|wireframe01]], [[.\PesquisarUsuario (1).png|wireframe02]], [[.\Visualizar Usuário - Avaliador.png|wireframe03]], [[.\Visualizar Usuário - PF.png|wireframe04]], [[.\Visualizar Usuário - Entidade.png|wireframe05]], [[.\Visualizar Usuário - Piloto.png|wireframe06]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\30467|pasta]]
+
+#erronoTFS#
+#syncTFS#

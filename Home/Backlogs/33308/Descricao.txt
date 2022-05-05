@@ -1,0 +1,281 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T16:28:10-03:00
+
+====== Descricao ======
+Criado quinta-feira 05 maio 2022
+
+Enquanto fiscal vindo de Listagem de processos(33550)
+Quero poder acessar a tela de 'Recurso 1'
+Para poder inserir os dados relevantes da análise
+
+001- Dado que o fiscal venha de Listagem de processos (33550)
+Então a tela carrega a análise de parecer em questão
+E também os dados de cabeçalho (RN1)
+E os dados da escuta (RN2)
+E campo ‘Observação’ (RN3)
+E campos de ‘Mérito’ no valor default (RN04)
+E campos ‘Regime de cálculo’ no default (RN05)
+E os campos de Rec 1 no valor default (RN06, RN07, RN08)
+
+E os campos de Prop no valor default (RN09)
+
+ 
+
+002 – Dado que o usuário marque a opção 'Sem análise do mérito' em 'Mérito'
+
+Então o sistema desabilita o preenchimento dos níveis intermediários da Matriz de Níveis em Rec1, que ficam em branco
+
+E desabilita o preenchimento de PROP, que fica em branco
+
+E desabilita o preenchimento de 'Regime de cálculo', que fica em 'Automático'.
+
+ 
+
+003 – Dado que o usuário marque a opção 'Com análise do mérito' em 'Mérito'
+
+Então  o sistema habilita o preenchimento dos níveis intermediários da Matriz de Níveis em Rec1, no valor default (RN06, RN07, RN08)
+
+E habilita o campo 'Regime de cálculo' no seu valor default (RN05)
+
+ 
+
+004 – Dado que o usuário preencha os níveis intermediários de Rec 1
+
+E isso cause que a Nota Rec1 (CN 6, 2.A.) seja diferente da Nota da MFN(CN 14, 2.E.) (RN07)
+
+Então a matriz PROP será desabilitada e seus valores ficarão em branco.
+
+E a opção 'Regime de cálculo' fica desabilitada e revertida para 'Automático'.
+
+ 
+
+005 – Dado que 'Regime de cálculo' esteja habilitado (Cf. 004)
+
+E o usuário clique em 'Manual' no 'Regime de cálculo'
+
+Então os níveis intermediários de PROP são habilitados
+
+E assumem o valor default (RN09)
+
+006 – Dado que 'Regime de cálculo' esteja habilitado
+
+E esteja em 'Manual'
+
+E o usuário clique em 'Automático'
+
+Então os valores de Prop ficam em branco.
+
+ 
+
+007 – Dado que o usuário clique em 'Enviar'
+
+E a opção 'Sem análise do mérito' esteja marcada
+
+Então o sistema faz o checkout de envio sem análise do mérito (RN11)
+
+ 
+
+008 – Dado que o usuário clique em 'Enviar'
+
+E a opção 'com análise do mérito' esteja marcada
+
+Então o sistema faz o checkout de envio com análise do mérito (RN13).
+
+ 
+
+ 
+
+ 
+
+RN1 O cabeçalho terá como campos:
+
+a. Data de aplicação da prova (DD/MM/AAAA)
+
+b. Id SySDEA
+
+c. CANAC do candidato
+
+d. Nome do candidato
+
+e. Local de aplicação (Local Entidade)
+
+f. Data de entrada do recurso (DD/MM/AAAA)
+
+g. Dias de processo
+
+h. Número de avaliação da entidade
+
+i. Protocolo do recurso: Máscara do SEI: (nnnnn.nnnnnn/nnnn-nn)
+
+RN2 Os dados da escuta são:
+
+1. As matrizes de níveis:
+
+ 
+					Matriz || Contexto Nota || Preenchimento || Edição
+
+a)      Matriz de Nível do ELE || 1 || Anterior, pelo ELE || Desabilitada p. edição (DE)
+
+b)      Matriz de Nível do SME || 2 || Anterior, pelo SME || DE
+
+c)      Matriz de Nível do 3ESC || 3 || Anterior, pelo 3ESC || DE (Se houver)
+
+d)      Matriz de Nível do ENT || 8 || Anterior, pela ENT|| DE
+
+e)      Matriz de Nível FC1 || 4 || Anterior, pelo fiscal1 || DE (Se houver)
+
+f)       Matriz de Nível FC2 || 5 || Anterior, pelo fiscal1 || DE (Se houver)
+
+g)      Matriz de Nível FC || 9 || Anterior, pelo fiscal1 || DE (Se houver)
+
+h)      Matriz de Nível Rec1 || 6 || usuário || Editável ||
+
+i)       Matriz Prop || Nenhum || para auxiliar no cálculo da MFN || DE
+
+j)       Matriz final de nível MFN || 14 ou nenhum || para nota final da prova
+
+ 
+
+RN3- O campo 'Observação' armazenará comentários do usuário e deverá ter permanência. O texto armazenado na observação será igual a =CONCATENAR(A + B + C), onde:
+
+
+A = Nome completo do usuário (da tabela Pessoa_SySDEA) responsável pelo desarquivamento + ";"
+
+1. B = "Data:" + Data(DD/MM/AAAA HH:MM:SS)
+
+2. C = "Obs:" + [Conteúdo da observação]
+
+
+
+RN04- Haverá em ‘Regime de mérito’ para o usuário duas opções exclusivas:
+
+1- Com análise do mérito (Default)
+
+2- Sem análise do mérito
+
+ 
+
+ 
+
+RN05- Haverá em ‘Regime de cálculo’ para o usuário duas opções exclusivas:
+
+1- Manual
+
+2-Automático (Default)
+
+ 
+
+RN06 – Por default, quando o usuário acessar a tela, no campo de ‘Rec1’ serão carregadas as notas iguais as da MFN Corrente
+
+ 
+
+Rec 1 (CN6) = MFN corrente (CN 14)
+
+ 
+
+RN07 – Quando as matrizes de nível Rec1 e Prop estiverem habilitadas, o usuário preencherá somente os níveis intermediários (2.B. e 2.C.) com os valores disponíveis.
+
+ 
+
+A Nota (2.A e 2.D.) será sempre calculada, e será sempre o menor dos valores intermediários).
+
+ 
+
+RN08 - Um nível intermediário pode assumir sete valores:
+
+ 
+
+			Como aparece para usuário         || Como é armazenado nas tabelas
+
+ 
+
+a)      1                                           ||                      1
+
+b)     2                                           ||                      2
+
+c)      3                                            ||                      3
+
+d)     4                                           ||                      4
+
+e)      5                                           ||                      5
+
+f)       5+                                         ||                      7
+
+g)     6                                           ||                      6
+
+ 
+
+ 
+
+ 
+
+RN09 – O campo Prop é um campo de pré-visualização com valor default igual à MFN (CN14)
+
+ 
+
+RN10 – Quando usuário escolher no campo ‘Regime de cálculo’ a opção manual, então irá aparecer uma mensagem “Você está optando pelo cálculo manual de Matriz Final de Níveis. O sistema vai armazenar esse recurso como PARCIALMENTE DEFERIDO”.
+
+ 
+
+RN11 – Checkout de envio sem análise do mérito. Cf. RN13.
+
+ 
+
+Quando o processo é enviado sem análise do mérito, os seguintes registros são adicionados/modificados:
+
+1. Na tabela de Avaliação, o status do processo vai para 17 – Arquivado.
+
+2. Na tabela de Fiscalização, o registro tem o Resultado de Fiscalização mudado para -150.
+
+3. Na tabela de Recurso, o Resultado Recurso muda para (2) – Inadmitido.
+
+4. Na tabela Nota, nenhum registro é inserido.
+
+ 
+
+RN12 – Checkout de envio com análise do mérito. Quando o processo é enviado com análise do mérito, os seguintes registros são feitas Cf. RN13
+
+ 
+
+1)    Se a Nota (2.A.) de Rec 1 (CN=6) for diferente da Nota de MFN (2.E) (CN14), então não há cálculo de nova MFN:
+
+ 
+
+a)    É inserida na tabela Nota um registro, como hoje, CN = 6, com os níveis de Rec 1.
+
+b)    O status avaliação muda para 24.
+
+c)    No registro de Fiscalização, o sistema muda seu Resultado para 152 – Alteração de nível.
+
+ 
+
+2)    Se a Nota (2.A.) de Rec 1 (CN=6) for igual à Nota de MFN (2.E) (CN14):
+
+a)    Na tabela Avaliação, o status do processo muda para 17 – Arquivado E se 
+
+ 
+
+b)    O regime de cálculo está marcado como 'Manual':
+
+i. É inserida na tabela Nota um registro, como hoje, CN =6 com os níveis de Rec 1.
+
+ii.    É inserido na tabela Nota um registro, como hoje, CN = 14, com os níveis igual a Prop (RN11).
+
+iii.   O registro na tabela Fiscalização muda para 154 – Níveis intermediários alterados.
+
+iv.   O registro na tabela Recurso muda para 5 – Deferido Parcialmente.
+
+ 
+
+c)     O regime de cálculo está marcado como 'Automático'
+
+i. É inserida na tabela Nota um registro, como hoje, CN =6 com os níveis de Rec 1.
+
+ii.    O registro na tabela Fiscalização muda para 151 – Níveis mantidos.
+
+iii.   O registro na tabela Recurso muda para 3 – Indeferido.
+
+ 
+
+RN 13 – Independente de a análise ser com ou sem mérito, a variável de carga do registro na tabela de Avaliação é mudada: o processo deixa de estar na carga do fiscal. 

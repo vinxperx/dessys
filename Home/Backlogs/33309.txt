@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T16:35:22-03:00
+
+====== 33309 ======
+Criado quinta-feira 05 maio 2022
+
+**Título**: ADM_Recurso 2 (Análise do Parecer 2)
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: [[Implementacao:Sprints:SSprint05B|Sprint5B]]**
+**Wireframe**: [[.\33309_wireframe_1_atualizado.png|wireframe01]],  [[.\33309_wireframe_2_atualizado.png|wireframe02]],  
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\33309|pasta]]
+
+#erronoTFS#
+#syncTFS#

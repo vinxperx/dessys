@@ -1,0 +1,139 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T15:33:26-03:00
+
+====== Descricao ======
+Criado quinta-feira 05 maio 2022
+
+Enquanto usuário com credencial na aba Fiscalização vindo da tela de Listagem de Processos (33550)
+
+Quero poder fazer a fiscalização administrativa do processo escolhido
+
+Para inserir dados relevantes. 
+
+001- Dado que o usuário tenha vindo da Listagem de Processos (33550)
+
+E tenha escolhido um processo específico
+Então a tela mostrará os dados relevantes para aquele processo (RN1, wireframe).
+
+002- Dado que usuário não escolha pelo menos uma opção no campo ‘Resultado da FA’ (RN1)
+OU não escolha pelo menos uma opção no campo ‘Enviar processo para’(RN1)
+
+E clique em 'Enviar'
+Então o sistema exibe uma mensagem de alerta sobre o erro (RN4)
+
+E não encaminha o processo.
+
+ 
+
+003- Dado que usuário escolha uma opção no campo ‘Enviar Processo para’
+Então o sistema atualiza a matriz PROP (RN5 e RN6).
+
+
+004 – Dado que usuário escolha uma opção no campo ‘Resultado FA’
+E escolha uma opção no campo ‘Enviar processo para’
+E opcionalmente escreva algo em ‘Comentários anteriores’(RN3)
+Então encaminha o processo (RN2).
+
+RN1- Os dados exibidos serão divididos em Cabeçalho, Notas, e Dados de FA:
+
+Cabeçalho: Cabeçalho carregado pelo sistema consiste em (somente leitura):
+1. N° Ava. SySDEA
+
+2. CANAC
+
+3. Entidade
+
+4. Dias de processo
+
+5. Nº Ava. Ent
+
+6. Piloto
+
+7. N° Processo
+
+Notas (somente leitura):
+1. Matriz individual do ELE (CN1);
+
+2. Matriz individual do SME (CN2);
+
+3. Matriz individual de terceira escuta (3esc - CN3) – se existir, apenas;
+
+4. Matriz da instituição (CN8);
+
+5. Proposta de MFN (CF RN5).
+
+ Dados da FA:
+1. Resultado FA (quatro opções exclusivas):
+
+1. Estava perfeitamente instruído
+
+2. Tinha imperfeições
+
+3. Precisou substituir documentos
+
+4. Precisou parar para correções
+
+2. Enviar processo para (opções exclusivas):
+
+1. Envio de e-mail
+
+2. Fiscalização corrente
+
+ 
+
+ 
+
+RN2 – O encaminhamento do processo é composto por registros em três tabelas:
+
+Avaliação: O status na tabela avaliação vai mudar de 9 (Em FA) para o status de destino, que foi escolhido no campo 'Enviar processo para':
+a)       Envio de e-mail – vai para 16 – Documentação FA;
+
+b)      Fiscalização Corrente – vai para 12 – Distribuição FC1.
+
+c)       Caso o campo envio do processo esteja marcado como "FC", o sistema zera a variável idCarga, ou seja, tira da carga do fiscal logado
+
+Fiscalização: Quando o processo for encaminhado, o registro mudará de 20 (fiscalização em curso), para outro status de acordo com a opção escolhida em Resultado da FA:
+a)       Caso o Fiscal escolha ‘1-Estava perfeitamente instruído’- Status 21 (Fiscalização Administrativa Completa: Documentação perfeita);
+
+b)      Caso Fiscal escolha 2-Tinha imperfeições’ - Status 22 (Fiscalização Administrativa Completa: Imperfeições na documentação);
+
+c)       Caso Fiscal escolha 3-Tinha imperfeições’ - Status 23 (Fiscalização Administrativa Completa: Documentação precisou de substituição);
+
+d)      Caso Fiscal escolha 4- Precisou parar para correções’ - Status 24 (Fiscalização Administrativa Completa: Documentação precisou de substituição).
+
+Nota: Um registro na tabela Nota, com CN = 14 e os níveis calculados da seguinte forma:
+a)       Dado que:
+
+i. Entidade = Matriz da Entidade CN 08 = {Pp, Ep, Vp, Fp, Cp, Ip {Np}}
+
+ii.       MFN = Matriz Final de Níveis, CN 14 = {PF, EF, VF, FF, CF, IF {NF}}
+
+b)       Como já ocorre hoje, quando calculada nesse momento, a Matriz Final de Níveis é igual à Matriz da Entidade, ou seja, para cada nível intermediário XF, XF = XP
+
+RN3- O campo ' Comentários Anteriores ' armazenará comentários do usuário e deverá ter permanência. O texto armazenado na observação será igual a =CONCATENAR(A + B + C), onde:
+
+
+1. A = Nome completo do usuário (da tabela Pessoa_SySDEA) responsável pelo desarquivamento + ";"
+
+2. B = "Data:" + Data(DD/MM/AAAA HH:MM:SS)
+
+3. C = "Obs:" + [Conteúdo da observação]
+
+
+
+RN4 – A mensagem de alerta deverá apontar qual o campo que não foi preenchido.
+
+RN5 – A matriz proposta não terá permanência, e, quando não estiver em branco (RN6) será calculada do seguinte modo:
+
+Dado que:
+a)       PROP = Matriz Proposta = {Pp, Ep, Vp, Fp, Cp, Ip {Np}}
+
+b)      Matriz Instituição (CN8) = Matriz de Níveis da Instituição= {Pi, Ei, Vi, Fi, Ci, Ii {Ni}}
+
+ Xp, Xp = Xi – Para todos os níveis intermediários, a Matriz Proposta será igual à Matriz da Entidade (CN8), pois a futura matriz 14, se calculada em FA, será uma cópia da matriz da entidade.
+RN6 – A matriz PROP é apenas uma prévia do que será a Matriz Final de Níveis de acordo com as escolhas do usuário:
+
+1. Se a opção 'Fiscalização Corrente' para FC estiver clicada, a matriz PROP fica em branco, já que nenhuma matriz CN=14 será gerada;
+
+2. Se a opção 'Envio de e-mail' estiver clicada, a matriz será igual à matriz da Entidade (CN=8, cf RN5).

@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T16:13:50-03:00
+
+====== 33553 ======
+Criado quinta-feira 05 maio 2022
+
+**Título**: ADM_Desarquivamento_Processo_Recurso
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: [[Implementacao:Sprints:SSprint05B|Sprint5B]]**
+**Wireframe**: [[.\33553_wireframe_1_atualizado.png|wireframe01]],  [[.\33553_wireframe_2_atualizado.png|wireframe02]],  
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\33553|pasta]]
+
+#erronoTFS#
+#syncTFS#

@@ -5,3 +5,10 @@ Creation-Date: 2022-05-04T11:27:37-03:00
 ====== SSprint04B ======
 Criado quarta-feira 04 maio 2022
 
+1. [[Backlogs:33966|33966 - ADM_MelhoriaUsuario]]
+2. [[Backlogs:33299|33299 - ADM_PesquisarAgendamentoDoPiloto]]
+3. [[Backlogs:33550|33550 - ADM_ListagemDeProcessos]]
+4. [[Backlogs:33797|33797 - ADM_Fiscalizacao_Administrativa]]
+5. [[Backlogs:33305|33305 - ADM_Fiscalizacao Corrente 1]]
+6. [[Backlogs:33306|33306 - ADM_Fiscalizacao Corrente 2]]
+

@@ -5,3 +5,14 @@ Creation-Date: 2022-05-04T11:27:26-03:00
 ====== SSprint03B ======
 Criado quarta-feira 04 maio 2022
 
+1. [[Backlogs:32058|32058 - PRV_DefinirAvaliacaoEmCalibracaoPorAvaliadores]]
+2. [[Backlogs:30467|30467 - PRV_GER_PesquisarUsuário]]
+3. [[Backlogs:30463|30463 - PRV_GER_AlterarUsuário]]
+4. [[Backlogs:30462|30462 - PRV_GER_CadastrarUsuário]]
+5. [[Backlogs:33300|33300 - PRV_COR_Criar_agendamento]]
+6. [[Backlogs:31927|31927 - PRV_Melhoria_Aba_administrador]]
+7. [[Backlogs:31287|31287 - PRV_Melhoria_aba_Elaborador]]
+8. [[Backlogs:30472|30472 - PRV_Melhoria_Aba_Aplicacao]]
+9. [[Backlogs:30464|30646 - Melhoria_Abas_Fiscal]]
+10. [[Backlogs:33312|33312 - PRV_Melhoria_aba_Correcao]]
+11. [[Backlogs:29697|29697 - ADM_Melhoria_aba_Entidade]]

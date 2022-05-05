@@ -1,0 +1,77 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T15:30:03-03:00
+
+====== Descricao ======
+Criado quinta-feira 05 maio 2022
+
+Enquanto usuário 'fiscal' vindo do 'Menu Fiscal'
+Quero poder visualizar provas na carga do Usuário 'fiscal'
+Para checar 'Status' e usar as funcionalidades de redirecionamento
+
+001-Dado que o usuário com a credencial de 'Fiscal' acesse a página 'Listagem de Processos'
+Então sistema carrega a informação de cabeçalho (RN1)
+E a lista de processos na carga do fiscal (RN2)
+
+E os quatro botões contendo as funcionalidades (RN4).
+
+002- Dado que o usuário clique no botão 'Analisar' ()
+Então o usuário será redirecionado para a tela de análise correspondente (RN3)
+
+ 
+
+003 – Dado que o usuário clique no botão 'Prova' de um registro
+
+Então ele será redirecionado para a tela 'Detalhes da Avaliação' já filtrada para aquela prova em específico
+
+ 
+
+004 – Dado que o usuário clique no botão 'Candidato' de um registro
+
+Então ele será redirecionado para a tela 'Provas por CANAC' já filtrada para aquele CANAC
+
+ 
+
+005 – Dado que o usuário clique no botão 'Visualizar' de um registro,
+
+Então será redirecionado para a tela 'Visualizar Aplicação Fiscal' para aquela prova.
+
+
+
+
+
+
+
+RN1- O cabeçalho conterá o nome do fiscal somente para leitura.
+
+RN2- Os campos de cada processo listado serão somente para leitura, sendo:
+a) Número SysDEA
+b) Nome
+c) Canac
+d)Status (RN3)
+e) Entidade
+f)Data - DD/MM/AAAA = data_inicio_avaliacao 
+g)ELE
+h)SME
+cada registro conterá ainda 4 botões
+-Analisar
+-Prova
+-Candidato
+-Visualizar
+
+
+RN3- constituem processos na carga do fiscal as avaliações que estejam nas seguintes condições:
+
+1 – Registro na tabela avaliação igual à coluna 3
+
+2 – Variável 'Carga' na tabela de Avaliação com o ID de usuário igual ao do Fiscal. 
+
+3 – Status da Avaliação e Resultado de Fiscalização conforme tabela abaixo
+
+Tela para redirecionamento || Status da Avaliação || Registro na Fiscalização
+
+1. Fiscalização Administrativa (33797) || FA 9 || 20 (ou todas as listadas na tela Fiscalização Administrativa disponível hoje para o Fiscal)
+
+2. Fiscalização Corrente 1 (33305) || FC1 13 || 50 (ou todas as listadas na tela Fiscalização Corrente 1, disponível hoje para o Fiscal)
+
+3. Fiscalização Corrente 2 (33306) || FC2 15 || 60 (ou todas as listadas na tela Fiscalização Corrente 2, disponível hoje para o Fiscal)

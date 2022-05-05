@@ -1,0 +1,236 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T15:40:44-03:00
+
+====== Descricao ======
+Criado quinta-feira 05 maio 2022
+
+Enquanto usuário Fiscal vindo da tela 'Pesquisar Processos'
+Quero poder acessar a tela de Fiscalização Corrente 1
+Para poder realizar a fiscalização corrente.
+
+
+001- Dado que o usuário venha da tela de “Listagem de processos”
+
+Então o sistema carrega os campos da funcionalidade, conforme wireframe (RN1, RN02, RN03, RN04, RN05)
+
+E preenche as informações da matriz de FC1 com seus valores default (RN08)
+
+
+
+002- Dado que a Nota final da matriz de FC1 seja diferente da nota da matriz de ENT
+
+Então o campo "Regime de Cálculo" é desabilitado para edição com suas opções desmarcadas
+
+E o sistema limpa as informações da matriz PROP
+
+E desabilita seus campos para edição
+
+
+
+003- Dado que a Nota final da matriz de FC1 seja igual à nota da matriz de ENT
+
+Então o campo "Regime de Cálculo" é habilitado para edição
+
+E com a opção "Automático" marcada
+
+
+
+004 – Dado que 'Regime de Cálculo' esteja na opção 'Automático'
+
+Então o sistema preenche as informações da matriz PROP (RN04, RN08, RN14)
+
+E a desabilita para edição
+
+
+
+005 – Dado que 'Regime de Cálculo' esteja na opção 'Manual'
+
+Então o sistema preenche as informações da matriz PROP (RN02, RN04, RN08, RN14)
+
+E habilita seus campos para edição
+
+E exibe uma mensagem de alerta (RN07).
+
+
+
+006 – Dado que o usuário clique em Enviar
+
+Então o sistema persiste as informações conforme apropriado (RN06, RN09, RN10, RN11, RN12, RN13)
+
+
+
+
+
+RN1 – As informações exibidas no cabeçalho serão:
+
+1. Data do Processo
+
+2. N° Ava. SySDEA
+
+3. CANAC
+
+4. Entidade
+
+5. Dias de Processo
+
+6. N° Ava Ent.
+
+7. Piloto
+
+8. N° Processo
+
+ 
+
+RN02 – Os campos de FC1 (e PROP quando for o caso) para preenchimento serão do tipo drop-down, com os seguintes valores possíveis:
+
+ 
+
+			Como aparece         ||          Como é registrado na tabela
+
+			6                                 ||          6
+
+			5+                               ||          7
+
+			5                                 ||          5
+
+			4                                 ||          4
+
+			3                                 ||          3
+
+			2                                 ||          2
+
+			1                                 ||          1
+
+ 
+
+RN03 – As matrizes de níveis têm seis níveis intermediários e uma nota:
+
+1. Pronúncia;
+
+2. Estrutura;
+
+3. Vocabulário;
+
+4. Fluência
+
+5. Compreensão;
+
+6. Interação;
+
+7. Nota, ou Nível final.
+
+ 
+
+			Tanto em FC1 (como em PROP, quando for o caso), o usuário preencherá valores para os níveis intermediários apenas. O campo 'Nota' ou Nível Final, será calculado automaticamente com base no menor nível preenchido. Nota = Menor(Pronúncia …. Interação)
+
+ 
+
+RN04 – Serão carregadas as seguintes matrizes de nível:
+					Matriz || Contexto Nota || Preenchimento || Edição
+
+a)      Matriz de Nível do ELE || 1 || Anterior, pelo ELE || Bloqueada
+
+b)      Matriz de Nível do SME || 2 || Anterior, pelo SME || Bloqueada
+
+c)      Matriz de Nível do 3ESC || 3 || Anterior, pelo 3ESC || Bloqueada (Se houver)
+
+d)      Matriz de Nível do ENT || 8 || Anterior, pela ENT|| Bloqueada
+
+e)      Matriz de Nível FC1 || 4 || Usuário || Editável
+
+f)       Matriz Prop || Nenhum || Bloqueada (regime de cálculo Automático) ou Editável (regime de cálculo Manual)
+
+ 
+
+RN5 – Haverá três opções de análise da entrevista para o usuário escolher:
+
+1. Condução Perfeita(default, opção quando a tela é carregada);
+
+2. Problemas na entrevista;
+
+3. Reunião com o examinador.
+
+ 
+
+RN 06 - O campo 'Observação' armazenará comentários do usuário e deverá ter permanência. O texto armazenado na observação será igual a =CONCATENAR(A + B + C), onde:
+
+1. A = Nome completo do usuário (da tabela Pessoa_SySDEA) responsável pelo desarquivamento + ";"
+
+2. B = "Data:" + Data(DD/MM/AAAA HH:MM:SS)
+
+C = "Obs:" + [Conteúdo da observação]
+
+ 
+
+RN07 - Mensagem de alerta para Cálculo Manual: “Você está optando pelo cálculo manual de Matriz Final de Níveis”.
+
+ 
+
+RN08 – Quando a matriz de FC1 (e Prop quando for o caso) é carregada, o sistema faz um preenchimento default escolhendo, para nível intermediário, um nível intermediário igual à da Matriz da Entidade (CN = 08).
+
+ 
+
+RN09 – Uma informação importante para o checkout é se haverá cálculo de Matriz Final de Níveis (RN14).
+
+		 Haverá cálculo de MFN se a Nota (ou Nível Final) da matriz de FC1 (CN=04) for igual à Nota (ou Nível Final) da Matriz de entidade (CN=08).
+
+
+ 
+
+RN 10 – Quando um registro é enviado, há alterações em três tabelas, conforme as opções escolhidas pelo usuário (Cf. RN09):
+
+ 
+
+1. Fiscalização
+
+2. Nota
+
+3. Avaliação
+
+ 
+
+RN11 –  Qualquer que seja o andamento, com ou sem cálculo de MFN (Cf. RN 09), haverá um registro na tabela de Fiscalização, cujo valor de Resultado de Fiscalização deve variar em função da escolha do usuário no campo 'Condução da Entrevista', sendo:
+
+
+a)       Resultado Fiscalização 2 = análise da entrevista concluída, condução perfeita;
+
+b)       Resultado Fiscalização 3 = análise da entrevista concluída, problemas;
+
+c)       Resultado Fiscalização 4 = análise da entrevista concluída, reunião necessária.
+
+ 
+
+RN12 – Se houver cálculo de MFN (Cf. RN09), os seguintes registros serão realizados durante o checkout, em adição àquele especificado na RN11:
+
+ 
+
+1. Na tabela Avaliação => Status Avaliação = 16
+
+2. Na tabela Fiscalização => Registro de fiscalização = 51
+
+3. Na tabela Nota => Matriz de níveis (na tabela NOTA) = 4
+
+a)      O registro na tabela Nota será igual às opções escolhidas para FC1 (Cf. RN02 e RN03).
+
+4. Na tabela Nota => Matriz final de de níveis.
+
+a)      O registro na tabela Nota será igual à Matriz de Nível de Entidade (CN=08) caso a opção de cálculo seja automática; ou
+
+b)      O registro na tabela Nota será igual à Matriz Prop caso a opção de cálculo seja manual. 
+
+ 
+
+RN13 – Se não houver cálculo de MFN (Cf. RN09), então os registros realizados nas tabelas serão os seguintes
+
+1. Na tabela Avaliação => Status Avaliação = 14
+
+2. Na tabela Fiscalização => Registro de fiscalização = 52
+
+3. Na tabela Nota => Matriz de níveis (na tabela NOTA) = 4
+
+a)      O registro na tabela Nota será igual às opções escolhidas para FC1 (Cf. RN02 e RN03).
+
+ 
+
+RN14 – Os valores default da matriz Prop são os mesmos da Matriz da Entidade (CN08).

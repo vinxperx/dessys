@@ -1,0 +1,233 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T15:23:48-03:00
+
+====== Descricao ======
+Criado quinta-feira 05 maio 2022
+
+Enquanto usuário com credencial de Apoio Administrativo ANAC logado na tela Pesquisar Piloto
+
+Quero um campo que me permita pesquisar detalhes sobre todos os agendamentos do piloto
+
+Para cancelar ou visualizar agendamentos
+
+
+
+001-Dado venha da Aba ApoioAdmANAC para a tela “Pesquisar Agendamentos do Piloto”
+E preencha o campo “CANAC”
+E clique em “Pesquisar”
+Então o sistema carregará uma lista dos agendamentos daquele piloto (RN3, RN5, RN7)
+
+002- Dado que o usuário clique em “Limpar”
+
+Então o sistema limpará os campos “Nome”, “ID” e as informações dos agendamentos
+
+003- Dado que haja um CANAC carregado
+E o usuário mude o status de “Agendamento Bloqueado”(RN2)
+Então a variável SN_AGENDAMENTO_ATIVO_PILOTO será alterada
+
+004- Dado que usuário clique em 'Cancelar' para o agendamento de um piloto
+Então o sistema faz o update do status do agendamento e horário no sistema(RN6)
+
+
+RN1-Os campos da lista são:
+
+Campo
+
+Formato
+
+Status de alteração
+
+Id Horário
+
+ID_HORARIO
+
+Travado
+
+Data e hora
+
+Formato dd/mm/aaaa hh:mm
+
+Travado
+
+Local entidade
+
+NM_LOCAL_ENTIDADE
+
+Travado
+
+ELE
+
+Nome
+
+Travado
+
+SME
+
+Nome
+
+Travado
+
+AU#
+
+Número do status unificado
+
+Travado
+
+Status
+
+Nome do AU#
+
+Travado
+
+Botão de cancelar
+
+Cancelar
+
+RN4
+
+
+
+RN2- O campo agendamento bloqueado se relaciona com a variável SN_AGENDAMENTO_ATIVO_PILOTO (0 = falso, 1 = verdadeiro)
+
+ 
+
+RN3 – No cabeçalho aparecerão os seguintes dados:
+
+Nome
+
+Formato
+
+Status
+
+CANAC
+
+ 
+
+Editável
+
+Nome
+
+ 
+
+Travado
+
+ID
+
+ 
+
+Travado
+
+Botão Pesquisar
+
+Botão clicável
+
+Liberado
+
+Agendamento ativo
+
+Caixinha
+
+Liberado
+
+Limpar
+
+Botão clicável
+
+Liberado
+
+ 
+
+
+RN4- O botão “Cancelar” para cada registro estará ativo quando o agendamento/horário estiver nos seguintes Status Unificado e AU#:
+
+ 
+
+AU#
+
+Status Unificado
+
+1:
+
+2:
+
+3:
+
+5:
+
+ 
+
+Reservado
+Confirmado
+Autorizado
+Expirado
+
+ 
+
+Quando agendamentos/horário estiver nos Status abaixo, o botão cancelar será desativado.
+
+Caso esteja com os códigos:
+
+AU#
+
+Status Unificado
+
+ 
+
+4:
+
+6:
+7:
+
+ 
+
+Cancelado
+
+Iniciado
+Concluído
+
+ 
+
+ 
+
+RN6- O botão cancelar moverá o status do agendamento para “4” Cancelado.
+
+RN7- Campo “AU#” unificará o agendamento/horário em 7 status que terá ID de 1 a 7 sendo eles:
+
+	   AU#
+
+1 ll Reservado
+
+2 ll Confirmado
+
+3 ll Autorizado
+
+4 ll Cancelado
+
+5 ll Expirado
+
+6 ll Iniciado
+
+7 ll Concluído
+
+
+
+O AU# é uma abreviação das seguintes combinações de status:
+
+   AU#            Horário  ll  Agendamento
+
+1 ll Reservado ll  2          ll        2
+
+2 ll Confirmado ll 3          ll        3
+
+3 ll Autorizado  ll 5           ll       5
+
+4 ll Cancelado ll  4          ll        4
+
+5 ll Expirado ll     6          ll        6
+
+6 ll Iniciado ll       7          ll        7
+
+7 ll Concluído ll  7          ll       7
+
+

@@ -1,0 +1,280 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T13:37:23-03:00
+
+====== Descricao ======
+Criado quinta-feira 05 maio 2022
+
+Enquanto usuário Administrador
+Quero poder cadastrar novos usuários
+Para incluir no sistema novos registros
+
+001- Dado que o usuário esteja na tela de “Cadastrar Usuário”
+Então o sistema disponibiliza os campos para o preenchimento
+
+ 
+
+002 - Dado que o usuário não preencha as informações de usuário (RN1)
+E/OU não selecione credenciais apropriadas (RN2)
+Então o sistema emite uma mensagem de erro apropriada.
+
+ 
+
+003 - Dado que o usuário preencha as informações de usuário (RN1)
+E selecione as credenciais apropriadas (RN2)
+Então o sistema disponibiliza as abas pressupostas (RN2)
+
+ 
+
+004 – Dado que o usuário não preencha as abas pressupostas (RN2)
+
+E clique em ‘Salvar’
+
+Então o sistema emite uma mensagem de alerta.
+
+ 
+
+005 – Dado que o usuário preencha as abas pressupostas (RN2)
+
+E o sistema detecte duplicidade na verificação (RN12, RN13)
+
+Então o sistema exibe uma mensagem de alerta
+
+E indica o registro para ser editado
+
+E não acrescenta nada ao banco.
+
+ 
+
+006 – Dado que o usuário adicione credenciais (RN2)
+
+E não preencha todos os campos dos perfis pressupostos (RN2, RN6, RN7, RN8, RN10)
+
+Então o sistema emite uma mensagem de erro.
+
+ 
+
+007 – Dado que o usuário adicione credenciais (RN2)
+
+E preencha ao menos uma credencial
+
+E preencha todos os campos dos perfis pressupostos  (RN2, RN6, RN7, RN8, RN10)
+
+E o sistema verifique o registro não possui duplicidade alguma (RN11, RN12)
+
+Então o sistema adiciona o novo registro à base, conforme as combinações de usuário, credencial e perfil (RN13), e muda a tela para ‘Editar Usuário (30462)’.
+
+ 
+
+ 
+
+008 - Dado que o usuário clique no botão de 'Excluir' numa credencial
+E o usuário confirme a ação num pop-up
+
+E os registros nas tabelas ainda não foram feitos
+Então o sistema apagar os campos dos registros pressupostos nas abas e travá-las (RN3)
+
+E vai excluir a credencial na interface.
+
+ 
+
+ 
+
+RN1 - As informações de usuário são:
+
+a) Nome do usuário: Caracteres, único.
+
+b) E-mail do usuário: tipo e-mail, único.  
+
+c) Ativo: Sim/Não (RN14)
+
+ 
+
+RN2 - O usuário precisa ter pelo menos uma das onze credenciais, que por sua vez pressupõem determinados perfis:
+
+1) Piloto - Pessoa física, piloto;
+
+2) Admin - Pessoa física;
+
+3) Fiscal - Pessoa física;
+
+4) Apoio Administrativo Anac - Pessoa física;
+
+5) Apoio Entidade - Pessoa física;
+
+6) Avaliador - Pessoa física, avaliador;
+
+7) Entidade - Entidade;
+
+8) Gerente - Pessoa física;
+
+9) Acesso antigo - Pessoa física;
+
+10) Elaborador - Pessoa física, avaliador;
+
+11) Aplicador - Pessoa física, avaliador.
+
+Nota: As credenciais de 1 a 8 já existem no sistema e devem permanecer como estão.
+
+ 
+
+RN3 - O drop-down vai exibir uma lista completa das credenciais disponíveis no sistema menos as credenciais que o usuário já possui. 
+
+RN4 - No caso de um novo registro, deve aparecer uma mensagem padrão que explique e, uma vez escolhida pessoa física ou pessoa jurídica, a escolha é irreversível para aquele usuário.
+
+RN5 - As abas Pessoa Física, Avaliador, Entidade e Piloto devem: 
+
+1. Se as credenciais pressupuserem o perfil:
+
+* estar disponíveis com os campos em branco quando não houver registro na tabela correspondente
+
+* estar disponível com os registros correspondentes carregados quando houver registro na tabela correspondente
+
+2. No caso das abas de Pessoa Física e Entidade, estar travada quando a aba for de Pessoa Física e houver registro prévio na tabela Entidade, e vice-versa.
+
+RN6 - Para o cadastro de Pessoa Física, o sistema deve requisitar:
+
+a) Nome completo(obrigatório);
+
+b) Data de nascimento (obrigatório);
+
+c) CPF (obrigatório) 
+
+ 
+
+RN7 - Para o cadastro de Entidade, o sistema deve requisitar:
+
+ 
+
+a) Nome da entidade (obrigatório);
+
+b) E-mail da entidade (obrigatório); 
+
+c) E-mail do representante administrativo (obrigatório);
+
+d) CNPJ (obrigatório);
+
+e) Tipo de entidade (obrigatório) - drop-down
+
+				00 - Governamental; 01 - Empresa de transporte aéreo; 02 - Empresa ligada ao ensino de inglês; 03 - Outras.
+
+f) Suspensa (sim/não)
+
+g) Ativa (sim/não)
+
+ 
+
+RN8 - Para o cadastro de Avaliador, o sistema deve requisitar:
+
+a) Data de conclusão de curso (obrigatório);
+
+b) Data de início de atividade de avaliador (obrigatório); 
+
+c) Data de validade de certificação do avaliador (obrigatório); 
+
+d) Quantidade máxima de provas (obrigatório); 
+
+e) Avaliador ativo (sim/não); 
+
+f) Avaliador em atividade (sim/não);
+
+g) Avaliador suspenso (sim/não). 
+
+h) Qualificação do avaliador (obrigatório): 01 - ELE; 02 - SME; 03 - ELE e SME. 
+
+ 
+
+RN 09 -  Para o cadastro de Piloto, o sistema deve requisitar:
+
+a) CANAC (obrigatório): 
+
+b) Telefone (obrigatório): 
+
+c) Agendamento ativo? (sim/não);
+
+d) Nível atual:
+
+           
+
+Como aparece
+
+Como é registro
+
+--
+
+0
+
+01
+
+1
+
+02
+
+2
+
+03
+
+3
+
+04
+
+4
+
+05
+
+5
+
+05+
+
+7
+
+06
+
+6
+
+ 
+
+e) Observação. 
+
+f) Empresa: a empresa do piloto não será preenchida, e será automaticamente 1 – sem empresa.
+
+ 
+
+RN 10- Trata-se de um campo sim/não ligado ao usuário que controlará se ele pode acessar o sistema ou não, por default marcado 'Sim'.
+
+
+
+
+RN11 – A verificação do banco será da seguinte forma:
+
+1) Se a credencial pressupuser um registro de Piloto, então o sistema buscará um registro similar na tabela de piloto;
+
+2) Se a credencial pressupuser PESSOA_FISICA apenas, então o sistema buscará um registro similar na tabela de PESSOA_FISICA;
+
+3) Se a credencial supuser ENTIDADE, então o sistema buscará um registro similar na tabela de ENTIDADE.
+
+ 
+
+RN12 - Quando o usuário preencher a aba Pessoa Física, ENTIDADE ou PILOTO, o sistema buscará na respectiva tabela por registros similares, da seguinte forma:
+
+a) PILOTO: Canac;
+
+b) PESSOA_SYSDEA: CPF
+
+c) ENTIDADE: CNPJ
+
+ 
+
+RN13 – O sistema criará/modificará registros na tabela usuário, e conforme as abas preenchidas, também nas tabelas:
+
+a) Pessoa física – PESSOA_SYSDEA
+
+b) Entidade – ENTIDADE
+
+c) Piloto – PILOTO
+
+d) Avaliador – AVALIADOR
+
+ 
+
+RN14 – O campo ativo está bloqueado para edição na tela de cadastro de novo usuário, sempre marcado ‘falso’

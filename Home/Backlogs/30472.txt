@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T14:27:26-03:00
+
+====== 30472 ======
+Criado quinta-feira 05 maio 2022
+
+**Título**: PRV_Melhoria_Aba_Aplicação
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: [[Implementacao:Sprints:SSprint03B|Sprint3B]] **
+**Wireframe**:  -
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\30472|pasta]]
+
+#erronoTFS#
+#syncTFS#

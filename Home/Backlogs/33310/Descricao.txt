@@ -1,0 +1,55 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T15:58:03-03:00
+
+====== Descricao ======
+Criado quinta-feira 05 maio 2022
+
+Enquanto usuário 'fiscal' vindo do 'Menu Fiscal'
+Quero poder visualizar provas na carga do Usuário 'fiscal'
+Para checar 'Status' e usar as funcionalidades de redirecionamento
+
+
+001- Dado que a tela seja carregada
+
+Então serão exibidos processos nos status de prova 22
+
+E processos no status de prova 25
+
+ 
+
+002 – Dado que o usuário clique no botão 'Analisar'
+
+E o processo esteja no status 22 ou 25
+Então o usuário será redirecionado para a tela de análise correspondente (RN3)
+
+ 
+
+Regras de Negócio
+
+RN1- constituem processos na carga do fiscal as avaliações que estejam nas seguintes condições:
+
+1 – Registro na tabela avaliação igual à coluna 3
+
+2 – Variável 'Carga' na tabela de Avaliação com o ID de usuário igual ao do Fiscal. 
+
+3 – Status da Avaliação e Resultado de Fiscalização conforme tabela abaixo
+
+Tela para redirecionamento || Status da Avaliação || Registro na Fiscalização
+
+1. Fiscalização Administrativa (33797) || FA 9 || 20 (ou todas as listadas na tela Fiscalização Administrativa disponível hoje para o Fiscal)
+
+2. Fiscalização Corrente 1 (33305) || FC1 13 || 50 (ou todas as listadas na tela Fiscalização Corrente 1, disponível hoje para o Fiscal)
+
+3. Fiscalização Corrente 2 (33306) || FC2 15 || 60 (ou todas as listadas na tela Fiscalização Corrente 2, disponível hoje para o Fiscal)
+
+4. Recurso 1 (33308) || REC1 22 || 150 (ou todas as listadas na tela Fiscalização Corrente 1, disponível hoje para o Fiscal)
+
+5. Recurso 2 || REC2 25 || 160 (ou todas as listadas na tela Fiscalização Corrente 1, disponível hoje para o Fiscal)
+
+ 
+
+
+
+
+ 

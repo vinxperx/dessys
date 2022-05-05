@@ -1,0 +1,307 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T16:35:26-03:00
+
+====== Descricao ======
+Criado quinta-feira 05 maio 2022
+
+Enquanto fiscal vindo de Listagem de processos(33550)
+Quero poder acessar a tela de 'Recurso 2'
+Para poder inserir os dados relevantes da análise
+
+001-Dado que o fiscal venha de Listagem de processos(33550)
+Então o sistema carrega a análise de parecer em questão
+E também os dados de cabeçalho (RN1)
+
+E os campos de Regime de Cálculo no seu valor default(RN2)
+E o campo de Rec 2 e Prop no valor default (RN3, RN 4 e RN09)
+
+E o campo Rec calculado apropriadamente (RN5)
+E as matrizes de níveis anteriores (RN6)
+E o campo Observação (RN7)
+
+E a mensagem 'Sem alteração' no campo Mensagem (RN8)
+
+ 
+
+002 – Dado que o fiscal insira os níveis em Rec 2 (RN9, RN5)
+
+E isso cause que a Nota de Rec seja diferente ou igual à MFN
+
+E o regime de cálculo seja automático
+
+Então o sistema muda o campo 'Mensagem' (RN8)
+
+ 
+
+ 
+
+003 – Dado que o fiscal clique em 'Manual' no regime de cálculo
+
+Então o sistema libera a matriz Prop para edição
+
+E altera o campo 'Mensagem' (RN08)
+
+ 
+
+004 – Dado que o fiscal clique em 'Automático' no regime de cálculo
+
+E o regime mude de Manual para Automático por causa disso
+
+Então as notas de Rec 2 são revertidas para o default
+
+E a matriz Prop é desabilitada para edição e revertida para o default (RN09)
+
+E o campo 'Mensagem' exibe a mensagem apropriada (RN08)
+
+ 
+
+005 – Dado que o fiscal clique em 'Enviar'
+
+E o fiscal confirme
+
+Então o sistema realiza o checkout de envio, conforme apropriado (RN09)
+
+ 
+
+ 
+
+
+RN1 O cabeçalho terá como campos, que serão carregados com a página:
+
+a. Data do processo (DD/MM/AAAA)
+
+b. N° Ava. SySDEA
+
+c. CANAC
+
+d. Entidade
+
+e. Data do recurso (DD/MM/AAAA)
+
+f. Dias de processo (DD)
+
+g. Número de avaliação da entidade
+
+h. Nome
+
+i. N° Processo
+
+j. N° Processo Rec. : Máscara do SEI: (nnnnn.nnnnnn/nnnn-nn)
+
+ 
+
+RN2- terá em ‘Regime de cálculo’ para o usuário duas opções exclusivas:
+
+1- Manual
+
+2-Automático (Default)
+
+ 
+
+RN3 – A matriz de níveis Rec2 e Prop (quando esta estiver habilitada) serão um conjunto de seis níveis intermediários inseridos por meio de um drop-down, mais uma Nota, calculada.
+
+a) Os níveis intermediários conterão as seguintes opções;
+
+ 
+
+		 Como aparece para usuário         || Como é armazenado nas tabelas
+
+ 
+
+ 
+
+a)    1                                 ||               1
+
+b)   2                                 ||                  2
+
+c)     3                                 ||               3
+
+d)   4                                 ||               4
+
+e)    5                                 ||               5
+
+f)      5+                               ||               7
+
+g)    6                                 ||               6
+
+ 
+
+b) A nota de cada matriz será calculada, sem possibilidade de edição, e será igual ao menor dos níveis inseridos. Por exemplo, para níveis intermediários iguais a {4,5,4,3,4,4} a nota será igual a 3. 
+
+ 
+
+RN4 – O default dos níveis intermediários de ‘Rec2’ e Prop (quando estiver habilidata para inserção) será igual aos da MFN Corrente (CN=14) para cada caso.
+
+ 
+
+RN5 – A matriz de nível Rec não poderá ser editada, e será calculada da seguinte forma:
+
+Para cada nível intermediário (NI), este nível será igual ao menor valor entre o mesmo NI entre Rec 1 e Rec 2. Por exemplo, se Rec 1 tiver Pronúncia 4 e Estrutura 3, e Rec 2 tiver Pronúncia 3 e Estrutura 3, Pronúncia e Estrutura na matriz Rec serão 3 e 3. 
+A Nota será igual ao menor dos critérios intermediários.
+ 
+
+RN6- Os dados da escuta são, que serão carregados com a página e com ações do usuário(*):
+
+1. As matrizes de níveis:
+
+ 
+                  Matriz || Contexto Nota || Preenchimento || Edição
+
+a)    Matriz de Nível do ELE || 1 || Anterior, pelo ELE || Desabilitada p. edição (DE)
+
+a)    Matriz de Nível do SME || 2 || Anterior, pelo SME || DE
+
+b)   Matriz de Nível do 3ESC || 3 || Anterior, pelo 3ESC || DE (Se houver)
+
+c)    Matriz de Nível do ENT || 8 || Anterior, pela ENT|| DE
+
+d)   Matriz de Nível FC1 || 4 || Anterior, pelo fiscal1 || DE (se houver)
+
+e)    Matriz de Nível FC2 || 5 || Anterior, pelo fiscal 2 || DE (se houver)
+
+f)      Matriz de Nível FC || 9 || Anterior, calculada || DE
+
+g)    Matriz de Nível Rec1 || 6 || Anterior, pelo Fiscal|| DE
+
+h)   Matriz de Nível Rec2* || 7 || usuário || Editável
+
+i)      Matriz de Nível Rec* || 10 || calculada || Branco
+
+j)      Matriz Prop* || Nenhum || automático/editável
+
+k)    Matriz final de nível MFN || 14 || para nota final da prova
+
+ 
+
+ 
+
+RN7 – O campo 'Observação' armazenará comentários do usuário e deverá ter permanência. O texto armazenado na observação será igual a =CONCATENAR(A + B + C), onde:
+
+
+A = Nome completo do usuário (da tabela Pessoa_SySDEA) responsável pelo desarquivamento + ";"
+
+1. B = "Data:" + Data(DD/MM/AAAA HH:MM:SS)
+
+2. C = "Obs:" + [Conteúdo da observação]
+
+ 
+
+RN8 – O campo 'Mensagem' deve se comportar da seguinte forma:
+
+1. Se o Regime de cálculo for Manual, ele deve exibir a mensagem: 'Regime de cálculo Manual'
+
+2. Se o Regime de cálculo for Automático, ele pode exibir duas mensagens:
+
+a)       Se a Nota de Rec(CN10) for igual à Nota da MFN (CN14), ele deve exibir a mensagem 'Sem alteração de nível final';
+
+b)      Se a Nota de Rec(CN10) for diferente da Nota da MFN (CN14), ele deve exibir a mensagem 'Nível final alterado'
+
+
+ 
+
+RN9 – A matriz Prop se comportará da seguinte forma:
+
+1. Quando o campo 'Regime de cálculo' estiver em 'Automático':
+
+a)       Igual à matriz Rec, se a Nota de Rec for diferente da Nota da MFN
+
+b)      Igual à matriz MFN, se a Nota de Rec for igual à nota da MFN
+
+2. Quando o campo 'Regime de cálculo' estiver em Manual
+
+a)       Igual aos valores inseridos pelo usuário (default MFN) no caso dos valores intermediários
+
+b)      calculado e igual ao menor dos valores intermediários de Prop.
+
+ 
+
+RN10 – Haverá três checkouts possíveis quando o usuário clica em 'Enviar': (RN11)
+
+Nota da MFN = Nota de Prop
+a)       Regime de cálculo = automático:
+
+i. Na tabela Nota o sistema insere, como hoje:
+
+1. Um registro CN=7 contendo os níveis de Rec2
+
+2. Um registro CN = 10 contendo os níveis de Rec
+
+ii.       Na tabela Avaliação
+
+1. O status da avaliação muda para 17, arquivado
+
+iii.     Na tabela Fiscalização:
+
+1. O resultado de Fiscalização do registro que estava em 160 muda para 161, Manutenção de nível.
+
+iv.     Na tabela Recurso:
+
+1. O resultado de recurso será igual a 3 – Indeferido.
+
+b)      Regime de cálculo = manual:
+
+i. Na tabela Nota o sistema, como hoje:
+
+1. Insere um registro CN=7 contendo os níveis de Rec 2
+
+2. Insere um registro CN = 10, contendo os níveis de Rec
+
+3. Muda o Contexto Nota do registro CN=14 para -14, negativando-o
+
+4. Insere um novo registro CN = 14, contendo os níveis de Prop
+
+ii.     Na tabela avaliação:
+
+1. O status da Avaliação muda para 17, arquivado
+
+iii.     Na tabela Fiscalização:
+
+1. Muda o registro que estava em 160 para 164 – Níveis intermediários alterados
+
+iv.     Na tabela Recurso:
+
+1. O resultado de recurso será igual a 5 – Deferido parcialmente.
+
+Nota da MFN <> da Nota de Prop
+a)       Regime de cálculo = Automático ou Manual
+
+i. Na tabela Nota o sistema insere, como hoje:
+
+1. Um registro CN=7 contendo os níveis de Rec2
+
+2. Um registro CN = 10 contendo os níveis de Rec
+
+3. Muda o Contexto Nota do registro CN=14 para -14, negativando-o
+
+4. Insere um novo registro CN = 14, contendo os níveis de Prop
+
+ii.       Na tabela Avaliação
+
+1. O status da avaliação muda para 17, arquivado
+
+iii.     Na tabela Fiscalização:
+
+1. O resultado de Fiscalização do registro que estava em 160 muda para 162, Alteração de nível.
+
+iv.     Na tabela Recurso:
+
+1. O resultado de recurso será igual a 4 – Deferido.
+
+ 
+
+RN 11 – Independente da a análise ser automática ou manual, a variável de carga do registro na tabela de Avaliação é mudada: o processo deixa de estar na carga do fiscal, conforme ocorre na tela original. 
+
+ 
+
+RN 12 – É preciso criar no banco, se já não existir o seguinte resultado fiscalização:
+
+ 
+
+ID_RESULTADO_FISCALIZACAO| NM_RESULTADO|FISCALIZACAO | DS_RESULTADO_FISCALIZACAO
+
+ 
+
+164| Rec - AP: FC2 - Interm. | Análise de Parecer de FC2 Completa: Mudança nas notas intermediarias
+
+-164| Sob. - Rec - AP: FC2 - Interm.| Análise de Parecer de FC2 Completa: Mudança nas notas intermediarias – Sobrestado

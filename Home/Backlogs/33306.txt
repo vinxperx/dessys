@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T15:50:18-03:00
+
+====== 33306 ======
+Criado quinta-feira 05 maio 2022
+
+**Título**: ADM_Fiscalizacao Corrente 1
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: [[Implementacao:Sprints:SSprint04B|Sprint4B]]**
+**Wireframe**: [[.\33306_wireframe_atualizado.png|wireframe01]], [[.\33306_wireframe_1.png|wireframe02]],  
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\33306|pasta]]
+
+#erronoTFS#
+#syncTFS#

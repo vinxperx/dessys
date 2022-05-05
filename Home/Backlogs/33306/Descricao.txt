@@ -1,0 +1,258 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T15:50:30-03:00
+
+====== Descricao ======
+Criado quinta-feira 05 maio 2022
+
+Enquanto usuário Fiscal vindo da tela 'Pesquisar Processos'
+Quero poder acessar a tela de Fiscalização Corrente 2
+Para poder realizar a fiscalização corrente 2.
+
+001 - Dado que o usuário venha da tela de “Listagem de processos”
+
+Então o sistema carrega os campos da funcionalidade, conforme wireframe (RN1, RN02, RN03, RN05)
+
+E preenche as informações das matrizes FC2, FC e PROP com seus valores default (RN04, RN07, RN10, RN12)
+
+
+
+002 - Dado que o usuário altere alguma nota intermediária da coluna FC2
+
+Então o sistema calcula a respectiva nota intermediária da coluna FC (ex.: altera a nota de pronúncia FC2, atualiza-se a nota de pronúncia FC, caso aplicável) (RN03, RN07)
+
+E atualiza as notas finais das colunas FC2 e FC (RN06)
+
+
+
+003 - Dado que o sistema atualize alguma nota intermediária da coluna FC
+
+E o campo 'Regime de Cálculo' esteja na opção 'Automático'
+
+Então o sistema calcula a respectiva nota intermediária da coluna PROP (ex.: altera a nota de pronúncia FC, atualiza-se a nota de pronúncia PROP) (RN10, RN12)
+
+E atualiza a nota final das colunas PROP(RN06)
+
+
+
+004 – Dado que 'Regime de Cálculo' esteja na opção 'Automático'
+
+Então o sistema preenche as informações da matriz PROP (RN06, RN10, RN12)
+
+E a desabilita para edição
+
+
+
+005 – Dado que 'Regime de Cálculo' esteja na opção 'Manual'
+
+Então o sistema preenche as informações da matriz PROP (RN06, RN10, RN12)
+
+E habilita seus campos para edição
+
+E exibe uma mensagem de alerta (RN09).
+
+
+
+005 – Dado que o usuário clique em Enviar
+
+Então o sistema faz o checkout de envio conforme apropriado (RN08, RN11)
+
+
+
+Regras de Negócio
+RN 01 - As informações de cabeçalho são:
+
+1. Data do Processo
+
+2. N° Ava. SySDEA
+
+3. CANAC
+
+4. Entidade
+
+5. Dias de Processo
+
+6. N°Ava Ent.
+
+7. Nome
+
+8. N° Processo
+
+ 
+
+RN02 – Os campos de FC2 (e PROP quando for o caso) para preenchimento serão do tipo drop-down, com os seguintes valores possíveis:
+
+ 
+
+			Como aparece        ||          Como é registrado na tabela
+
+			6                                 ||          6
+
+			5+                               ||          7
+
+			5                                 ||          5
+
+			4                                 ||          4
+
+			3                                 ||          3
+
+			2                                 ||          2
+
+			1                                 ||          1
+
+ 
+
+RN03 – As matrizes de níveis têm seis níveis intermediários e uma nota:
+
+1. Pronúncia;
+
+2. Estrutura;
+
+3. Vocabulário;
+
+4. Fluência
+
+5. Compreensão;
+
+6. Interação;
+
+7. Nota, ou Nível final.
+
+ 
+
+			Tanto em FC2 como em PROP, quando for o caso, o usuário preencherá valores para os níveis intermediários apenas.  (CF RN06)
+
+ 
+
+RN04 – Os valores default da matriz FC2 são os mesmos da Matriz da Entidade (CN08).
+
+ 
+
+RN05 – Serão carregadas as seguintes matrizes de nível:
+	  Matriz || Contexto Nota || Preenchimento || Edição
+
+a)      Matriz de Nível do ELE || 1 || Anterior, pelo ELE || Bloqueada
+
+b)      Matriz de Nível do SME || 2 || Anterior, pelo SME || Bloqueada
+
+c)      Matriz de Nível do 3ESC || 3 || Anterior, pelo 3ESC || Bloqueada (Se houver)
+
+d)      Matriz de Nível do ENT || 8 || Anterior, pela ENT|| Bloqueada
+
+e)      Matriz de Nível FC1 || 4 || Anterior, pelo fiscal de FC1 || Bloqueada
+
+f)       Matriz de Nível FC2 || 5 || Editável, cf RN 03, RN 02 
+
+g)      Matriz de Nível em FC ||09 || Calculada||
+
+h)      Matriz Prop || Nenhum || para auxiliar no cálculo (RN10, RN11)
+
+
+ 
+
+RN06 – Para cada matriz produzida nesta tela, que são: 1)FC2; 2)FC ou 3) PROP a Nota será calculada da seguinte forma:
+
+1. Dado que FC2 ou PROP seja uma Matriz do tipo {P, E, V, F, C, I {N}}
+
+2. Sendo, {P, E, V, F, C, I} níveis intermediários, preenchidos pelo usuário
+
+3. Sendo N a Nota calculada pelo sistema:
+
+a)      Então N = Menor {P, E, V, F, C, I}.
+
+4. O campo 'Nota' ou Nível Final, será calculado automaticamente com base no menor nível preenchido. Nota = Menor(Pronúncia …. Interação)
+
+ 
+
+RN 07 – Os níveis intermediários da matriz de níveis de FC (CN09) serão calculados da seguinte forma:
+
+1. Dado que X1 seja um nível intermediário {P, E, V, F, C, I} da Matriz de Níveis em FC1, CN 04, MFC1 = {P1,E1,V1, F1, C1, I1 {N1}}
+
+2. Dado que X2 seja um nível intermediário {P, E, V, F, C, I} da Matriz de Níveis em FC2, CN 05, MFC2 = {P2,E2,V2, F2, C2, I2 {N2}}
+
+3. Dado que XF seja um nível intermediário {P, E, V, F, C, I} da Matriz de Níveis em FC (CN09).
+
+1. Então, Título: TexMaths - Descrição: 12§display§\forall§svg§600§FALSE§ [XF], XF = Menor{X1, X2}.
+
+4. Ou, para qualquer par de níveis intermediários, o correspondente na Matriz de FC será sempre o menor dos dois.
+
+ 
+
+ RN 08 – O campo 'Observação' armazenará comentários do usuário e deverá ter permanência. O texto armazenado na observação será igual a =CONCATENAR(A + B + C), onde:
+
+1. A = Nome completo do usuário (da tabela Pessoa_SySDEA) responsável pelo desarquivamento + ";"
+
+2. B = "Data:" + Data(DD/MM/AAAA HH:MM:SS)
+
+C = "Obs:" + [Conteúdo da observação]
+
+ 
+
+RN 09 – Mensagem de alerta para Cálculo Manual: “Você está optando pelo cálculo manual de Matriz Final de Níveis”.
+
+ 
+
+ 
+
+RN10 – Os níveis intermediários da matriz PROP serão calculados da seguinte forma:
+
+1. Se a opção em Regime de Cálculo for Automático, então: 
+
+a)      Caso a Nota de FC (NF) seja igual à nota da Entidade (NE), então:
+
+i. Os níveis intermediários de Prop (Base para CN=14) serão iguais aos níveis intermediários da matriz de entidade (CN08);
+
+b)      Caso a Nota de FC(NF) seja diferente à nota da Entidade (NE), então
+
+i. Os níveis intermediários de Prop(Base para CN=14) serão iguais aos níveis intermediários da matriz de FC (CN09)
+
+c)      Ou, colocado matematicamente:
+
+i. Dado que XF é um nível intermediário da Matriz de FC
+
+ii.      Dado que XP é um nível intermediário da Matriz Prop
+
+iii.    Dado que XE é um nível intermediário da Matriz de Entidade
+
+iv.    Dado que (NF= NE) => Título: TexMaths - Descrição: 12§display§\forall§svg§600§FALSE§ XP, XP = XE
+
+v. Dado que (NFTítulo: TexMaths - Descrição: 12§display§\neq§svg§600§FALSE§ NE) => Título: TexMaths - Descrição: 12§display§\forall§svg§600§FALSE§ XP, XP = XF
+
+2. Se a opção em Regime de Cálculo for Manual, então os níveis intermediários de PROP serão inseridos manualmente.
+
+3. Em todo o caso, a Nota será sempre calculada como em RN06.
+
+ 
+
+
+RN 11 - Quando a prova for encaminhada, alguns registros devem ser mudados em tabelas, conforme tela atual de FC2. As regras abaixo são apenas para conferência, caso houver algo de diferente:
+
+
+1. Na tabela 'Avaliação':
+
+a)      Caso a Nota Prop seja diferente da Nota de Entidade, cf. RN10 1.a  então o status prova deve ir para 27 Documentação;
+
+b)      Caso a Nota Prop seja igual à Nota de Entidade, cf. RN10 1.b  então o status prova deve ir para 16 Documentação FA.
+
+2. Na tabela 'Nota', serão incluídos os seguintes registros:
+
+a)      Matriz de Níveis de FC2 (CN =5) igual à Matriz de FC2
+
+b)      Matriz Final de Níveis (CN =14) igual à PROP
+
+c)      Caso a Nota de FC seja diferente da Nota de Entidade, incluir Matriz de Níveis de FC (CN =9) igual à Matriz de FC
+
+3. Na tabela 'Fiscalização, serão alterados o campo de resultado de fiscalização da fiscalização correspondente, para:
+
+a)      de 60 para 61, caso a nota de MFN(CN=14) seja igual a nota da Matriz de Instituição (CN=8)
+
+b)      de 60 para 62 caso a nota de MFN(CN=14) seja diferente da nota da Matriz de Instituição (CN=8).
+
+
+RN12 – Os valores default para Prop, no cálculo manual ou automático, serão:
+
+1. Iguais à matriz da Entidade (CN8), se os níveis de FC2 estiverem em branco;
+
+2. Iguais à matriz da Entidade (CN8) se a nota de FC2(CN9) for igual à nota de entidade (CN8)
+
+Iguais à matriz de FC (CN9) se a nota de FC for diferente da nota da Entidade (CN8). 

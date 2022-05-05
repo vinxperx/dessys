@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T16:06:40-03:00
+
+====== 33303 ======
+Criado quinta-feira 05 maio 2022
+
+**Título**: COR_Desarquivamento_Processo
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: [[Implementacao:Sprints:SSprint05B|Sprint5B]]**
+**Wireframe**: [[.\33303_wireframe_1_atualizado.png|wireframe01]],  [[.\33303_wireframe_1.png|wireframe02]],  
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\33303|pasta]]
+
+#erronoTFS#
+#syncTFS#

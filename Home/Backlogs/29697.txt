@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T15:05:38-03:00
+
+====== 29697 ======
+Criado quinta-feira 05 maio 2022
+
+**Título**: ADM_Melhoria_Aba_Entidade
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação:  [[Implementacao:Sprints:SSprint03B|Sprint3B]] **
+**Wireframe**: -
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\29697|pasta]]
+
+#erronoTFS#
+#syncTFS#

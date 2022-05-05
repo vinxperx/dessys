@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T15:32:21-03:00
+
+====== 33797 ======
+Criado quinta-feira 05 maio 2022
+
+**Título**: ADM_Fiscalizacao_Administrativa
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: [[Implementacao:Sprints:SSprint04B|Sprint4B]]**
+**Wireframe**: [[.\33797_wireframe_atualizado.png|wireframe01]], [[.\33797_wireframe.png|wireframe02]],  
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\33797|pasta]]
+
+#erronoTFS#
+#syncTFS#

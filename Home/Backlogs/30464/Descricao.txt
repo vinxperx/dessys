@@ -1,0 +1,51 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T14:32:58-03:00
+
+====== Descricao ======
+Criado quinta-feira 05 maio 2022
+
+Enquanto usuário que possui a credencial '03 - Fiscal'
+
+Quero ter acesso exclusivo às abas 'Fiscalização (Prova)' e 'Fiscalização e Recurso (SySDEA - Adm)'
+
+Para restringir acessos aos usuários
+
+001 – Dado que o usuário possua a credencial de  '03 - Fiscal'
+
+Então o sistema disponibiliza as abas 'Fiscalização (Prova)' e 'Fiscalização e Recurso (Adm)'.
+
+ 
+
+002- Dado que o usuário possua a credencial de  '03 - Fiscal'
+
+E tente conexão por meio de um link para qualquer tela a que as abas 'Fiscalização (Prova)' e 'Fiscalização e Recurso (Adm)' dê acesso exclusivo
+
+Então o sistema permite o acesso.
+
+ 
+
+003 – Dado que o usuário não possua a credencial de “Fiscal”
+
+Então o sistema não disponibiliza as abas 'Fiscalização (Prova)' e 'Fiscalização e Recurso (Adm)'.
+
+ 
+
+004 - Dado que o usuário não possua a credencial de  '03 - Fiscal'
+
+E tente conexão por meio de um link para qualquer tela para que as abas 'Fiscalização (Prova)' e 'Fiscalização e Recurso (Adm)' dê acesso exclusivo
+
+Então o sistema não permite o carregamento da tela.
+
+005-Dado que o usuário não possua a credencial de '03 - Fiscal' 
+E não possua nenhuma das credencias exigidas para uma tela compartilhada
+E tente conexão por meio de um link qualquer para tela que abas 'Fiscalização (Prova)' e 'Fiscalização e Recurso (Adm)' dê acesso compartilhado
+Então o sistema não permite o acesso 
+
+ 
+
+
+RN1 - O menu de fiscalização apresenta conteúdos para serem utilizados pela credencial  '03 - Fiscal'.
+
+As telas que o menu de fiscalização apresenta serão restringidas completamente ao usuário com a credencial. Sendo assim assim, os usuários que não possuírem a credencial não terão em seus acessos às abas 'Fiscalização (Prova)' e 'Fiscalização e Recurso (Adm)' e não será permitida a visualização de qualquer conteúdo daquele menu e das janelas de acessos de seus botões, restringindo até mesmo o acesso direto através de link.
+

@@ -1,0 +1,73 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T15:21:48-03:00
+
+====== Descricao ======
+Criado quinta-feira 05 maio 2022
+
+Enquanto usuário Administrador cadastrando novos usuários
+Quero poder vincular um perfil de Fiscal
+Para incluir no sistema a credencial de Fiscal
+
+001- Dado que o usuário esteja nas telas de Cadastro ou Alteração de Usuários
+E escolha a credencial de Fiscal
+
+Então o sistema libera a aba de Fiscal para que seja adicionado o perfil.
+
+ 
+
+RN1 - A RN 2 do item 30462 e 30463 passa a ser substituída por:
+
+ 
+
+O usuário precisa ter pelo menos uma das onze credenciais, que por sua vez pressupõem determinados perfis:
+
+1) Piloto - Pessoa física, piloto;
+
+2) Admin - Pessoa física;
+
+3) Fiscal - Pessoa física e Fiscal.
+
+4) Apoio Administrativo Anac - Pessoa física;
+
+5) Apoio Entidade - Pessoa física;
+
+6) Avaliador - Pessoa física, avaliador;
+
+7) Entidade - Entidade;
+
+8) Gerente - Pessoa física;
+
+9) Acesso antigo - Pessoa física;
+
+10) Elaborador - Pessoa física, avaliador;
+
+11) Aplicador - Pessoa física, avaliador.
+
+Nota: As credenciais de 1 a 8 já existem no sistema e devem permanecer como estão.
+
+ 
+
+RN2 -A Aba Fiscal deve, se as credenciais escolhidas pressupuserem o perfil:
+
+* estar disponível com os campos em branco quando não houver registro na tabela correspondente
+
+* estar disponível com os registros correspondentes carregados quando houver registro na tabela correspondente
+
+ 
+
+RN3- Para o cadastro do perfil de Fiscal, na aba correspondente, o sistema deve requisitar:
+
+a)      Matrícula SIAPE – Não obrigatória, porém se preenchida deverá ser única, numeral apenas (NR_SIAPE_FISCAL int,null) 
+
+b)      Em Atividade – Obrigatório, padrão SIM (SN_EM_ATIVIDADE_FISCAL bit, not null)
+
+ 
+
+ 
+
+RN4-Quando o perfil ‘Fiscal’ é vinculado a algum usuário, o sistema irá alterar automaticamente a coluna SN_ATIVO_FISCAL para valor 1 = true
+
+Caso a credencial de perfil ‘Fiscal’ de algum usuário seja removida, então o perfil será desvinculado e desligado logicamente, com a coluna SN_ATIVO_FISCAL recebendo valor 0 = false.
+
+ 

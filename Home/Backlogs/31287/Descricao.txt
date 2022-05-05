@@ -1,0 +1,53 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-05T14:02:00-03:00
+
+====== Descricao ======
+Criado quinta-feira 05 maio 2022
+
+Enquanto usuário com credencial de "10 - Elaborador"
+
+Quero ter acesso exclusivo à aba Elaborador no SySDEA-Prova
+
+Para restringir acessos aos outros usuários
+
+
+001 – Dado que o usuário possua a credencial de “10 - Elaborador”
+
+Então o sistema disponibiliza o “Menu de elaboração”.
+
+ 
+
+002- Dado que o usuário possua a credencial de “10 - Elaborador”
+
+E tente conexão por meio de um link para qualquer tela a que o “Menu elaboração” dê acesso
+
+Então o sistema permite o acesso.
+
+ 
+
+003 – Dado que o usuário não possua a credencial de “10 - Elaborador”
+
+Então o sistema não disponibiliza o “Menu de elaboração”.
+
+ 
+
+004 - Dado que o usuário não possua a credencial de “10 -Elaborador”
+
+E tente conexão por meio de um link para qualquer tela a que o “Menu elaboração” dê acesso exclusivo
+
+Então o sistema não permite o carregamento da tela.
+
+
+005-Dado que o usuário não possua a credencial de '10- Elaborador ' 
+E não possua nenhuma das credencias exigidas para uma tela compartilhada
+E tente conexão por meio de um link qualquer para tela que aba 'Elaborador' dê acesso compartilhado
+Então o sistema não permite o acesso 
+
+
+
+RN1 - O menu de elaboração apresenta conteúdos para serem utilizados pela credencial “10 - Elaborador”.
+
+As telas que o menu de elaboração apresenta serão restringidas completamente ao usuário com a credencial. Sendo assim assim, os usuários que não possuírem a credencial não terão em seus acessos o “Menu elaboração” e não será permitida a visualização de qualquer conteúdo daquele menu e das janelas de acessos de seus botões, restringindo até mesmo o acesso direto através de link. Como exemplo:
+
+EX: Um usuário sem a credencial de elaborador acessar através de link a tela de “Pesquisar Modelo”
