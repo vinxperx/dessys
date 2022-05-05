@@ -1,0 +1,63 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-04T16:32:35-03:00
+
+====== Descricao ======
+Criado quarta-feira 04 maio 2022
+
+Enquanto usuário Administrador
+
+Quero poder listar os locais de aplicação das entidades
+
+Para poder acessar funcionalidades relativas a eles.
+
+001- Dado que o usuário esteja na tela de “Administrador”
+
+E acesse o item "Locais de Aplicação"
+
+Então o sistema disponibiliza o item.
+
+ 
+
+002 - Dado que o sistema carregue a tela Pesquisar Locais de Aplicação
+
+Então o sistema disponibiliza a tela com o filtro de entidade em branco
+
+E a lista de locais de aplicação em branco. 
+
+ 
+
+003 - Dado que o usuário selecione um item no filtro de ‘Entidade’ (RN1)
+
+Então o sistema lista os locais de aplicação de prova cadastrado para a Entidade.
+
+ 
+
+004 – Dado que o usuário clique no botão ‘Cadastrar Local’
+
+Então o sistema redireciona o usuário para ‘Cadastrar Local de Aplicação’.
+
+ 
+
+005 – Dado que o usuário clique no botão ‘Alterar’
+
+Então o sistema redireciona o usuário para ‘Alterar Local de Aplicação’.
+
+
+
+006 – Dado que o usuário clique no botão ‘Visualizar’
+
+Então o sistema redireciona o usuário para ‘Visualizar Local de Aplicação’.
+
+
+
+
+ 
+
+ 
+
+RN1 – Serão exibidos todos os usuários com registro correspondente na tabela ENTIDADE e que estejam marcados como ‘Ativo’ enquanto usuários.
+
+ 
+
+RN2 – As entidades serão ordenadas alfabeticamente pelo nome da entidade (NM_ENTIDADE, ENTIDADE).

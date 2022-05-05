@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-04T18:01:12-03:00
+
+====== 33300 ======
+Criado quarta-feira 04 maio 2022
+
+**Título**: PRV_COR_Criar_Agendamento
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: [[Implementacao:Sprints:SSprint02B|Sprint2B]]**
+**Wireframe**: [[.\33300_wireframe.png|wireframe01]],
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\33300|pasta]]
+
+#erronoTFS#
+#syncTFS#

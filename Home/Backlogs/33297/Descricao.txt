@@ -1,0 +1,60 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-04T16:42:33-03:00
+
+====== Descricao ======
+Criado quarta-feira 04 maio 2022
+
+Enquanto usuário Administrador
+Quero poder cadastrar novos Locais de Aplicaçao
+
+Para incluir no sistema novos registros
+
+001- Dado que o usuário esteja na tela de “Pesquisar Locais de Aplicação”
+
+E acesse a opção Cadastrar Local
+
+Então o sistema disponibiliza o item. 
+
+
+
+002 - Dado que o sistema carregue a tela de Cadastrar Local de Aplicação
+
+Então o sistema exibe os campos de cadastro (wireframe, RN1). 
+
+ 
+
+003 - Dado que o usuário clique em Salvar
+
+E não preencha algum campo obrigatório (RN1)
+
+Então o sistema retorna uma mensagem de erro.
+
+ 
+
+004 - Dado que o usuário clique em Salvar
+
+E todos os campos obrigatórios estejam informados (RN1)
+
+E o usuário clique em Salvar
+
+Então o sistema inclui o registro.
+
+
+
+RN1 – Serão disponibilizados para edição os seguintes campos:
+
+a)	Entidade - obrigatório
+
+b)     Nome – obrigatório, não repetido; 
+
+c)	E-mail – obrigatório;
+
+d)	Número de salas – obrigatório, padrão 1;
+
+e)	Ativo: SN_ATIVO_LOCAL_ENTIDADE – padrão verdadeiro;
+
+f)	Suspenso: SN_SUSPENSO_LOCAL_ENTIDADE – padrão falso.
+
+
+

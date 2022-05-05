@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-04T10:34:00-03:00
+
+====== 32087 ======
+Criado quarta-feira 04 maio 2022
+
+**Título**: PRV_COR_MenuCorreção
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: [[Implementacao:Sprints:Sprint24A|Sprint24A]]**
+**Wireframe**: [[.\MenuCorreção.png|wireframe01]], [[.\menu correção.png|wireframe02]], 
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\32087|pasta]]
+
+#erronoTFS#
+#syncTFS#

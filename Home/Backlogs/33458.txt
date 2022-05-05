@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-04T16:38:10-03:00
+
+====== 33458 ======
+Criado quarta-feira 04 maio 2022
+
+**Título**: PRV_VisualizarLocaisDeAplicacao
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: [[Implementacao:Sprints:SSprint02B|Sprint2B]]**
+**Wireframe**: [[.\wireframe_1.png|wireframe01]], [[.\33458_wireframe_atualizado.png|wireframe02]], 
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\33458|pasta]]
+
+#erronoTFS#
+#syncTFS#

@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-04T14:44:07-03:00
+
+====== 32056 ======
+Criado quarta-feira 04 maio 2022
+
+**Título**: PRV_APL_VisualizarAplicaçãoCalibração
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: [[Implementacao:Sprints:SSprint02B|Sprint02B]]**
+**Wireframe**: [[.\Resumo-Prova.png|wireframe01]], [[.\Questão-Prova.png|wireframe02,]] [[.\Parte-Prova.png|wireframe03]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\32056|pasta]]
+
+#erronoTFS#
+#syncTFS#

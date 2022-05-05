@@ -1,0 +1,52 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-04T14:44:16-03:00
+
+====== Descricao ======
+Criado quarta-feira 04 maio 2022
+
+Enquanto usuário avaliador
+
+Quero poder ver a tela de visualização da aplicação de calibração
+
+Para efetuar as funcionalidades de avaliação
+
+
+001 – Dado que o usuário esteja na tela de “Calibração”
+
+E clique em “Visualizar”
+
+Então o sistema redireciona para a tela de “VisualizarAplicaçãoCalibração”
+
+ 
+
+002 – Dado que o usuário esteja na tela de “VisualizarAplicaçãoCalibração” 
+
+Então o sistema mostra a visualização da prova
+
+
+003 – Dado que o usuário clique em uma das abas
+
+Então a visualização será correspondente à aba escolhida.
+
+
+004 – Dado que o usuário clique no botão “Concluir Situation”
+
+Então o sistema finaliza a situation correspondente.
+
+
+005 – Dado que o usuário clique no botão “Concluir Visualização”
+
+Então o sistema finaliza a visualização.
+
+
+RN1 – O aplicador não possui limite de visualizações
+
+RN2 – A visualização não possui nenhuma restrição quanto ao tempo ou registro no sistema
+
+RN3 – Ao ser concluída a visualização, ela continuará no status “34 – Calibração”
+
+RN4 - Esta tela de visualizar não mostrará informações adicionais na tela de resumo, somente mostrará o sumário.
+
+RN5 - Deve ser registrado cada acesso à tela de visualização (usuário, hora de início, e hora de conclusão)
+

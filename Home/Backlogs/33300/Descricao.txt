@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-04T18:01:21-03:00
+
+====== Descricao ======
+Criado quarta-feira 04 maio 2022
+
+Enquanto usuário com credencial de entidade logado na tela Agendamento Unificado (backlog 30469)
+
+Quero um campo que me permita escolher o local de aplicação do exame
+
+Para especificar o local da entidade
+
+001 – Dado que o usuário chegou à tela Cadastrar Agendamento vindo da aba Pesquisar Agendamentos
+
+Então o sistema exibe os outros campos pertinentes
+
+E o campo de Local  agendamento para a aplicação do exame
+
+Para que o usuário possa escolher, se for o caso (RN 2, RN 3, RN 4).
+
+ 
+
+RN1 – Diversos locais de aplicação podem estar relacionados a uma mesma entidade.
+
+RN2 – O sistema deve verificar quantos registros de LOCAL_ENTIDADE existem para aquela Entidade.
+
+RN3 – Em havendo apenas 1 registro na tabela LOCAL_ENTIDADE correspondente à ENTIDADE, a tela exibe um campo drop-down, com apenas o registro possível escolhido.
+
+RN4 – Em havendo 2 ou mais registros na tabela LOCAL_ENTIDADE correspondentes à ENTIDADE, a tela exibe um drop-down para que o usuário escolha a opção correspondente. 

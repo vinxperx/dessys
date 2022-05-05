@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-04T13:39:52-03:00
+
+====== 32055 ======
+Criado quarta-feira 04 maio 2022
+
+**Título**: PRV_APL_Calibração
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: [[Implementacao:Sprints:SSprint01B|Sprint01B]]**
+**Wireframe**: [[.\Tela Calibração.png|wireframe01]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\32055|pasta]]
+
+#erronoTFS#
+#syncTFS#

@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-04T10:38:19-03:00
+
+====== 32089 ======
+Criado quarta-feira 04 maio 2022
+
+**Título**: PRV_COR_VisualizarCorreção
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: [[Implementacao:Sprints:Sprint24A|Sprint24A]]**
+**Wireframe**: [[.\VisualizarCorreção2.png|wireframe01]], [[..\32088\Pesquisar Correção.png|wireframe02]], 
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\32089|pasta]]
+
+#erronoTFS#
+#syncTFS#

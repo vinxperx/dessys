@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-04T11:27:16-03:00
+
+====== SSprint02B ======
+Criado quarta-feira 04 maio 2022
+
+1. [[Backlogs:32056|32056 - PRV_APL_VisualizarAplicaçãoCalibração]]
+2. [[Backlogs:33296|33296 - PRV_PesquisarLocaisDeAplicacao]]
+3. [[Backlogs:33458|33458 - PRV_VisualizarLocaisDeAplicacao]]
+4. [[Backlogs:33297|33297 - PRV_CadastrarLocaisDeAplicacao]]
+5. [[Backlogs:33298|33298 - PRV_AlterarLocalDeAplicacao]]
+6. [[Backlogs:32058|32058 - PRV_DefinirAvaliacaoEmCalibracaoPorAvaliadores]]
+7. [[Backlogs:33300|33300 - PRV_COR_Criar_Agendamento]]

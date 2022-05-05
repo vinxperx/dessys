@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-04T16:42:26-03:00
+
+====== 33297 ======
+Criado quarta-feira 04 maio 2022
+
+**Título**: PRV_CadastrarLocaisDeAplicacao
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: [[Implementacao:Sprints:SSprint02B|Sprint2B]]**
+**Wireframe**: [[.\wireframe_1 (1).png|wireframe01]], [[.\33297_wireframe_atualizado.png|wireframe02]], 
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\33297|pasta]]
+
+#erronoTFS#
+#syncTFS#

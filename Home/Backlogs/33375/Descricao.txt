@@ -1,0 +1,32 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-04T12:17:21-03:00
+
+====== Descricao ======
+Criado quarta-feira 04 maio 2022
+
+Enquanto usuário do sistema acessando AplicarProva (30457)
+
+Quero que o sistema mova a prova para o AU#6 - Iniciado (Horário 7, Agendamento 5) durante a prova
+
+E AU#7 - Concluído (Horário 7, Agendamento 7)
+
+Para poder padronizar o status da unificação do painel de agendamento unificado.
+
+ 
+Enquanto usuário do sistema acessando Aplicação
+
+Quero que o sistema mova a prova para os status AU#6 durante a prova 
+
+E status AU#7 na conclusão da prova (RN1, RN2)
+
+Para poder padronizar o status da unificação do painel de agendamento unificado.
+
+
+
+RN1 - o status AU#6 (Iniciado) é uma abreviação de Horário 7 e Agendamento 5. 
+
+RN 2 - o status AU#7 (Concluído) é uma abreviação de Horário 7 e Agendamento 7. 
+
+
+

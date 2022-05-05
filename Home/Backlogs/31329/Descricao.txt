@@ -1,0 +1,52 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-04T12:37:39-03:00
+
+====== Descricao ======
+Criado quarta-feira 04 maio 2022
+
+Enquanto sistema
+
+Quero que os status de prova que dependam da hora sejam atualizados por uma rotina automática
+
+Para que diversas funcionalidades de aplicação sejam condicionadas à hora e aos tempos devidos
+
+001 – Dado que o sistema detecte que uma prova atingiu seu Tempo Ótimo de Inicialização (TO) (RN1, RN2, RN3, RN4)
+
+Então o sistema muda o status da prova de AU#2 Confirmado para AU#3 Autorizada.
+
+ 
+
+002- Dado que o sistema detecte que uma prova ultrapasse seu Tempo de Máximo de Prova e esteja no status Autorizada (RN5)
+
+Então o sistema altera seu status para 'AU#5 Expirada' (RN6).
+
+ 
+
+003 – Dado que sistema detecte que uma prova esteja no status AU#6 Iniciado depois do seu Tempo Máximo de Término (RN7)
+
+Então o sistema altera seu status para AU#7 Concluída
+
+E registra o Tempo de Encerramento de Prova em DT_FIM_AVALIACAO a hora.
+
+ 
+
+RN 1- TO=H-TR, onde TO é o Tempo Ótimo de Inicialização, H é o Horário Agendado para a prova e TR é o Tempo de Revisão (default, 5min, definido em Administração>Parâmetros de Aplicação).  
+
+RN 2 – Cf. Equivalência.xlsx para checar os status das tabelas Horário, Agendamento e Avaliação.
+
+RN 3 – Para toda prova no status AU#2Confirmada com TO < Hora atual, o sistema as muda para: 
+
+a) status ‘AU#3 Autorizada’;
+
+b) variável agendamentoAtivo daquele candidato para False.
+
+RN 4 – Para toda prova no status AU#1 Reservadas com TO < Hora atual, o sistema as muda para o status ‘AU#5 Expirada’
+
+RN 5 – TMP =H+TAt, onde TMP é o tempo máximo de prova, H é a Hora Agendada (e.g. 12h), TAt é o Tempo de Autorização (default 10min, definido em Administração>Parâmetros de Aplicação).
+
+RN 6 – Para cada prova que esteja no status de ‘Autorizada’ e seu TMP seja menor do que a hora atual, o sistema deve mudar seu status para ‘Expirada’.
+
+RN 7 – TMaxT = TI + TAp, onde TMaxT é o Tempo Máximo de Prova, TI é o Tempo de Inicialização (cf. RN8) e TAp é o Tempo de Aplicação (default, 60min, definido em Administração>Parâmetros de Aplicação)
+
+RN 8 – O momento em que uma prova é carregada é o Tempo Efetivo de Início (TEI) da prova, que deve ter permanência no sistema (DT_INICIO_AVALIACAO). O Tempo de inicialização da prova TI é igual ao maior de H ou TEI. Uma prova com H de 12h e TEI de 11h55 tem seu TI igual a 12h. Uma prova que iniciou 12h05 tem seu TI e TEI igual a 12h05.

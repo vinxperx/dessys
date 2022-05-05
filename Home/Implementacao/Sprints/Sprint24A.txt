@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-04T09:05:09-03:00
+
+====== Sprint24A ======
+Criado quarta-feira 04 maio 2022
+
+**Data de desenvolvimento**: 28/12/2020 a 28/12/2020
+**Comentários**:
+**Itens**: 
+1. [[Backlogs:32088|32088 - PRV_COR_PesquisarCorreção]]
+2. [[Backlogs:32087|32087 - PRV_COR_MenuCorreção]]
+3. [[Backlogs:32089|32087 - PRV_COR_VisualizarCorreção]]

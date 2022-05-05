@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-04T11:27:03-03:00
+
+====== SSprint01B ======
+Criado quarta-feira 04 maio 2022
+
+1. [[Backlogs:33375|33375 - PRV_COR_APLICACAO]]
+2. [[Backlogs:31329|31329 - PRV_AUT_RodarRotinaDeControleDeStatus]]
+3. [[Backlogs:32055|32055 - PRV_APL_CALIBRAÇÂO]]

@@ -1,0 +1,44 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-04T10:38:28-03:00
+
+====== Descricao ======
+Criado quarta-feira 04 maio 2022
+
+Enquanto usuário
+
+Quero poder visualizar a prova aplicada
+
+Para realizar a correção
+
+
+001 - Dado que o usuário esteja na tela “VisualizarAvaliação”
+
+Então o sistema disponibiliza a instância de avaliação para visualização 
+
+
+002 - Dado que o usuário clique nas “Partes” exibidas no sumário
+
+Então o sistema abre a parte correspondente
+
+E muda a aba correspondente.
+
+003- Dado que o usuário clique no botão “Concluir Situation” 
+Então o sistema finaliza a situation correspondente. 
+
+004- Dado que o usuário clique no botão “Concluir Avaliação” 
+Então o sistema finaliza a Avaliação. (RN2)  
+
+
+
+
+RN1 - O sistema deve reinstanciar a prova aplicada, entretanto:
+
+
+A tela de correção não será offline. Se a internet cair, ela deve fechar. 
+
+Deve ser registrado cada acesso à tela de correção (usuário, hora de início, e hora de fechamento da página). 
+
+RN2 – O botão de “Concluir avaliação” estará presente na tela de resumo da prova e na ultima questão da última Parte.
+
+RN3 – A tela Resumo de prova conterá as informações do candidato e da aplicação.

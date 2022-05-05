@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-04T10:34:10-03:00
+
+====== Descricao ======
+Criado quarta-feira 04 maio 2022
+
+Enquanto usuário do sistema com credencial de Avaliador.
+
+Quero poder acessar funções de correção
+
+Para realizar as funcionalidades de correção  
+
+
+001 - Dado que o usuário com papel Avaliador acesse o SySDEA-Prova
+
+E clique na aba Correção
+
+Então o sistema o redireciona para o menu de correção
+

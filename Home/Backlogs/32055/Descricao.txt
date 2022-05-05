@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-04T13:39:57-03:00
+
+====== Descricao ======
+Criado quarta-feira 04 maio 2022
+
+Enquanto usuário avaliador
+
+Quero poder ver a tela de calibração
+
+Para efetuar as funcionalidades de visualizar avaliação 
+
+001 – Dado que o usuário esteja na tela de “Menu de correção”
+
+E clique em Calibração
+
+Então o sistema redireciona para a tela de “Calibração”
+
+ 
+
+002 – Dado que o usuário esteja na tela de “Calibração” 
+
+Então o sistema mostra uma lista com as aplicações (RN1)
+
+ 
+
+003 – Dado que o usuário esteja na tela de “Calibração” 
+
+E clique em visualizar
+
+Então o sistema redireciona para a tela de “VisualizarAplicaçãoCalibração”
+
+
+
+
+RN1 – A lista será preenchida por provas no status “34- Calibração”
+
+
+RN2 – A lista será ordenada por Data 

@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-04T17:56:08-03:00
+
+====== Descricao ======
+Criado quarta-feira 04 maio 2022
+
+Enquanto usuário Fiscal
+
+Quero definir quais avaliadores podem ver cada prova disponível em calibração 
+
+Para  que seja controlado o acesso dos examinadores a essas provas.
+
+
+001 – Dado que o usuário esteja na aba do menu “Fiscalização” no SySDEA-Prova
+
+E clique no botão “Calibração”
+
+Então o sistema o redireciona para a tela “Pesquisar Provas em Calibração”
+
+ 
+
+002 – Dado que o usuário visualize a lista de instâncias disponíveis (RN 1)
+
+E clique em ‘Examinadores’
+
+Então o sistema abre uma tela pop-up
+
+Para configurar os examinadores que poderão visualizar cada instância (RN 2, RN 3)
+
+ 
+
+RN 1- Devem aparecer na lista as instâncias de prova no status 34 – Calibração.
+
+RN 2 – Quando uma instância é movida para o status 34 – Calibração, por default todos os examinadores devem poder vê-la (todas as caixinhas devem estar marcadas).
+
+RN 3 – Para os avaliadores, na tela de visualizar calibração, só devem aparecer as provas que estiverem marcadas.
+
+ 
+
