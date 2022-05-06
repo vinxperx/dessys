@@ -5,3 +5,10 @@ Creation-Date: 2022-05-04T11:27:58-03:00
 ====== SSprint06B ======
 Criado quarta-feira 04 maio 2022
 
+1. [[Backlogs:33302|33302 - ADM_COR_Redistribuicao_de_processos]]
+2. [[Backlogs:33311|33311- ADM_Matriz_Extraordinaria_de_niveis]]
+3. [[Backlogs:33326|33326 - COR_Listagem_Fiscal]]
+4. [[Backlogs:33304|33304 - ADM_Avaliações_sobretadas]]
+5. [[Backlogs:33400|33400 - COR_Envio_Email]]
+6. [[Backlogs:34323|34323 - PRV_Correcao_Aplicacao]]
+7. [[Backlogs:33323|33323 - Melhoria_consulta]]

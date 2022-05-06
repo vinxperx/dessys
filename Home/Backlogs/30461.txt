@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T11:13:53-03:00
+
+====== 30461 ======
+Criado sexta-feira 06 maio 2022
+
+**Título**: Envio de Email A3
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: [[Implementacao:Sprints:SSprint07B|Sprint7B]]**
+**Wireframe**: [[.\30461_wireframe_1.png|wireframe01]],
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\30461|pasta]]
+
+#erronoTFS#
+#syncTFS#

@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T10:09:03-03:00
+
+====== 33311 ======
+Criado sexta-feira 06 maio 2022
+
+**Título**: ADM_Matriz_Extraordinaria_de_Niveis
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: [[Implementacao:Sprints:SSprint06B|Sprint6B]]**
+**Wireframe**: [[.\33311_wireframe_1_atualizado.png|wireframe01]], [[.\33311_wireframe_2_atualizado.png|wireframe02]],  
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\33311|pasta]]
+
+#erronoTFS#
+#syncTFS#

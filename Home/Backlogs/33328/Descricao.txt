@@ -1,0 +1,70 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T10:58:13-03:00
+
+====== Descricao ======
+Criado sexta-feira 06 maio 2022
+
+Enquanto usuário na tela ‘Criar Agendamento’
+
+Quero poder ver a última data e quantidade de dias desde a última prova
+
+E também listar apenas os ELEs e SMEs com contrato ativo com a entidade
+
+Para dar andamento ao agendamento
+
+001- Dado que o usuário acesse a tela de ‘Criar agendamento’
+Então sistema irá carregar funcionalidades
+E campos para visualização de datas conforme wireframe (RN1)
+
+ 
+
+002- Dado que o usuário insira um CANAC valido
+Então a sistema irá mostrar a última data de prova feita pelo piloto (RN2)
+E a quantidades de dias desde a última prova (RN1 item 2)
+
+ 
+
+003 – Dado que o usuário clique drop-down para escolher um ELE ou SME (wireframe 2)
+
+Então o sistema irá filtrar apenas os ELEs ou SMEs que possuírem contrato ativo com a entidade. (RN3)
+
+
+
+ 
+
+RN1 – Os novos campos serão:
+
+ 
+
+1. Última prova realizada: DD/MM/AAAA (RN2)
+
+2. Dias desde a última prova: DD (data atual - DT_APLICACAO)
+
+ 
+
+RN2 – O sistema irá carregar no campo ‘Última prova realizada’ a data da última prova feita pelo piloto na tabela no banco de dados, que é a prova com maior ID e que também tenha um DT_APLICACAO_PROVA diferente de NULL. O valor deste campo, DT_APLICACAO_PROVA é a data de realização do último exame.
+
+ 
+
+RN3 – Um contrato entre avaliador e entidade é um registro na tabela AVALIADOR_ENTIDADE. O contrato é válido quando a variável SN_VALIDO é igual a 1, e não é mais válido quando a variável é igual a 0. Por exemplo, se o avaliador ID_USUARIO = 23 tiver um contrato válido com a entidade ID_ENTIDADE = 4, isso aparecerá na tabela como um registro mais ou menos:
+
+ 
+
+ID_USUARIO |ID_ENTIDADE|ID_AVALIADOR_ENTIDADE| … | SN_VALIDO
+
+23                    |4                     |112     |...|       1
+
+ 
+
+Se o contrato não estivesse mais válido, o registro seria algo como:
+
+ID_USUARIO |ID_ENTIDADE|ID_AVALIADOR_ENTIDADE| … | SN_VALIDO
+
+23                    |4                     |112     |...|       0
+
+ 
+
+ 
+
+ 

@@ -1,0 +1,37 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T10:35:28-03:00
+
+====== Descricao ======
+Criado sexta-feira 06 maio 2022
+
+Enquanto usuário 'Aplicador' acessando a tela ‘Pesquisar Aplicações’
+Quero ver somente as provas que vou aplicar
+Sem ver provas de outros aplicadores.  
+
+001-Dado que o usuário com a credencial de 'Fiscal' acesse a tela 'Pesquisar Aplicações’
+Então sistema carrega somente suas provas para aplicação(RN1)
+E demais informações da aplicação (RN2, wireframe_1A)
+
+ 
+
+RN1- O sistema irá carregar as provas para aplicação da carga do aplicador, porém, só quem poderá ver a prova para aplicação será o aplicador escolhido no inicio do agendamento. (Conf. Wireframe_2 e Wireframe_3)
+
+ 
+
+RN2- As colunas de hoje serão mantidas, com a adição de 2 colunas
+
+·         Nome Completo
+
+·         CANAC do piloto
+
+·         Local Aplicação (wireframe_1A)
+
+·         SME (wireframe_1A)
+
+·         Status
+
+·         Data
+
+Horário
+

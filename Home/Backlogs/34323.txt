@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T10:35:23-03:00
+
+====== 34323 ======
+Criado sexta-feira 06 maio 2022
+
+**Título**: PRV_Correcao_Aplicacao
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: [[Implementacao:Sprints:SSprint06B|Sprint6B]]**
+**Wireframe**: [[.\Wireframe_1 (1).png|wireframe01]], [[.\Wireframe_2.png|wireframe02]], [[.\Wireframe_3.png|wireframe03]], 
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\34323|pasta]]
+
+#erronoTFS#
+#syncTFS#

@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T10:54:25-03:00
+
+====== Descricao ======
+Criado sexta-feira 06 maio 2022
+
+Enquanto usuário acessar a tela ‘Pesquisar Mídias’
+Quero Pesquisar mídias para usar as funcionalidades
+Para Alterar, Clonar ou Visualizar uma mídia
+
+001- Dado que o usuário acesse a tela ‘Pesquisar Mídias’
+E no campo ‘Nome de mídia’ insira um nome de mídia válido (RN1)
+E clique em ‘pesquisar’
+Então sistema irá filtrar de acordo com o nome fornecido pelo o usuário(RN2)
+
+ 
+
+RN1- Será trocado o nome como é hoje ‘Nome da Escola’ para ‘Nome de mídia’
+
+RN2- O filtro de nome da mídia, quando usado, retornará os resultados filtrados pelo nome da mídia. 

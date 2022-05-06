@@ -1,0 +1,280 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T11:09:51-03:00
+
+====== Descricao ======
+Criado sexta-feira 06 maio 2022
+
+Enquanto usuário ‘elaborador’
+Quero poder acessar tela ‘Editar Escala’ a partir de Listar Escalas
+Para para criar e editar Escalas
+
+001-Dado que o usuário acesse a tela “Criar nova escala”
+Então o sistema irá liberar as opções de 'Escolha' (RN13)
+E irá bloquear todos os campos da seção 'Comportamento' (RN14)
+E o botão 'Salvar'.
+
+002 – Dado que o usuário acesse a tela 'Editar escala'
+Para editar uma escala existente
+E esta escala possa ser editada conforme as regras de permanência do banco (RN15)
+Então sistema irá carregar as opções de 'Escolha' conforme a escala escolhida para edição na tela anterior (33301)
+E travará a seção 'Escolha'
+E liberará para edição o campo 'Comportamento'
+E liberará para clicar o botão 'Salvar'.
+
+
+003 – Dado que haja valores válidos na seção 'Escolha' (RN12)
+Então o sistema irá liberar a edição do campo 'Comportamento' com valores default
+E irá travar a edição da seção 'Escolha'.
+E esta escala possa ser editada conforme as regras de permanência do banco (RN15)
+
+004 – Dado que o usuário clique em um dos valores em 'Cálculo' para a Escala carregada
+Então o sistema mostra a escolha
+E prepara aquele valor para permanência, caso o botão salvar seja clicado.
+
+005 – Dado que o usuário queira destravar uma linha em 'Limiar'
+E clique em um dos checks 'NA' na seção 'Comportamento'
+E esse destravamento não fira nenhuma regra listada na RN 5
+Então o sistema libera o campo 'Limiar' para edição (RN2)
+
+006 – Dado que o usuário tente destravar uma linha na seção 'Comportamento'
+E haja alguma regra violada em RN5
+Então o sistema não irá liberar o destravamento
+E exibirá no fundo uma mensagem de erro (RN9).
+
+007 – Dado que o usuário ou o sistema preencha o valor 'Limiar' ou 'Total' em alguma linha na seção 'Comportamento' que viole as regras propostas na RN5
+Então o sistema deixa o valor em vermelho e exibe uma mensagem de erro no canto de baixo da tela (R10).
+
+008 – Dado que o usuário clique em 'Salvar'
+E os valores em Modelo, Visualização, Edição e Comportamento estejam corretamente preenchidos
+Então o sistema dá permanência às mudanças.
+
+009 – Dado que o usuário clique em 'Salvar'
+E ao menos um dos valores em Modelo, Edição, Visualização ou Comportamento estejam com erro
+Então o sistema exibe uma mensagem de alerta (RN12)
+E não dá permanencia às mudanças.
+
+ 
+
+RN 1 – A tela terá os seguintes campos/botões/listas:
+
+Modelo – Somente edição, exibirá o modelo a que a régua está vinculada;
+Edição da escala:
+a)       Critério: Drop down com seis valores possíveis:
+
+i. Pronúncia;
+
+ii.       Estrutura;
+
+iii.     Vocabulário;
+
+iv.     Fluência;
+
+v. Compreensão;
+
+vi.     Interações.
+
+b)      Tipo, drop down com dois valores:
+
+i. Vinculante;
+
+ii.       Auxiliar.
+
+Regra, que determinar se a escala é (radio button):
+a)       Absoluta; ou
+
+b)      Relativa. 
+
+Comportamento, com as linhas:
+a)       Linha 1:
+
+i. Título: Nível 1:
+
+ii.       Limiar – Número ou porcentagem (RN 2)
+
+iii.     N/A – Desliga o limiar (RN 4).
+
+b)      Linha 2:
+
+i. Título: Nível 2:
+
+ii.       Limiar – Número ou porcentagem (RN 2)
+
+iii.     N/A – Desliga o limiar (RN 4).
+
+c)       Linha 3:
+
+i. Título: Nível 3:
+
+ii.       Limiar – Número ou porcentagem (RN 2)
+
+iii.     N/A – Desliga o limiar (RN 4).
+
+d)      Linha 4:
+
+i. Título: Nível 4:
+
+ii.       Limiar – Número ou porcentagem (RN 2)
+
+iii.     N/A – Desliga o limiar (RN 4).
+
+e)      Linha 5
+
+i. Título: Nível 5:
+
+ii.       Limiar – Número ou porcentagem (RN 2)
+
+iii.     N/A – Desliga o limiar (RN 4).
+
+f)        Linha 6:
+
+i. Título: Nível 7:
+
+ii.       Limiar – Número ou porcentagem (RN 2)
+
+iii.     N/A – Desliga o limiar (RN 4).
+
+g)       Linha 7:
+
+i. Título: Nível 6:
+
+ii.       Limiar – Número ou porcentagem (RN 2)
+
+iii.     N/A – Desliga o limiar (RN 4).
+
+h)      Linha 8:
+
+i. Título: Total
+
+ii.       Limiar – Número ou 100% (RN11)
+
+ 
+
+RN 2 – O campo limiar, para cada linha, acolherá os seguintes valores:
+
+1. Um número natural até 1000 caso N/A esteja desativado e a escala da régua seja absoluta (default 0);
+
+2. Um número de porcetagem positivo <= 100% com duas casas decimais caso N/A esteja desativado e a escala da régua seja relativa (default 0,00%);
+
+3. Nada ('blank') caso N/A esteja selecionado;
+
+4. Zero caso seja a menor linha habilitada (RN 7).
+
+RN3 – Para um modelo, só é possível inserir uma única combinação de critério e tipo, de modo que há uma lista de 12 slots possíveis:
+
+Pronúncia                           |                             Auxiliar
+
+Pronúncia                           |                             Vinculante
+
+Estrutura                             |                             Auxiliar
+
+Estrutura                             |                             Vinculante
+
+Vocabulário                        |                             Auxiliar
+
+Vocabulário                        |                             Vinculante
+
+Fluência                               |                             Auxiliar
+
+Fluência                               |                             Vinculante
+
+Compreensão                   |                             Auxiliar
+
+Compreensão                   |                             Vinculante
+
+Interações                          |                             Auxiliar
+
+Interações                          |                             Vinculante
+
+ 
+
+O drop-down de critério e de Tipo deve eliminar as combinações já utilizadas. Por exemplo, se Pronúncia vinculante já tiver sido escolhida, e a pessoa escolhe 'Pronúncia', o sistema só oferece auxiliar.
+
+RN 4 – O default de todos os campos em todas as linha é NA.
+
+RN 5 – São RNs de comportamento as regras abaixo:
+
+1. Hierarquia, descrita na RN 6.
+
+2. Piso zero, descrita na RN 7.
+
+3. Contiguidade, descrita na RN 8.
+
+RN 6 – Hierarquia: A linha maior (mais abaixo em 'Comportamento') sempre terá um limiar maior do que o de uma linha menor. Por exemplo, a linha 5 não pode ter um limiar 10 enquanto a linha 4 tem um limiar 20.
+
+RN 7 – Piso zero. A menor linha habilitada (mais acima com N/A destravado) fica com o campo 'limiar' travado para edição e limiar igual a 0 automaticamente.
+
+RN 8 – Contiguidade: As linha de 1 a 7 ativadas só podem ser contíguas. O sistema implementará isso da seguinte forma: se 1) uma linha menor estiver habilitada; E 2) Uma linha maior também estiver habilitada Então 3 – A linha intermediária não pode ser desabilitada.
+
+				Exemplo: Correto {1, 2, 3}; Correto {3,4,5}. Incorreto {1, 5, 6}.
+
+Exceção:
+
+1) A linha 8, total, não pode ser ativada ou desativada. 
+
+2) A linha do '7' pode ser desativada mesmo que as linhas abaixo e/ou acima estejam ativadas.
+
+
+
+RN 9 – Mensagem, que não é pop-up: 'A existência da linha proposta fere as diretrizes da prova'.
+
+RN 10 – Mensagem, que não é pop-up: 'O valor proposto fere as diretrizes da prova'.
+
+RN 11 – O campo 'Total' será igual a:
+
+Um número natural (default 0), caso Visualização seja 'Absoluto';
+a)       Neste caso, ela obedecerá a RN 6, com a seguinte alteração: O total deverá ser maior ou igual à maior linha ativada.
+
+i. Exemplos:
+
+ii.       Correto {Linha 1)0, L2)10, 3)20, 8)Total 25};
+
+iii.     Correto {4) 0, 5) 15, 6 20, 8)Total 20}
+
+iv.     Errado  {4) 0, 5) 15, 6 20, 8)Total 18}
+
+100%, sem possibilidade de edição, caso Visualização seja 'Relativo'.
+RN 12 – São valores válidos para uma escala:
+
+Valores referentes a uma escala existente que seja editável.
+Valores referentes a uma nova escala possível, que requerem:
+1. Um modelo existente
+
+2. Um valor para critério válido
+
+3. Um valor para tipo válido.
+
+ 
+
+ 
+
+RN 13 – Os campos da seção 'Escolha' referem-se à escala carregada, e são:
+
+Modelo da escala – Id do modelo ao qual a escala está associada
+Critério – Critério ao qual a escala está associada (Pronúncia, Estrutura, etc.)
+Tipo – Tipo da escala, auxiliar ou vinculante.
+ 
+
+RN 14 – Os campos da seção comportamento referem-se aos parâmetros de uma escala, uma vez que ela é escolhida pelo usuário, e são:
+
+Cálculo, que pode ser Absoluto ou Relativo
+Limiar, que possui sete linhas com:
+1. Nível: sem alteração, mostra o nível (1, 2, 3, 4, 5, 6, 7) ao qual os valores estão associados
+
+2. Limiar: possível de alterar, mostra o limiar para aquele nível
+
+3. NA: Trava ou destrava o limiar em questão.
+
+ 
+
+RN 15 – Conforme  descrito em 33301 (Listar Escalas) uma prova que já foi instanciada não pode ter alterada suas escalas.
+
+Comentários
+
+Tipicamente, uma pessoa entra nessa tela para determinar os parâmetros de escala. Uma escala vinculante ou relativa, não importa, vai determinar o nível do candidato em função da quantidade de acertos. Então o operador está nessa tela para dizer a partir de quantos acertos um candidato é 2, 3, 4, etc. Essa quantidade pode ser absoluta (em itens, por exemplo), ou relativa (em porcentagem).
+
+A escala vinculante vai fazer o sistema  dar de fato a nota na tela de correção, automaticamente. A escala auxiliar vai apenas fazer o sistema mostrar a nota como sugestão.
+
+As regras de validação buscam disciplinar possibilidades absurdas, por exemplo, se  o candidato acertar 10 ele é 2, e se ele acertar 8 ele é 3 (impossível, o melhor nível sempre deve ter mais acertos), e assim por diante. 
+
+Do ponto de vista operacional, se o critério tem uma escala, na hora da correção o sistema vai buscar questões no critério que tenham 'Réguas', e para cada régua vai oferecer a possibilidade do corretor preencher os acertos. Caso a prova esteja mal-projetada e não haja réguas de fato, o sistema vai trabalhar com o que tem e vai sugerir níveis ruins – por exemplo, como terá 0 acertos, o candidato nunca será um 4, etc. Normalmente isso será detectado antes da aplicação real da prova, e deve ser corrigido.

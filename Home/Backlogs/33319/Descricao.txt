@@ -1,0 +1,60 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T11:04:51-03:00
+
+====== Descricao ======
+Criado sexta-feira 06 maio 2022
+
+Enquanto usuário 'Adm' vindo da tela 'Lista de questões interditadas'
+Quero visualizar os candidatos interditados
+Para fazer uma checagem antes de alterar a herança de uma questão
+
+001-Dado que o usuário acesse a tela ‘'Lista de questões interditadas”
+
+Então sistema irá carregar o cabeçalho com as informações de visualização(RN1)
+E listagem de candidatos cujas Listas de Questão interditadas contêm a questão-pai(RN2)
+
+E a formatação conforme as operações de intersecção entre as duas listas (RN3)
+
+ 
+
+002- Dado que o usuário clique em ‘Voltar à lista’
+
+Então ele será redirecionado para tela anterior (30466)
+
+
+
+
+RN1- o cabeçalho irá carregar as seguintes informações apenas para visualização:
+
+ 
+
+ID Questão: Id da questão (pai)
+Título da questão
+Descrição
+ID régua: lista os ids de réguas associadas àquela questão
+ID Tag: lista os ids de tags associadas àquela questão
+ 
+
+ 
+
+RN2- a listagem de candidatos será carregada para a visualização e para visualizar candidatos interditados da questão-pai e conterá as seguintes informações:
+
+CANAC
+Nome
+Tipo
+ID avaliação
+Data avaliação
+ID usuário
+Data interdição
+ 
+
+RN3 – O sistema deverá avaliar as LQIs da questão-filha (LQIF) carregada na tela 30466 e da questão-pai (LQIP). Então fará uma operação de intersecção entre as duas. As questões que fizerem parte das duas listas aparecerão formatadas em verde, sinalizando que elas não serão herdadas. As questões que só fizerem parte da LQI da questão pai (LQIP) aparecerão em vermelho, sinalizando que podem ser herdadas.  (Cf. RN 7 do item 30466).
+
+ 
+
+Comentários
+
+ 
+
+Essa tela será acessada somente a partir de 30466, com uma questão-filha já carregada. O usuário então pode ver a lista de questões interditadas da questão pai filtrada pela LQI da questão filha para avaliar a pertinência da operação de herança.

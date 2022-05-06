@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T10:54:20-03:00
+
+====== 33320 ======
+Criado sexta-feira 06 maio 2022
+
+**Título**: COR Midias
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: [[Implementacao:Sprints:SSprint07B|Sprint7B]]**
+**Wireframe**: [[.\c01_wireframe.png|wireframe01]], [[.\c01_item_correcao.png|wireframe02]],  
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\33320|pasta]]
+
+#erronoTFS#
+#syncTFS#

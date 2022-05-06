@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T10:51:13-03:00
+
+====== Descricao ======
+Criado sexta-feira 06 maio 2022
+
+Enquanto usuário do sistema acessando a tela de 'Pesquisar aplicação'
+
+Quero poder acessar funções de aplicação da prova (30457)
+
+Para aplicar a instância da prova para o candidato com o sistema registrando uma versão de prova aleatória (125)
+
+001 – Dado que o usuário queira aplicar a prova
+
+E esteja na tela de “Pesquisar Aplicação”
+
+E clique no botão “Aplicar”
+
+Então o sistema redireciona para a tela de “Aplicação” (RN14)
+
+ 
+
+RN14- Além das Rns descritas no item 30457, o campo ID_VERSAO_DE_PROVA será preenchido com o ID 125 (Sem versão de prova).
+
+ 

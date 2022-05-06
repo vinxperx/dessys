@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T10:13:02-03:00
+
+====== 33326 ======
+Criado sexta-feira 06 maio 2022
+
+**Título**: COR_Listagem_Fiscal
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: [[Implementacao:Sprints:SSprint06B|Sprint6B]]**
+**Wireframe**: [[.\33326_wireframe.png|wireframe01]],  
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\33326|pasta]]
+
+#erronoTFS#
+#syncTFS#

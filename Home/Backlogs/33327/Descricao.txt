@@ -1,0 +1,81 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T11:11:21-03:00
+
+====== Descricao ======
+Criado sexta-feira 06 maio 2022
+
+Enquanto usuário Gestor
+
+Quero definir quais avaliadores estarão ligados a cada entidade
+
+Para  que cada entidade possa lidar com avaliadores ativos.
+
+
+001 – Dado que o usuário esteja na aba do menu “Administrativo”
+
+E clique no botão “Parâmetros de entidade”
+
+Então o sistema o redireciona para a tela “Pesquisar Escola”
+
+ 
+
+002 – Dado que o usuário visualize a lista de Entidades (escolas)
+
+E clique em 'Avaliadores'
+
+Então o sistema abre uma tela pop-up (RN1)
+
+Para configurar os avaliadores que serão disponibilizados para a entidade (escola)
+
+ 
+
+003 – Dado que o usuário na tela pop-up
+
+E selecione a checkbox correspondente ao avaliador
+
+E clique em salvar
+
+Então o sistema salva as novas configurações (RN2, RN3)
+
+ 
+
+RN1 – O sistema deve listar todos os avaliadores ativos em ordem alfabética (pouco menos de 50) da seguinte forma:
+
+1. Avaliadores sem registros ligando-os à entidade na tabela AVALIADOR_ENTIDADE, ou com registros cujos campos SN_VALIDO seja igual à 0 devem aparecer desmarcados.
+
+2. Avaliadores com registros ligando_os à entidade na tabela AVALIADOR_ENTIDADE, cujo SN_VALIDO seja igual à 1 devem aparecer marcados.
+
+ 
+
+RN2 – O sistema deve realizar as seguintes operações:
+
+ 
+
+ 
+
+1. No caso de acrescentar um contrato (clicar marcando sim no avaliador):
+
+a)    Procurar na tabela AVALIADOR_ENTIDADE um registro daquele avaliador (ID_USUARIO) e da entidade (ID_ENTIDADE).
+
+I. Caso esse registro exista, então o valor de SN_VALIDO deve ser marcado como 1;
+
+II.                     Caso esse registro não exista, então o sistema deve criar um novo registro com os seguintes parâmetros:
+
+i. ID_USUARIO = ID de usuário de avaliador;
+
+ii.                ID_ENTIDADE = ID de usuário da entidade;
+
+iii.               ID_AVALIADOR_ENTIDADE = automático;
+
+iv.               SN_VALIDO = 1;
+
+v. OUTROS CAMPOS = NULL.
+
+2. No caso de tirar um avaliador de uma entidade (desmarcar a caixinha) o sistema deve:
+
+a)      Procurar na tabela AVALIADOR_ENTIDADE um registro daquele avaliador (ID_USUARIO) e da entidade (ID_ENTIDADE) e marcar SN_VALIDO = 0.
+
+ 
+
+RN 3 – O sistema não deve criar mais de um registro ligando um mesmo avaliador a uma mesma entidade.

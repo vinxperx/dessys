@@ -1,0 +1,322 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T10:09:08-03:00
+
+====== Descricao ======
+Criado sexta-feira 06 maio 2022
+
+Enquanto Fiscal e Admin vindo da tela SySDEAProva>Fiscalização>Consulta
+Quero poder editar as matrizes existentes
+Para que sejam anexadas e editadas matrizes de níveis às provas.
+
+
+001 – Dado que o usuário acesse a tela ‘Matriz Extraordinária de Nível’
+Então o sistema irá carregar o processo em questão
+
+E exibir suas informações (RN1) 
+
+E disponibilizar os campos para a manutenção das notas (RN2, RN3, RN4, RN10)
+
+
+
+002 – Dado que o usuário escolha um contexto (campo Alteração contexto)
+
+E o processo exibido possua nota com tal contexto
+
+Então o sistema altera o texto do botão "Substituir/Inserir" para "Substituir"
+
+E destaca a coluna da nota conforme wireframe em anexo
+
+
+
+003 – Dado que o usuário escolha um contexto (campo Alteração contexto)
+
+E o processo exibido não possua nota com tal contexto
+
+
+Então o sistema altera o texto do botão "Substituir/Inserir" para "Inserir"
+
+
+
+004 – Dado que o usuário escolha um contexto (campo Alteração contexto)
+
+E o processo exibido não possua nota com tal contexto
+
+E o usuário acione a opção "Apagar"
+
+
+
+Então o sistema exibe uma mensagem de alerta
+
+E impede a operação
+
+
+
+005 – Dado que o usuário escolha um contexto (campo Alteração contexto)
+
+E o processo exibido possua nota com tal contexto
+
+E o usuário acione a opção "Apagar"
+
+E o usuário confirme a operação
+
+
+
+Então o sistema apaga a respectiva nota (RN6, RN9)
+
+
+
+005 – Dado que o usuário escolha um contexto (campo Alteração contexto)
+
+E o processo exibido possua nota com tal contexto
+
+E o usuário informe os níveis intermediários de MEN (RN10, RN11)
+
+E o usuário acione a opção "Substituir"
+
+E o usuário confirme a operação
+
+
+
+
+Então o sistema realiza a substituição da respectiva nota (RN5, RN6, RN8, RN12, RN13)
+
+
+
+005 – Dado que o usuário escolha um contexto (campo Alteração contexto)
+
+E o processo exibido não possua nota com tal contexto
+
+E o usuário informe os níveis intermediários de MEN (RN10, RN11)
+
+E o usuário acione a opção "Inserir"
+
+E o usuário confirme a operação
+
+
+
+
+Então o sistema realiza a substituição da respectiva nota (RN5, RN6, RN7, RN12, RN13)
+
+
+
+Regras de negócio
+RN1- O cabeçalho será com dados do piloto e serão campos para observação apenas:
+
+1. Data do Processo;
+
+2. N° Ava. SYSDEA;
+
+3. CANAC;
+
+4. Entidade;
+
+5. N° Ava. Entidade;
+
+6. Nome;
+
+7. N° Processo.
+
+ 
+
+RN2- O campo ‘Alteração de Contexto’ será um drop-down contendo as escolhas de possíveis para as matrizes. Seu default será NULL. 
+
+ 
+
+1. ELE (CN = 1)
+
+2. SME (CN = 2)
+
+3. 3ESC (CN = 3)
+
+4. ENT (CN = 8)
+
+5. FC1 (CN = 4)
+
+6. FC2 (CN = 5)
+
+7. REC1 (CN = 6)
+
+8. REC2 (CN = 7
+
+9. MFN (CN = 14)
+
+10.Nota final da ANAC em REC (CN=10)
+
+11.Nota final da ANAC FC(CN=9)
+
+12.Blind Rating ELE (CN=12)
+
+13.Blind Rating SME(CN13)
+
+14.Calibração (CN = 15)
+
+15.Conjunto de níveis individual em calibração(CN = 16)
+
+16.Segunda instância Recurso primeira escuta (CN = 17)
+
+17.Segunda instância Recurso segunda escuta (CN = 18)
+
+18.Segunda instância, nível ANAC (CN=19)
+
+19.Terceira instância, Recurso primeira escuta ANAC(CN = 20)
+
+20. Terceira instância, Recurso segunda escuta ANAC(CN = 21)
+
+21. Terceira Instância, nível ANAC (CN=22)
+
+22. Revisão ANAC, primeira escuta (CN=23)
+
+23. Revisão ANAC, segunda escuta (CN=24)
+
+24. Revisão ANAC (CN=25)
+
+
+Se escolhida uma opção de contexto nota que já existe no processo, a tela fará os níveis intermediários do Contexto escolhido ficarem em vermelho para melhor visualização (wireframe_2).
+
+ 
+
+RN3- As matrizes intermediárias anteriores do processo serão carregadas (se existirem apenas) no modo somente leitura, na seguinte ordem.
+
+ 
+
+Matriz || Contexto Nota ||
+
+a)    Matriz de Nível do ELE || 1 ||
+
+a)    Matriz de Nível do SME || 2 ||
+
+a)    Matriz de Nível do 3ESC || 3 ||
+
+b)   Matriz de Nível do ENT || 8 ||
+
+c)    Matriz de Nível FC1 || 4 ||
+
+d)   Matriz de Nível FC2 || 5 ||
+
+e)    Matriz de Nível FC || 9 ||
+
+f)      Matriz de Nível Rec1 || 6 ||
+
+g)    Matriz de Nível Rec2 || 7 ||
+
+h)   Matriz de Nível Rec || 10 ||
+
+i)      Segunda instância Recurso primeira escuta || 17 ||
+
+j)      Segunda instância Recurso segunda escuta ||18||
+
+k)    Segunda instância Recurso ANAC || 19 ||
+
+l)      Terceira instância, Recurso primeira escuta||20||
+
+m)Terceira instância, Recurso segunda escuta ANAC || 21||
+
+n)   Terceira instância, Recurso ANAC  || 22 ||
+
+o)   Revisão ANAC, primeira escuta || 23||
+
+p)   Revisão ANAC, segunda escuta ||24||
+
+q)   Revisão ANAC, final ||25||
+
+r)     Matriz final de nível MFN || 14 || 
+
+
+RN4- Por default, a matriz extraordinária de nível (MEN) terá todas as matrizes intermediárias carregas em NULL.
+
+ 
+
+RN5- O campo 'Observação' armazenará comentários do usuário e deverá ter permanência. O texto armazenado na observação será igual a =CONCATENAR(A + B + C), onde:
+
+
+A = Nome completo do usuário (da tabela Pessoa_SySDEA) responsável pelo desarquivamento + ";"
+
+1. B = "Data:" + Data(DD/MM/AAAA HH:MM:SS)
+
+2. C = "Obs:" + [Conteúdo da observação]
+
+
+RN6- O campo ‘Alteração Contexto’ é obrigatório para todos os fluxos da funcionalidade: Inserir, Substituir e Apagar.
+
+ 
+
+RN7 – Checkout de inserção de nova matriz  Quando o sistema inserir nova matriz, será criado um novo registro na tabela NOTA:
+
+ 
+
+| Coluna  |   | Valor      |
+|---------|---|------------|
+| ID Nota |   | Automático |
+
+| DT_ATRIBUICAO_NOTA |   | Data/hora botão    |
+|--------------------|---|--------------------|
+| ID_CONTEXTO_NOTA   |   | Drop-Down Contexto |
+
+| ID_AVALIACAO |   | Avaliacao              |
+|--------------|---|------------------------|
+| ID_USUARIO   |   | Usuário acessando tela |
+
+| NR_PRONUNCIA |   | V. Pronúncia MEN |
+|--------------|---|------------------|
+| NR_ESTRUTURA |   | V. Estrutura MEN |
+
+| NR_VOCABULARIO |   | V. Vocabulário MEN |
+|----------------|---|--------------------|
+| NR_FLUENCIA    |   | V. Fluência MEN    |
+
+| NR_COMPREENSAO |   | V. Compreensão MEN |
+|----------------|---|--------------------|
+| NR_PRONUNCIA   |   | V. Pronúncia MEN   |
+
+| NR_INTERACAO   |   | V. Interação MEN |
+|----------------|---|------------------|
+| NR_NIVEL_GERAL |   | V. Nota MEN      |
+
+ 
+
+Obs. No caso de matriz de terceira escuta, o valor NR_NIVEL_GERAL será NULL, bem como o de diversos níveis intermediários.
+
+ 
+
+RN8 – Checkout de substituição de nova matriz  Quando o sistema inserir uma matriz cujo contexto já exista no processo, primeiro a matriz que já existe será excluída (Cf. RN 11), e, em seguida, os sistema procederá como na RN7, inserindo a nova matriz.
+
+ 
+
+RN9 – Checkout de exclusão de matriz Quando usuário excluir uma matriz, o sistema multiplicará o CN da matriz escolhida por -1 e dará um refresh na tela, fazendo-a desaparecer. 
+
+ 
+
+RN10 – A matriz de níveis MEN será um conjunto de seis níveis intermediários  inseridos por meio de drop-downs, mais uma Nota, calculada.
+
+a) Os níveis intermediários conterão as seguintes opções;
+
+		 Como aparece para usuário         || Como é armazenado nas tabelas
+
+ 
+
+a)    1                                 ||               1
+
+b)   2                                 ||                 2
+
+c)     3                                 ||               3
+
+d)   4                                 ||               4
+
+e)    5                                 ||               5
+
+f)      5+                               ||               7
+
+g)    6                                 ||               6
+
+ 
+
+RN11 -  A nota da MEN, com exceção de contexto terceira escuta, será igual ao menor valor das matrizes intermediárias.
+
+ 
+
+RN12 – A matriz de níveis, com exceção de contexto terceira escuta, contém obrigatoriamente seis níveis intermediários, para Pronúncia, Estrutura, Vocabulário, Fluência, Compreensão e Interações, mais uma Nota, que é calculada igual ao menor dos níveis intermediários. 
+
+ 
+
+RN13 – A matriz de níveis do contexto terceira escuta contém obrigatoriamente ao menos um de seus seis níveis intermediários e não contém nota. Nas tabelas, a ausência desses valores aparece como NULL.  

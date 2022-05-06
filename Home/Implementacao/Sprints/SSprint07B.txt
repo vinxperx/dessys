@@ -5,3 +5,16 @@ Creation-Date: 2022-05-04T11:28:07-03:00
 ====== SSprint07B ======
 Criado quarta-feira 04 maio 2022
 
+1. [[Backlogs:33317|33317 - COR Aplicacao]]
+2. [[Backlogs:30475|30475 - Listagem_processos_A3]]
+3. [[Backlogs:33320|33320 - COR_midias]]
+4. [[Backlogs:33328|33328 - COR_Criar_agendamento]]
+5. [[Backlogs:33316|33316 - COR_Agendamento_Piloto]]
+6. [[Backlogs:30466|30466 - PRV_GER_EditarListaDeQuestoesInterditadas]]
+7. [[Backlogs:33319|33319 - Visualizar_Candidatos]]
+8. [[Backlogs:33301|33301 - PRV_Listar_Escalas]]
+9. [[Backlogs:33318|33318 - PRV_Editar_Escala]]
+10. [[Backlogs:33327|33327 - Definir Contratos]]
+11. [[Backlogs:30461|30461 - Envio de email A3]]
+
+

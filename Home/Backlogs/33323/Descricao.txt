@@ -1,0 +1,47 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T10:39:35-03:00
+
+====== Descricao ======
+Criado sexta-feira 06 maio 2022
+
+Enquanto usuário com credenciais de fiscal e admin em SySDEA Prova>Fiscalização>Consulta
+
+Quero poder, a partir da tela de Matriz Extraordinária de Níveis
+
+Para editar as matrizes.
+
+
+ 
+
+Critério de Aceitação
+
+001 – Dado que um usuário com credencial de fiscal e admin acesse  SySDEA Prova>Fiscalização>Consulta
+
+E haja provas no status de Consulta (31)
+
+Então o sistema exibe as provas no status de Consulta
+
+E disponibiliza um botão MEN.
+
+ 
+
+002 – Dado que um usuário sem credencial admin acesse  SySDEA Prova>Fiscalização>Consulta
+
+E haja provas no status de Consulta(31)
+
+Então o sistema exibe as provas no status de Consulta
+
+E não disponibiliza um botão MEN.
+
+ 
+
+003 – Dado que um usuário com credencial de admin clique em MEN
+
+Então o sistema redireciona o usuário para a tela 'Matriz Extraordinária de Níveis para aquele processo.
+
+
+
+Observação: Este item deve ser adicionado à sprint 0006 do SySDEA, já que seu desenvolvimento se dá em conjunto com o item 33311 - Matriz Extraordinária de níveis.
+
+ 

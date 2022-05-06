@@ -1,0 +1,64 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T11:07:58-03:00
+
+====== Descricao ======
+Criado sexta-feira 06 maio 2022
+
+Enquanto usuário ‘elaborador’ acessar tela ‘Definir Escalas por Modelo’
+Quero poder inserir/editar/remover escalas/réguas
+Para editar os parâmetros de correção.
+
+
+001-Dado que o usuário acesse a tela ‘Definir Escalas por Modelo’
+Então sistema irá carregar o cabeçalho (RN1)
+E a lista inicial (RN 2)
+E as funcionalidades da tela
+
+
+002 - Dado que o usuário digite um modelo válido
+E clique em ‘Pesquisar’
+Então aquele modelo ficará ativo no cabeçalho
+E o sistema irá fazer um refresh listando as ‘Escalas’ de acordo (RN2)
+
+
+003- Dado que o modelo em questão esteja travado para edição (RN3)
+Então o sistema trava os botões da área da 'Escala'
+E exibe uma mensagem padrão na parte de baixo da tela (RN4).
+
+
+004 – Dado que o modelo em questão esteja liberado para edição (RN3)
+Então o sistema libera os botões da área 'Escalas'.
+
+005 – Dado que o usuário clique em ‘Editar’
+Então o sistema irá redirecionar o usuário para a tela '33318 Editar Escala'
+E carregará a Escala em questão.
+
+006 – Dado que o usuário clique em ‘Remover’
+E confirme
+Então sistema irá remover a escala escolhida
+
+007 – Dado que o usuário clique em 'Inserir'
+E confirme
+Então o sistema irá redirecionar o usuário para a tela '33318 Editar Escala'
+E carregará uma escala em branco.
+
+008 - Dado que o usuário clique em ‘Voltar’
+Então sistema irá redirecionar o usuário para a tela de Menu Elaborador.
+
+ 
+
+RN1 – O cabeçalho da tela será o campo ‘Pesquisar Modelo’
+
+O campo ‘pesquisar modelo’ conterá um campo para pesquisa do modelo e o botão ‘Pesquisar’
+RN 2 – A lista carregará as escalas para um determinado modelo que estiver ativo no cabeçalho.
+
+Obs. O default da lista é nenhum valor.
+
+RN 3 – Um modelo que já foi instanciado é travado para edição. 
+
+
+RN 4 – A mensagem padrão para modelos travados é :'Este modelo já foi instanciado e não é possível realizar alterações em suas escalas. Você pode alternativamente criar um novo modelo em 'Clonar modelo' e editar esse novo modelo aqui'.
+
+
+RN 5 – Cada modelo poderá ter apenas uma escala vinculante e uma escala auxiliar para cada critério (Pronúncia, Estrutura, Vocabulário, Fluência, Compreensão, Interações) num máximo possível de 12. Cf. item 33318 para detalhes.

@@ -1,0 +1,169 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T09:47:59-03:00
+
+====== Descricao ======
+Criado sexta-feira 06 maio 2022
+
+Enquanto usuário com credencial “04-Apoio Administrativo ANAC”, quero
+
+Quero acessar a aba “Apoio Administrativo Anac”
+Para retornar os processos para outros status administrativos.
+
+001 – Dado que o usuário acesse a tela ‘Redistribuição de Processo’
+Então o sistema deve consultar os processos (RN5)
+
+E exibí-los na tela (RN2)
+
+
+
+002 – Dado que o usuário preencha algum campo de filtro (RN1)
+
+E clique em ‘Pesquisar’
+
+Então sistema deve pesquisar todos os processos de acordo com a RN5
+
+E aplicar os filtros informados
+
+E exibí-los na tela (RN2)
+
+
+
+
+003- Dado que o usuário selecione um processo exibido na tela
+E clique em ‘Voltar’ (RN6)
+Então processo irá terá seus registros alterados conforme o checklist de retorno do processo (RN7,RN8)
+
+
+RN1 – O campo ‘Pesquisa’ definirá os critérios de filtro e conterá 2 campos:
+
+ 
+
+1. Entidade;
+
+2. Data no formato DD/MM/AAAA.
+
+ 
+
+ 
+
+RN2 – A Seção ‘Ação’ conterá um botão ‘Voltar’ que fará o processo passar pelo checklist de retorno de processo, conforme especificado na RN5.
+
+ 
+
+RN3 – A seção lista de processos conterá os seguintes campos:
+
+ 
+
+1. Status do processo: Nome do Status baseado no campo ID_STATUS_AVALIACAO
+
+2. Avaliação: Id de avaliação, baseado no campo ID_AVALIACAO
+
+3. Título Entidade: Nome do local entidade, baseado no campo ID_LOCAL_ENTIDADE (diferente da tela atual, o campo Nome Entidade será excluído)
+
+4. Processo: baseado no campo NR_PROCESSO
+
+5. Prova Inicio, formato DD/MM/AAAA HH:MM:SS:  baseado no campo DT_INICIO_AVALIACAO
+
+6. Prova Fim , formato DD/MM/AAAA HH:MM:SS: baseado no campo DT_FIM_AVALIACAO
+
+7. CANAC, puxado do campo (PILOTO>NR_CANAC_PILOTO) a partir de ID_USUARIO
+
+8. Piloto: Nome do piloto, puxado de PESSOA_SYSDEA>NM_NOME_PESSOA a partir de ID_USUARIO
+
+9. ELE – Nome do ELE, puxado de PESSOA_SYSDEA>NM_NOME_PESSOA a partir de  ID_AVALIADOR_ELE
+
+10. SME – Nome do SME, puxado de PESSOA_SYSDEA>NM_NOME_PESSOA a partir de  ID_AVALIADOR_SME
+
+11. Detalhes do processo: ‘Detalhes’(RN4)
+
+12. Selecione: campo do tipo sim/não com a opção de selecionar.
+
+
+RN4 – O botão ‘Detalhes’ redireciona o usuário para a tela 'Detalhes do processo', e carregando-a com o respectivo processo.
+
+ 
+
+RN5 – Serão mostrados na tela processos que estejam entre os status 07 e status 29, excluindo-se os processos nos status:
+
+a)       8, 10, 11, 19, 20, 21, 23, 26, 28 e 29 que  não são usados;
+
+b)      17 – Arquivados.
+
+ 
+
+RN6- Quando o usuário não selecionar nenhum processo e clicar em ‘Voltar’ no campo ‘Ação’, então irá aparecer uma mensagem de erro “Deve selecionar o processo para Redistribuilção”
+
+ 
+
+RN7- O checklist de retorno do usuário será a série de alterações nos registros que o sistema fará quando o usuário clicar em voltar. Para cada status em que o processo se encontrar, haverá :
+
+1. Uma mudança na variável ID_STATUS_AVALIACAO, e/ou
+
+2. O negativamento de registros na tabela de Fiscalização, e/ou
+
+3. O negativamento de registros na tabela Nota e/ou
+
+4. O negativamento de registros na tabela Recurso.
+
+
+
+RN 8 – As mudanças do checklist nas tabelas ocorrerão conforme abaixo:
+
+1. Alteração: x → y significa que o status x será mudado para o y
+
+2. Negativação: (x-y) significa que todos os registros no intervalo serão multiplicados por -1 (negativados)
+
+3. N significa NULL, F significa o Id de um fiscal.
+
+
+
+Op.      |Status                        | Avaliação      | Fiscalização | Nota              | Rec   |Carga
+
+A         |7 – Na ANAC             | 7 → 5            | N/A                | (8)                 | N/A    | –
+
+B         |9 – Em FA                  | 9 → 7            | (20-25)          | N/A               | N/A    |F → N
+
+C         |12 – Para FC1           | 12 → 7          | (20-25)          | N/A               | N/A    | –
+
+D         |13 – Em FC1             | 13 → 12        | (50-54),(1-4) | (4)                 | N/A    |F → N
+
+E         |14 – Para FC2           | 14 → 12        | (50-54), (1-4) | (4)                 | N/A    | –
+
+F          |15 – Em FC2             | 15 → 14        | (60-69)          | (5)                | N/A    |F → N
+G         |16 –  Doc.FA             | 16 → 7         | (20-24)           | (4/5/9/14)      | N/A   |F → N
+
+H         |16 –  Doc.FA             |16 → 12        | (50-54) ,(1-4) | (4/14)            | N/A   |F → N
+
+I           |16 –  Doc.FA             | 16 → 14        | (60-64)          | (5/9/14)         l N/A    |F → N
+J          |18 –  Para Rec1        |  18 → 17       | (150-154)      | N/A               | (1-5)  | –
+
+K         |22 –  Em Rec1          |  22 → 18       | (150-159)      | N/A               | N/A    |F → N
+
+L          |24 –  Para Rec2        |  24 → 18       | (150-169)      | (6)                 | N/A    | –
+
+M         |25 –  Em Rec2          |  25 → 24       | (160-169)      | N/A               |  N/A   |F → N
+
+N         |27 – E-mail ent          | 27 -> 15        | (60-69)          | (14/9/5)         | N/A    | -
+
+
+
+RN09 – O processo seguirá o curso descrito na RN8, 'I', quando houver associado àquele processo um registro positivo na tabela fiscalização cujo resultado de f. seja maior que 59 e menor ou igual a 69 (tipicamente 60, 61, 62, 64).
+
+ 
+
+RN10 – O processo seguirá o curso descrito na RN8, 'H', quando:
+
+1. Não tiver seguido o curso da RN8, I (Cf. RN9); e também
+
+2. Houver associado àquele processo um registro positivo na tabela fiscalização cujo resultado de f. seja maior que 49 e menor ou igual a 59 (normalmente 50,51,52,54).
+
+ 
+
+RN11 – O processo seguirá o curso descrito na RN8, 'G', quando:
+
+1. Não tiver seguido o curso da RN8, 'H' (cf. RN9); nem
+
+2. Tiver seguido o curso da RN8, 'I', (cf. RN10); e também
+
+3. Houver associado àquele processo um registro positivo na tabela fiscalização cujo resultado de f. seja maior que 19 e menor ou igual a 29 (com valores frequentes iguais a 20,21,22,23,24). 

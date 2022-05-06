@@ -1,0 +1,266 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T11:01:44-03:00
+
+====== Descricao ======
+Criado sexta-feira 06 maio 2022
+
+Enquanto usuário 'Adm' vindo do 'Menu'
+Quero poder editar e lista de questões interditadas de cada candidato
+Para customizar a interdição.
+
+001-Dado que o usuário acesse a tela ‘Editar lista de questões”
+
+Então sistema irá carregar abas com suas funcionalidades(RN1)
+
+ 
+
+002- Dado que o usuário esteja na aba ‘CANAC’
+
+Então sistema irá carregar a tela e suas funcionalidades (wireframe_1)
+
+ 
+
+003- Dado que o usuário insira um CANAC válido
+E clique em 'Filtrar'
+Então sistema irá carregar a 'Lista de questões interditadas' (LQI) para aquele CANAC (RN2)
+OU Alternativamente
+
+Dado que o usuário insira um CANAC inválido
+Ou não insira CANAC
+Então o sistema exibe uma mensagem de erro.
+
+ 
+
+004- Dado que o usuário insira um ID questão válido no campo ‘ID Questão’ na seção Questão da Aba 'CANAC'
+E clique em carregar
+Então sistema irá carregar as informações da respectiva questão (RN3)
+
+ 
+
+005- Dado que haja uma questão carregada no campo ‘ID Questão’ (RN3)
+
+E o usuário clique em ‘Inserir’
+
+Então o sistema irá incluir a questão selecionada na LQI do candidato. (RN4)
+
+OU Alternativamente dado que não haja uma questão carregada em 'Questão'
+E o usuário clique em 'Inserir'
+Então o sistema exibe uma mensagem de erro.
+
+
+006-Dado que haja a questões carregada em 'LQI'(RN2)
+
+E o usuário clique em 'Excluir'
+
+E 'confirme'
+Então sistema irá excluir a questão escolhida (RN5)
+
+ 
+
+007- Dado que o usuário clique na aba ‘Questão’
+
+Então sistema irá carregar a tela e suas funcionalidades (wireframe_2) (RN10)
+
+ 
+
+008- Dado que o usuário insira um ID Questão válido no campo ‘Questão-filha’
+
+Então o sistema destrava o botão 'Filtrar'.
+
+ 
+
+009 – Dado que o usuário clique em 'Filtrar'
+E uma questão valida esteja inserida no campo 'ID Questão' em 'Questão-filha'
+Então o sistema irá carregar a lista de ‘Candidatos' das quais aquela questão faz parte na LQI (RN6)
+
+OU Alternativamente
+Dado que o usuário insira um ID Questão inválido no campo 'Questão-filha'
+Então o sistema irá exibir uma mensagem de erro.
+
+ 
+
+ 
+
+010 – Dado que haja uma 'questão-filha' com sua LQI carregada
+
+Então o sistema libera o campo ID questão de 'Questão-pai' para preenchimento.
+
+ 
+
+011 – Dado que o usuário insira um ID Questão válido no campo ‘Questão-pai’
+E clique em carregar
+Então o sistema irá carregar as informações da questão-pai(RN3)
+
+E liberar o botão 'Visualizar'
+
+OU alternativamente
+
+Dado que o usuário insira um ID Questão inválido no campo 'ID questão' de questão-pai
+E clique em 'Carregar'
+
+Então o sistema exibirá uma mensagem de erro.
+
+
+012 – Dado que o usuário clique no botão 'Visualizar'
+
+Então sistema irá abrir uma tela pop-up redirecionando para uma tela de candidatos(33319)
+
+ 
+
+013 – Dado que o usuário retorne para a tela desde 33319
+
+Então o sistema libera o botão 'Herdar'
+
+ 
+
+014 – Dado que haja uma questão válida carregada em 'Questão-pai'(RN3)
+
+E usuário clique em ‘Herdar’
+E confirme
+
+Então sistema irá fazer a operação de herança entre a questão-pai e a questão-filha (RN7, RN8)
+
+ 
+
+015 – Dado que o usuário modifique o campo ID questão em 'Questão-filha'
+
+Então a tela volta para a configuração default  (RN10).
+
+ 
+
+016 – Dado que o usuário modifique o campo ID questão em 'Questão-filha' após ter retornado de 33319
+
+Então a tela executa a rotina 011 novamente.
+
+ 
+
+ 
+
+RN1-O sistema irá carregar 2 abas para o acesso das pesquisas:
+
+CANAC (default)
+Questão
+RN2- Os registros da LQI farão referência às questões com que o piloto já teve contato, e serão compostos por:
+
+Identificação da questão:
+a)       ID questão
+
+b)      Título da questão
+
+Tipo da interdição: contém a forma por meio da qual a questão foi intertitada, que pode ser:
+a)       Por causa de uma prova (P)
+
+b)      Interditada manualmente nesta tela (M)
+
+Detalhes da ocasião da interdição, que mudam se essa ocasião foi manual ou automática (via prova):
+a)       Detalhes da ocasião para interdições automáticas (questões interditadas em provas):
+
+i. Id da avaliação
+
+ii.       Data da avaliação
+
+b)      Detalhes da ocasião para interdições manuais (feitas nesta tela):
+
+i. ID usuário responsável pela interdição
+
+ii.       Data da interdição manual.
+
+ 
+
+RN3- O campo questão contém um potencial registro para a inserção na LQI, e é composto dos seguintes campos, somente leitura:
+
+Título
+Enunciado
+ 
+
+RN4- Quando uma questão for inserida manualmente na LQI do candidato, o sistema fará os seguintes registros:
+
+Na lista de questões interditadas: o ID da questão será inserido
+Num registro de permanência das movimentações manuais, que neste caso incluirá:
+a)       Id da movimentação
+
+b)      Id do candidato
+
+c)       Id do Usuário autor da movimentação
+
+d)      Data da movimentação
+
+e)      Tipo da movimentação (inserção)
+
+f)        Objeto: id_questão.
+
+RN5 – Quando uma questão for excluída manualmente da LQI do candidato, o sistema fará os seguintes registros:
+
+1. Na lista de questões interditadas: o ID da questão será excluído;
+
+2. Num registro de permanência das movimentações manuais, que neste caso incluirá um registro com:
+
+a)       Id da movimentação
+
+b)      Id do candidato
+
+c)       Id do Usuário autor da movimentação
+
+d)      Data da movimentação
+
+e)      Tipo da movimentação: exclusão
+
+f)        Objeto: id_questão.
+
+ 
+
+RN6- O sistema irá carregar uma lista de todos os candidatos que tiverem, em suas LQIs, ao menos um registro da questão-filha, que conterá os seguintes registros:
+
+CANAC
+Nome
+ID avaliação
+Data avaliação
+ID usuário
+Data interdição
+ 
+
+RN7- Quando o usuário clicar em ‘Herdar’, o sistema fará o seguinte:
+
+Fazer uma Lista Temporária 1 contendo os candidatos cujas LQI contêm a questão-pai;
+Fazer uma Lista Temporária 2 contendo os candidatos cujas LQI contêm a questão-filha;
+Fazer uma intersecção entre as duas listas, verificando os elementos em comum (Lista 3);
+Excluir da Lista 1 (candidatos da questão-pai) os elementos em comum (Lista 3), produzindo a Lista 4;
+Adicionar à LQI dos candidatos da Lista 4 a questão-filha;
+Fazer um registro dessa operação de herança (movimentação manual), para cada questão (RN 8)
+ 
+
+RN8- Qualquer movimentação nesta tela (manual, em oposição à movimentação automática que acontece quando uma prova é gerada) precisa ser marcada e gerar um registro no banco, que conterá:
+
+Num registro de permanência das movimentações manuais, que neste caso incluirá:
+a)       Id da movimentação: um id de registro único
+
+b)      Id do candidato: cuja Lista de Questões Interditadas a questão foi incluída ou excluida.
+
+c)       Id do Usuário autor da movimentação.
+
+d)      Data e hora da movimentação.
+
+e)      Tipo da movimentação (inserção/exclusão/ Inclusão em lote)
+
+f)        Objeto: id_questão.
+
+RN9 – Por padrão, a aba CANAC fica em branco.  
+
+RN10 – Por padrão, todos os campos exceto ID Questão de Questão-filha ficam travados e em branco.
+
+Exemplos
+
+1) Uma lista de questões interditadas contém uma questão que foi incluída durante a aplicação da prova. O examinador liga para a ANAC dizendo que o candidato nem entrou na sala de exame. O administrador entrará na tela de Questões e excluirá essas questões da LQI do candidato. Para cada questão excluída artificialmente dessa forma, o sistema gerará um registro contendo o ID da questão que foi excluída, o autor da exclusão, o fato de que foi uma exclusão, etc.
+
+2) Um candidato precisa realizar uma prova de papel. O administrador entra nesta tela e inclui as questões na LQI do candidato, uma a uma. Todas essas inclusões geram registros de movimentação manual (inclusão).
+
+3) Uma questão sofre uma pequena alteração. O administrador faz a operação de herança para que a nova questão não seja aplicada aos candidatos que tiveram contato com a questão original. Para cada LQI à qual a nova questão for adicionada, um registro de inclusão em lote será gerado.
+
+Comentários – Aba questão
+
+A aba 'Questão' foi feita com o seguinte propósito: já existe uma questão (questão original) que está sendo sorteada para provas há algum tempo. Algum elaborador decide fazer uma pequena mudança na questão original, e portanto, cria uma versão nova (questão clonada). A mudança não é grande e o elaborador quer que  a questão clonada também seja interditada para quaisquer candidataos que já tenha feito a questão original. A nova questão precisa herdar a lista de questões interditadas da antiga. É aí que  entra esta aba.
+
+O usuário coloca a questão clonada em questão-filha e a questão original em questão-pai, e clica em herdar. A questão-filha (clonada) passa a ter em sua LQI os candidatos da questão-pai.
+
+Comentários – Aba CANAC

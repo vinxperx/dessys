@@ -1,0 +1,45 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T10:18:18-03:00
+
+====== Descricao ======
+Criado sexta-feira 06 maio 2022
+
+Enquanto usuário 'fiscal' 
+
+Quero poder visualizar avaliações sobrestadas
+Para consulta e retorno ao status normal
+
+001-Dado que o usuário com a credencial de 'Fiscal' acesse a página 'Avaliações Sobrestadas'
+Então sistema carrega as avaliações sobrestadas (RN1)
+E as informações da mesma (RN4)
+
+002- Dado que o usuário clique em ‘Retornar’
+E confirme (RN2)
+Então o processo fará o checkout (RN3)
+
+RN1- As provas que serão carregadas são as que estiverem no status sobrestadas (status -9)
+
+RN2- Quando o usuário clicar, então irá aparecer uma mensagem de confirmação ‘Deseja retornar esse processo?’ (RN3)
+
+RN3- O checkout será para retorno do processo. Ele multiplicará o status por -1. 
+
+		Status   | Nome do Status
+
+·         9          | Em FA Sobrestado               | -9 → 9          
+
+ 
+
+RN4 – Cada registro conterá as seguintes informações:
+
+a)       Número SysDEA
+
+b)      Nome
+
+c)       Canac
+
+d)      Data inicio – DD/MM/AAAA = data_inicio_avaliacao
+
+e)       Protocolo SEI
+
+f)        Botão  ‘Retornar’

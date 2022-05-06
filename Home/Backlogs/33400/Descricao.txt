@@ -1,0 +1,118 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T10:33:18-03:00
+
+====== Descricao ======
+Criado sexta-feira 06 maio 2022
+
+Enquanto usuário 'fiscal' vindo do 'Listagem de Processos'
+Quero ver os detalhes da prova
+E ter a opção de arquivar prova com e sem envio de e-mail
+
+001-Dado que o usuário com a credencial de 'Fiscal' acesse a página ‘Envio de Email'
+Então sistema carrega a informação de cabeçalho (RN1)
+
+E seção com as informações das ‘Notas’ (RN2)
+
+E seção ‘E-mail’(RN3)
+
+E campo ‘Destino do Processo’ (RN4)
+
+
+
+002- Dado que o usuário selecione ‘Enviar e-mail e arquivar’
+
+E clique em enviar
+Então sistema irá fazer o checkout para envio de e-mail e atualização (RN6) (RN8)
+
+ 
+
+003- Dado que o usuário selecione ‘Arquivar sem enviar email’
+E clique em enviar
+Então sistema irá fazer o checkout para atualização (RN7)
+
+
+
+004- Dado que o usuário clique em ‘Voltar’
+Então o usuário será redirecionado para o ‘Listagem de Processos’
+
+ 
+
+Regras de Negócio
+
+RN1- o cabeçalho conterá as informações do piloto e da prova, sendo eles:
+
+·      Data da Prova - DD/MM/AAAA
+
+·      CANAC
+
+·      N°Processo – N° SEI
+
+·      Divulgação Resultado – DD/MM/AAAA HH:MM:SS
+
+·      N° Ava.SySDEA
+
+·      Nome
+
+·      Entidade
+
+ 
+
+RN2- O campo de notas será para consulta do fiscal, irá mostrar as notas do Examinador (CN=8) e da Matriz final de níveis corrente (CN=14) (Conf. Wireframe_1A)
+
+ 
+
+RN3-A seção E-mail conterá com a parte exclusivo de envio de email e terá campo para preenchimento dependendo do caso:
+
+·      Destinatário: USUARIO>TX_EMAIL_USUARIO somente visualização
+
+·      Assunto: opcional, será de preenchimento do fiscal
+
+·      Corpo: opcional, será espaço para a escrita do email que será encaminhado para o piloto
+
+ 
+
+RN4- O campo ‘Destino do Processo’ terá a opção de envio de email ou não para o arquivamento do processo:
+
+·      Enviar e-mail e Arquivar (padrão)
+
+·      Arquivar sem enviar email (RN5)
+
+
+RN5- Quando selecionado ‘Arquivar sem enviar email’ os campos ‘corpo’ e ‘assunto’ ficarão indisponíveis para preenchimento para o usuário, somente se, o usuário selecionar ‘Enviar e-mail e arquivar’ novamente que então retornarão ser disponíveis
+
+
+RN6- A prova será arquivada com envio de e-mail automático para o e-mail cadastrado para o usuário do piloto (USUARIO>TX_EMAIL_USUARIO). Os seguintes registros serão feitos:
+
+ID_STATUS_AVALIACAO:    16 -> 17
+
+DT_ENCERRA_PROCESSO_AVALIACAO:    Se NULL -> Data/Hora Automática | Se Preenchida -> Permanece
+
+DT_DIVULGACAO_RESULTADO_AVALIACAO:    -> Data/Hora atual automática
+
+ID_CARGA: Id_Fiscal > NULL
+
+
+
+
+RN7- A prova será arquivada sem envio de e-mail. Os seguintes registros serão feitos:
+
+ID_STATUS_AVALIACAO:    16 -> 17
+
+DT_ENCERRA_PROCESSO_AVALIACAO:    Se NULL -> Data/Hora Automática | Se Preenchida -> Permanece
+
+ID_CARGA: Id_Fiscal > NULL
+
+ 
+
+RN8 – O sistema deve montar e enviar um e-mail para o candidato e para o fiscal logado (cópia oculta). A o e-mail deve ser montado de acordo com o modelo de e-mail apropriado (para cada nota final da "Nota Corrente" há um modelo de e-mail presente na base de dados - tabela EMAIL_MODELO).
+
+O assunto do e-mail, caso não preenchido pelo usuário logado, irá exibir o assunto definindo no modelo do e-mail.
+
+O restante do e-mail deve ser montado de acordo com wireframe anexado.
+
+Os dados do e-mail enviado devem ser persistidos na tabela EMAIL_SYSDEA.
+
+
+
+ 

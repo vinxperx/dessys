@@ -1,0 +1,59 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T10:52:10-03:00
+
+====== Descricao ======
+Criado sexta-feira 06 maio 2022
+
+Enquanto usuário 'A3' vindo do 'Apoio Administrativo ANAC'
+Quero poder visualizar provas que estejam no status 16 – Documentação FA
+Para checar 'Status' e usar as funcionalidades de redirecionamento
+
+001-Dado que o usuário com a credencial de 'A3' acesse a página 'Listagem de Processos A3' (30475_wireframe_2)
+Então sistema carrega a informação de cabeçalho (RN1)
+E a lista de processos (RN2)
+
+E os três botões contendo as funcionalidades (RN4).
+
+002- Dado que o usuário clique no botão 'E-mail'
+Então o usuário será redirecionado para a tela de análise correspondente (RN4)
+
+ 
+
+003 – Dado que o usuário clique no botão 'Prova' de um registro
+
+Então ele será redirecionado para a tela 'Pesquisar Avaliação' já filtrada para aquela prova em específico
+
+ 
+
+004 – Dado que o usuário clique no botão 'Candidato' de um registro
+
+Então ele será redirecionado para a tela 'Provas por CANAC' já filtrada para aquele CANAC
+
+
+Regras de Negócio
+RN1- O cabeçalho conterá o nome do usuário somente para leitura.
+
+RN2- Os campos de cada processo listado serão somente para leitura, sendo:
+a) Número SysDEA
+b) Nome
+c) Canac
+d)Status (RN3)
+e) Entidade
+f)Data – DD/MM/AAAA = data_inicio_avaliacao
+g)ELE
+h)N° do Processo
+cada registro conterá ainda 3 botões
+-Envio de Email
+-Prova
+-Candidato
+ 
+
+
+RN3- constituem processos na carga do A3 as avaliações que estejam nas seguintes condições:
+
+1 – Status de avaliação = 16 – Documentação FA.
+
+ 
+
+RN 4 – O A3 acessará a tela de envio de e-mail (30461).

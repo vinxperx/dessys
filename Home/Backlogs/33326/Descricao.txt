@@ -1,0 +1,56 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T10:14:59-03:00
+
+====== Descricao ======
+Criado sexta-feira 06 maio 2022
+
+Enquanto usuário 'fiscal' em 'Listagem de Processos'
+Quero dispor de novas funcionalidades de visualização, sobrestamento e acesso a envio de e-mail
+Para tramitar adequadamente os processos.
+
+
+001 – Dado que o usuário com a credencial de 'Fiscal' acesse a página ‘Listagem de Processos'
+
+Então o sistema carrega também os processos para envio de e-mail (RN3)
+
+E, para os processos em FA, carrega também um botão de 'Sobrestar'. (RN4)
+
+002 – Dado que o usuário clique no botão ‘Analisar’
+
+E o processo esteja no status 'Documentação FA' (16)
+
+Então o fiscal será redirecionado para a tela de ‘Envio de E-mail’ correspondente(33400)
+
+ 
+
+003- Dado que o usuário clique em ‘Sobrestar’
+E confirme (RN5)
+Então sistema irá fazer o checkout de sobrestamento (RN6)
+
+ 
+
+Regras de Negócio
+
+RN1- O cabeçalho conterá o nome do fiscal somente para leitura.
+
+RN2- Os campos de cada processo listado serão somente para leitura, sendo:
+-Número SysDEA
+-Nome
+-Canac
+-Email
+
+
+RN3- Os processos para envio de e-mail são aqueles no status 16 (Documentação FA) e que estejam também na carga do fiscal (Id_carga = fiscal).
+
+ 
+
+RN4 – São processos em FA para aquele fiscal aqueles em Status 9 (FA) e que estejam também na carga do fiscal (Id_carga = fiscal).
+
+ 
+
+RN5 – Haverá uma mensagem para confirmação de sobrestamento do processo “Deseja prosseguir com o processo de sobrestamento?”
+
+ 
+
+RN6 – O checkout de sobrestamento negativará o id_status_avaliacao, multiplicando-o por –1. Na prática, os processos que estiverem no status de avaliação = 9 ficarão com ele igual a -9. 

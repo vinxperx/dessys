@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T10:59:33-03:00
+
+====== Descricao ======
+Criado sexta-feira 06 maio 2022
+
+Enquanto usuário ‘Piloto’
+Quero poder acessar tela ‘Detalhes Agendamento Piloto’
+Para para consultar meu status sem possibilidade de acesso indevido.
+
+
+001-Dado que o usuário acesse a tela “Detalhes Agendamento Piloto”
+Então o sistema irá oferecer as funcionalidades conforme Wireframe 1 (RN1).
+
+RN1 – Devem ser desativados os botões Visualizar Agendamentos, Cancelar Agfendamento e Contatar Entidade, restando apenas o botão 'Retornar', que fará o usuário voltar à tela Visualizar Agendamentos.
+
+
+
+RN2 - Deve ser desativado o campo 'Preço da prova', que não deve ser mais exibido.

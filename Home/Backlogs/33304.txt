@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T10:17:22-03:00
+
+====== 33304 ======
+Criado sexta-feira 06 maio 2022
+
+**Título**: ADM_Avaliações_sobrestadas
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: [[Implementacao:Sprints:SSprint06B|Sprint6B]]**
+**Wireframe**: [[.\33304_wireframe_1_atualizado.png|wireframe01]], 
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\33304|pasta]]
+
+#erronoTFS#
+#syncTFS#

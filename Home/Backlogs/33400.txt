@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-06T10:33:11-03:00
+
+====== 33400 ======
+Criado sexta-feira 06 maio 2022
+
+**Título**: COR_Envio_Email
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: [[Implementacao:Sprints:SSprint06B|Sprint6B]]**
+**Wireframe**: [[.\33400_wireframe_atualizado.png|wireframe01]],  [[.\Email_wireframe.png|wireframe02]],  
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\33400|pasta]]
+
+#erronoTFS#
+#syncTFS#
