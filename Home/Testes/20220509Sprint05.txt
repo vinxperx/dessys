@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-09T15:04:06-03:00
+
+====== 20220509Sprint05 ======
+Criado segunda 09 maio 2022
+
+**Backlogs**: [[Backlogs:27581|27581 - PesquisarMidia]]
+**Pasta**: [[./|pasta]]
+**Constatação**: O link para a tela não funciona.
+**Wireframe**: [[./Erro.png|wireframe01]], [[./LinkMidia.png|wireframe02]], [[./MenuProva.png|wireframe03]]
+

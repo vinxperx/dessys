@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-09T14:28:33-03:00
+
+====== Erro ======
+Criado segunda 09 maio 2022
+
+Tela: ConsultarContratos
+Detecção: [[Testes:20220509ConsultaContrato|reunião]] 09/05/2022 
+
+Nem a busca por Avaliador nem a busca por Entidade parecem estar funcionando. A impressão que se tem é que a tela dá um refresh e mais nada. 

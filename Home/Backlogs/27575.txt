@@ -9,7 +9,7 @@ Criado terça 05 abril 2022
 **Tipo**: #desenvolvimento#
 **Módulo**: #prv#
 **Implementação**: [[Implementacao:Sprints:Sprint05A|Sprint05A]]
-**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Status**: [[Meta:StatusDeItens:Producao|Producao]]
 **Wireframe**: [[./27575_wireframe.jpg|wireframe 01]], [[./27575_wireframe_2.png|wireframe 02]]
 **Arquivos**: [[./|pasta]]
 

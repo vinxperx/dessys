@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-09T14:21:58-03:00
+
+====== 20220509 ======
+Criado segunda 09 maio 2022
+
+**Data**: 09/05/2022
+**Tema**: Começo da definição do calendário
+
+1. Determinar o que está em produção: Testes no SySDEA. Resposta: Sprints 01A a 05A até Pesquisar Mídias
+2. Foi achado que o ambiente de validação está otimizado para a implementação da TFAC. É necessário alterá-lo para a sprint 07B (21-30 de dezembro de 2021). 
+3. A conclusão da reunião, hoje, é que são necessários testes para determinar em que medida se podem implementar os itens [[Backlogs:30469|30469 - PesquisarAgendamento]] e [[Backlogs:30470|30470 - CriarAgendamento]] de modo que eles não atrapalhem o fluxo atual. 
+

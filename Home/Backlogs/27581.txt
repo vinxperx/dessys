@@ -15,3 +15,7 @@ Criado terça 05 abril 2022
 
 
 Implementou a tela de pesquisar mídias, que inclui também visualizar mídias. 
+
+Teste: [[Testes:20220509Sprint05|22020509Sprint05]]
+
+#naofunciona#

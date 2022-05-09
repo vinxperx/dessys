@@ -12,4 +12,5 @@ Itens a serem revistos na descrição são marcados com palavras-chave:
 #teste# - testes são necessários
 #caducou#item# - item ficou obsoleto devido à implementação de novo item.  
 #erronoTFS# - a descrição do item tem erro(s) no texto do TFS
+#testar# - significa que o item precisa ser testado em produção assim que surgir uma oportunidade
 #syncTFS# - a descrição do item se baseou no TFS

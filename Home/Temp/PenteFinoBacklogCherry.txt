@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-09T15:28:53-03:00
+
+====== PenteFinoBacklogCherry ======
+Criado segunda 09 maio 2022
+
+xxxxx - 
+
+
+
+Tem no TFS?
+Tem no Zim?
+Tem no Cherry?
+
+tem nos 3? Ok, só maçã preta no CherryTree (Sprint)
+Tá faltando em algum -> Anota

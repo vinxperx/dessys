@@ -16,6 +16,7 @@ Criado terça 05 abril 2022
 [[+Descricao|Descricao]]: Neste item o usuário, A3, pode editar os contratos entre as entidades credenciadas e os examinadores, na prática, habilitando-os a aparecer na lista de examinadores daquela instituição, podendo assim receber provas, por exemplo.  
 
 #naofunciona#
+#testar#
 
-Quando a gente digita o nome da instituição ou do avaliador, ele simplesmente apaga. 
+Quando a gente digita o nome da instituição ou do avaliador no filtro, ele simplesmente apaga. 
 
