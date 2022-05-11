@@ -1,11 +1,17 @@
 Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
+Wiki-Format: zim 0.6
 Creation-Date: 2022-05-09T15:28:53-03:00
 
 ====== PenteFinoBacklogCherry ======
 Criado segunda 09 maio 2022
 
-xxxxx - 
+Os status criados serão para maior controle, sendo eles:
+
+TFS - [[#tfs]]
+Zim - [[#zim]]
+Cherry - [[#cherry]]
+
+caso o item tenha os 3, então deverá ter as 3 tags.
 
 
 
