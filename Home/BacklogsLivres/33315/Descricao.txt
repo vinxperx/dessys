@@ -1,0 +1,958 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-18T11:51:21-03:00
+
+====== Descricao ======
+Criado quarta-feira 18 maio 2022
+
+Enquanto usuário Avaliador
+
+Quero acessar a tela ‘Preencher Evidências’
+
+Para poder compor um relatório online
+
+001-Dado que o usuário esteja na aba SySDEA_PROVA>Correcao>Pesquisar Correção
+
+E acesse a tela ‘Preencher Evidências’
+
+Então o sistema irá carregar a tela na sua configuração default (RN1, Wireframe_1)
+
+ 
+
+002-Dado que o usuário clique na aba ‘Geral’
+Então sistema irá carregar a aba geral com
+
+Ou valores que tiveram permanência para a prova em foco
+
+Ou   valores default, caso não haja nenhum valor com permanência ligado à prova em foco
+
+E funcionalidades (RN2).
+
+ 
+
+003 – Dado que o usuário esteja na aba 'Geral'
+E clique em um dos campos de #1 a #6 na seção 'Níveis intermediários' (RN09)
+
+Então o sistema calcula o campo #7 de acordo com a regra em RN2 2.g.i.
+
+ 
+
+004 – Dado que o usuário esteja na aba 'Geral'
+
+E haja texto no campo 'Inserir'
+E clique em Inserir na seção 'Observações'
+
+Então sistema armazena a observação (RN15)
+
+ 
+
+005 – Dado que o usuário clique na aba de 'Critério X'
+
+Então o sistema irá carregar a aba do Critério X com
+
+Ou valores que tiveram permanência para a prova em foco
+
+Ou valores default
+
+Bem como demais funcionalidades (RN04-RN11).
+
+ 
+
+006 – Dado que o usuário clique na aba de um Critério x (RN 11)
+
+E o campo Nota na seção 'Evidências' esteja destravado
+
+E o usuário clique em 'Nota'
+
+Então o sistema disponibiliza um drop-down apropriado (RN3 e RN9).
+
+007 – Dado que o usuário esteja em uma aba de um Critério X (RN11)
+E clique no campo
+Ou 'Evidências positivas'
+Ou 'Evidências negativas'
+
+Então o sistema permite a edição desses valores
+
+E sinaliza que os valores ainda não têm permanência.
+
+ 
+
+008 – Dado que o usuário esteja em uma aba de um Critério X (RN11)
+
+E clique no botão 'Salvar'
+
+Então o sistema dá permanência aos campos de Evidências Positivas, Evidências Negativas, Evidências quantificadas, Nota do ELE e Nota do SME. (RN12).
+
+ 
+
+009 – Dado que o usuário clique no campo do tipo Sim/Não nas Eqs auxiliares
+
+Então o sistema muda o status deste campo (verdadeiro para falso, ou vice-versa)
+
+E recalcula o somatório da seção de Eqs auxiliares    (região 4.a.i).
+
+ 
+
+010 – Dado que o usuário clique no campo do tipo Sim/Não nas Eqs vinculantes
+
+Então o sistema muda o status deste campo (verdadeiro para falso ou vice-versa)
+
+E recalcula o somatório da seção de Eqs auxiliares
+
+E recalcula a nota vinculada do critério associado.
+
+ 
+
+011 – Dado que um critério x tenha uma nota vinculada ou de critério alterada
+
+E a    sintonia entre nota vinculada e nota atribuída seja violada (RN16)
+
+Então a aba fica com uma cor diferente
+
+E um aviso não-bloqueante é exibido
+
+E uma variável de discrepância (sim/não) é marcada como verdadeira (RN14)
+
+E na aba 'Geral' o campo com critério intermediário associado fica em destaque.
+
+ 
+
+012 – Dado que um critério x tenha uma nota vinculada ou nota de critério alterada
+
+E a    sintonia entre nota vinculada e nota atribuída seja restaurada (RN16)
+
+Então a tela fica com uma cor padrão
+
+E nenhum aviso é exibido
+
+E na tela 'Geral' o critério intermediário associado não fica em destaque.
+
+ 
+
+013 – Dado que um critério x tenha uma nota vinculada ou de critério alterada
+
+E a haja    sintonia entre nota vinculada e nota atribuída em todos os critérios (RN16)
+
+Então uma variável de discrepância (sim/não) é marcada como falsa (RN14).
+
+ 
+
+014 – Dado que a tela esteja carregando
+
+E a sintonia entre nota vinculada e nota atribuída esteja comprometida em um ou mais critérios (RN16)
+
+Então as abas com a discrepância ficam com uma cor diferente
+
+E um aviso não-bloqueante é exibido em cada aba
+
+E uma variável de discrepância (sim/não) é marcada como verdadeira (RN14)
+
+E na aba 'Geral' o(s) campo(s) com critério intermediário associado fica em destaque.
+
+ 
+
+015 – Dado que a prova esteja em status 05
+
+Então o botão imprimir relatório fica ativado.
+
+ 
+
+016 – Dado que a prova esteja em status 04 ou 06
+
+Ou não haja versão de relatório vinculada ao modelo de prova (Cf. item 33321)
+
+Então o botão ‘exportar relatório’ fica desativado.
+
+ 
+
+017 – Dado que o usuário clique em ‘exportar relatório’
+E não escolha nenhum formato
+Então sistema mostra uma mensagem de erro (RN17)
+
+ 
+
+018- Dado que o usuário escolha um formato
+E clique em ‘exportar relatório’
+
+Então sistema irá fazer o download do relatório (RN19) no formato escolhido (RN18)
+
+ 
+
+ 
+
+ 
+
+RN1 – A configuração default da tela consiste em:
+
+1. Foco na aba 'Geral'
+
+2. Carregadas as abas clicáveis:
+
+a)       Aba inicial, Título 'Geral' para preenchimento de níveis e outras funções gerais;
+
+b)      Aba de critério, Título 'Pron.' para preenchimento de evidências Pronúncia;
+
+c)       Aba de critério, Título 'Estr.'    para preenchimento de evidências de Estrutura;
+
+d)      Aba de critério, Título 'Voca.'    para preenchimento de evidências de Vocabulário;
+
+e)      Aba de critério, Título 'Flue.' para preenchimento de evidências de Fluência;
+
+f)        Aba de critério, Título 'Comp.' para preenchimento de evidências de Compreensão;
+
+g)       Aba de critério, Título 'Inte.' para preenchimento de evidências de Interações.
+
+RN2 – A aba 'Geral' conterá três seções:
+
+A seção 'Piloto', que conterá quatro campos não-editáveis:
+a)       CANAC – Canac do piloto fazendo a avaliação.
+
+b)      Nome – Nome do piloto fazendo a avaliação.
+
+c)       ID – ID_USUARIO do piloto fazendo a avaliação.
+
+d)      SEI – Número do processo da avaliação (AVALIACAO>NR_PROCESSO)
+
+A seção 'Níveis intermediários' poderá ter três matrizes de níveis, conterá campos do tipo drop-down e calculado para o ELE, SME ou 3 escuta, sendo:
+a)       Campo #1: Título 'Pronúncia'
+
+i. Tipo drop-down, com valores possíveis explicados na RN3 e RN9.
+
+ii.       A origem desse campo (NR_NIVEL_PRONUNCIA) dependerá de quem o estiver acessando:
+
+1. ELE: Se o usuário que estiver acessando for o ELE, então a origem do campo é a matriz de níveis CN 1 associada.
+
+2. SME: Se o usuário que estiver acessando for o SME, então a origem do campo é a matriz de níveis CN2 associada.
+
+3. 3 esc: Se o usuário que estiver acessando for o designado para a terceira escuta, há duas possibilidades:
+
+a. O campo não existe (não se trata de um critério com diferença crítica), então o campo fica travado para edição;
+
+b. O campo existe e está associado à matriz de níveis CN 3.
+
+iii.     Default: matriz de níveis associada a esta instância de prova.
+
+b)      Campo #2: Título 'Estrutura'
+
+i. Tipo drop-down, com valores possíveis explicados na RN3 e RN9 .
+
+ii.       A origem desse campo (NR_NIVEL_ESTRUTURA) dependerá de quem o estiver acessando:
+
+1. ELE: Se o usuário que estiver acessando for o ELE, então a origem do campo é a matriz de níveis CN 1 associada.
+
+2. SME: Se o usuário que estiver acessando for o SME, então a origem do campo é a matriz de níveis CN2 associada.
+
+3. 3 esc: Se o usuário que estiver acessando for o designado para a terceira escuta, há duas possibilidades:
+
+a. O campo não existe (não se trata de um critério com diferença crítica), então o campo fica travado para edição;
+
+b. O campo existe e está associado à matriz de níveis CN 3.
+
+iii.     Default: matriz de níveis associada a esta instância de prova.
+
+ 
+
+c)       Campo #3: Título 'Vocabulário'
+
+i. Tipo drop-down, com valores possíveis explicados na RN3 e RN9 .
+
+ii.       A origem desse campo (NR_NIVEL_VOCABULARIO) dependerá de quem o estiver acessando:
+
+1. ELE: Se o usuário que estiver acessando for o ELE, então a origem do campo é a matriz de níveis CN 1 associada.
+
+2. SME: Se o usuário que estiver acessando for o SME, então a origem do campo é a matriz de níveis CN2 associada.
+
+3. 3 esc: Se o usuário que estiver acessando for o designado para a terceira escuta, há duas possibilidades:
+
+a. O campo não existe (não se trata de um critério com diferença crítica), então o campo fica travado para edição;
+
+b. O campo existe e está associado à matriz de níveis CN 3.
+
+iii.     Default: matriz de níveis associada a esta instância de prova.
+
+d)      Campo #4: Título 'Fluência'
+
+i. Tipo drop-down, com valores possíveis explicados na RN3 e RN9.
+
+ii.       A origem desse campo (NR_NIVEL_FLUENCIA) dependerá de quem o estiver acessando:
+
+1. ELE: Se o usuário que estiver acessando for o ELE, então a origem do campo é a matriz de níveis CN 1 associada.
+
+2. SME: Se o usuário que estiver acessando for o SME, então a origem do campo é a matriz de níveis CN2 associada.
+
+3. 3 esc: Se o usuário que estiver acessando for o designado para a terceira escuta, há duas possibilidades:
+
+a. O campo não existe (não se trata de um critério com diferença crítica), então o campo fica travado para edição;
+
+b. O campo existe e está associado à matriz de níveis CN 3.
+
+iii.     Default: matriz de níveis associada a esta instância de prova.   
+
+e)      Campo #5: Título 'Compreensão'
+
+i. Tipo drop-down, com valores possíveis explicados na RN3 e RN9 .
+
+ii.       A origem desse campo (NR_NIVEL_COMPREENSAO) dependerá de quem o estiver acessando:
+
+1. ELE: Se o usuário que estiver acessando for o ELE, então a origem do campo é a matriz de níveis CN 1 associada.
+
+2. SME: Se o usuário que estiver acessando for o SME, então a origem do campo é a matriz de níveis CN2 associada.
+
+3. 3 esc: Se o usuário que estiver acessando for o designado para a terceira escuta, há duas possibilidades:
+
+a. O campo não existe (não se trata de um critério com diferença crítica), então o campo fica travado para edição;
+
+b. O campo existe e está associado à matriz de níveis CN 3.
+
+iii.     Default: matriz de níveis associada a esta instância de prova.
+
+f)        Campo #6: Título 'Interações'
+
+i. Tipo drop-down, com valores possíveis explicados na RN3 e RN9 .
+
+ii.       A origem desse campo (NR_NIVEL_INTERACOES) dependerá de quem o estiver acessando:
+
+1. ELE: Se o usuário que estiver acessando for o ELE, então a origem do campo é a matriz de níveis CN 1 associada.
+
+2. SME: Se o usuário que estiver acessando for o SME, então a origem do campo é a matriz de níveis CN2 associada.
+
+3. 3 esc: Se o usuário que estiver acessando for o designado para a terceira escuta, há duas possibilidades:
+
+a. O campo não existe (não se trata de um critério com diferença crítica), então o campo fica travado para edição;
+
+b. O campo existe e está associado à matriz de níveis CN 3.
+
+iii.     Default: matriz de níveis associada a esta instância de prova.
+
+g)       Campo #7: Título 'Geral'
+
+i. Campo não-editável, com duas possibilidades:
+
+1. Para ELE e SME: igual ao menor valor de permanência dos campos #1 ao #6 (#7=Menor{#1,#2,#3,#4,#5,#6}), mas que exibirá o valor de mostruário.
+
+2. Para 3 esc: inexistente
+
+ii.       Default: NR_NIVEL_GERAL da matriz de níveis associada a esta instância de prova.
+
+A seção de observações gerais, com dois campos:
+a)       Campo de observações prévias
+
+b)      Inserção de observações
+
+c)       Botão inserir.
+
+RN 3 – Os campos #1 a #6, bem como o #7    poderão conter sete valores distintos, que aparecem (valor de mostruário) e são registrados na tabela (valor de registro) de formas diferentes:
+
+Valor de mostruário                       |                             Valor de registro
+1                                                            |                             1
+2                                                            |                             2
+3                                                            |                             3
+4                                                            |                             4
+5                                                            |                             5
+5+                                                          |                             7
+6                                                            |                             6
+
+O valor default para cada caso será igual a 1 ou o valor da matriz de nível associada àquela prova (1 para a coluna de ELE, 2 para a coluna de SME).
+
+RN4 – A aba do 'critério x' terá até quatro seções, que serão carregadas conforme as regras de negócio abaixo:
+
+O título do 'critério x', não editável;
+O cabeçalho, com os seguintes campos não editáveis:
+a)       CANAC – Canac do piloto fazendo a avaliação.
+
+b)      Nome – Nome do piloto fazendo a avaliação.
+
+c)       ID – ID_USUARIO do piloto fazendo a avaliação.
+
+d)      SEI – Número do processo da avaliação (AVALIACAO>NR_PROCESSO)
+
+A seção Evidências, com dois campos de texto com tamanho variável:
+a)       Evidências positivas, campo que terá permanência associada à instância e ao 'Critério x';   
+
+b)      Evidências negativas, campo que terá permanência associada à instância e ao 'Critério x';   
+
+A seção 'Réguas auxiliares', carregada apenas se houver, para a instância de prova em foco, escala auxiliar vinculada ao 'Critério x'.
+a)       A seção 'Réguas auxiliares' terá duas regiões:
+
+i. A primeira será o somatório, que conterá campos não-editáveis, dispostos em linha, conforme a RN6.
+
+ii.       A segunda região, evidências quantificadas, conterá uma linha de evidência quantificada com permanência (RN7) para cada régua pertinente naquela instância (RN5).
+
+A seção 'Réguas vinculantes', carregada se e somente se houver, para    instância de prova em foco, escala vinculante ligada ao  'Critério x' (RN9).
+a)       A seção 'Réguas vinculantes' terá duas regiões:
+
+i. A primeira será o somatório, que conterá os seguintes campos, preenchidos conforme a RN8:
+
+I. Um campo com o símbolo de somatório ∑, não editável, concatenado com o valor;
+
+II.      O valor, composto de uma porcentagem, caso a escala vinculante de pronúncia seja relativa, ou composto de um número, uma barra (forward slash '/') e um total, caso ela seja absoluta.
+
+III.    Nota vinculada: Apenas para modelos com escala vinculante ativada. Nota calculada automaticamente conforme a escala do modelo. O campo não pode ser editado, a menos que o campo ajuste seja clicado. Neste caso, o campo pode receber as notas conforme RN3.
+
+RN5 – Caso haja escala auxiliar ativa para o 'Critério x', o sistema encontrará as réguas auxiliares pertinentes de uma instância fazendo uma varredura em todas as questões sorteadas. Para cada régua auxiliar do 'Critério x' vinculada a uma questão sorteada, haverá uma linha de evidência régua auxiliar pertinete para pronúncia listada na região EQs.
+
+RN6 – Caso haja escala auxiliar ativa para o 'Critério x', o sistema fará uma varredura em todas as EQs para esta instância, fazendo uma operação do tipo 'União' em todas as descrições dos campos. Para cada valor diferente de descrição de EQ, o sistema criará uma linha para o somatório, com a seguinte concatenação:
+
+Título, igual à descrição da EQ, concatenado com
+Valor, que obedecerá às seguintes regras
+a)       Se a escala auxiliar do modelo ligada ao 'Critério x' for absoluta, o valor será igual à soma simples das Eqs auxiliares marcadas como verdadeiras;
+
+b)      Se a escala auxiliar do modelo ligada ao 'Critério x' for relativa, o valor será igual à divisão das Eqs auxiliares marcadas como verdadeiras, dividida pelo total de Eqs no formato de porcentagem.
+
+Concatenado com uma barra (forward slash '/'), concatenado com
+O total das Eqs com a mesma descrição, caso a escala seja absoluta.
+Exemplos: 'Repetir 25/30' (Título 'Repetir', 25 marcadas como verdadeiras num total de 30, escala absoluta), 'Parafrasear' 70% (Título 'Parafrasear', 7 marcadas como verdadeiras num total de 10, escala relativa).     
+RN7 – Cada régua auxiliar será instanciada como uma linha na seção de 'evidência quantificada', que terá permanência no sistema vinculada à instância de prova aplicada e ao 'Critério x':
+
+Na coluna 'Parte' aparecerá o 'Título da parte' em que a questão associada à régua apareceu na prova (por exemplo, Parte 1, Parte 2, Parte 3, etc.).
+Na coluna 'Questão' aparecerá    o 'Título da questão' da questão associada à régua concatenado com o número do slot ocupado dentro daquela parte naquela instância. Por exemplo, uma questão com título 'Situation' que foi sorteada no terceiro slot da parte 2 aparecerá como 'Situation 3'.   
+Na coluna 'Régua' aparecerá o título da régua (wireframe 5);
+Na coluna 'Eqs' aparecerá um campo do tipo sim/não para cada item da régua:
+i. cada campo do tipo sim/não será precedido pela descrição do campo (wireframe 5).
+
+RN8 – Caso haja escala vinculante ativa para o 'Critério x', o sistema encontrará as réguas auxiliares pertinentes de uma instância fazendo uma varredura em todas as questões sorteadas. Para cada régua auxiliar de 'Critério x' vinculada a uma questão sorteada, haverá uma linha de evidência régua auxiliar pertinete para pronúncia listada na região Eqs.
+
+RN9 – Caso haja uma escala vinculante ativa ligada ao 'Critério x' para o modelo de prova que deu origem à instância, então:
+
+5. Haverá a seção 'Réguas vinculantes' na aba Pronúncia E;
+
+6. O campo nota 'Critério x' será bloqueado para edição tanto na tela 'Geral' quanto na aba 'Abreviatura do Critério X', sendo destravado apenas se a opção 'Nota manual' for acionada na aba do 'Critério x'.
+
+RN10 – Cada régua vinculante será instanciada como uma linha na seção de evidência quantificada, que terá permanência no sistema vinculada à instância de prova aplicada e ao 'Critério x'.
+
+Na coluna 'Parte' aparecerá o 'Título da parte' em que a questão associada à régua apareceu na prova (por exemplo, Parte 1, Parte 2, Parte 3, etc.).
+Na coluna 'Questão' aparecerá    o 'Título da questão' da questão associada à régua concatenado com o número do slot ocupado dentro daquela parte naquela instância. Por exemplo, uma questão com título 'Situation' que foi sorteada no terceiro slot da parte 2 aparecerá como 'Situation 3'.   
+Na coluna 'Régua' aparecerá o título da régua (wireframe 5);
+Na coluna 'Eqs' aparecerá um campo do tipo sim/não para cada item da régua:
+i. cada campo do tipo sim/não será precedido pela descrição do campo (wireframe 5).
+
+RN11 – Os critérios da prova são:
+
+Título                    ||           Abreviação        ||           Ordem
+Pronúncia           ||           Pron.                    ||           #1
+Estrutura             ||           Estr.                       ||           #2
+Vocabulário        ||           Voca.                    ||           #3
+Fluência               ||           Flue.                      ||           #4
+Compreensão   ||           Comp.                  ||           #5
+Interações          ||           Inte.                      ||           #6
+
+RN12 – As regras de permanência para uma instância são:
+
+Evidências positivas / Evidências negativas: As evidências positivas ou negativas são compartilhadas entre os corretores da prova (ELE, SME e 3 Escuta), sendo o mesmo registro para os três atores. Se o ELE mudar um desses campos, e o SME carregar a mesma instância, por exemplo, a mudança será vista por ele, e vice-versa. Se houver algum valor diferente de nulo e o usuário clicar em 'Salvar', o sistema deve permanecer esses textos, vinculados à instância de prova, um para cada critério. Uma instância de prova com todas as evidências preenchidas terá 12 registros de texto, 2 para cada critério.
+Evidências quantificadas: Similares às evidências positivas e negativas, as evidências quantificadas têm permanência tão logo o usuário salve o relatório, ou o envie para a ANAC. Também são compartilhadas entre os atores.
+Notas do ELE e do SME: As notas do ELE e do SME comporão as matrizes de níveis CN 1, 2 e 3. Elas não são compartilhadas, cada ator vê sua matriz de níveis.
+Elas terão permanência caso o usuário clique em 'Salvar'.
+
+a)       Caso já exista uma Matriz de Níveis correspondente com valores diferentes, o sistema negativa a matriz anterior e registra matriz desta tela.
+
+ 
+
+RN 13 – A prova não poderá ser encaminhada nesta tela se:
+
+A nota vinculada de algum critério estiver diferente da nota da Instituição para este mesmo critério. A nota vinculada não existe na maioria dos casos, somente se houver escala vinculada ativa para aquele critério para aquela instância de prova.
+Não houver nenhum campo de evidências preenchido. Neste caso
+               
+
+RN 14 – A variável de discrepância deve estar associada a uma matriz de níveis individual (CN 1, 2 ou 3)    e será verdadeira sempre que a nota de um dos critérios for diferente da nota vinculada associada.   
+
+ 
+
+RN15- O campo 'Observação' armazenará comentários do usuário e deverá ter permanência. O texto armazenado na observação será igual a =CONCATENAR(A + B + C), onde:
+
+1. A = Nome completo do usuário (da tabela Pessoa_SySDEA) responsável pelo desarquivamento + ";"
+
+2. B = "Data:" + Data(DD/MM/AAAA HH:MM:SS)
+
+C = "Obs:" + [Conteúdo da observação]
+
+ 
+
+RN 16 – A sintonia entre a nota vinculada e a nota atribuída significa que elas são iguais.
+
+ 
+
+RN17- A mensagem de erro será ‘Para fazer download do relatório, é necessário escolher um formato’
+
+ 
+
+RN18- O drop-down presente, conterá os formatos de arquivos disponíveis para o usuário escolher.
+
+.Pdf
+.Html (se não for difícil)
+.Odt (se não for difícil)
+.Docx
+ 
+
+RN19 – Cada modelo de prova terá uma e somente uma versão de relatório atelada a si na tela 33321. Uma versão de relatório pode ser atrelada a mais de um modelo. Cf. item 33321.001-Dado que o usuário esteja na aba SySDEA_PROVA>Correcao>Pesquisar Correção
+
+E acesse a tela ‘Preencher Evidências’
+
+Então o sistema irá carregar a tela na sua configuração default (RN1, Wireframe_1)
+
+ 
+
+002-Dado que o usuário clique na aba ‘Geral’
+Então sistema irá carregar a aba geral com
+
+Ou valores que tiveram permanência para a prova em foco
+
+Ou   valores default, caso não haja nenhum valor com permanência ligado à prova em foco
+
+E funcionalidades (RN2).
+
+ 
+
+003 – Dado que o usuário esteja na aba 'Geral'
+E clique em um dos campos de #1 a #6 na seção 'Níveis intermediários' (RN09)
+
+Então o sistema calcula o campo #7 de acordo com a regra em RN2 2.g.i.
+
+ 
+
+004 – Dado que o usuário esteja na aba 'Geral'
+
+E haja texto no campo 'Inserir'
+E clique em Inserir na seção 'Observações'
+
+Então sistema armazena a observação (RN15)
+
+ 
+
+005 – Dado que o usuário clique na aba de 'Critério X'
+
+Então o sistema irá carregar a aba do Critério X com
+
+Ou valores que tiveram permanência para a prova em foco
+
+Ou valores default
+
+Bem como demais funcionalidades (RN04-RN11).
+
+ 
+
+006 – Dado que o usuário clique na aba de um Critério x (RN 11)
+
+E o campo Nota na seção 'Evidências' esteja destravado
+
+E o usuário clique em 'Nota'
+
+Então o sistema disponibiliza um drop-down apropriado (RN3 e RN9).
+
+007 – Dado que o usuário esteja em uma aba de um Critério X (RN11)
+E clique no campo
+Ou 'Evidências positivas'
+Ou 'Evidências negativas'
+
+Então o sistema permite a edição desses valores
+
+E sinaliza que os valores ainda não têm permanência.
+
+ 
+
+008 – Dado que o usuário esteja em uma aba de um Critério X (RN11)
+
+E clique no botão 'Salvar'
+
+Então o sistema dá permanência aos campos de Evidências Positivas, Evidências Negativas, Evidências quantificadas, Nota do ELE e Nota do SME. (RN12).
+
+ 
+
+009 – Dado que o usuário clique no campo do tipo Sim/Não nas Eqs auxiliares
+
+Então o sistema muda o status deste campo (verdadeiro para falso, ou vice-versa)
+
+E recalcula o somatório da seção de Eqs auxiliares    (região 4.a.i).
+
+ 
+
+010 – Dado que o usuário clique no campo do tipo Sim/Não nas Eqs vinculantes
+
+Então o sistema muda o status deste campo (verdadeiro para falso ou vice-versa)
+
+E recalcula o somatório da seção de Eqs auxiliares
+
+E recalcula a nota vinculada do critério associado.
+
+ 
+
+011 – Dado que um critério x tenha uma nota vinculada ou de critério alterada
+
+E a    sintonia entre nota vinculada e nota atribuída seja violada (RN16)
+
+Então a aba fica com uma cor diferente
+
+E um aviso não-bloqueante é exibido
+
+E uma variável de discrepância (sim/não) é marcada como verdadeira (RN14)
+
+E na aba 'Geral' o campo com critério intermediário associado fica em destaque.
+
+ 
+
+012 – Dado que um critério x tenha uma nota vinculada ou nota de critério alterada
+
+E a    sintonia entre nota vinculada e nota atribuída seja restaurada (RN16)
+
+Então a tela fica com uma cor padrão
+
+E nenhum aviso é exibido
+
+E na tela 'Geral' o critério intermediário associado não fica em destaque.
+
+ 
+
+013 – Dado que um critério x tenha uma nota vinculada ou de critério alterada
+
+E a haja    sintonia entre nota vinculada e nota atribuída em todos os critérios (RN16)
+
+Então uma variável de discrepância (sim/não) é marcada como falsa (RN14).
+
+ 
+
+014 – Dado que a tela esteja carregando
+
+E a sintonia entre nota vinculada e nota atribuída esteja comprometida em um ou mais critérios (RN16)
+
+Então as abas com a discrepância ficam com uma cor diferente
+
+E um aviso não-bloqueante é exibido em cada aba
+
+E uma variável de discrepância (sim/não) é marcada como verdadeira (RN14)
+
+E na aba 'Geral' o(s) campo(s) com critério intermediário associado fica em destaque.
+
+ 
+
+015 – Dado que a prova esteja em status 05
+
+Então o botão imprimir relatório fica ativado.
+
+ 
+
+016 – Dado que a prova esteja em status 04 ou 06
+
+Ou não haja versão de relatório vinculada ao modelo de prova (Cf. item 33321)
+
+Então o botão ‘exportar relatório’ fica desativado.
+
+ 
+
+017 – Dado que o usuário clique em ‘exportar relatório’
+E não escolha nenhum formato
+Então sistema mostra uma mensagem de erro (RN17)
+
+ 
+
+018- Dado que o usuário escolha um formato
+E clique em ‘exportar relatório’
+
+Então sistema irá fazer o download do relatório (RN19) no formato escolhido (RN18)
+
+ 
+
+ 
+
+ 
+
+RN1 – A configuração default da tela consiste em:
+
+1. Foco na aba 'Geral'
+
+2. Carregadas as abas clicáveis:
+
+a)       Aba inicial, Título 'Geral' para preenchimento de níveis e outras funções gerais;
+
+b)      Aba de critério, Título 'Pron.' para preenchimento de evidências Pronúncia;
+
+c)       Aba de critério, Título 'Estr.'    para preenchimento de evidências de Estrutura;
+
+d)      Aba de critério, Título 'Voca.'    para preenchimento de evidências de Vocabulário;
+
+e)      Aba de critério, Título 'Flue.' para preenchimento de evidências de Fluência;
+
+f)        Aba de critério, Título 'Comp.' para preenchimento de evidências de Compreensão;
+
+g)       Aba de critério, Título 'Inte.' para preenchimento de evidências de Interações.
+
+RN2 – A aba 'Geral' conterá três seções:
+
+A seção 'Piloto', que conterá quatro campos não-editáveis:
+a)       CANAC – Canac do piloto fazendo a avaliação.
+
+b)      Nome – Nome do piloto fazendo a avaliação.
+
+c)       ID – ID_USUARIO do piloto fazendo a avaliação.
+
+d)      SEI – Número do processo da avaliação (AVALIACAO>NR_PROCESSO)
+
+A seção 'Níveis intermediários' poderá ter três matrizes de níveis, conterá campos do tipo drop-down e calculado para o ELE, SME ou 3 escuta, sendo:
+a)       Campo #1: Título 'Pronúncia'
+
+i. Tipo drop-down, com valores possíveis explicados na RN3 e RN9.
+
+ii.       A origem desse campo (NR_NIVEL_PRONUNCIA) dependerá de quem o estiver acessando:
+
+1. ELE: Se o usuário que estiver acessando for o ELE, então a origem do campo é a matriz de níveis CN 1 associada.
+
+2. SME: Se o usuário que estiver acessando for o SME, então a origem do campo é a matriz de níveis CN2 associada.
+
+3. 3 esc: Se o usuário que estiver acessando for o designado para a terceira escuta, há duas possibilidades:
+
+a. O campo não existe (não se trata de um critério com diferença crítica), então o campo fica travado para edição;
+
+b. O campo existe e está associado à matriz de níveis CN 3.
+
+iii.     Default: matriz de níveis associada a esta instância de prova.
+
+b)      Campo #2: Título 'Estrutura'
+
+i. Tipo drop-down, com valores possíveis explicados na RN3 e RN9 .
+
+ii.       A origem desse campo (NR_NIVEL_ESTRUTURA) dependerá de quem o estiver acessando:
+
+1. ELE: Se o usuário que estiver acessando for o ELE, então a origem do campo é a matriz de níveis CN 1 associada.
+
+2. SME: Se o usuário que estiver acessando for o SME, então a origem do campo é a matriz de níveis CN2 associada.
+
+3. 3 esc: Se o usuário que estiver acessando for o designado para a terceira escuta, há duas possibilidades:
+
+a. O campo não existe (não se trata de um critério com diferença crítica), então o campo fica travado para edição;
+
+b. O campo existe e está associado à matriz de níveis CN 3.
+
+iii.     Default: matriz de níveis associada a esta instância de prova.
+
+ 
+
+c)       Campo #3: Título 'Vocabulário'
+
+i. Tipo drop-down, com valores possíveis explicados na RN3 e RN9 .
+
+ii.       A origem desse campo (NR_NIVEL_VOCABULARIO) dependerá de quem o estiver acessando:
+
+1. ELE: Se o usuário que estiver acessando for o ELE, então a origem do campo é a matriz de níveis CN 1 associada.
+
+2. SME: Se o usuário que estiver acessando for o SME, então a origem do campo é a matriz de níveis CN2 associada.
+
+3. 3 esc: Se o usuário que estiver acessando for o designado para a terceira escuta, há duas possibilidades:
+
+a. O campo não existe (não se trata de um critério com diferença crítica), então o campo fica travado para edição;
+
+b. O campo existe e está associado à matriz de níveis CN 3.
+
+iii.     Default: matriz de níveis associada a esta instância de prova.
+
+d)      Campo #4: Título 'Fluência'
+
+i. Tipo drop-down, com valores possíveis explicados na RN3 e RN9.
+
+ii.       A origem desse campo (NR_NIVEL_FLUENCIA) dependerá de quem o estiver acessando:
+
+1. ELE: Se o usuário que estiver acessando for o ELE, então a origem do campo é a matriz de níveis CN 1 associada.
+
+2. SME: Se o usuário que estiver acessando for o SME, então a origem do campo é a matriz de níveis CN2 associada.
+
+3. 3 esc: Se o usuário que estiver acessando for o designado para a terceira escuta, há duas possibilidades:
+
+a. O campo não existe (não se trata de um critério com diferença crítica), então o campo fica travado para edição;
+
+b. O campo existe e está associado à matriz de níveis CN 3.
+
+iii.     Default: matriz de níveis associada a esta instância de prova.   
+
+e)      Campo #5: Título 'Compreensão'
+
+i. Tipo drop-down, com valores possíveis explicados na RN3 e RN9 .
+
+ii.       A origem desse campo (NR_NIVEL_COMPREENSAO) dependerá de quem o estiver acessando:
+
+1. ELE: Se o usuário que estiver acessando for o ELE, então a origem do campo é a matriz de níveis CN 1 associada.
+
+2. SME: Se o usuário que estiver acessando for o SME, então a origem do campo é a matriz de níveis CN2 associada.
+
+3. 3 esc: Se o usuário que estiver acessando for o designado para a terceira escuta, há duas possibilidades:
+
+a. O campo não existe (não se trata de um critério com diferença crítica), então o campo fica travado para edição;
+
+b. O campo existe e está associado à matriz de níveis CN 3.
+
+iii.     Default: matriz de níveis associada a esta instância de prova.
+
+f)        Campo #6: Título 'Interações'
+
+i. Tipo drop-down, com valores possíveis explicados na RN3 e RN9 .
+
+ii.       A origem desse campo (NR_NIVEL_INTERACOES) dependerá de quem o estiver acessando:
+
+1. ELE: Se o usuário que estiver acessando for o ELE, então a origem do campo é a matriz de níveis CN 1 associada.
+
+2. SME: Se o usuário que estiver acessando for o SME, então a origem do campo é a matriz de níveis CN2 associada.
+
+3. 3 esc: Se o usuário que estiver acessando for o designado para a terceira escuta, há duas possibilidades:
+
+a. O campo não existe (não se trata de um critério com diferença crítica), então o campo fica travado para edição;
+
+b. O campo existe e está associado à matriz de níveis CN 3.
+
+iii.     Default: matriz de níveis associada a esta instância de prova.
+
+g)       Campo #7: Título 'Geral'
+
+i. Campo não-editável, com duas possibilidades:
+
+1. Para ELE e SME: igual ao menor valor de permanência dos campos #1 ao #6 (#7=Menor{#1,#2,#3,#4,#5,#6}), mas que exibirá o valor de mostruário.
+
+2. Para 3 esc: inexistente
+
+ii.       Default: NR_NIVEL_GERAL da matriz de níveis associada a esta instância de prova.
+
+A seção de observações gerais, com dois campos:
+a)       Campo de observações prévias
+
+b)      Inserção de observações
+
+c)       Botão inserir.
+
+RN 3 – Os campos #1 a #6, bem como o #7    poderão conter sete valores distintos, que aparecem (valor de mostruário) e são registrados na tabela (valor de registro) de formas diferentes:
+
+Valor de mostruário                       |                             Valor de registro
+1                                                            |                             1
+2                                                            |                             2
+3                                                            |                             3
+4                                                            |                             4
+5                                                            |                             5
+5+                                                          |                             7
+6                                                            |                             6
+
+O valor default para cada caso será igual a 1 ou o valor da matriz de nível associada àquela prova (1 para a coluna de ELE, 2 para a coluna de SME).
+
+RN4 – A aba do 'critério x' terá até quatro seções, que serão carregadas conforme as regras de negócio abaixo:
+
+O título do 'critério x', não editável;
+O cabeçalho, com os seguintes campos não editáveis:
+a)       CANAC – Canac do piloto fazendo a avaliação.
+
+b)      Nome – Nome do piloto fazendo a avaliação.
+
+c)       ID – ID_USUARIO do piloto fazendo a avaliação.
+
+d)      SEI – Número do processo da avaliação (AVALIACAO>NR_PROCESSO)
+
+A seção Evidências, com dois campos de texto com tamanho variável:
+a)       Evidências positivas, campo que terá permanência associada à instância e ao 'Critério x';   
+
+b)      Evidências negativas, campo que terá permanência associada à instância e ao 'Critério x';   
+
+A seção 'Réguas auxiliares', carregada apenas se houver, para a instância de prova em foco, escala auxiliar vinculada ao 'Critério x'.
+a)       A seção 'Réguas auxiliares' terá duas regiões:
+
+i. A primeira será o somatório, que conterá campos não-editáveis, dispostos em linha, conforme a RN6.
+
+ii.       A segunda região, evidências quantificadas, conterá uma linha de evidência quantificada com permanência (RN7) para cada régua pertinente naquela instância (RN5).
+
+A seção 'Réguas vinculantes', carregada se e somente se houver, para    instância de prova em foco, escala vinculante ligada ao  'Critério x' (RN9).
+a)       A seção 'Réguas vinculantes' terá duas regiões:
+
+i. A primeira será o somatório, que conterá os seguintes campos, preenchidos conforme a RN8:
+
+I. Um campo com o símbolo de somatório ∑, não editável, concatenado com o valor;
+
+II.      O valor, composto de uma porcentagem, caso a escala vinculante de pronúncia seja relativa, ou composto de um número, uma barra (forward slash '/') e um total, caso ela seja absoluta.
+
+III.    Nota vinculada: Apenas para modelos com escala vinculante ativada. Nota calculada automaticamente conforme a escala do modelo. O campo não pode ser editado, a menos que o campo ajuste seja clicado. Neste caso, o campo pode receber as notas conforme RN3.
+
+RN5 – Caso haja escala auxiliar ativa para o 'Critério x', o sistema encontrará as réguas auxiliares pertinentes de uma instância fazendo uma varredura em todas as questões sorteadas. Para cada régua auxiliar do 'Critério x' vinculada a uma questão sorteada, haverá uma linha de evidência régua auxiliar pertinete para pronúncia listada na região EQs.
+
+RN6 – Caso haja escala auxiliar ativa para o 'Critério x', o sistema fará uma varredura em todas as EQs para esta instância, fazendo uma operação do tipo 'União' em todas as descrições dos campos. Para cada valor diferente de descrição de EQ, o sistema criará uma linha para o somatório, com a seguinte concatenação:
+
+Título, igual à descrição da EQ, concatenado com
+Valor, que obedecerá às seguintes regras
+a)       Se a escala auxiliar do modelo ligada ao 'Critério x' for absoluta, o valor será igual à soma simples das Eqs auxiliares marcadas como verdadeiras;
+
+b)      Se a escala auxiliar do modelo ligada ao 'Critério x' for relativa, o valor será igual à divisão das Eqs auxiliares marcadas como verdadeiras, dividida pelo total de Eqs no formato de porcentagem.
+
+Concatenado com uma barra (forward slash '/'), concatenado com
+O total das Eqs com a mesma descrição, caso a escala seja absoluta.
+Exemplos: 'Repetir 25/30' (Título 'Repetir', 25 marcadas como verdadeiras num total de 30, escala absoluta), 'Parafrasear' 70% (Título 'Parafrasear', 7 marcadas como verdadeiras num total de 10, escala relativa).     
+RN7 – Cada régua auxiliar será instanciada como uma linha na seção de 'evidência quantificada', que terá permanência no sistema vinculada à instância de prova aplicada e ao 'Critério x':
+
+Na coluna 'Parte' aparecerá o 'Título da parte' em que a questão associada à régua apareceu na prova (por exemplo, Parte 1, Parte 2, Parte 3, etc.).
+Na coluna 'Questão' aparecerá    o 'Título da questão' da questão associada à régua concatenado com o número do slot ocupado dentro daquela parte naquela instância. Por exemplo, uma questão com título 'Situation' que foi sorteada no terceiro slot da parte 2 aparecerá como 'Situation 3'.   
+Na coluna 'Régua' aparecerá o título da régua (wireframe 5);
+Na coluna 'Eqs' aparecerá um campo do tipo sim/não para cada item da régua:
+i. cada campo do tipo sim/não será precedido pela descrição do campo (wireframe 5).
+
+RN8 – Caso haja escala vinculante ativa para o 'Critério x', o sistema encontrará as réguas auxiliares pertinentes de uma instância fazendo uma varredura em todas as questões sorteadas. Para cada régua auxiliar de 'Critério x' vinculada a uma questão sorteada, haverá uma linha de evidência régua auxiliar pertinete para pronúncia listada na região Eqs.
+
+RN9 – Caso haja uma escala vinculante ativa ligada ao 'Critério x' para o modelo de prova que deu origem à instância, então:
+
+5. Haverá a seção 'Réguas vinculantes' na aba Pronúncia E;
+
+6. O campo nota 'Critério x' será bloqueado para edição tanto na tela 'Geral' quanto na aba 'Abreviatura do Critério X', sendo destravado apenas se a opção 'Nota manual' for acionada na aba do 'Critério x'.
+
+RN10 – Cada régua vinculante será instanciada como uma linha na seção de evidência quantificada, que terá permanência no sistema vinculada à instância de prova aplicada e ao 'Critério x'.
+
+Na coluna 'Parte' aparecerá o 'Título da parte' em que a questão associada à régua apareceu na prova (por exemplo, Parte 1, Parte 2, Parte 3, etc.).
+Na coluna 'Questão' aparecerá    o 'Título da questão' da questão associada à régua concatenado com o número do slot ocupado dentro daquela parte naquela instância. Por exemplo, uma questão com título 'Situation' que foi sorteada no terceiro slot da parte 2 aparecerá como 'Situation 3'.   
+Na coluna 'Régua' aparecerá o título da régua (wireframe 5);
+Na coluna 'Eqs' aparecerá um campo do tipo sim/não para cada item da régua:
+i. cada campo do tipo sim/não será precedido pela descrição do campo (wireframe 5).
+
+RN11 – Os critérios da prova são:
+
+Título                    ||           Abreviação        ||           Ordem
+Pronúncia           ||           Pron.                    ||           #1
+Estrutura             ||           Estr.                       ||           #2
+Vocabulário        ||           Voca.                    ||           #3
+Fluência               ||           Flue.                      ||           #4
+Compreensão   ||           Comp.                  ||           #5
+Interações          ||           Inte.                      ||           #6
+
+RN12 – As regras de permanência para uma instância são:
+
+Evidências positivas / Evidências negativas: As evidências positivas ou negativas são compartilhadas entre os corretores da prova (ELE, SME e 3 Escuta), sendo o mesmo registro para os três atores. Se o ELE mudar um desses campos, e o SME carregar a mesma instância, por exemplo, a mudança será vista por ele, e vice-versa. Se houver algum valor diferente de nulo e o usuário clicar em 'Salvar', o sistema deve permanecer esses textos, vinculados à instância de prova, um para cada critério. Uma instância de prova com todas as evidências preenchidas terá 12 registros de texto, 2 para cada critério.
+Evidências quantificadas: Similares às evidências positivas e negativas, as evidências quantificadas têm permanência tão logo o usuário salve o relatório, ou o envie para a ANAC. Também são compartilhadas entre os atores.
+Notas do ELE e do SME: As notas do ELE e do SME comporão as matrizes de níveis CN 1, 2 e 3. Elas não são compartilhadas, cada ator vê sua matriz de níveis.
+Elas terão permanência caso o usuário clique em 'Salvar'.
+
+a)       Caso já exista uma Matriz de Níveis correspondente com valores diferentes, o sistema negativa a matriz anterior e registra matriz desta tela.
+
+ 
+
+RN 13 – A prova não poderá ser encaminhada nesta tela se:
+
+A nota vinculada de algum critério estiver diferente da nota da Instituição para este mesmo critério. A nota vinculada não existe na maioria dos casos, somente se houver escala vinculada ativa para aquele critério para aquela instância de prova.
+Não houver nenhum campo de evidências preenchido. Neste caso
+               
+
+RN 14 – A variável de discrepância deve estar associada a uma matriz de níveis individual (CN 1, 2 ou 3)    e será verdadeira sempre que a nota de um dos critérios for diferente da nota vinculada associada.   
+
+ 
+
+RN15- O campo 'Observação' armazenará comentários do usuário e deverá ter permanência. O texto armazenado na observação será igual a =CONCATENAR(A + B + C), onde:
+
+1. A = Nome completo do usuário (da tabela Pessoa_SySDEA) responsável pelo desarquivamento + ";"
+
+2. B = "Data:" + Data(DD/MM/AAAA HH:MM:SS)
+
+C = "Obs:" + [Conteúdo da observação]
+
+ 
+
+RN 16 – A sintonia entre a nota vinculada e a nota atribuída significa que elas são iguais.
+
+ 
+
+RN17- A mensagem de erro será ‘Para fazer download do relatório, é necessário escolher um formato’
+
+ 
+
+RN18- O drop-down presente, conterá os formatos de arquivos disponíveis para o usuário escolher.
+
+.Pdf
+.Html (se não for difícil)
+.Odt (se não for difícil)
+.Docx
+ 
+
+RN19 – Cada modelo de prova terá uma e somente uma versão de relatório atrelada a si na tela 33321. Uma versão de relatório pode ser atrelada a mais de um modelo. Cf. item 33321.

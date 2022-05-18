@@ -1,0 +1,120 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-18T13:11:46-03:00
+
+====== Descricao ======
+Criado quarta-feira 18 maio 2022
+
+Enquanto usuário na tela ‘Cadastrar Versão de Relatório (30458)’
+
+Quero adicionar Elementos de relatórios
+
+Para fazer uma versão de relatório
+
+
+001- Dado que o usuário vindo da tela ‘cadastrar versão de relatório’
+
+E acesse o pop-up ‘Adicionar ER’
+Então sistema carrega as funcionalidades
+E os ERs marcadas com a tag do relatório (RN3)
+E a seção Filtro (RN1)
+E listagem de ERs (RN2)
+
+ 
+
+002- Dado que o usuário na seção ‘Filtro’
+E escolha um filtro
+E clique em ‘Pesquisar’
+
+Então sistema filtrará os ERs de acordo com o filtro escolhido
+
+ 
+
+003 – Dado que o clique em ‘Limpar’ nos filtros (RN1)
+Então o sistema limpa a listagem de ERs
+
+E recarrega para a lista default (RN3).
+
+004-Dado que o usuário clique em 'Tudo' na seção ‘Filtro’
+Então sistema mostrará todos os ERs que existem no banco (RN4)
+
+E muda o título do botão para 'Tag'
+
+ 
+
+005 – Dado que o usuário na seção ‘Filtro’
+E clique em ‘Tag’(RN1)
+Então reverterá para o estado default de exibição (RN3)
+
+E mudará o nome do botão para 'Tudo'
+
+ 
+
+006 – Dado que o usuário na seção ‘Lista de ER’
+
+E selecione uma ou mais ERs
+E clique em ‘Carregar’(RN2)
+Então o sistema irá adicionar ao relatório (30458) a(s) ER selecionada (RN 5).
+
+ 
+
+007 – Dado que usuário clique em ‘Fechar’
+Então sistema fecha o pop-up
+
+ 
+
+RN1- A seção ‘filtro’ conterá 2 campos para filtrar e 3 botões para funcionalidades
+
+1. Filtro
+
+a. ID
+
+b. Título
+
+2. Botões
+
+a. Tudo – com o primeiro clique mostrará todos os ERs e com o segundo clique mostrará os ERs com a mesma tag sendo o default
+
+b. Limpar – irá limpar o resultado e o campo ID/Título
+
+c. Pesquisar – para confirmação de filtro
+
+ 
+
+RN2- a seção ‘Lista de elementos de relatório’ conterá uma lista com o ERs e 2 botões para funcionalidades
+
+ 
+
+A lista conterá a informação do ERs
+
+1. ID – mostrará o ID do ER
+
+2. Título – mostrará o título do ER
+
+3. Tag – mostrará a versão da tag do ER
+
+4. Descrição – mostrará a descrição do ER
+
+5. Seleção – será para seleção para inserção do ER
+
+Os botões para funcionalidades
+
+1. Fechar – para fechar o pop-up
+
+2. Carregar – quando selecionado alguma mídia, será para confirmação de aplicação
+
+ 
+
+RN 3 – Por default, a lista filtrará somente ERs marcados com tag do relatório no qual o pop-up foi aberto.
+
+ 
+
+RN 4 – Se o filtro default de tag for desligado, o pop-up pode mostrar todos os registros, limitado a 100 registros por página.
+
+ 
+
+RN 5 – Quando adicionadas multiplamente, as na verdade são adicionadas uma a uma, do menor ID para o maior. 
+
+
+Default – ERs marcados com a mesma tag da versão de relatório.
+

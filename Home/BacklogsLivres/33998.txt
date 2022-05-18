@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-18T12:01:34-03:00
+
+====== 33998 ======
+Criado quarta-feira 18 maio 2022
+
+**Título**: Alterar página de autenticação para uso do KeyCloak
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: **
+**Wireframe**: [[..\..\..\Backlogs\30459\1 - Estatistica.png|wireframe01]], [[..\..\..\Backlogs\30459\2 - Estatistica - Questão - MODAL.png|wireframe02]], [[..\..\..\Backlogs\30459\30459_wireframe.png|wireframe03]]
+**Arquivos**: [[..\..\..\Backlogs\33998|pasta]]
+
+#erronoTFS#
+#syncTFS#
+olhar pasta e wireframe não consegui linkar

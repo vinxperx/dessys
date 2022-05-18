@@ -1,0 +1,130 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-18T11:30:22-03:00
+
+====== Descricao ======
+Criado quarta-feira 18 maio 2022
+
+Enquanto usuário ‘elaborador’ acessando a tela ‘Cadastrar/Alterar versão de relatório’
+
+Quero cadastrar ou alterar uma versão de relatório
+
+Para que os usuários possam exportar relatórios padronizados.
+
+
+001- Dado que o usuário acesse a tela ‘Cadastrar/Alterar versão de relatório’
+Então o sistema carrega as funcionalidades da tela
+E os campos da seção ‘Título/Descrição’ com seus valores default (RN1, RN5)
+E os campos da seção ‘Elementos’ com seus valores default (RN2, RN5)
+E os campos da seção ‘Lista de elementos’ com seus valores default (RN3, RN5)
+
+002- Dado que o usuário clique em 'Salvar'
+E os campos obrigatórios em Título/Descrição estejam preenchidos
+Então o sistema salva uma versão de relatório
+E gera um Id de versão (se este não foi gerado).
+
+003- Dado que o usuário clique em ‘Carregar ER’
+Então sistema abre um pop-up para adição de ER (31727_wireframe_pop_up)
+E filtra os Elementos de Relatório na tela de pop-up com a Tag da versão (campo 4)
+
+005 – Dado que que o usuário escolha um item da lista no pop-up
+OU insira um id válido de elemento de relatório no campo Id de elementos (7)
+Então o sistema preencherá os campos somente leitura na seção 'Elementos' (RN2) com os dados do ER escolhido
+E habilita o botão 'Adicionar ER'.
+
+004- Dado que o usuário clique em 'Adicionar ER'
+Então o sistema adiciona o ER à Lista de elementos
+E atribui a ele um número de sequência igual ao maior elemento atual mais um
+E recarrega a 'Lista de Elementos' de modo a mostrar o novo ER.
+
+005 – Dado que o usuário clique numa seta de um ER na Lista de elementos
+Então o sistema atribui um novo valor de sequência para o ER (RN 6)
+E recarrega a Lista de Elementos.
+
+006 – Dado que o usuário clique em 'Excluir'
+Então o sistema desvincula aquele ER da versão de relatório em questão
+E recarrega a Lista de Elementos. 
+
+007 – Dado que o usuário escolha um ‘Formato’ em Visualização(RN 7)
+E clique em ‘Exportar’
+Então sistema fará um download do relatório no formato escolhido.
+
+008 – Dado que o usuário clique em ‘Salvar’
+Então o sistema salva as alterações para a versão de relatório.
+
+
+RN1- ‘Título/Descrição’ conterá os seguintes campos:
+
+Id da versão: atribuído pelo sistema, somente leitura.
+‘Título da versão:’ tipo texto, 50 caracteres, com permanência no banco. 
+‘Descrição’: Texto, 2.000 caracteres, com permanência no banco.
+Tag de relatório – especifica uma tag associada à versão de Relatório. Normalmente desabilitada, o usuário precisa clicar em 'Editar' para habilitar esse campo.
+Editar: Normalmente desabilitada, precisa ser clicada.
+Título da Tag, carregado automaticamente a partir do ID inserido no campo Tag de relatório, não editável.
+RN2- A seção ‘Elementos’ conterá:
+
+Id – Para preenchimento do Id do Elemento de relatório. Pode ser preenchido manualmente. Uma vez preenchido o Id, o campo título e descrição são carregados automaticamente.
+Título – Somente leitura, carregado automaticamente em função do Id.
+Descrição – somente leitura, carregado automaticamente em função do Id.
+Carregar ER – Abrirá uma tela pop-up (30458) que permitirá ao usuário preencher o campo de Id escolhendo a partir de uma lista de ERs.
+Adicionar ER – Normalmente desativado, é habilitado quando houver um Elemento de Relatório válido carregado. Quando o usuário clicar, adicionará o Elemento de relatório à lista de elementos.
+ 
+
+RN3- A seção ‘Lista de elementos’ carregará as informações dos Elementos de Relatório vinculados ao modelo.
+
+Sequência – com permanência, ordenado de forma crescente, mostrará a sequência dos Ers.
+
+Ordem – Alterará o índice de sequência clicado no botão(RN4, RN6)
+
+Número do ER – mostrará o número do ER
+
+Tipo – mostrará o tipo do ER cadastrada
+
+Título do ER – mostrará o título do ER cadastrado
+
+Descrição - mostrará a descrição cadastrada
+
+Botão excluir – será para exclusão do ER escolhido.
+
+ 
+
+RN4- Para cada elemento poderão ser carregados os seguintes botões na coluna 'ordem':
+
+Seta para cima – Para todos os elementos, exceto o primeiro da lista (sequência #1). Quando clicado, diminui o índice de sequência em 1.
+
+Seta para baixo – Para todos os elementos, exceto o último da lista (sequência #n). Quando clicado, aumenta o índice de sequência em 1.
+
+ RN5 – Os valores defaut dos campos serão:
+
+Os valores de permanência para versões editadas;
+Nulo para novas versões.
+RN 6 – Se o usuário clicar numa seta apontando para cima, a sequência diminui em 1. Se clicar numa seta apontando para baixo, aumenta em um.
+
+RN7 – Formatos: - O drop-down presente, conterá os formatos de arquivos disponíveis para o usuário escolher para conseguir ver uma pré-visualização do que foi editado em diferentes formatos, mas caso o usuário NÃO escolher nenhum formato e ‘exportar’, então baixará o formato  padrão:
+
+				a. .docx (padrão).
+				b. Pdf
+				c.Html (se não for difícil)
+				d. Odt (se não for difícil)
+
+RN8 – O relatório será uma grande tabela contendo texto composta pelo conjunto dos Elementos de relatório, articulados em linhas, com cada elemento de relatório contendo até três blocos (colunas). Assim, para 5 elementos de relatório, por exemplo, cada um contento três blocos, o relatório será exportado em formato de uma tabela de 5 linhas e 3 colunas, com as opções de texto formatado conforme especificado em cada bloco ou ER. 
+
+Então, por exemplo, se uma versão de relatório contém 5 elementos, cada um com três blocos (aaa, bbb, ccc; ddd, eee, fff;  ggg, hhh, iii; jjj, kkk, lll; mmm, nnn, ooo), eles comporão um relatório do seguinte modo:
+
+| aaa | bbb | ccc
+
+|ddd | eee | fff
+
+|ggg |hhh  |iii
+
+|jjj  |kkk | lll
+
+|mmm |nnn |ooo
+
+ 
+
+ Comentários
+
+Nesta tela, o usuário, vai editar ou criar uma versão de relatório. Em outra tela ele vai associar essa versão de relatório a um ou mais modelos. Isso criará uma associação entre a versão e o elemento.
+
+Uma versão de modelo de relatório é um conjunto de Elementos de Relatório ordenados. Cada elemento de relatório pode conter até três blocos (30465), que são elementos de texto (mídias), ordenados horizontalmente. Os elementos de relatório são ordenados verticalmente. 

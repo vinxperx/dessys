@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-18T11:39:49-03:00
+
+====== 34845 ======
+Criado quarta-feira 18 maio 2022
+
+**Título**: Ligar Bloco a Conteúdo
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação: **
+**Wireframe**: [[..\..\..\Backlogs\30459\1 - Estatistica.png|wireframe01]], [[..\..\..\Backlogs\30459\2 - Estatistica - Questão - MODAL.png|wireframe02]], [[..\..\..\Backlogs\30459\30459_wireframe.png|wireframe03]]
+**Arquivos**: [[..\..\..\Backlogs\34854|pasta]]
+
+#erronoTFS#
+#syncTFS#
+olhar pasta e wireframe não consegui linkar

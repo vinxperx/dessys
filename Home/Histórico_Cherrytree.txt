@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-09T15:27:53-03:00
+
+====== Histórico Cherrytree ======
+Criado segunda 09 maio 2022
+ 
+O que foi feito?
+1-itens reaproveitados ( já está numa sprint)  
+2-itens esquecidos (sem n°) (encostado no TFS sem funcionalidade)
+3-itens não foram implementados (está como item, porém, sem sprint)
+
+porque caducou? 
+a-funcionalidade deixou de existe
+b-demanda atendida 
+c- outros
+
+o item está no TFS?
+se sim, colocar uma #reaproveitado#, caso, caiba no exemplo '3'
+
+é fácil entender porque a funcionalidade foi reaproveitada?
+se sim, #caducou#
+ 
+
+
+
+

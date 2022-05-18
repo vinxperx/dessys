@@ -1,0 +1,77 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-18T11:42:09-03:00
+
+====== Descricao ======
+Criado quarta-feira 18 maio 2022
+
+Enquanto usuário ‘Elaborador’ acessando a tela a partir de Menu Elaborador
+Quero listar os elementos de relatório cadastrados
+
+Para que seja possível pesquisar esses elementos e acessar funcionalidades de edição/cadastro. 
+
+001 – Dado que o usuário acesse a tela ‘Pesquisar Elementos de Relatório’
+Então o sistema carrega as funcionalidades da tela (RN1)
+E a seção ‘Pesquisar Elementos’ (RN2)
+E a lista de ‘ERs’(RN1)
+
+002 – Dado que o usuário insira um ID na seção ‘Pesquisar elementos'
+E clique em Pesquisar
+OU insira um Título na seção 'Pesquisar elementos'
+E clique em pesquisar
+OU insira uma Id de Tag na seção Tag
+E clique empesquisar
+Então o sistema filtra os resultados mostrados em Lista de versões.
+
+003 – Dado que o usuário clique em 'Limpar'
+Então o sistema limpa qualquer filtro carregado
+E exibe a tela em seus valores default.
+
+004 – Dado que o usuário clique em Cadastrar ER
+Então o sistema carrega a tela de cadastro/alteração de ER (30465) em branco.
+
+005 – Dado que o usuário clique em 'Alterar' ER
+Então o sistema carrega a tela de cadastro/alteração de ER (30465) com o item. 
+
+006 – Dado que o usuário clique em 'Clonar' ER
+Então o sistema carrega a tela de cadastro/alteração de ER (30465) com um novo item
+Cujos valores sejam iguais aos do item copiado.  
+
+007 – Dado que o usuário clique em 'Tudo'
+E estejam carregados apenas os 10 últimos itens (RN1)
+Então o sistema carrega todos os ERs
+E muda o texto do botão 'Tudo' para '10 últimos'.
+
+008 – Dado que o usuário clique em '10 últimos'
+E estejam carregados todos os ERs
+Então o sistema carrega apenas os '10 últimos'
+E muda o texto do botão '10 últimos' para 'Tudo'
+
+
+RN1 – A seção lista de ER, como default, carregará apenas os dez (10) ERs com maior id e que atendam aos critérios da pesquisa, mostrando para cada registro:
+
+* Id: Id do ER;
+
+* Título: Título do ER;
+
+* Tag (Id): Id da tag associada ao ER;
+
+* Tag (título): Título da tag associada ao ER;
+
+* Alterar (botão)
+
+* Clonar (botão)
+
+A seção terá também os seguintes botões em seu cabeçalho:
+
+* Tudo: botão, pode ter o texto mudado para '10 ult.'
+
+* Cadastrar ER: botão
+
+RN2 – A seção 'Pesquisar elementos' conterá três campos que podem servir para filtrar os elementos da Lista de ER:
+
+* Id: Filtra os Ers pelo id do elemnto;
+
+* Título: Filtra os ERs pelo Título;
+
+* Tag: Filtra os ERs pela Id de uma tag. 

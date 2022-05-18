@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-18T11:26:52-03:00
+
+====== 30458 ======
+Criado quarta-feira 18 maio 2022
+
+**Título**: PRV_cadastrar_versao_de_relatorio
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv# #ela#
+**Implementação:**
+**Wireframe**: [[..\30459\1 - Estatistica.png|wireframe01]], [[..\30459\2 - Estatistica - Questão - MODAL.png|wireframe02]], [[..\30459\30459_wireframe.png|wireframe03]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\30459|pasta]]
+
+#erronoTFS#
+#syncTFS#
+

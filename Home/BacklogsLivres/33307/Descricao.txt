@@ -1,0 +1,105 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-18T11:48:35-03:00
+
+====== Descricao ======
+Criado quarta-feira 18 maio 2022
+
+Enquanto usuário ‘Elaborador’ vindo do Menu Elaboração
+
+Quero pesquisar uma versão de relatório
+
+Para exportar, alterar ou clonar uma versão de relatório.
+
+001- Dado que o usuário acesse ‘Pesquisar versões de relatório’
+Então sistema carrega as funcionalidades default (RN 3)
+E a seção ‘Pesquisar versão’(RN1)
+E a seção lista de versões (RN2, RN3)
+
+E o botão ‘Cadastrar Versão’(RN4)
+
+ 
+
+002- Dado que o usuário digite uma versão de relatório existente
+
+E clique em ‘Pesquisar’
+Então irá carregar a versão de relatório desejada
+OU Alternativamente
+Dado que o usuário digite uma versão de relatório não existente
+
+E clique em ‘Pesquisar’
+Então irá carregar uma mensagem de erro padrão (RN5)
+
+ 
+
+003 – Dado que o usuário clique em limpar
+
+Então sistema irá limpar o campo de ‘Versão’
+E qualquer pesquisar feita
+E retornará ao default (RN3)
+
+ 
+
+005 – Dado que o usuário clique em ‘Alterar’
+
+Então usuário será redirecionado para 30458 – Cadastro/edição versões (RN2)
+
+ 
+
+006 – Dado que o usuário clique em ‘Clonar’
+
+Então usuário será redirecionado para  30458 – Cadastro/edição versões(RN2)
+
+ 
+
+007- Dado que o usuário clique em ‘Exportar’
+
+Então sistema faz o download do relatório padrão escolhido pelo usuário com as informações presente (RN2)
+
+ 
+
+008- Dado que o usuário clique em ‘Tudo’
+
+Então sistema carregará todas as versões de relatórios presente no banco de dados(RN2)
+
+008- Dado que o usuário já tenha clicado em ‘Tudo’
+
+E sistema esteja mostrando todas as versões de relatório presente
+E usuário clique novamente no botão ‘tudo’
+Então sistema voltará ao default(RN2)
+
+ 
+
+
+ 
+
+RN1- a seção ‘Pesquisar versão’ conterá 2 botões e um campo para inserção de versão para pesquisa
+
+Campo versão – para inserção de uma versão para a pesquisar
+
+Botão pesquisar – para pesquisar a informação inserida pelo usuário
+
+Botão Limpar – irá limpar a pesquisar para uma nova consulta
+
+RN2- A seção ‘lista de versões’conterá carregará uma lista de verões com suas informações e com funcionalidades para ações sendo:
+
+ID – irá mostrar o ID da versão (somente números)
+
+Versão – irá mostrar a versão do relatório
+
+Ações – conterá 3 botões
+
+a)       Alterar – quando usuário clicar, será redirecionado para tela (30458) e carregará com todas as informações que contém no relatório
+
+b)      Clonar - quando usuário clicar em clonar, o sistema criará uma nova versão de relatório igual à versão clonada, e redirecionará o usuário para a tela de Edição/Cadastro de versões de relatório 30458
+
+c)       Exportar – quando usuário clicar irá baixar um arquivo .docx com as informações do relatório
+
+Botão tudo – quando clicado, irá mostrar todas as versões existentes de relatório, quando clicado mais uma vez, então volta ao default os 10 mais recentes
+
+RN3- Quando usuário acessar a tela ‘Pesquisar versões de relatório’ o sistema irá carregar as 10 versões mais recentes de relatórios (maior Id) por default.
+
+RN4- quando usuário clicar em ‘Cadastrar versão’, será redirecionado para (30458) para o registro de uma versão de relatório
+
+RN5- A mensagem de erro quando não houver um relatório existente “Não existem relatórios com essa versão”
+

@@ -1,0 +1,118 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-18T12:57:49-03:00
+
+====== Descricao ======
+Criado quarta-feira 18 maio 2022
+
+Enquanto usuário ‘elaborador’ acessando a tela ‘Cadastrar elemento de relatório’ a partir de 30728 'prv_listar_elemento_de_relatorio'
+
+Quero cadastrar um Elemento de Relatório (ER) e seus blocos (BBs)
+
+Para torná-lo disponível para ser inserido em modelos de relatórios a relatórios (MR).
+
+001- Dado que o usuário acesse a tela ‘Editar/Cadastrar elemento de relatório’
+Então o sistema carrega as funcionalidades da tela
+E seção ‘Título/Descrição’ (RN1)
+E seção ‘Bloco’(RN2)
+E seção ‘Lista de blocos' (RN3)
+
+002 – Dado que o usuário clique em adicionar dentro de 'Bloco' (cf. 34845)
+E haja menos de três Blocos (BB) no ER
+E todos os campos obrigatórios de bloco estejam preenchidos
+Então o sistema associa o bloco ao ER
+E atribui ao bloco um número de sequência
+E recarrega a lista de blocos.
+
+003 – Dado que o usuário escolha opções alinhamento de tabela para o ER
+OU alternativamente dado que o usuário escolha opções de linha de tabela para o ER
+Então o sistema dá permanência a essas opções.
+
+004 – Dado que o usuário clique em uma das setas (RN4) em lista de blocos
+Então o sistema muda o número de sequência do bloco.
+
+005 – Dado que o usuário clique em excluir
+Então o sistema desvincula aquele bloco do ER
+E o apaga (mas não as mídias associadas).   
+
+006 – Dado que o usuário escolha opções de fonte para o bloco
+Então o sistema dá permanência a essa opção
+OU alternativamente dado que o usuário escolha opções de tamanho de fonte para o bloco
+Então o sistema dá permanência a essa opção
+OU alternativamente dado que o usuário escolha opções de negrito ou itálico para o bloco
+Então o sistema dá permanência a essas opções.
+OU alternativamente dado que o usuário escolha opções de linha de tabela para o bloco
+Então o sistema dá permanência a essas opções.
+
+007 – Dado que o usuário clique em fechar
+E haja alterações sem salvar
+Então o sistema exibe uma mensagem de alerta
+E caso o usuário confirme sair sem salvar depois de uma mensagem de alerta
+Então o sistema não dá permanência às alterações/cadastro
+
+008 – Dado que o usuário clique em 'salvar'
+Então o sistema dá permanência às alterações/cadastro.
+
+009 – Dado que o usuário clique em 'editar' num bloco
+Então o sistema exclui esse bloco da sequência
+E carrega as informações dele na seção 'Bloco'.
+
+ 
+
+Regras de Negócio
+
+RN1- a seção ‘Título/Descrição’ carregará 3 campos para preenchimento do cadastramento de elemento de relatório (ER) sendo:
+
+‘Título do elemento’: obrigatório. Default em branco para nova versão, o valor de permanência para o caso de elemento sendo editado.
+‘Descrição’:Default em branco para nova versão, o valor de permanência para o caso de elemento sendo editado.
+Tag (id): Default em branco para nova versão, o valor de permanência para o caso do elemento sendo editado. Normalmente bloqueado, pode ser desbloqueado caso o usuário clique em 'Alterar'.
+Tag (título): Bloqueado para edições, correspondente ao título da tag carregada.
+RN2- A seção 'Conteúdo do bloco' está descrita no item (34845).
+
+RN3- A seção ‘Lista de blocos’ está descrita no item (34845) carregará as informações do conjunto de Blocos(BBs) adicionados ao ER, com suas informações,que são:
+
+Alinhamento: válido para o conjunto dos até três blocos, conterá 4 tipos de alinhamento para seleção
+Alinhar para esquerda
+Centralizar
+Alinhar para direita
+Justificar
+Sequência – crescente, mostrará a sequência de cada 'bloco'
+Ordem – mudará o número de sequência do bloco(RN3)
+Tipo – mostrará o tipo do bloco cadastrado, conforme o conteúdo do Bloco (BBs) (RN2)
+Negrito – quando selecionado, irá pôr em negrito o conteúdo do bloco no relatório
+Itálico - quando selecionado, irá por em itálico o conteúdo do bloco no relatório
+Table line – quando selecionado, fará com que a linha da tabela seja visível para o bloco
+Font Size – será um drop-down para escolher o tamanho da fonte do conteúdo do bloco no relatório
+Botão excluir – servirá para desvincular o Bloco (BB) escolhido do relatório. Vale lembrar que uma vez excluído, a entidade Bloco deixa de existir (mas não instâncias de conteúdo, como mídias ou origens).
+Botão editar – Quando clicado, carregar as informações do Bloco na seção 'Conteúdo do bloco' e deixa o item em destaque na lista.
+RN3- Para cada bloco poderão ser carregados os seguintes botões na coluna 'ordem':
+
+Seta para cima – Para todos os blocos, exceto o primeiro da lista (sequência #1). Quando clicado, diminui o índice de sequência do bloco em 1.
+
+Seta para baixo – Para todos os blocos, exceto o último da lista (sequência #n). Quando clicado, aumenta o índice de sequência em 1.
+
+RN4 – São campos obrigatórios do Elemento de Relatório:
+
+1. Título do ER
+
+2. Descrição
+
+3. Tag
+
+4. Lista de blocos: ao menos um elemento.
+
+ 
+
+Comentários
+
+Um usuário tipicamente entra nessa tela para cadastrar um novo ER. Cada ER se compõe de até 3 blocos, que são caixinhas alinhadas horizontalmente e que envelopam o conteúdo. Em primeiro lugar, ele dá um título de uma descrição ao ER (obrigatórios), e pode associar esse ER a uma tag (ex. Versão Relatório 25). Isso facilita a busca na tela de versão.
+
+Depois, ele dá título a um bloco. Um elemento de relatório é composto de até três blocos cadastrados na seção 'Blocos do ER'. Um bloco de ER pode ser de três tipos, conforme seu conteúdo: uma mídia, um valor de origem e um valor associado.
+
+Uma mídia tem como conteúdo um texto padrão, puxado de uma mídia que está cadastrado no sistema.
+
+Um valor de origem é um conteúdo associado a uma prova específica (ex., nota do ELE para pronúncia). Existe uma lista limitada com 54 valores de origem possíveis.
+
+Finalmente, um valor associado é um array de conteúdos cujo valor de origem pode ser até seis mídias, cada uma vinculada a alguma nota. Por exemplo, ele mostra um texto padrão caso o valor da nota de estrutura do SME seja 3, e um texto padrão diferente caso o valor da nota seja 5.
+
+Uma vez criado o bloco, o usuário adiciona esse bloco ao ER. O bloco então passa a aparecer na seção Lista de blocos, com um número de sequência. O usuário pode então reordená-lo, excluí-lo ou editá-lo. Ele também pode modificar as propriedades desse bloco.

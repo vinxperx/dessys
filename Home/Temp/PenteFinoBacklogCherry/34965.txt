@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2022-05-11T17:11:32-03:00
-
-====== 34965 ======
-Criado quarta-feira 11 maio 2022
-
-TFS - [[PenteFinoBacklogCherry#tfs]]
-Cherry - [[PenteFinoBacklogCherry#cherry]]

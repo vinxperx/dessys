@@ -1,0 +1,271 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-18T12:03:53-03:00
+
+====== Descricao ======
+Criado quarta-feira 18 maio 2022
+
+Enquanto usuário Avaliador na tela 'Preencher Evidências (33315)'
+
+Quero acessar as abas dos critérios intermediários
+
+Para poder inserir dados do relatório online
+
+001 – Dado que o usuário esteja em outra aba
+
+E clique em na aba de um Critério X (RN 14)
+
+E o critério não possua Escala
+
+Então o sistema carrega esta aba conforme as diretrizes para critérios sem escala (RN1)
+
+E o 'Título' (RN2)
+
+E a seção 'Piloto' (RN3)
+
+E a seção 'Nota' (RN4)
+
+E a seção 'Evidências' (RN5).
+
+ 
+
+002 – Dado que o usuário esteja em outra aba
+
+E clique na aba do Critério X
+
+E o Critério X possua Escala Auxiliar
+
+Então o sistema carrega as seções 'Titulo', 'Piloto', 'Nota' e 'Evidências' do item 001
+
+E também a seção de EQs para Escala Auxiliares (RN8-RN12)
+
+E depois outras possíveis seções (cf. item 003).
+
+ 
+
+003 – Dado que o usuário esteja em outra aba
+
+E clique na aba deste critério
+
+E este critério possua Escala Vinculante
+
+Então o sistema carrega as seções as seções 'Titulo', 'Piloto' e 'Evidências' conforme item 001
+
+E outras possíveis seções (cf. item 002)
+
+E também a seção de EQs para escalas Vinculantes (RN13-xx)
+
+E a seção Nota (RN20)
+
+ 
+
+004 – Dado que o usuário clique num Item de uma Evidência Quantificada
+
+E altere o status da variável Sim/Não desta evidência quantificada
+
+Então o sistema recalcula as informações da parte 'Somatório' na seção 'Evidências Quantificadas Auxiliares'
+
+ 
+
+005 – Dado que o Critério X possua escala Vinculante
+
+E o usuário clique em 'Nota Manual' marcando-a como 'Verdadeiro'
+
+Então o sistema irá habilitar o campo Nota para edição
+
+E armazenará a informação do tipo Sim/Não junto à prova (RN21).
+
+ 
+
+006 – Dado que o Critério X possua escala Vinculante
+
+E o usuário clique em 'Nota Manual' marcando-a como 'Falso'
+
+Então o sistema irá desabilitar o campo 'Nota' para edição
+
+E irá calcular a Nota com base na Escala
+
+E fará o update da informação do tipo Sim/Não junto à instância de prova (RN21)
+
+ 
+
+007 – Dado que o usuário clique em um item de Escala Vinculante
+
+Então o sistema recalcula as informações da parte 'Somatório' na seção 'Evidências Quantificadas Auxiliares'
+
+E dado que 'Nota Manual' seja 'Falso'
+
+Então o sistema recalcula a nota.
+
+ 
+
+ 
+
+RN1 – O fato de haver ou não Escala impacta a exibição da tela da seguinte forma:
+
+Critério sem escalas: Se o critério não possuir nem Escala Vinculante nem Escala Auxiliar ele é considerado 'sem Escalas'. As diretrizes de exibição das seções dos critérios sem escala estão nas RN3- RN7.
+Critério com escala vinculante: Se o critério possuir Escala Vinculante, ele é considerado como possuindo 'Escala Vinculante'.
+Critério com escala auxiliar: Se o critério possuir Escala Auxiliar,  ele é considerado como possuindo 'Escala Auxiliar'.
+Critério com escala auxiliar e vinculante: Se o critério possuir Escala Auxiliar e Escala Vinculante, ele é considerado como 2 e 3 ao mesmo tempo.  
+ 
+
+RN2 – Em havendo ou não Escalas, a seção de Título exibirá o título do Critério X conforme o nome de exibição abaixo:
+
+ 
+
+Critério                      |           Abreviação              |           Nome de exibição
+
+Pronunciation           |           Pron                           |           Pronúncia
+
+Structure                    |           Estr                            |           Estrutura
+
+Vocabulary                |           Voca                          |           Vocabulário
+
+Fluency                     |           Flue                           |           Fluência
+
+Comprehension       |           Comp                         |           Compreensão
+
+Interactions               |           Inte                             |           Interações
+
+ 
+
+RN3 – Em havendo ou não Escala, a seção Piloto é carregada na forma de quatro campos somente leitura
+
+CANAC: Label 'Canac', Campo contendo o CANAC do piloto que realizou o exame
+Nome: Label 'Nome', Campo contendo o Nome do piloto que realizou o exame
+ID: Label 'ID', Campo contendo o ID SySDEA daquela prova
+SEI: Label 'SEI', Campo contendo o número SEI associado àquela prova
+ 
+
+RN4 – Em não havendo Escala, a seção Nota é carregada conforme Wireframe 1, da seguinte forma:
+
+Label da Seção, 'Nota'
+Campo Nota:
+a)    Label 'Nota xxx', onde XXX é o nome do critério
+
+b)    Campo do tipo drop-down contendo oito valores possíveis, exibidos na ordem abaixo:
+
+i. NULL, exibido como em branco ('    ')
+
+ii.    1, exibido como '1'
+
+iii.   2, exibido como '2'
+
+iv.   3, exibido como '3'
+
+v. 4, exibido como '4'
+
+vi.   5, exibido como '5'
+
+vii.  7, exibido como '5+'
+
+viii. 6, exibido como '6'
+
+ 
+
+RN5 – Havendo ou não Escala, a seção 'Evidências', conforme Wireframe 1, conterá:
+
+Evidências positivas: default: valor consolidado para aquele critério e aquela prova ou, se ausente, NULL
+Evidências negativas:default: valor consolidado para aquele critério e aquela prova ou, se ausente, NULL
+ 
+
+RN6 – Um critério sem Escalas não exibirá a seção EQs Auxiliares.
+
+ 
+
+RN7 – Um critério sem Escalas não exibirá a seção EQs Vinculantes.
+
+ 
+
+RN8 – O fato de o critério possuir Escala Auxiliar impacta da seguinte forma as seções:
+
+Piloto: Igual a critérios sem Escala, descritos na RN2
+Nota: Igual a critérios sem Escalas, descritos na RN3
+Evidências: Igual a critérios Sem Escalas, descritos na RN4
+Réguas Auxiliares: Exibida.
+Réguas Vinculantes: sem impacto.
+ 
+
+RN9 – A seção Evidências Quantificadas Auxiliares será dividida em duas partes:
+
+Somatório: uma seção na qual o sistema exibirá informações de processamento conforme o usuário preenche a seção 'Lista'
+Lista: Onde os itens de Evidência Quantificada estarão disponíveis para preenchimento.
+ 
+
+RN10 - Caso haja escala auxiliar ativa para o 'Critério x', o sistema fará uma varredura nas questões sortedas. Para cada régua auxiliar associada a uma questão e ao critério da aba, será instanciada uma Evidência Quantificada (EQ) na parte 'Lista', dentro da Seção 'Evidências Quantificadas Auxiliares', com os seguintes componentes:
+
+ 
+
+Parte – Um campo contendo o 'Título da parte' em que questão associada foi sorteada para a instância de prova
+Questão – Título da questão associado à régua, concatenado com o slot dentro da instância de prova. Por exemplo, se uma questão com título 'Situation' foi sorteada para ocupar o slot 3 da prova, ela aparecerá como 'Situation 3'.
+Título – Aparecerá o título da régua.
+Itens – Os itens da EQ, que podem ser de 1 a 4, que aparecerão com o 'título de EQ' à esquerda, seguido do item de sim/não
+As EQs serão ordenadas primeiro por 'Parte' e em seguida por 'Título de Questão'
+ 
+
+RN11 – O campo de somatório da Escala Auxiliar terá uma linha de somatório auxiliar para cada valor diferente de 'Título das EQs Auxiliares', expresso de forma relativa ou absoluta, conforme a Escala (RN 12).
+
+ 
+
+RN12 – Cada linha de somatório auxiliar será composta das seguintes partes:
+
+Label – Igual ao 'Título das EQs' que ela sintetiza.
+Valor – Igual ao valor das EQS que ela sintetiza, conforme RN 13.  
+RN13 – O valor das EQs Auxiliares será calculado da seguinte forma:
+
+Dado que:
+a)    Item de EQ: Cada EQ pode ter de 1 a 4 itens de EQ, que são campos de verdadeiro/falso a serem preenchidos.
+
+b)    Conjunto: Conjunto dos itens de EQs consideradas. O conjunto pode ser a totalidade das EQS de um determinado tipo (todas as EQS vinculantes, por exemplo), ou todas as EQS com determinado título;
+
+O cálculo pode ser:
+a)    Absoluto: consistindo no somatório dos itens verdadeiros no conjunto. Um cálculo absoluto se expressa como o somatório dos itens marcados, seguido por '/', seguido por todos os itens possíveis de serem marcados para aquele conjunto. Por exemplo, supondo-se um conjunto com 32 itens em que 25 foram marcados, o cálculo absoluto se expressa como 25/32.
+
+b)    Relativo: consiste no somatório dos itens verdadeiros no conjunto dividido por todos os itens possíveis, em formato de porcentagem. Por exemplo, supondo-se um conjunto de 20 itens no qual 10 foram marcados, o cálculo relativo se expressa como 50%.
+
+ 
+
+RN14 – Os critérios possíveis são: Pronúncia, Estrutura, Vocabulário, Fluência, Compreensão e Interações.
+
+ 
+
+RN15 – O fato de um critério possuir Evidências Quantificadas vinculantes impactará da seguinte forma as outras seções que não a de Evidências Quantificadas Vinculantes:
+
+Piloto: sem impacto em relação a uma prova sem Escalas
+Evidências: sem impacto em relação a uma prova sem Escalas
+EQ Auxiliares: sem impacto.
+EQs Vinculantes: será exibida.
+ 
+
+RN16 – A seção Evidências Quantificadas Vinculantes será dividida em duas partes:
+
+Somatório: uma seção na qual o sistema exibirá informações de processamento conforme o usuário preenche a seção 'Lista'
+Lista: Onde os itens de Evidência Quantificada Vinculantes estarão disponíveis para preenchimento.
+RN17 - Caso haja Escala Vinculante ativa para o 'Critério x', o sistema fará uma varredura nas questões sortedas. Para cada régua auxiliar associada a uma questão e ao critério da aba, será instanciada uma Evidência Quantificada (EQ) na parte 'Lista', dentro da Seção 'Evidências Quantificadas Vinculantes', com os seguintes componentes:
+
+ 
+
+Parte – Um campo contendo o 'Título da parte' em que questão associada foi sorteada para a instância de prova
+Questão – Título da questão associado à régua, concatenado com o slot dentro da instância de prova. Por exemplo, se uma questão com título 'Situation' foi sorteada para ocupar o slot 3 da prova, ela aparecerá como 'Situation 3'.
+Título – Aparecerá o título da régua.
+Itens – Os itens da EQ, que podem ser de 1 a 4, que aparecerão com o 'título de EQ' à esquerda, seguido do item de sim/não
+As EQs serão ordenadas primeiro por 'Parte' e em seguida por 'Título de Questão'
+RN18 – O parte de somatório da Escala Vinculante terá uma linha de somatório vinculante, que agregará todos os itens, conforme RN 19.
+
+ 
+
+RN19 – O valor das EQs Vinculantes será calculado da seguinte forma:
+
+Dado que:
+a)    Item de EQ: Cada EQ pode ter de 1 a 4 itens de EQ, que são campos de verdadeiro/falso a serem preenchidos.
+
+b)    Conjunto: Conjunto dos itens de EQs consideradas, no caso, todas as EQs Vinculantes para este critério.
+
+O cálculo pode ser:
+a)    Absoluto: consistindo no somatório dos itens verdadeiros no conjunto. Um cálculo absoluto se expressa como o somatório dos itens marcados, seguido por '/', seguido por todos os itens possíveis de serem marcados para aquele conjunto. Por exemplo, supondo-se um conjunto com 32 itens em que 25 foram marcados, o cálculo absoluto se expressa como 25/32.
+
+b)    Relativo: consiste no somatório dos itens verdadeiros no conjunto dividido por todos os itens possíveis, em formato de porcentagem. Por exemplo, supondo-se um conjunto de 20 itens no qual 10 foram marcados, o cálculo relativo se expressa como 50%.
+
+ 
+
+RN20 – O campo Nota estará desabilitado por default, sendo a nota calculada em função da Escala para aquele critério. Caso o usuário clique em 'Nota Manual', o campo ficará habilitado, sendo um drop-down. 

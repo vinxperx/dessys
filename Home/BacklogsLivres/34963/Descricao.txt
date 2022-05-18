@@ -1,0 +1,150 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-18T12:02:34-03:00
+
+====== Descricao ======
+Criado quarta-feira 18 maio 2022
+
+Enquanto usuário Avaliador
+
+Quero acessar a tela ‘Geral’
+
+Para poder compor um relatório online
+
+
+001 – Dado que o usuário acesse a aba ‘Geral’
+
+Então o sistema irá carregar a aba na sua configuração default (wireframe_1)
+E os valores que tiveram permanência para a prova em foco (33315)
+
+E suas funcionalidades
+E a seção ‘Piloto’ (RN1)
+E a seção ‘Níveis Intermediários’ (RN2)
+
+E a seção ‘Observações Gerais’ (RN3)
+
+E a seção ‘Relatório’ (RN4)
+E colocará as outras abas em background.
+
+ 
+
+002- Dado que o usuário esteja na aba ‘Geral’
+E insira texto no campo “Futura” na seção 'Observações'
+
+E clique em ‘Inserir’
+Então o texto será concatenado com as observações existentes (RN6)
+
+E recarregará somente o campo 'Anteriores'
+
+E limpará o campo 'Futura'
+
+ 
+
+003- Dado que o usuário esteja na seção ‘Relatório’
+
+E clique ‘Exportar’
+Então sistema irá carregar um pop-up (34965)
+
+
+004-Dado que o usuário clique em “Sair”
+
+Então a tela redirecionará o usuário em função das informaçõe salvas(33315)
+
+ 
+
+005- Dado que o usuário clique em “Salvar”
+
+Então o sistema salvará conforme (33315).
+
+ 
+
+ 
+
+ 
+
+RN1 -  A seção 'Piloto', com quatro campos não-editáveis:
+
+a)    CANAC – Canac do piloto associado à instância de avaliação.
+
+b)    Nome – Nome do piloto associado à instância de avaliação.
+
+c)    ID – ID_USUARIO do piloto associado à avaliação.
+
+d)    SEI – Número do processo da avaliação (AVALIACAO>NR_PROCESSO)
+
+ 
+
+RN2- A seção ‘Níveis intermediários’ exibirá ou a matriz do ELE, ou a matriz do SME, conforme quem estiver acessando a tela (cf. item 1), tendo os seguintes componentes:
+
+1. Título (label): será exibido ‘ELE’ se o avaliador acessando a prova estiver associado a ela como ELE (AVALIACAO > ID_AVALIADOR_ELE), ou ‘SME’ se o avaliador acessando a prova estiver associado a ela como ‘SME’ (AVALIACAO > ID_AVALIADOR_SME).
+
+ 
+
+ 
+
+2. Seis labels de título para os critérios intermediários que não serão editáveis:
+
+					  i.    'Pronúncia';
+
+					 ii.    'Estrutura';
+
+					iii.    'Vocabulário';
+
+				   iv.    'Fluência';
+
+					 v.    'Compreensão';
+
+				   vi.    'Interações';
+
+				  vii.    Geral.
+
+ 
+
+3. A origem dos valores nos campos (NR_NIVEL_X) (RN5) dependerá de quem estiver acessando
+
+1. ELE: Se o usuário que estiver acessando for o ELE da prova (cf. item 1), então a origem do campo é a matriz de níveis CN1 associada, ou default NULL
+
+
+2. SME: Se o usuário que estiver acessando for o SME da prova (cf. item 1), então a origem do campo é a matriz de níveis CN2 associada, ou default NULL
+
+ 
+
+ 
+
+RN3- A seção de observações gerais conterá dois campos e um botão:
+
+a)    Observações anteriores
+
+b)    Observações futuras
+
+c)    Botão inserir.
+
+ 
+
+RN4- A seção ‘relatório’ conterá um botão chamado Exportar.
+
+ 
+
+RN5- A origem das notas será mostradas com seus respectivos campos  (Conf. 33315)
+
+1. Se for Pronúncia= NR_NIVEL_PRONUNCIA
+
+2. Se for Estrutura= NR_NIVEL_ESTRUTURA
+
+3. Se for Vocabulário= NR_NIVEL_VOCABULARIO
+
+4. Se for Fluência= NR_NIVEL_FLUENCIA
+
+5. Se for Compreensão= NR_NIVEL_COMPREENSAO
+
+6. Se for Interações= NR_NIVEL_INTERACAO
+
+ 
+
+RN6-O  campo 'Observação' armazenará comentários do usuário e deverá ter permanência. O texto armazenado na observação será igual a =CONCATENAR(A + B + C), onde:
+
+1. A = Nome completo do usuário (da tabela Pessoa_SySDEA) responsável pelo desarquivamento + ";"
+
+2. B = "Data:" + Data(DD/MM/AAAA HH:MM:SS)
+
+C = "Obs:" + [Conteúdo da observação]

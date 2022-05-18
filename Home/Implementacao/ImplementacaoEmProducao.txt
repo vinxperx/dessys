@@ -1,5 +1,5 @@
 Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
+Wiki-Format: zim 0.6
 Creation-Date: 2022-05-02T14:56:32-03:00
 
 ====== ImplementacaoEmProducao ======

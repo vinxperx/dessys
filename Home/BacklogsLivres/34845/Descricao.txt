@@ -1,0 +1,90 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-18T11:39:56-03:00
+
+====== Descricao ======
+Criado quarta-feira 18 maio 2022
+
+Enquanto usuário ‘elaborador’ acessando a tela ‘Cadastrar elemento de relatório’
+
+Quero criar novos Blocos ou visualizar e editar o Conteúdo de cada Bloco(BB)
+
+Para torná-lo disponível para ser inserido em modelos de relatórios a relatórios (MR).
+
+001- Dado que o usuário clique em 'Novo' no conteúdo do Bloco
+E haja dois ou menos Blocos no atual elemento de relatório
+Então o sistema carrega as funcionalidades default para Blocos (RN1)
+
+002 – Dado que o usuário clique em 'Novo' no conteúdo do Bloco
+E haja três ou mais Blocos no atual Elemento de Relatório (ER)
+Então o sistema exibe uma mensagem de erro alertando o usuário
+E não carrega o conteúdo defaut de um novo bloco
+E não habilita o botão adicionar.
+
+003 – Dado que o usuário clique em 'Editar' na seção 'Lista de blocos'
+Então o sistema carrega os dados do 'Bloco' na seção 'Conteúdo do bloco'
+E desabilita o botão 'Adicionar' se ele estiver habilitado.
+
+004 – Dado que o usuáro tenha preenchido todos os campos obrigatórios em Conteúdo do bloco
+E haja dois ou menos Blocos no Elemento de Relatório
+Então o sistema libera o botão Adicionar.
+
+005 – Dado que o usuário clique em Tipo
+E escolha Mídia
+Então todos os botões e campos em 'Mídias associadas' são desabilitados.
+E o Botão 'Origem/Mídia' assume a label Mídia e se torna um ativador de pop-up ( 31729)
+
+006 – Dado que o usuário escolha uma mídia no pop-up apropriado
+Então o sistema carrega o Preview para aquela mídia.
+
+007 – Dado que o usuário clique em 'Tipo' e escolha 'Origem' ou 'Associado'
+Então o sistema transforma o botão 'Mídia' num drop-down chamado 'Origem'
+E carrega o drop-down apropriado (RN2)
+Mas não carrega os campos de 'Mídias associadas'
+
+008 – Dado que o usuário escolha um item no drop-down de Origem
+Então o sistema carrega em Preview um valor qualquer possível para aquela origem
+Extraído de uma prova aleatoriamente escolhida. 
+
+009 – Dado que o usuário escolha no campo Origem uma origem apropriada
+E que o tipo escolhido seja 'Associado'
+Então o sistema habilita os botões de mídia associados a cada valor.
+
+ 010 – Dado que o usuário clique em Salvar
+E o Bloco atual em edição tenha sido alterado
+E os campos obrigatórios tenham sido preenchidos
+Então o sistema salva o registro.
+
+011 – Dado que o usuário clique em 'Adicionar'
+Então o sistema adiciona o Bloco (BB) atual ao relatório (RN3)
+E recarrega a lista de blocos.
+
+Regras de Negócio
+
+RN1 – Os valores padrão para um novo Bloco são:
+
+1. Descrição do bloco, obrigatório, texto 50 caracteres;
+
+2. Tipo: Em branco, Drop-Down, obrigatório com pelo menos um valor (Mídia, Origem, Associado);
+
+3. Origem/Mídia: Em branco, obrigatório. Especifica o tipo de conteúdo daquele Bloco. Um bloco com conteúdo do tipo mídia vai apontar para uma mídia de texto, umbloco de origem vai apontar para um dado da prova (Wireframe 3), enquanto um bloco associado vai ter uma mídia para cada nota (1 a 7).
+
+4. Botão Mídia/Origem: trata-se de um botão mutante, que pode ser um drop-down, caso o 'Tipo de Bloco' seja 'Origem' ou 'Associado', ou um botão para um pop-up de escolha de mídia, caso o tipo seja 'Mídia'.
+
+5. Preview: em branco, exibe uma mídia.
+
+6. Mídias associadas:
+
+a)       Valor: fixo, de 1 a 7. O usuário não pode alterar esse valor.
+
+b)      Mídias associadas: Nulo, por default travado. Obrigatório se for escolhido o tipo 'Associado' em Tipo.
+
+c)       Mídia: Botão que abre a busca por uma mídia no pop-up (31729 ). Desabilitado, exceto no caso de Tipo ser 'Associado'.
+
+d)      Preview: pequena preview para cada linha em Mídias associadas.
+
+ 
+
+RN2 – Ha uma lista de campos que podem ser adicionado como Origem (Wireframe 3) e uma lista reduzida desta que pode ser adicionada como campo Associado (basicamente, as notas) do ELE, SME e Instituição.
+
+RN 3 – Quando um bloco é adicionado ao relatório, ele ganha um número de sequência, indicando se ele é o elemento mais à esquerda daquela linha (1), do centro (2) ou da direita (3).

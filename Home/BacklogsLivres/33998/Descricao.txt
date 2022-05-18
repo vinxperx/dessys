@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-18T12:02:05-03:00
+
+====== Descricao ======
+Criado quarta-feira 18 maio 2022
+
+Enquanto Facilitador
+Quero que a página de autenticação do SYSDEA faça uso do Keycloak
+Para propiciar uma melhor experiência ao usuário do sistema
+
+001 - Dado que a tentativa de autenticação seja feita 
+Então o funcionamento da mesma deve ser similar a como ocorre atualmente em Produção
