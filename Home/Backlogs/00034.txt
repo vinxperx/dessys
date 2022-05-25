@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-25T10:58:10-03:00
+
+====== 00034 ======
+Criado quarta 25 maio 2022
+
+**Título**: CadastrarQuestao
+**Tipo**: #desenvolvimento#
+**Módulo**: #adm#
+**Implementação**: [[Implementacao:DesenvolvimentoInterno|Interno]]
+**Status**: [[Meta:StatusDeItens:Producao|Produção]]
+**Wireframe**: 
+**Arquivos**: 
+
+**Atende**: [[Telas:VelhoEsquema:MenuSysdeaAdm:NovoHorario|Novo Horario]]
+
+#caducou#00044#

@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-25T10:47:00-03:00
+
+====== Examinador ======
+Criado quarta 25 maio 2022
+
+**Definição**: Um examinador que foi credenciado para a ANAC. 
+**Atribuições típicas**: Aplica exames. 
+**Interação com o sistema**: Insere notas, escolhe a versão de prova e encaminha as provas para a ANAC.  

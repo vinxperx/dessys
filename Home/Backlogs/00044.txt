@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-25T11:05:19-03:00
+
+====== 00044 ======
+Criado quarta 25 maio 2022
+
+**Título**: CriarHorarioFechado
+**Tipo**: #desenvolvimento#
+**Módulo**: #adm#
+**Implementação**: [[Implementacao:DesenvolvimentoInterno|Interno]]
+**Status**: [[Meta:StatusDeItens:Producao|Produção]]
+**Wireframe**: 
+**Arquivos**: 
+**Atende**: [[Telas:VelhoEsquema:MenuSysdeaAdm:NovoHorario:CriarHorarioFechado|Criar Horario Fechado]]

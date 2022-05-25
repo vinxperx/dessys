@@ -14,3 +14,6 @@ Itens a serem revistos na descrição são marcados com palavras-chave:
 #erronoTFS# - a descrição do item tem erro(s) no texto do TFS
 #testar# - significa que o item precisa ser testado em produção assim que surgir uma oportunidade
 #syncTFS# - a descrição do item se baseou no TFS
+#proforma# - um item que não faz mais sentido, mas que por ser obrigatório precisa ser preenchido
+#stub# - descrição item a ser detalhado
+#possivelimpacto#item# - colocar o nome do item no final

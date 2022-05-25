@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-25T10:56:52-03:00
+
+====== NovoHorario ======
+Criado quarta 25 maio 2022
+
+**Acesso**: Entidade
+**Tipo**: tela
+**Backlog**: 00034
+**Credencial**: entidade
+**Status** **da** **tela**:  Implementada em produção
+**Arquivos**: pasta
+
+A tela criar novo horário permite ao usuário do examinador credenciado criar horários para que sejam ocupados por pilotos. Na prática esse fluxo nunca aconteceu, e o horário é sempre criado com o piloto nele. Assim, os examinadores clicam na funcionalidade Criar horário fechado. 

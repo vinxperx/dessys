@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-25T10:35:31-03:00
+
+====== Fiscal ======
+Criado quarta 25 maio 2022
+
+**Definição**: Supervisiona a aplicação das provas e emite um segundo parecer técnico para o caso dos recursos.
+**Atribuições típicas**: Divide a prova em duas categorias, baixo risco e alto risco. As de baixo risco ele faz uma análise da qualidade de documentação apenas, nas de alto risco, ele encaminha para FC. Há fiscais que realizam escutas (FC). O fiscal realiza escutas e emite parecer, em FC ou recurso. Com a nova configuração, temos:
+
+FA - Análise de risco (não é registrada no sistema) e Análise da documentação (registrada no sistema)
+FC1 - Escuta + Análise da entrevista
+FC2 - Escuta 
+1 Rec 1 - Escuta
+1 Rec 2 - Escuta
+2 Rec 1 - Escuta
+2 Rec 2 - Escuta
+3 Rec 1 - Escuta
+2 Rec 2 - Escuta
+
+
