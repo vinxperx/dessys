@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-26T18:43:26-03:00
+
+====== 3Autorizado ======
+Criado quinta 26 maio 2022
+
+Esse status unificado é uma maneira de ser referir à combinação: 
+1) [[StatusAgendamento:5Iniciado|Agendamento 5 Iniciado]]
+2) [[StatusHorario:5EmCurso|Horario 5 EmCurso]].

@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-26T10:48:10-03:00
+
+====== StatusUnificado ======
+Criado quinta 26 maio 2022
+
+**Descrição**: O status unificado foi criado com a finalidade de descrever as combinações de status de agendamento e horário de forma mais simples, já que o fluxo utilizado não separa as duas entidades na prática. 
+
+| AU# | Agendamento Unificado                        | Horário                                    | Agendamento                                    | Prova                                        |
+|-----|----------------------------------------------|--------------------------------------------|------------------------------------------------|----------------------------------------------|
+| 1   | [[StatusUnificado:1Reservado\|1Reservado]]   | [[StatusHorario:2Reservado\|2Reservado]]   | [[StatusAgendamento:2Reservado\|2Reservado]]   |                                              |
+| 2   | [[StatusUnificado:2Confirmado\|2Confirmado]] | [[StatusHorario:3Confirmado\|3Confirmado]] | [[StatusAgendamento:3Confirmado\|3Confirmado]] |                                              |
+| 3   | [[StatusUnificado:3Autorizado\|3Autorizado]] | [[StatusHorario:5EmCurso\|5EmCurso]]       | [[StatusAgendamento:5Iniciado\|Iniciado]]      |                                              |
+| 4   | [[StatusUnificado:4Cancelado\|4Cancelado]]   | [[StatusHorario:4Cancelado\|Cancelado]]    | [[StatusAgendamento:4Cancelado\|Cancelado]]    |                                              |
+| 5   | Expirado                                     | [[StatusHorario:6Expirado\|Expirado]]      | [[StatusAgendamento:6EmCurso\|EmCurso]]        |                                              |
+| 6   | Iniciado                                     | [[StatusHorario:7Completado\|Completado]]  | [[StatusAgendamento:5Iniciado\|Iniciado]]      | [[StatusProva:3ChaveGerada\|3ChaveGerada]]   |
+| 7   | Concluído                                    | [[StatusHorario:7Completado\|Completado]]  | [[StatusAgendamento:7Concluido\|Concluido]]    | [[StatusProva:4EmAtribuicao\|4EmAtribuicao]] |

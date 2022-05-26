@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-26T18:45:05-03:00
+
+====== 4Cancelado ======
+Criado quinta 26 maio 2022
+
+Esse status unificado é uma maneira de ser referir à combinação: 
+1) [[StatusHorario:4Cancelado|Horario 4 Cancelado]] e
+2) [[StatusAgendamento:4Cancelado|Agendamento 4 Cancelado]].

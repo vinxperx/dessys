@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-25T11:25:11-03:00
+
+====== 02Confirmacao ======
+Criado quarta 25 maio 2022
+
+**Cliente**: A entidade credenciada.
+**Agente**: [[Atores:A2|A2]] 
+
+**Fluxo**
+
+A entidade credenciada registra mais comprometimento por parte do piloto, mudando o status do agendamento

@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-26T18:26:16-03:00
+
+====== 4EmAtribuicao ======
+Criado quinta 26 maio 2022
+
+**Nome completo**: Em atribuição
+
+A prova entra nesse status quando foi completada e passa a estar disponível para os examinadores credenciados para a atribuição de níveis.  
