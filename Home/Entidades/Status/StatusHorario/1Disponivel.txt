@@ -5,3 +5,6 @@ Creation-Date: 2022-05-26T11:07:40-03:00
 ====== 1Disponivel ======
 Criado quinta 26 maio 2022
 
+Originalmente o sistema tinha sido concebido com um fluxo diferente, em que a escola disponibilizava slots com horário vazios, para que os pilotos logados fizessem a reserva. Nesse status, o horário ficaria no status 'Disponível', sem um agendamento atrelado a si. 
+
+Esse fluxo nunca foi colocado em prática porém. 

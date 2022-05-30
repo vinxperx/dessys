@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-30T12:16:15-03:00
+
+====== RegistroAgendamento ======
+Criado segunda 30 maio 2022
+
+Os registros na tabela de agendamento quando a reserva de um novo horário são:
+
+#registro#[[Tabelas:AGENDAMENTO|AGENDAMENTO]]#[[Tabelas:AGENDAMENTO:DT AGENDAMENTO|D]][[Tabelas:AGENDAMENTO:DT AGENDAMENTO|T]][[Tabelas:AGENDAMENTO:DT AGENDAMENTO|_]][[Tabelas:AGENDAMENTO:DT AGENDAMENTO|A]][[Tabelas:AGENDAMENTO:DT AGENDAMENTO|G]][[Tabelas:AGENDAMENTO:DT AGENDAMENTO|E]][[Tabelas:AGENDAMENTO:DT AGENDAMENTO|N]][[Tabelas:AGENDAMENTO:DT AGENDAMENTO|D]][[Tabelas:AGENDAMENTO:DT AGENDAMENTO|A]][[Tabelas:AGENDAMENTO:DT AGENDAMENTO|M]][[Tabelas:AGENDAMENTO:DT AGENDAMENTO|E]][[Tabelas:AGENDAMENTO:DT AGENDAMENTO|N]][[Tabelas:AGENDAMENTO:DT AGENDAMENTO|T]][[Tabelas:AGENDAMENTO:DT AGENDAMENTO|O]]# gerado automaticamente. 
+#registro#[[Tabelas:AGENDAMENTO|AGENDAMENTO]]#[[Tabelas:AGENDAMENTO:ID HORARIO|ID_HORARIO]]# indica o horário ao qual o agendamento está vinculado.
+#registro#[[Tabelas:AGENDAMENTO|AGENDAMENTO]]#[[Tabelas:AGENDAMENTO:ID AGENDAMENTO|ID_AGENDAMENTO]]# gerado automaticamente, chave primária.
+#registro#[[Tabelas:AGENDAMENTO|AGENDAMENTO]]#[[Tabelas:AGENDAMENTO:ID USUARIO|ID_USUARIO]]# o usuário vinculado ao horário. 
+#registro#[[Tabelas:AGENDAMENTO|AGENDAMENTO]]#[[Tabelas:AGENDAMENTO:TP STATUS AGENDAMENTO|TP_STATUS_AGENDAMENTO]]# o [[Entidades:Status:StatusAgendamento|Status do Agendamento]]. 
+

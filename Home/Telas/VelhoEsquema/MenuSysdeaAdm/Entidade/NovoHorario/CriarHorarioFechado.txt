@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-25T10:57:37-03:00
+
+====== CriarHorarioFechado ======
+Criado quarta 25 maio 2022
+
+**Acesso**: Entidade
+**Tipo**: #tela#
+**Backlog**: [[Backlogs:00044|00044]]
+**Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
+**Status** **da** **tela**: #producao#
+**Arquivos**: pasta
+
+Nessa opção, o examinador preenche o CANAC do piloto e outras informações de forma a criar um horário já com um piloto nele. 
+
+Nesse caso, o status do horário e do agendamento ficam em 02 - reservado. A variável SN_AGENDAMENTO_ATIVO_PILOTO é marcada como 1 neste momento. 

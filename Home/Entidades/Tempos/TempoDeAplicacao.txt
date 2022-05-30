@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-30T12:47:57-03:00
+
+====== TempoDeAplicacao ======
+Criado segunda 30 maio 2022
+
+**Tempo de Aplicação - TAp**
+
+É a quantidade de minutos máxima que a prova pode durar. Período de tempo definido na parte Administrativa do sistema (default 60 minutos) que determina a duração máxima da prova. 

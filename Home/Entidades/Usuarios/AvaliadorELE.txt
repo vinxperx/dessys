@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-30T13:10:09-03:00
+
+====== AvaliadorELE ======
+Criado segunda 30 maio 2022
+
+O Avaliador ELE normalmente acumula os papéis de [[Credenciais:6Avaliador|Avaliador]] e [[Credenciais:11Aplicador|Aplicador]].

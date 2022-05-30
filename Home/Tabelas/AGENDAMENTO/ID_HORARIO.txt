@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-30T12:06:09-03:00
+
+====== ID HORARIO ======
+Criado segunda 30 maio 2022
+
+#campo# #int# 
+
+#chave# para a tabela [[Tabelas:HORARIO|HORARIO]][[.]] 
+

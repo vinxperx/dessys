@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-30T12:46:54-03:00
+
+====== Tempo de Revisao ======
+Criado segunda 30 maio 2022
+
+**Tempo de Revisão - TR**
+
+A quantidade de tempo em minutos que o examinador tem para dar uma olhada na prova antes de aplicá-la. Em termos de sistema, limita uma pequena janela de tempo antes da aplicação na qual o examinador pode baixar a prova. É definido na administração do sistema, e tem defaut de 5min. 

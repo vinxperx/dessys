@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-30T13:33:54-03:00
+
+====== PessoaFisica ======
+Criado segunda 30 maio 2022
+
+O perfil pessoa física pressupõe um registro na tabela: [[Tabelas:USUARIO|USUARIO]].

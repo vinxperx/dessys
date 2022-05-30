@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-30T12:53:41-03:00
+
+====== TempoMaximoDeTermino ======
+Criado segunda 30 maio 2022
+
+**Tempo Máximo de Término - TmaxT**
+
+É a hora em que uma instância de prova de fato vai ser encerrada automaticamente pelo sistema. É igual ao Tempo de aplicação + o Tempo efetivo de início. TmaxT = TI + TAp. Uma prova que começou 11h55 será encerrada automaticamente às 13h. Uma prova que começou 12h09 durará até 13h08m59s.  
+
+O tempo de encerramento de prova (TEP), que deve ser registrado é igual ao menor de TmaxT, ou do momento em que o aplicador encerra a página de aplicação no botão apropriado. 
+Abaixo segue um resumo dos tempos. Aqueles marcados em vermelho precisam ter permanência no sistema. 
+TMP é o Tempo Máximo de Inicialização de Prova, e é igual a H + TAt. 

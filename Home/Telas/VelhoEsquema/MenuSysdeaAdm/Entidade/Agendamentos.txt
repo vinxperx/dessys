@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-30T14:47:16-03:00
+
+====== Agendamentos ======
+Criado segunda 30 maio 2022
+
+**Acesso**: [[Entidade]]
+**Tipo**: #tela#
+**Backlog**: [[./00031_wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
+**Status** **da** **tela**: #producao#
+**Arquivos**: [[./|pasta]]
+
+A tela de agendamentos lista os processos nos [[Entidades:Status:StatusAgendamento|status de agendamento]] : [[Entidades:Status:StatusAgendamento:2Reservado|reservado]], e [[Entidades:Status:StatusAgendamento:3Confirmado|confirmado]]  #testeparaconfirmar#
+
+Para cada caso, é possível clicar em duas telas que redirecionam o usuário para:
+[[+Detalhes|Detalhes]] : onde é possível verificar os detalhes do agendamento em questão. 
+[[+Fila|Fila]]: Tela na qual é possível administrar a fila do agendamento. 

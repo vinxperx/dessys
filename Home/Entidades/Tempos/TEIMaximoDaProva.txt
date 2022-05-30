@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-30T12:54:50-03:00
+
+====== TEIMaximoDaProva ======
+Criado segunda 30 maio 2022
+
+**TEI (Tempo Efetivo de Início) Máximo da Prova - TEImax**
+
+Hora máxima em que o sistema vai permitir que uma prova inicie. Igual à hora agendada (H) mais a tolerância (TAt).
+
+O Tempo de Autorização (TAt) define o TEI máximo da prova estimado (TEImax). TEImax = H + TAt, inclusive, em minutos, sendo H a hora agendada. Uma prova com TAt = 10min, que H de 12h, pode ser iniciada até 12h10. 

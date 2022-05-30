@@ -5,3 +5,6 @@ Creation-Date: 2022-05-26T11:26:19-03:00
 ====== 1NaFila ======
 Criado quinta 26 maio 2022
 
+Originalmente o sistema tinha sido concebido com um fluxo diferente, em que a escola disponibilizava slots com horário vazios, para que os pilotos logados fizessem a reserva. Um horário poderia ser disputado por vários agendamentos dentro desse modelo. Os agendamentos que estivessem aguardando para serem atrelados a um horário ficariam nostatus 'Na fila'. 
+
+Esse fluxo nunca foi colocado em prática porém. 

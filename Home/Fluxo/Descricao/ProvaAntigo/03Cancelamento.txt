@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-30T15:36:14-03:00
+
+====== 03Cancelamento ======
+Criado segunda 30 maio 2022
+
+**Cliente**: Piloto pede para cancelar um teste
+**Agente**: [[Entidades:Usuarios:ApoioAdministrativo|A2]]
+
+**Fluxo**
+
+Passar o [[Entidades:Status:StatusUnificado|status]] do agendamento e horário para [[Entidades:Status:StatusUnificado:4Cancelado|Cancelado]].
+
+#testeparaconfirmar# quais tabelas são realmente afetadas com o cancelamento feito por aqui. 
+
+**Interação com o sistema**
+
+1. Entrar na tela inicial, [[Telas:VelhoEsquema:MenuSysdeaAdm:Entidade|Entidade]]
+2. Clicar em [[Telas:VelhoEsquema:MenuSysdeaAdm:Entidade:Agendamentos|Agendamentos]].
+3. Clicar em [[Telas:VelhoEsquema:MenuSysdeaAdm:Entidade:Agendamentos:Fila|Fila]].
+4. Clicar no botão [[Telas:VelhoEsquema:MenuSysdeaAdm:Entidade:Agendamentos:Fila:CancelarAgendamento|Cancelar Agendamento]].
+
+#antigo#

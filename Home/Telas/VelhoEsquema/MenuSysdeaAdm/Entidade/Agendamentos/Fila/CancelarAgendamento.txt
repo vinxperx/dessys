@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-30T15:55:42-03:00
+
+====== CancelarAgendamento ======
+Criado segunda 30 maio 2022
+
+**Acesso**: [[Fila]]
+**Tipo**: #tela#
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
+**Status** **da** **tela**: #producao#
+**Arquivos**: [[./|pasta]]
+
+Aqui o usuário consegue cancelar o agendamento. 
+
+#testeparaconfirmar# É importante confirmar quais tabelas são modificadas.  

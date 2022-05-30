@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-30T12:45:08-03:00
+
+====== Tempos ======
+Criado segunda 30 maio 2022
+
+Diversos status serão ativados pela hora, de modo que é importante definirem-se os tempos de prova. Três desses tempos serão definidos nos [[ParametrosDeAplicacaoDeProva|parâmetros de aplicação]]: [[+Tempo de Revisao|tempo de revisão]], [[+TempoDeAutorizacao|tempo de autorização]] e [[+TempoDeAplicacao|tempo de aplicação]].
+{{./pasted_image001.png}}
+
+ 
+**Fluxo**
+
+O tempo ótimo de inicialização da prova (TO) é = H - TR. Uma prova agendada para 12h tem o seu tempo ótimo igual a 11h55min. Os 5 minutos do TR não contam no tempo de aplicação da prova. Se a prova é iniciada depois de TO, os minutos de revisão diminuem. Uma prova iniciada às 11h57 tem apenas 3 minutos de TR. 
+
+
+O momento em que uma prova é carregada é o Tempo Efetivo de Início (TEI) da prova, que deve ter permanência no sistema. O Tempo de inicialização da prova TI é igual ao maior de H ou TEI. Uma prova com H de 12h e TEI de 11h55 tem seu TI igual a 12h. Uma prova que iniciou 12h05 tem seu TI e TEI igual a 12h05. 

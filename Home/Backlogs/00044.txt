@@ -12,4 +12,4 @@ Criado quarta 25 maio 2022
 **Status**: [[Meta:StatusDeItens:Producao|Produção]]
 **Wireframe**: 
 **Arquivos**: 
-**Atende**: [[Telas:VelhoEsquema:MenuSysdeaAdm:NovoHorario:CriarHorarioFechado|Criar Horario Fechado]]
+**Atende**: [[Telas:VelhoEsquema:MenuSysdeaAdm:Entidade:NovoHorario:CriarHorarioFechado|Criar Horario Fechado]]

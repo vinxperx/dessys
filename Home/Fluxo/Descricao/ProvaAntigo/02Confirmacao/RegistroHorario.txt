@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-30T15:50:48-03:00
+
+====== RegistroHorario ======
+Criado segunda 30 maio 2022
+
+Os registros na tabela de horário quando da confirmação do agendamento/horário:
+
+#registro#[[Tabelas:HORARIO:DT HORARIO AGENDADO|HORARIO]]#[[Tabelas:HORARIO:TP STATUS HORARIO|TP_STATUS_HORARIO]]# registra o [[Entidades:Status:StatusHorario|status do horário]] que passa para o status [[Entidades:Status:StatusHorario:3Confirmado|Confirmado]]. 

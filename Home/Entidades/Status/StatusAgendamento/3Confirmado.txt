@@ -5,3 +5,4 @@ Creation-Date: 2022-05-26T11:26:30-03:00
 ====== 3Confirmado ======
 Criado quinta 26 maio 2022
 
+No fluxo antigo que entrou em prática, o status confirmado serve para sinalizar maior comprometimento do piloto. As entidades normalmente mudam o candidato para esse status quando eles já pagaram pela prova.  

@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-30T12:03:35-03:00
+
+====== Tabelas ======
+Criado segunda 30 maio 2022
+
+#tabela# - Descreve uma tabela
+#campo# - Descreve um campo dentro de uma tabela
+#int# - integer
+#varchar# - normalmente varchar com máx de caracteres
+#datetime# - data e hora
+#char#x# - caracteres
+#aut# - automático
+#chave# - chave estrangeira de outra tabela
+#chaveincompleta# - chave para um status ou outra entidade que não tem uma tabela de referência no sistema

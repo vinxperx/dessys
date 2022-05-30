@@ -13,6 +13,6 @@ Criado quinta 26 maio 2022
 | 2   | [[StatusUnificado:2Confirmado\|2Confirmado]] | [[StatusHorario:3Confirmado\|3Confirmado]] | [[StatusAgendamento:3Confirmado\|3Confirmado]] |                                              |
 | 3   | [[StatusUnificado:3Autorizado\|3Autorizado]] | [[StatusHorario:5EmCurso\|5EmCurso]]       | [[StatusAgendamento:5Iniciado\|Iniciado]]      |                                              |
 | 4   | [[StatusUnificado:4Cancelado\|4Cancelado]]   | [[StatusHorario:4Cancelado\|Cancelado]]    | [[StatusAgendamento:4Cancelado\|Cancelado]]    |                                              |
-| 5   | Expirado                                     | [[StatusHorario:6Expirado\|Expirado]]      | [[StatusAgendamento:6EmCurso\|EmCurso]]        |                                              |
-| 6   | Iniciado                                     | [[StatusHorario:7Completado\|Completado]]  | [[StatusAgendamento:5Iniciado\|Iniciado]]      | [[StatusProva:3ChaveGerada\|3ChaveGerada]]   |
-| 7   | Concluído                                    | [[StatusHorario:7Completado\|Completado]]  | [[StatusAgendamento:7Concluido\|Concluido]]    | [[StatusProva:4EmAtribuicao\|4EmAtribuicao]] |
+| 5   | [[StatusUnificado:5Expirado\|5Expirado]]     | [[StatusHorario:6Expirado\|Expirado]]      | [[StatusAgendamento:6EmCurso\|EmCurso]]        |                                              |
+| 6   | [[StatusUnificado:6Iniciado\|6Iniciado]]     | [[StatusHorario:7Completado\|Completado]]  | [[StatusAgendamento:5Iniciado\|Iniciado]]      | [[StatusProva:3ChaveGerada\|3ChaveGerada]]   |
+| 7   | [[StatusUnificado:7Concluido\|7Concluido]]   | [[StatusHorario:7Completado\|Completado]]  | [[StatusAgendamento:7Concluido\|Concluido]]    | [[StatusProva:4EmAtribuicao\|4EmAtribuicao]] |

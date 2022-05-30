@@ -5,6 +5,8 @@ Creation-Date: 2022-05-26T11:26:25-03:00
 ====== 2Reservado ======
 Criado quinta 26 maio 2022
 
-Quando o agendamento primeiro é criado, o status dele é este. Ele faz parte do 
+No fluxo original, o status de reservado destinava-se aos agendamentos que finalmente conseguiam um horário para chamar de seu. No fluxo que entrou em prática, esse é o primeiro status, quando o piloto liga para a entidade e faz a reserva, já que normalmente não existe disputa dentro do sistema, a negociação acontece toda via telefone. Assim, os agendamentos já são criados com horários atrelados a si. 
+
+
 
  

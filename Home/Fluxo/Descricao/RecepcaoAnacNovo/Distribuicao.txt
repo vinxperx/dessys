@@ -5,6 +5,6 @@ Creation-Date: 2022-05-25T10:33:17-03:00
 ====== Distribuicao ======
 Criado quarta 25 maio 2022
 
-**Cliente**: [[Atores:Fiscal|Fiscal]]
-**Agente**: [[Atores:A3|A3]]
+**Cliente**: [[Entidades:Usuarios:Fiscal|Fiscal]]
+**Agente**: [[Entidades:Usuarios:ApoioAdministrativoAnac|A3]]
 

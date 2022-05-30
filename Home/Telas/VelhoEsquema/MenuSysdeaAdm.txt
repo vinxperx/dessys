@@ -8,7 +8,7 @@ Criado segunda 04 abril 2022
 
 **Backlog**:
 **Credencial**: Avaliador ELE ou Avaliador SME  
-**Status da tela**: Implementada em produção.
+**Status da tela**: #producao#
 **Arquivos**: pasta 
 
 O menu SySDEA ADM foi uma tela desenvolvida na PROFLING. Ela é estruturada em abas, que aparecem ou não conforme a credencial do usuário. 

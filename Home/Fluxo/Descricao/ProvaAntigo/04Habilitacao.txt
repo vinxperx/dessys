@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-30T15:58:44-03:00
+
+====== 04Habilitacao ======
+Criado segunda 30 maio 2022
+
+**Cliente**: O piloto comparece ao local do exame, e o profissional administrativo sinaliza isso ao sistema, que libera as funcionalidades de aplicação.  
+**Agente**: [[Entidades:Usuarios:ApoioAdministrativo|A2]]
+
+**Fluxo**
+
+Passar o status da prova para [[Entidades:Status:StatusUnificado:2Confirmado|confirmado]].
+
+**Interação com o sistema**
+
+1. Entrar na tela inicial, [[Telas:VelhoEsquema:MenuSysdeaAdm:Entidade|Entidade]]
+2. Clicar em [[Telas:VelhoEsquema:MenuSysdeaAdm:Entidade:Agendamentos|Agendamentos]].
+3. Clicar em [[Telas:VelhoEsquema:MenuSysdeaAdm:Entidade:Agendamentos:Fila|Fila]].
+4. Clicar no botão Confirmar Agendamento. 
+5. Na tela [[Telas:VelhoEsquema:MenuSysdeaAdm:Entidade:Agendamentos:Fila:ConfirmarAgendamento|ConfirmarAgendamento]], confirmar no botão 'Confirmar'.
+
+**Registros em tabelas**
+
+O sistema passa o processo para o  [[Entidades:Status:StatusUnificado|Status Unificado]] igual a [[Entidades:Status:StatusUnificado:2Confirmado|Confirmado]]. 
+
+#antigo#

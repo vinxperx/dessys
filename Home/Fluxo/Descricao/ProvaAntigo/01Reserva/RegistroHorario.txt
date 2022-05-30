@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-30T12:35:41-03:00
+
+====== RegistroHorario ======
+Criado segunda 30 maio 2022
+
+Os registros na tabela de horário quando da reserva de um novo horário são:
+
+#registro#[[Tabelas:HORARIO:DT HORARIO AGENDADO|HORARIO]]#[[Tabelas:HORARIO:ID HORARIO|ID_HORARIO]]#: registra a chave primária do registro.
+#registro#[[Tabelas:HORARIO:DT HORARIO AGENDADO|HORARIO]]#[[Tabelas:HORARIO:VL PRECO PROVA|VL_PRECO_PROVA]]# registra o preço da prova.
+#registro#[[Tabelas:HORARIO:DT HORARIO AGENDADO|HORARIO]]#[[Tabelas:HORARIO:ID AVALIADOR ELE|ID_AVALIADOR_ELE]]# registra uma proposta de [[Entidades:Usuarios:AvaliadorELE|Avaliador ELE]]. 
+#registro#[[Tabelas:HORARIO:DT HORARIO AGENDADO|HORARIO]]#[[Tabelas:HORARIO:ID AVALIADOR SME|ID_AVALIADOR_SME]]# registra uma proposta de [[Entidades:Usuarios:AvaliadorSME|AvaliadorSME]].
+#registro#[[Tabelas:HORARIO:DT HORARIO AGENDADO|HORARIO]]#[[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]]# registra o [[Entidades:Tempos|tempo de prova]], chamado de [[Entidades:Tempos:HoraAgendada|hora agendada]], conforme escolha.
+#registro#[[Tabelas:HORARIO:DT HORARIO AGENDADO|HORARIO]]#[[Tabelas:HORARIO:TP STATUS HORARIO|TP_STATUS_HORARIO]]# registra o [[Entidades:Status:StatusHorario|status do horário]]. 
+#registro#[[Tabelas:HORARIO:DT HORARIO AGENDADO|HORARIO]]#[[Tabelas:HORARIO:NR SALA AGENDADA|NR_SALA_AGENDADA]]# registra o número de sala.
+#registro#[[Tabelas:HORARIO:DT HORARIO AGENDADO|HORARIO]]#[[Tabelas:HORARIO:ID LOCAL ENTIDADE|ID_LOCAL_ENTIDADE]]# registra o local da entidade.
+
+

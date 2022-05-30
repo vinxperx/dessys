@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-25T11:25:11-03:00
+
+====== 02Confirmacao ======
+Criado quarta 25 maio 2022
+
+**Cliente**: Piloto, que dá uma prova de comprometimento com a prova, tipicamente depósito em conta. 
+**Agente**: [[Entidades:Usuarios:ApoioAdministrativo|A2]]
+
+**Fluxo**
+
+Passar o status da prova para [[Entidades:Status:StatusUnificado:2Confirmado|confirmado]].
+
+**Interação com o sistema**
+
+1. Entrar na tela inicial, [[Telas:VelhoEsquema:MenuSysdeaAdm:Entidade|Entidade]]
+2. Clicar em [[Telas:VelhoEsquema:MenuSysdeaAdm:Entidade:Agendamentos|Agendamentos]].
+3. Clicar em [[Telas:VelhoEsquema:MenuSysdeaAdm:Entidade:Agendamentos:Fila|Fila]].
+4. Clicar no botão Confirmar Agendamento. 
+5. Na tela [[Telas:VelhoEsquema:MenuSysdeaAdm:Entidade:Agendamentos:Fila:ConfirmarAgendamento|ConfirmarAgendamento]], confirmar no botão 'Confirmar'.
+
+**Registros em tabelas**
+
+O sistema passa o processo para o  [[Entidades:Status:StatusUnificado|Status Unificado]] igual a [[Entidades:Status:StatusUnificado:2Confirmado|Confirmado]]. 
+
+#antigo#

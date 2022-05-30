@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-30T12:11:26-03:00
+
+====== TP STATUS AGENDAMENTO ======
+Criado segunda 30 maio 2022
+
+#campo# #char#2# #chaveincompleta#
+
+**Função**
+
+Este campo aponta para os status, mas surpreendemente não é numérico, é um char com 2 caracteres, com status correspondentes aos [[Entidades:Status:StatusAgendamento|status de agendamento]]. 

@@ -8,17 +8,17 @@ Criado quarta 25 maio 2022
 **Acesso**: Menu SySDEA ADM 
 **Tipo**: aba
 **Backlog**: [[Backlogs:00030|00030]]
-**Credencial**: entidade
-**Status** **da** **tela**:  Implementada em produção
+**Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
+**Status** **da** **tela**: #producao#
 **Arquivos**: pasta
 **Melhoria**: 29697 - Melhoria Aba Entidade
 
 Essa é a aba que se abre para quem tem credencial de fiscal. Ela dá acesso às funcionalidades de:
 
-1) Agendamentos;
+1) [[+Agendamentos|Agendamentos]]
 2) Agendamentos do dia;
 3) Listar filiais; 
-4) Novo horário;
+4) [[+NovoHorario|Novo Horário]]
 5) Verificar solicitações;
 6) Configurações;
 7) Versões de prova por CANAC;
