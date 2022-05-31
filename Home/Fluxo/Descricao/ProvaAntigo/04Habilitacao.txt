@@ -27,12 +27,12 @@ Passar o status da prova de
 	g. Avaliador SME na tabela de horário
 	h. Piloto Agendado
 5. O agente também insere as seguintes informações:
-	a. Avaliador ELE para a tabela [[Tabelas:AVALIACAO|AVALIACAO]].
-	b. Avaliador SME para a tabela [[Tabelas:AVALIACAO|AVALIACAO]].
+	a. [[Tabelas:HORARIO:ID AVALIADOR ELE|ID_AVALIADOR_ELE]] na tabela [[Tabelas:HORARIO|HORARIO]], podendo o A2 trocá-lo.
+	b. [[Tabelas:HORARIO:ID AVALIADOR SME|ID_AVALIADOR_SME]] na tabela [[Tabelas:HORARIO|HORARIO]], podendo o A2 trocá-lo.
 6. Clicar no botão Confirmar para Habilitar a Avaliação. 
 
 **Registros em tabelas**
 
-O sistema muda o processo do  [[Entidades:Status:StatusUnificado|Status Unificado]] igual a [[Entidades:Status:StatusUnificado:2Confirmado|Confirmado]] para [[Entidades:Status:StatusUnificado:3Autorizado|Autorizado]].
+O sistema muda o processo do  [[Entidades:Status:StatusUnificado|Status Unificado]] igual a [[Entidades:Status:StatusUnificado:2Confirmado|Confirmado]] para [[Entidades:Status:StatusUnificado:3Autorizado|Autorizado]], inserindo os dados sobre os avaliadores no novo registro. 
 
 #antigo#

@@ -19,7 +19,7 @@ A tela de agendamentos do dia lista processos de qualquer data nos status [[Enti
 **Filial** #leitura#: [[Tabelas:LOCALENTIDADE:TX TITULO LOCAL ENTIDADE|TX_TITULO_LOCAL_ENTIDADE]]
 **Preço** #leitura#:  [[Tabelas:LOCALENTIDADE:VL PRECO PROVA ENTIDADE|VL_PRECO_PROVA_ENTIDADE]]
 **Hora** #leitura#:  cast(data, campo [[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]]). #problema# na verdade o campo mostra a data, não a hora. Corrigir cabeçalho
-**Status**: De onde vêm os nomes? #testesparaconfirmar#
+**Status**: De onde vêm os nomes? #teste#
 **Sala**: [[Tabelas:HORARIO:NR SALA AGENDADA|NR_SALA_AGENDADA]]
 **Habilitar Avaliação**:  Botão. 
 
