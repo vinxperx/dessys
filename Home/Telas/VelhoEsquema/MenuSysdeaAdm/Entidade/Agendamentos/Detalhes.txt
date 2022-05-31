@@ -5,8 +5,9 @@ Creation-Date: 2022-05-30T14:53:45-03:00
 ====== Detalhes ======
 Criado segunda 30 maio 2022
 
+**Título: **Detalhes
 **Acesso**: [[Agendamentos]]
-**Tipo**: #tela#
+**Tipo**: #tela# #registro#
 **Backlog**: [[./wireframe.png|wireframe]]
 **Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
 **Status** **da** **tela**: #producao#

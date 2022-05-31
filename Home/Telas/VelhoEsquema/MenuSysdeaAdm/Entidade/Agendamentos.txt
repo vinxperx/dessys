@@ -5,8 +5,9 @@ Creation-Date: 2022-05-30T14:47:16-03:00
 ====== Agendamentos ======
 Criado segunda 30 maio 2022
 
+**Título: **Agendamentos
 **Acesso**: [[Entidade]]
-**Tipo**: #tela#
+**Tipo**: #tela# #lista#
 **Backlog**: [[./00031_wireframe.png|wireframe]]
 **Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
 **Status** **da** **tela**: #producao#

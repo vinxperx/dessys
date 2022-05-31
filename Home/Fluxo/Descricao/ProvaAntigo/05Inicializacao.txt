@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-31T18:25:27-03:00
+
+====== 05Inicializacao ======
+Criado terça 31 maio 2022
+
+**Cliente**: O piloto compareceu para realizar a prova, e o ELE diz ao sistema a versão de prova que vai aplicar. 
+**Agente**: [[Entidades:Usuarios:AvaliadorELE|Avaliador ELE]]
+
+**Fluxo**

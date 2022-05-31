@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-31T18:28:53-03:00
+
+====== ListarAvaliacoes ======
+Criado terça 31 maio 2022
+
+**Acesso**: [[Avaliador]]
+**Tipo**: #tela# #lista#
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:6Avaliador|Avaliador]]
+**Status** **da** **tela**: #producao#
+**Arquivos**: [[./|pasta]]
+
+#wip#

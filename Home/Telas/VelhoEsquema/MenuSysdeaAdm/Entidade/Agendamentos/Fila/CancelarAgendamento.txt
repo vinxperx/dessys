@@ -5,6 +5,7 @@ Creation-Date: 2022-05-30T15:55:42-03:00
 ====== CancelarAgendamento ======
 Criado segunda 30 maio 2022
 
+**Título: **Cancelar Agendamento
 **Acesso**: [[Fila]]
 **Tipo**: #tela#
 **Backlog**: [[./wireframe.png|wireframe]]

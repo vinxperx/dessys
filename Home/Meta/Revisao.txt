@@ -17,4 +17,5 @@ Itens a serem revistos na descrição são marcados com palavras-chave:
 #syncTFS# - a descrição do item se baseou no TFS
 #proforma# - um item que não faz mais sentido, mas que por ser obrigatório precisa ser preenchido
 #stub# - descrição item a ser detalhado
+#wip# - work in progress, item ainda a ser terminado
 #possivelimpacto#item# - colocar o nome do item no final

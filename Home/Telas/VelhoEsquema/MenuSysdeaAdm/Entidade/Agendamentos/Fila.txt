@@ -5,11 +5,14 @@ Creation-Date: 2022-05-30T14:53:31-03:00
 ====== Fila ======
 Criado segunda 30 maio 2022
 
+**Título: **Fila
 **Acesso**: [[Agendamentos]]
-**Tipo**: #tela#
+**Tipo**: #tela# #lista#
 **Backlog**: 00039 [[./00039_wireframe.png|wireframe]]
 **Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
 **Status** **da** **tela**: #producao#
 **Arquivos**: [[./|pasta]]
 
 A tela Fila permite ao 
+
+#wip#

@@ -5,8 +5,9 @@ Creation-Date: 2022-05-31T10:49:30-03:00
 ====== AgendamentosDoDia ======
 Criado terça 31 maio 2022
 
+**Título: **Agendamentos do dia
 **Acesso**: [[Entidade]]
-**Tipo**: #tela#
+**Tipo**: #tela# #lista#
 **Backlog**: [[./wireframe.png|wireframe]]
 **Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
 **Status** **da** **tela**: #producao#

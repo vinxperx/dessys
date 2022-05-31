@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-31T11:56:59-03:00
+
+====== Itens ======
+Criado terça 31 maio 2022
+
+#leitura# - indica que o campo é somente leitura
+#aba# - o item é uma aba de uma tela maior
+#tela# - o item é uma tela
+#popup# - o item é um popup
+
+#hub# - o item dá acesso a outros itens, mas não contém listas nem registros. 
+#lista# - o item lista registros, mas não permite edição, normalmente servindo como consulta ou apenas apontando para outras telas
+#registro# - o item permite atualização de registros

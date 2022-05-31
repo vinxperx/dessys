@@ -5,8 +5,9 @@ Creation-Date: 2022-04-04T15:43:52-03:00
 ====== MenuSysdeaAdm ======
 Criado segunda 04 abril 2022
 
-
+**Título: **Menu SySDEA Administrativo
 **Backlog**:
+**Tipo**: #tela# #hub#
 **Credencial**: Avaliador ELE ou Avaliador SME  
 **Status da tela**: #producao#
 **Arquivos**: pasta 

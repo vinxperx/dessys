@@ -5,8 +5,9 @@ Creation-Date: 2022-05-25T10:56:38-03:00
 ====== Entidade ======
 Criado quarta 25 maio 2022
 
+**Título: **Entidade
 **Acesso**: Menu SySDEA ADM 
-**Tipo**: aba
+**Tipo**: #aba# #hub#
 **Backlog**: [[Backlogs:00030|00030]]
 **Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
 **Status** **da** **tela**: #producao#
