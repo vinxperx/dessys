@@ -12,15 +12,16 @@ Criado terça 31 maio 2022
 **Status** **da** **tela**: #producao#
 **Arquivos**: [[./|pasta]]
 
-Campos:
+**Funcionalidades**
+1. Filial #leitura#: [[Tabelas:LOCALENTIDADE:TX TITULO LOCAL ENTIDADE|TX_TITULO_LOCAL_ENTIDADE]]
+2. Preço #leitura#: [[Tabelas:LOCALENTIDADE:VL PRECO PROVA ENTIDADE|VL_PRECO_PROVA_ENTIDADE]]
+3. Data #leitura#:  cast(data, campo [[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]]).
+4. Hora #leitura#: cast(hora, campo [[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]]).
+5. Sala #leitura#: [[Tabelas:HORARIO:NR SALA AGENDADA|NR_SALA_AGENDADA]].
+6. Avaliador ELE #leitura#: [[Tabelas:HORARIO:ID AVALIADOR ELE|ID_AVALIADOR_ELE]] (Horário).
+7. Avaliador SME #leitura#:[[Tabelas:HORARIO:ID AVALIADOR SME|ID_AVALIADOR_SME]] (Horário).
+8. Piloto #leitura#: [[Tabelas:PESSOA SYSDEA:NM NOME PESSOA|NM_NOME_PESSOA]]  (select via  [[Tabelas:PILOTO:NR CANAC PILOTO|CANAC]] e [[Tabelas:PILOTO:ID USUARIO|ID_USUARIO]])
+9. Avaliador ELE: este é nome do Avaliador que irá na tabela [[Tabelas:AVALIACAO|AVALIACAO]].
+10. Avaliador SME:
+#possiveisproblemas##letramorta# Preço, sala.
 
-
-#possiveisproblemas#
-	O campo preço é inútil
-	b. Preço
-	c. Data
-	d. Hora
-	e. Sala
-	f. Avaliador ELE na tabela de horário
-	g. Avaliador SME na tabela de horário
-	h. Piloto Agendado

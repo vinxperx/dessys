@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-31T13:35:13-03:00
+
+====== ID USUARIO ======
+Criado terça 31 maio 2022
+
+#FK# #int# #naonulo#
+
+Id do candidato fazendo a prova. 
+
+Link:[[USUARIO:ID USUARIO|ID_USUARIO]]

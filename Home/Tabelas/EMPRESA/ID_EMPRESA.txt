@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-31T12:37:55-03:00
+
+====== ID EMPRESA ======
+Criado terça 31 maio 2022
+
+#PK# #int# #naonulo#
+
+Chave primária de empresa.
+
+#letramorta#

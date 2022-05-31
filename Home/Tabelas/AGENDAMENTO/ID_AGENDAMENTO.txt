@@ -5,6 +5,6 @@ Creation-Date: 2022-05-30T12:03:03-03:00
 ====== ID AGENDAMENTO ======
 Criado segunda 30 maio 2022
 
-#campo# #int# #aut# #chave#
+#campo# #int# #aut# #PK#
 
 Chave primária da tabela agendamento

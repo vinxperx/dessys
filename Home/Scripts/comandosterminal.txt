@@ -1,0 +1,9 @@
+
+Localizar todas as ocorrências de um texto:
+grep -Rni 'texto' ./
+
+Localizar todas os arquivos em que um texto ocorre:
+find / -type f -exec grep -l "text-to-find-here" {} \;
+
+Trocar todas as ocorrências de um texto por outro (não esqueça de comitar antes!!!!)
+find . -type f -exec sed -i 's/textooriginal/textosubstituto/g' {} \;

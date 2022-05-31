@@ -7,4 +7,4 @@ Criado segunda 30 maio 2022
 
 #campo# #int# 
 
-#chave# para [[LOCALENTIDADE:ID LOCAL ENTIDADE]].
+#FK# para [[LOCALENTIDADE:ID LOCAL ENTIDADE]].

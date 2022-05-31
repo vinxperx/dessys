@@ -16,8 +16,12 @@ A tela de agendamentos do dia lista processos de qualquer data nos status [[Enti
 
 **Funcionalidades**
 
-A tela é uma lista com os seguintes campos para cada registro:
-1. Filial: exibe o nome da 
+**Filial** #leitura#: [[Tabelas:LOCALENTIDADE:TX TITULO LOCAL ENTIDADE|TX_TITULO_LOCAL_ENTIDADE]]
+**Preço** #leitura#:  [[Tabelas:LOCALENTIDADE:VL PRECO PROVA ENTIDADE|VL_PRECO_PROVA_ENTIDADE]]
+**Hora** #leitura#:  cast(data, campo [[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]]). #problema# na verdade o campo mostra a data, não a hora. Corrigir cabeçalho
+**Status**: De onde vêm os nomes? #testesparaconfirmar#
+**Sala**: [[Tabelas:HORARIO:NR SALA AGENDADA|NR_SALA_AGENDADA]]
+**Habilitar Avaliação**:  Botão. 
 
 Para cada prova, a tela dá ao usuário a opção de [[Fluxo:Descricao:ProvaAntigo:04Habilitacao|habilitar]] a avaliação no caso de provas com status [[Entidades:Status:StatusUnificado:2Confirmado|Confirmado]] e [[Entidades:Status:StatusUnificado:4Cancelado|Cancelado]].  
 

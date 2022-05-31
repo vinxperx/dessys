@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-31T11:56:59-03:00
+
+====== Telas ======
+Criado terça 31 maio 2022
+
+#leitura# - indica que o campo é somente leitura

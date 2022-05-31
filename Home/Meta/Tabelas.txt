@@ -12,6 +12,6 @@ Criado segunda 30 maio 2022
 #datetime# - data e hora
 #char#x# - caracteres
 #aut# - automático
-#chave# - chave estrangeira de outra tabela
+#PK# - chave estrangeira de outra tabela
 #chaveincompleta# - chave para um status ou outra entidade que não tem uma tabela de referência no sistema
 #letramorta# - um campo que existe apenas pro-forma, como requício de um fluxo antigo.

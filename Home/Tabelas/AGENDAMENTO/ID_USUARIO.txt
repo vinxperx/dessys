@@ -7,5 +7,5 @@ Criado segunda 30 maio 2022
 
 #campo# #int# 
 
-#chave# para a tabela [[Tabelas:USUARIO|USUARIO]].
+#PK# para a tabela [[Tabelas:USUARIO|USUARIO]].
 

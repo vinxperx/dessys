@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-31T13:34:47-03:00
+
+====== ID LOCAL ENTIDADE ======
+Criado terça 31 maio 2022
+
+#FK# #int# #naonulo#
+
+Especifica o local de entidade que está sendo utilizado agora. Até o momento os locais de entidade estão com numeração em sintonia com os de [[ENTIDADE]], e essa suposição pode dar problemas adiante. #possiveisproblemas#
+
+Link:[[LOCALENTIDADE:ID LOCAL ENTIDADE|ID_LOCAL_ENTIDADE]]

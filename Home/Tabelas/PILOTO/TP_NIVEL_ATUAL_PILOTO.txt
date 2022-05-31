@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-31T13:19:25-03:00
+
+====== TP NIVEL ATUAL PILOTO ======
+Criado terça 31 maio 2022
+
+#char#2#
+
+Esse é uma variável que determina o nível do piloto. Valores possíveis: 00, 01, 02, 03, 04, 05, 06, 07. 
+
+

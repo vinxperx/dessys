@@ -7,4 +7,4 @@ Criado segunda 30 maio 2022
 
 #campo# #int# 
 
-#chave# para [[USUARIO:ID USUARIO]].
+#PK# para [[USUARIO:ID USUARIO]].

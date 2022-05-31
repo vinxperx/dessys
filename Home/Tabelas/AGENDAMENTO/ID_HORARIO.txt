@@ -7,5 +7,5 @@ Criado segunda 30 maio 2022
 
 #campo# #int# 
 
-#chave# para a tabela [[Tabelas:HORARIO|HORARIO]][[.]] 
+#PK# para a tabela [[Tabelas:HORARIO|HORARIO]][[.]] 
 
