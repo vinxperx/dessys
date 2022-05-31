@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-31T16:57:21-03:00
+
+====== SN POSSUI RECURSO AVALIACAO ======
+Criado terça 31 maio 2022
+
+#bit#
+
+
+Parece estar marcado com 1 quando a prova tem recurso. Localizar quando a marcação acontece #teste#

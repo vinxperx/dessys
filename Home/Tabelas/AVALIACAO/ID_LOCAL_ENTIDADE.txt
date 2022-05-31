@@ -9,4 +9,6 @@ Criado terça 31 maio 2022
 
 Especifica o local de entidade que está sendo utilizado agora. Até o momento os locais de entidade estão com numeração em sintonia com os de [[ENTIDADE]], e essa suposição pode dar problemas adiante. #possiveisproblemas#
 
+#possiveisproblemas# precisaremos deduzir o local de entidade no futuro a partir do [[NR AVALIACAO ENTIDADE]]. 
+
 Link:[[LOCALENTIDADE:ID LOCAL ENTIDADE|ID_LOCAL_ENTIDADE]]

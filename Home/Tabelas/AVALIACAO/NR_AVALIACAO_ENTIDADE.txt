@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-31T17:10:14-03:00
+
+====== NR AVALIACAO ENTIDADE ======
+Criado terça 31 maio 2022
+
+#int#
+
+É um número sequencial para registrar a entidade. 

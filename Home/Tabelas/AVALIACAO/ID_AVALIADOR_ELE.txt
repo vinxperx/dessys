@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-31T17:12:14-03:00
+
+====== ID AVALIADOR ELE ======
+Criado terça 31 maio 2022
+
+#FK# #int# #naonulo#
+Link: [[USUARIO:ID USUARIO|ID_USUARIO]]
+

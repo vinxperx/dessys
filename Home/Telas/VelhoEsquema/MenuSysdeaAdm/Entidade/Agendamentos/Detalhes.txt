@@ -27,4 +27,4 @@ Esta tela exibe algumas informações do agendamento em questão:
 É possível cancelar o horário nesta tela por meio do botão 'Cancelar Horário'.
 Também há um botão que retorna para [[Agendamentos]]. 
 
-#testeparaconfirmar#  Provavelmente o agendamento vai para [[Entidades:Status:StatusUnificado:4Cancelado|Cancelado]], com horário e agendamento sendo modificados. É preciso, porém, testar as implicações em termos de tabela. 
+#teste#  Provavelmente o agendamento vai para [[Entidades:Status:StatusUnificado:4Cancelado|Cancelado]], com horário e agendamento sendo modificados. É preciso, porém, testar as implicações em termos de tabela. 

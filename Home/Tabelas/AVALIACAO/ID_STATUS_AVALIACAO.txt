@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-31T16:58:02-03:00
+
+====== ID STATUS AVALIACAO ======
+Criado terça 31 maio 2022
+
+#FK# #int#
+
+Link: [[STATUS AVALIACAO:ID STATUS AVALIACAO|ID_STATUS_AVALIACAO]]

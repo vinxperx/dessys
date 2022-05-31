@@ -12,7 +12,7 @@ Criado segunda 30 maio 2022
 
 Passar o [[Entidades:Status:StatusUnificado|status]] do agendamento e horário para [[Entidades:Status:StatusUnificado:4Cancelado|Cancelado]].
 
-#testeparaconfirmar# quais tabelas são realmente afetadas com o cancelamento feito por aqui. 
+#teste# quais tabelas são realmente afetadas com o cancelamento feito por aqui. 
 
 **Interação com o sistema**
 
