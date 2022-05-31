@@ -14,3 +14,4 @@ Criado segunda 30 maio 2022
 #aut# - automático
 #chave# - chave estrangeira de outra tabela
 #chaveincompleta# - chave para um status ou outra entidade que não tem uma tabela de referência no sistema
+#letramorta# - um campo que existe apenas pro-forma, como requício de um fluxo antigo.

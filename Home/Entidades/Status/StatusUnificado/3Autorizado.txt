@@ -8,3 +8,4 @@ Criado quinta 26 maio 2022
 Esse status unificado é uma maneira de ser referir à combinação: 
 1) [[StatusAgendamento:5Iniciado|Agendamento 5 Iniciado]]
 2) [[StatusHorario:5EmCurso|Horario 5 EmCurso]].
+3) [[StatusProva:0SemRegistro|Sem Registro]]

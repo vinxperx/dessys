@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-31T10:49:30-03:00
+
+====== AgendamentosDoDia ======
+Criado terça 31 maio 2022
+
+**Acesso**: [[Entidade]]
+**Tipo**: #tela#
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
+**Status** **da** **tela**: #producao#
+**Arquivos**: [[./|pasta]]
+
+A tela de agendamentos do dia lista processos de qualquer data nos status [[Entidades:Status:StatusUnificado:2Confirmado|Confirmado]], [[Entidades:Status:StatusUnificado:4Cancelado|Cancelado]], [[Entidades:Status:StatusUnificado:7Concluido|Concluído]], e o status de horário [[Entidades:Status:StatusHorario:1Disponivel|disponível]]. 
+
+**Funcionalidades**
+
+A tela é uma lista com os seguintes campos para cada registro:
+1. Filial: exibe o nome da 
+
+Para cada prova, a tela dá ao usuário a opção de [[Fluxo:Descricao:ProvaAntigo:04Habilitacao|habilitar]] a avaliação no caso de provas com status [[Entidades:Status:StatusUnificado:2Confirmado|Confirmado]] e [[Entidades:Status:StatusUnificado:4Cancelado|Cancelado]].  
+
+#possiveisproblemas# A tela não filtra por data ([[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]]), a tela tem infos inúteis como o o preço ([[Tabelas:HORARIO:VL PRECO PROVA|VL_PRECO_PROVA]]), a tela lista a sala ([[Tabelas:HORARIO:NR SALA AGENDADA|NR_SALA_AGENDADA]]), mas carece de outras úteis, como o horário ([[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]]). Na verdade, apenas agendamentos no status [[Entidades:Status:StatusUnificado:2Confirmado|Confirmado]] podem ser habilitados. Quando clicado o botão para outros status, o sistema exibe uma mensagem de erro. 

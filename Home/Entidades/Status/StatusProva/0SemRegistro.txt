@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-31T10:44:09-03:00
+
+====== 0SemRegistro ======
+Criado terça 31 maio 2022
+
+Esse status é na verdade um não status, sinaliza que o registro não existe ainda na tabela [[Tabelas:AVALIACAO|AVALIACAO]], e se refere ao fato de que há a expectativa de que um processo com registros e chave primária na tabela [[Tabelas:HORARIO|HORARIO]] provavelmente terá um registro com a mesma chave primária naquela tabela.

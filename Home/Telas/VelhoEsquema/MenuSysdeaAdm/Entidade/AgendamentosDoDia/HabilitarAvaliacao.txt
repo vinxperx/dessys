@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-31T11:22:31-03:00
+
+====== HabilitarAvaliacao ======
+Criado terça 31 maio 2022
+
+**Acesso**: [[Entidade]]
+**Tipo**: #tela#
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
+**Status** **da** **tela**: #producao#
+**Arquivos**: [[./|pasta]]
+
+Campos:
+
+
+#possiveisproblemas#
+	O campo preço é inútil
+	b. Preço
+	c. Data
+	d. Hora
+	e. Sala
+	f. Avaliador ELE na tabela de horário
+	g. Avaliador SME na tabela de horário
+	h. Piloto Agendado

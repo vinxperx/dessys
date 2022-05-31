@@ -10,7 +10,7 @@ Criado quarta 25 maio 2022
 
 **Fluxo**
 
-Reservar na agenda uma prova, vinculando o piloto (# CANAC) a uma data e hora específicas. 
+Reservar na agenda uma prova, vinculando o piloto (# CANAC) a uma data e hora específicas, e colocando o processo no status [[Entidades:Status:StatusUnificado:1Reservado|Reservado]]. 
 
 **Interação com o sistema**
 

@@ -10,4 +10,5 @@ O status foi criado para representar o que acontece na prática no sistema quand
 Esse status unificado é uma maneira de ser referir à combinação: 
 1) [[StatusHorario:2Reservado|Horario 2: Reservado]]
 2) [[StatusAgendamento:2Reservado|Agendamento 2: Reservado]]
+3) [[StatusProva:0SemRegistro|Prova Sem Registro]]
 

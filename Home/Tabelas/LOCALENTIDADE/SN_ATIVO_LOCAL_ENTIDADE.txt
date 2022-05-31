@@ -5,3 +5,6 @@ Creation-Date: 2022-05-30T14:33:21-03:00
 ====== SN ATIVO LOCAL ENTIDADE ======
 Criado segunda 30 maio 2022
 
+#campo# #bit# #naonulo#
+
+Especifica se o local de aplicação da prova está ativo. 

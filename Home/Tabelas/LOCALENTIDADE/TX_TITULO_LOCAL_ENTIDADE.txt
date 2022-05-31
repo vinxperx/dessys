@@ -5,3 +5,8 @@ Creation-Date: 2022-05-30T14:33:50-03:00
 ====== TX TITULO LOCAL ENTIDADE ======
 Criado segunda 30 maio 2022
 
+#campo# #varchar#30# 
+
+**Função**
+
+Armazena o título da filial.

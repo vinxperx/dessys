@@ -10,7 +10,7 @@ Criado quarta 25 maio 2022
 
 **Fluxo**
 
-Passar o status da prova para [[Entidades:Status:StatusUnificado:2Confirmado|confirmado]].
+Confirmar o agendamento. 
 
 **Interação com o sistema**
 
