@@ -5,5 +5,5 @@ Creation-Date: 2022-05-30T13:32:40-03:00
 ====== Perfis ======
 Criado segunda 30 maio 2022
 
-Um perfil é uma tabela extra para armazenar determinados tipos de informações a respeito de algumas categorias de usuário. Os perfis são:
+Um perfil é um conjunto de registros em diversas tabelas que compõem um tipo de usuário do sistema. Por exemplo, um Avaliador possui um registro na tabela de [[Tabelas:USUARIO|USUARIO]], [[Tabelas:PESSOA SYSDEA|PESSOA_SYSDEA]], e um registro na tabela de [[Tabelas:AVALIADOR|AVALIADOR]] que registra algumas informações especiais no caso dos avaliadores, como o fato de ele ser um ELE ou SME, etc. Os perfis são:
  

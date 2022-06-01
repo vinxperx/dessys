@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-31T23:17:21-03:00
+
+====== Configuracoes ======
+Criado terça 31 maio 2022
+
+**Título: **Configurações
+**Acesso**: [[MenuSysdeaAdm|SySDEAADM]]
+**Tipo**: #aba# #hub#
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:6Avaliador|Avaliador]]
+**Status** **da** **tela**: #producao#
+**Arquivos**: pasta

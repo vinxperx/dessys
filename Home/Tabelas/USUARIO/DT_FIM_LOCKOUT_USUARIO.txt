@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-31T23:25:53-03:00
+
+====== DT FIM LOCKOUT USUARIO ======
+Criado terça 31 maio 2022
+
+#datetime#
+
+#letramorta# - todos os valores são NULL

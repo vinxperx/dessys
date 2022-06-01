@@ -6,7 +6,7 @@ Creation-Date: 2022-05-25T10:30:45-03:00
 Criado quarta 25 maio 2022
 
 **Cliente**: Piloto mostra interesse em fazer uma prova e comunica esse interesse à Entidade Credenciada. 
-**Agente**: [[Entidades:Usuarios:ApoioAdministrativo|A2]]
+**Agente**: [[Entidades:Usuarios:Entidade|Entidade]], também conhecido como A2
 
 **Fluxo**
 
@@ -14,10 +14,10 @@ Reservar na agenda uma prova, vinculando o piloto (# CANAC) a uma data e hora es
 
 **Interação com o sistema**
 
-1. Entrar na tela inicial, [[Telas:VelhoEsquema:MenuSysdeaAdm:Entidade|Entidade]]
-2. Clicar em [[Telas:VelhoEsquema:MenuSysdeaAdm:Entidade:NovoHorario|NovoHorario]]
-3. Clicar em [[Telas:VelhoEsquema:MenuSysdeaAdm:Entidade:NovoHorario:CriarHorarioFechado|Criar Horario Fechado]]
-4. Inserir os dados de cadastro de horário:
+1. Entrar na tela inicial, [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Entidade|Entidade]]
+2. Clicar em [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Entidade:NovoHorario|NovoHorario]]
+3. Clicar em [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Entidade:NovoHorario:CriarHorarioFechado|Criar Horario Fechado]]
+4. Inserir os dados de cadastro de horário, conforme tela Criar Horario Fechado (3):  
 	a. CANAC do piloto
 	b. Data
 	c. Hora 

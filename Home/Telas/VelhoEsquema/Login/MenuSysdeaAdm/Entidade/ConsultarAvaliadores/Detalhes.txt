@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-01T10:16:50-03:00
+
+====== Detalhes ======
+Criado quarta 01 junho 2022
+
+**Título**: Detalhes
+**Acesso**: [[ConsultarAvaliadores|Consultar Avaliadores]]
+**Tipo**: #consulta#
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
+**Status** **da** **tela**: #producao#
+
+Permite ao usuário verificar diversas informações a respeito do Avaliador. 
+
+1. **Nome Completo**: [[Tabelas:PESSOA SYSDEA:NM NOME PESSOA|NM_NOME_PESSOA]]
+2. **Email**: [[Tabelas:USUARIO:TX EMAIL USUARIO|TX_EMAIL_USUARIO]]
+3. **Início das Atividades**: [[Tabelas:AVALIADOR:DT INICIO ATIVIDADE AVALIADOR|DT_INICIO_ATIVIDADE_AVALIADOR]]
+4. **Em Atividade?**: [[Tabelas:AVALIADOR:SN EM ATIVIDADE AVALIADOR|SN_EM_ATIVIDADE_AVALIADOR]] #teste#
+5. **Data de validade**: [[Tabelas:AVALIADOR:DT VALIDADE CERTIFICACAO AVALIADOR|DT_VALIDADE_CERTIFICACAO_AVALIADOR]]
+6. **Tipo de Avaliador**: [[Tabelas:AVALIADOR:TP QUALIFICACAO AVALIADOR|TP_QUALIFICACAO_AVALIADOR]] #naoselect#
+7. **Conclusão do Curso**: [[Tabelas:AVALIADOR:DT CONCLUSAO CURSO AVALIADOR|DT_CONCLUSAO_CURSO_AVALIADOR]]
+8. **Entidade**: [[Tabelas:ENTIDADE:NM ENTIDADE|NM_ENTIDADE]]  #letramorta# o nome da entidade é o que está logado.

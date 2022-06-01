@@ -7,6 +7,7 @@ Criado segunda 04 abril 2022
 
 Itens a serem revistos na descrição são marcados com palavras-chave:
 
+#desativar# - o item será desativado
 #naofunciona# - item não funciona
 #problema# - item funciona, mas tem um problema
 #possiveisproblemas# - há aspectos no item que precisam ser melhor adequados ao fluxo e requerem uma análise
@@ -19,3 +20,7 @@ Itens a serem revistos na descrição são marcados com palavras-chave:
 #stub# - descrição item a ser detalhado
 #wip# - work in progress, item ainda a ser terminado
 #possivelimpacto#item# - colocar o nome do item no final
+#melhora# - um ponto que pode ser melhorado após avaliação e recursos que sobram.
+#avaliarmelhoria# - um ponto ou aspecto que precisa de uma avaliação sobre possível melhoria
+
+#revisar# - para o Marcus bater o martelo após revisar

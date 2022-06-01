@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-01T10:12:43-03:00
+
+====== ConsultarAvaliadores ======
+Criado quarta 01 junho 2022
+
+**Título: **Consultar Avaliadores
+**Acesso**: [[Entidade]]
+**Tipo**: #lista# #consulta#
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
+**Status** **da** **tela**: #producao#
+
+Esta tela permite que a instituição consulte quais avaliadores estão nos seus quadros e também verifique [[+Detalhes|Detalhes]].

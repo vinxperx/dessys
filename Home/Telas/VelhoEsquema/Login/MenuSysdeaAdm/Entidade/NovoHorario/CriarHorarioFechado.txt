@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-25T10:57:37-03:00
+
+====== CriarHorarioFechado ======
+Criado quarta 25 maio 2022
+
+**Título: **Criar Horário Fechado
+**Acesso**: [[NovoHorario]]
+**Tipo**: #tela# #registro# #desativar#
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
+**Status** **da** **tela**: #producao#
+**Arquivos**: pasta
+
+Nessa opção, o examinador preenche o CANAC do piloto e outras informações de forma a criar um horário já com um piloto nele. 
+
+Nesse caso, o status do horário e do agendamento ficam em 02 - reservado. A variável SN_AGENDAMENTO_ATIVO_PILOTO é marcada como 1 neste momento. 
+
+O usuário preenche: 
+
+1. **CANAC do Piloto**: [[Tabelas:PILOTO:NR CANAC PILOTO|NR_CANAC_PILOTO]].
+2. **Data**: [[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]] (aqui só a parte data).
+3. **Hora**:  [[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]] (aqui só a parte hora).
+4. **Preço**: [[Tabelas:HORARIO:VL PRECO PROVA|VL_PRECO_PROVA]]
+5. **Sala**: [[Tabelas:HORARIO:NR SALA AGENDADA|NR_SALA_AGENDADA]]
+6. **Filial**: [[Tabelas:HORARIO:ID LOCAL ENTIDADE|ID_LOCAL_ENTIDADE]], inserido por meio do [[Tabelas:LOCALENTIDADE:TX TITULO LOCAL ENTIDADE|TX_TITULO_LOCAL_ENTIDADE]].
+7. **ELE**: [[Tabelas:HORARIO:ID AVALIADOR ELE|ID_AVALIADOR_ELE]].
+8. **SME**: [[Tabelas:HORARIO:ID AVALIADOR SME|ID_AVALIADOR_SME]].
+

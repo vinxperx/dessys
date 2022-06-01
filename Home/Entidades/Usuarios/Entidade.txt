@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-30T14:14:57-03:00
+
+====== Entidade ======
+Criado segunda 30 maio 2022
+
+**Títulos**: A2, Apoio Administrativo (da Entidade), Entidade 
+**Definição**: Um administrativo da Entidade Credenciada que usa o perfil da entidade. Normalmente, quando operando o computador, esse ator usa um perfil compartilhado que tem o nome da própria entidade, por exemplo, EPA, Cultura, etc.
+**Atribuições típicas**: Realiza agendamento de provas no sistema, realiza confirmação de agendamento, realiza cancelamentos.  
+**Interação com o sistema**: Usando o perfil de entidade, faz a gestão dos agendamentos.
+**Credenciais**: [[Credenciais:7Entidade|Entidade]].
+**Perfil**: [[Perfis:Entidade|Entidade]]

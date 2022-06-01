@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-01T09:56:05-03:00
+
+====== Fiscal ======
+Criado quarta 01 junho 2022
+
+O fiscal não tem uma tabela para chamar de sua, mas é um perfil porque combina credenciais específicas:
+
+1. [[Credenciais:3Fiscal|Fiscal]]
+
+O fiscal também pode ter a credencial de um:
+
+2. [[Credenciais:6Avaliador|Avaliador]]

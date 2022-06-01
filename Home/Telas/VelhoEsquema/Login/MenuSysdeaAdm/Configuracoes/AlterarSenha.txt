@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-31T23:18:46-03:00
+
+====== AlterarSenha ======
+Criado terça 31 maio 2022
+
+**Título: **Alterar Senha
+**Acesso**: [[Configuracoes]]
+**Tipo**: #aba# #registro#
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:6Avaliador|Avaliador]]
+**Status** **da** **tela**: #producao#
+**Arquivos**: pasta
+
+Nesta tela o usuário insere a senha atual e tem a oportunidade de trocá-la, com a confirmação. 
+
+A senha atual é obtida de: [[Tabelas:USUARIO:TX SENHA USUARIO|TX_SENHA_USUARIO]] e [[Tabelas:USUARIO:TX STAMP USUARIO|TX_STAMP_USUARIO]]. As novas senhas são armazenadas no mesmo campo.

@@ -13,3 +13,4 @@ Criado terça 31 maio 2022
 #hub# - o item dá acesso a outros itens, mas não contém listas nem registros. 
 #lista# - o item lista registros, mas não permite edição, normalmente servindo como consulta ou apenas apontando para outras telas
 #registro# - o item permite atualização de registros
+#consulta# - o item tem a função primária de servir de consulta

@@ -6,7 +6,7 @@ Creation-Date: 2022-05-25T11:25:11-03:00
 Criado quarta 25 maio 2022
 
 **Cliente**: Piloto, que dá uma prova de comprometimento com a prova, tipicamente depósito em conta. 
-**Agente**: [[Entidades:Usuarios:ApoioAdministrativo|A2]]
+**Agente**: [[Entidades:Usuarios:Entidade|A2]]
 
 **Fluxo**
 
@@ -14,11 +14,11 @@ Confirmar o agendamento.
 
 **Interação com o sistema**
 
-1. Entrar na tela inicial, [[Telas:VelhoEsquema:MenuSysdeaAdm:Entidade|Entidade]]
-2. Clicar em [[Telas:VelhoEsquema:MenuSysdeaAdm:Entidade:Agendamentos|Agendamentos]].
-3. Clicar em [[Telas:VelhoEsquema:MenuSysdeaAdm:Entidade:Agendamentos:Fila|Fila]].
+1. Entrar na tela inicial, [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Entidade|Entidade]]
+2. Clicar em [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Entidade:Agendamentos|Agendamentos]].
+3. Clicar em [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Entidade:Agendamentos:Fila|Fila]].
 4. Clicar no botão Confirmar Agendamento. 
-5. Na tela [[Telas:VelhoEsquema:MenuSysdeaAdm:Entidade:Agendamentos:Fila:ConfirmarAgendamento|ConfirmarAgendamento]], confirmar no botão 'Confirmar'.
+5. Na tela [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Entidade:Agendamentos:Fila:ConfirmarAgendamento|ConfirmarAgendamento]], confirmar no botão 'Confirmar'.
 
 **Registros em tabelas**
 

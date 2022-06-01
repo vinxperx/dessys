@@ -1,0 +1,32 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-25T10:56:52-03:00
+
+====== NovoHorario ======
+Criado quarta 25 maio 2022
+
+**Título: **Novo Horário
+**Acesso**: [[Entidade]]
+**Tipo**: #tela# #registro# #desativar#
+**Backlog**: 
+**Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
+**Status** **da** **tela**: #producao#
+**Arquivos**: pasta
+
+A tela criar novo horário permite ao usuário do examinador credenciado criar horários para que sejam ocupados por pilotos.
+ 
+Por meio dela o usuário cria um horário sem agendamento vinculado que fica no status [[Entidades:Status:StatusHorario:1Disponivel|Disponível]].
+
+Nela o usuário preencheria:
+1. **Data**: [[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]] (aqui só a parte data).
+2. **Hora**:  [[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]] (aqui só a parte hora).
+3. **Preço**: [[Tabelas:HORARIO:VL PRECO PROVA|VL_PRECO_PROVA]]
+4. **Sala**: [[Tabelas:HORARIO:NR SALA AGENDADA|NR_SALA_AGENDADA]]
+5. **Filial**: [[Tabelas:HORARIO:ID LOCAL ENTIDADE|ID_LOCAL_ENTIDADE]], inserido por meio do [[Tabelas:LOCALENTIDADE:TX TITULO LOCAL ENTIDADE|TX_TITULO_LOCAL_ENTIDADE]].
+6. **ELE**: [[Tabelas:HORARIO:ID AVALIADOR ELE|ID_AVALIADOR_ELE]].
+7. **SME**: [[Tabelas:HORARIO:ID AVALIADOR SME|ID_AVALIADOR_SME]].
+
+
+
+
+Na prática esse fluxo nunca aconteceu, e o horário é sempre criado com o piloto nele. Assim, os examinadores clicam na funcionalidade Criar horário fechado. 

@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-01T11:00:49-03:00
+
+====== 20220601 meta lucas ======
+Criado quarta 01 junho 2022
+
+Expandir: 
+[[Tabelas:FISCAL]]
+[[Tabelas:FISCALIZACAO]]
+[[Tabelas:NOTA]]
+[[Tabelas:RECURSO]]
+[[Telas:VelhoEsquema:Login:MenuSysdeaAdm:ApoioAdministrativoAnac]] (colocar todos links)
+
+E necessários
