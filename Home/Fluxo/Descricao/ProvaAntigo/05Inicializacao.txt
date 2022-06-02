@@ -9,3 +9,8 @@ Criado terça 31 maio 2022
 **Agente**: [[Entidades:Usuarios:AvaliadorELE|Avaliador ELE]]
 
 **Fluxo**
+
+O agente insere o número da versão de prova e muda o status da prova de [[Entidades:Status:StatusUnificado:3Autorizado|Autorizado]] para [[Entidades:Status:StatusUnificado:6Iniciado|Iniciado]]. 
+
+No fluxo antigo a tela apenas prepara a prova para aplicação, ao permitir o ELE escolher a versão, e deixar a prova para inserção dos registros.  Quando esse fluxo se completa é criado um novo [[+RegistroAvaliacao|registro]] na tabela de [[Tabelas:AVALIACAO|AVALIACAO]]. 
+

@@ -22,7 +22,7 @@ A tela de agendamentos do dia lista processos de qualquer data nos status [[Enti
 **Hora** #leitura#:  cast(data, campo [[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]]). #problema# na verdade o campo mostra a data, não a hora. Corrigir cabeçalho
 **Status**: De onde vêm os nomes? #teste#
 **Sala**: [[Tabelas:HORARIO:NR SALA AGENDADA|NR_SALA_AGENDADA]]
-**Habilitar Avaliação**:  Botão. 
+**Habilitar Avaliação**:  #botao# muda o status para o status [[Entidades:Status:StatusUnificado:3Autorizado|Autorizado]].
 
 Para cada prova, a tela dá ao usuário a opção de [[Fluxo:Descricao:ProvaAntigo:04Habilitacao|habilitar]] a avaliação no caso de provas com status [[Entidades:Status:StatusUnificado:2Confirmado|Confirmado]] e [[Entidades:Status:StatusUnificado:4Cancelado|Cancelado]].  
 

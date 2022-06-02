@@ -11,6 +11,23 @@ Criado segunda 30 maio 2022
 **Backlog**: [[./wireframe.png|wireframe]]
 **Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
 **Status** **da** **tela**: #producao#
-**Arquivos**: [[./|pasta]]
+**Fluxo**: [[Fluxo:Descricao:ProvaAntigo:02Confirmacao|Confirmação]]
 
-Dentro de Confirmar Agendamento o usuário confirma sua confirmação do agendamento. 
+**Campos**
+
+A tela exibe os seguintes campos:
+
+1. Local: [[Tabelas:LOCALENTIDADE:TX TITULO LOCAL ENTIDADE|TX_TITULO_LOCAL_ENTIDADE]]
+2. Nome do Piloto: select de [[Tabelas:PESSOA SYSDEA:NM NOME PESSOA|NM_NOME_PESSOA]] a partir de [[Tabelas:AVALIACAO:ID USUARIO|ID_USUARIO]].   
+3. Status: #teste# [[Tabelas:AGENDAMENTO:TP STATUS AGENDAMENTO|TP_STATUS_AGENDAMENTO]]
+4. Preço da Prova: #letramorta#
+5. Horário: cast(data, [[Tabelas:AGENDAMENTO:DT AGENDAMENTO|DT_AGENDAMENTO]])
+6. Status: #teste# [[Tabelas:HORARIO:TP STATUS HORARIO|TP_STATUS_HORARIO]]
+7. Sala: [[Tabelas:HORARIO:NR SALA AGENDADA|NR_SALA_AGENDADA]]
+8. Confirmar: #botao#
+9. Voltar Agendamentos: #botao# #teste# para onde esse botão faz voltar
+
+
+**Registros em tabelas**
+
+Quando clicado o botão de confirmar, o sistema passa o processo para o  [[Entidades:Status:StatusUnificado|Status Unificado]] igual a [[Entidades:Status:StatusUnificado:2Confirmado|Confirmado]]. 

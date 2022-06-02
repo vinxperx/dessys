@@ -13,11 +13,6 @@ Criado quarta 25 maio 2022
 **Status** **da** **tela**: #producao#
 **Arquivos**: pasta
 
-Nessa opção, o examinador preenche o CANAC do piloto e outras informações de forma a criar um horário já com um piloto nele. 
-
-Nesse caso, o status do horário e do agendamento ficam em 02 - reservado. A variável SN_AGENDAMENTO_ATIVO_PILOTO é marcada como 1 neste momento. 
-
-O usuário preenche: 
 
 1. **CANAC do Piloto**: [[Tabelas:PILOTO:NR CANAC PILOTO|NR_CANAC_PILOTO]].
 2. **Data**: [[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]] (aqui só a parte data).
@@ -28,3 +23,11 @@ O usuário preenche:
 7. **ELE**: [[Tabelas:HORARIO:ID AVALIADOR ELE|ID_AVALIADOR_ELE]].
 8. **SME**: [[Tabelas:HORARIO:ID AVALIADOR SME|ID_AVALIADOR_SME]].
 
+
+**Registros em tabelas** 
+
+Quando o usuário clica no #botao# 'Criar', e o sistema cria um registro nas tabelas de [[+RegistroAgendamento|agendamento]] e [[+RegistroHorario|horário]] no status [[Entidades:Status:StatusUnificado:1Reservado|reservado]].
+
+
+
+#antigo#

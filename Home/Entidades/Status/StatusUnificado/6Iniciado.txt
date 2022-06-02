@@ -5,3 +5,8 @@ Creation-Date: 2022-05-30T10:22:45-03:00
 ====== 6Iniciado ======
 Criado segunda 30 maio 2022
 
+O status foi criado para representar o que acontece na prática no sistema quando  a prova é iniciada. Trata-se de uma maneira abreviada de ser referir à combinação:
+
+1. Horário 7, [[StatusHorario:7Completado|Completado]]; 
+2. Agendamento 5 [[StatusAgendamento:5Iniciado|Iniciado]].
+

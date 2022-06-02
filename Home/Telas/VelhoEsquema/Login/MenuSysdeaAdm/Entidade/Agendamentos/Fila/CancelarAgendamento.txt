@@ -11,8 +11,16 @@ Criado segunda 30 maio 2022
 **Backlog**: [[./wireframe.png|wireframe]]
 **Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
 **Status** **da** **tela**: #producao#
-**Arquivos**: [[./|pasta]]
+**Fluxo**: [[Fluxo:Descricao:ProvaAntigo:03Cancelamento:Agendamento|Agendamento]]
 
-Aqui o usuário consegue cancelar o agendamento. 
+Aqui o usuário consegue cancelar os agendamentos dentro da fila do Horário.
 
-#teste# É importante confirmar quais tabelas são modificadas.  
+1. Local: [[Tabelas:LOCALENTIDADE:TX TITULO LOCAL ENTIDADE|TX_TITULO_LOCAL_ENTIDADE]]
+2. Nome Completo: select from [[Tabelas:PESSOA SYSDEA:NM NOME PESSOA|NM_NOME_PESSOA]] a partir de 
+[[Tabelas:AGENDAMENTO:ID USUARIO]]
+3. Preço da Prova: [[Tabelas:HORARIO:VL PRECO PROVA|VL_PRECO_PROVA]]
+4. Horário: cast(date, [[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]])
+5. Hora: cast(hora, [[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]])
+6. Status: select um conjunto de nomes a partir de [[Tabelas:AGENDAMENTO:TP STATUS AGENDAMENTO|TP_STATUS_AGENDAMENTO]]
+7. Sala: [[Tabelas:HORARIO:NR SALA AGENDADA|NR_SALA_AGENDADA]]
+8. Justificativa:  não é obrigatório.

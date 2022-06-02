@@ -16,13 +16,13 @@ Criado quarta 25 maio 2022
 
 Essa é a aba que se abre para quem tem credencial de fiscal. Ela dá acesso às funcionalidades de:
 
-1) [[+Agendamentos|Agendamentos]]
-2) Agendamentos do dia;
-3) Listar filiais; 
-4) [[+NovoHorario|Novo Horário]]
-5) Verificar solicitações;
-6) Configurações;
-7) Versões de prova por CANAC;
-8) Consultar avaliadores; 
-9) Consultar Agenda dos Avaliadores.
+1) [[+Agendamentos|Agendamentos]] #botao#
+2) Agendamentos do dia #botao#
+3) Listar filiais #botao# 
+4) [[+NovoHorario|Novo Horário]] #botao#
+5) Verificar solicitações #botao#
+6) Configurações #botao#
+7) Versões de prova por CANAC #botao#
+8) Consultar avaliadores #botao#
+9) Consultar Agenda dos Avaliadores #botao#
 

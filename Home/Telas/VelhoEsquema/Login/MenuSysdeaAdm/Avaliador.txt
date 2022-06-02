@@ -15,7 +15,7 @@ Criado terça 31 maio 2022
 
 Esta é a aba inicial do avaliador. Aqui, o avaliador tem acesso a diversas funcionalidades:
 
-1. [[+ListarAvaliacoes|Listar Avaliações]]
+1. [[+IniciarAvaliacao|Listar Avaliações]]
 2. [[+3EscutaAberta|3a Escuta Aberta]] 
 3. [[+3EscutaFechada|3a Escuta Fechada]]
 4. [[+AgendaDoAvaliador|Agenda do Avaliador]]

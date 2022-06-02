@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-02T19:17:55-03:00
+
+====== ItemDeFila ======
+Criado quinta 02 junho 2022
+
+Item de fila é um agendamento no sentido estrito. 

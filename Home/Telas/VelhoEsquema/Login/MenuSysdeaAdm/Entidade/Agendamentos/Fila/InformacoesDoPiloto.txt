@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-02T19:03:35-03:00
+
+====== InformacoesDoPiloto ======
+Criado quinta 02 junho 2022
+
+**Título: **Informações do Piloto
+**Acesso**: [[Fila]]
+**Tipo**: #tela#
+**Backlog**: [[./00039_wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
+**Status** **da** **tela**: #producao#
+
+A tela exibe as seguintes informações do piloto na lista de agendamento:
+
+1. Foto do piloto: #leitura#, #naofunciona#
+2. Nome completo: #leitura# select [[Tabelas:PESSOA SYSDEA:NM NOME PESSOA|NM_NOME_PESSOA]] a partir de [[Tabelas:AGENDAMENTO:ID USUARIO]]
+3. CPF: #leitura# select [[Tabelas:PESSOA SYSDEA:NR CPF PESSOA|CPF]] a partir de [[Tabelas:AGENDAMENTO:ID USUARIO]]
+4. CANAC: #leitura# select [[Tabelas:PILOTO:NR CANAC PILOTO|NR_CANAC_PILOTO]] a partir de [[Tabelas:AGENDAMENTO:ID USUARIO]]
+
+

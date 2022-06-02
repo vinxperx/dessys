@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-02T19:12:31-03:00
+
+====== ConfirmarCancelarHorario ======
+Criado quinta 02 junho 2022
+
+**Título: **Cancelar Horário
+**Acesso**: [[Detalhes]]
+**Tipo**: #tela# #registro#
+**Backlog**: [[./wireframe.png|wireframe]] , [[./wireframe2.png|wireframe2]]
+**Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
+**Status** **da** **tela**: #producao#
+**Fluxo**: [[Fluxo:Descricao:ProvaAntigo:03Cancelamento:Horario|Cancelar Horário]]
+
+Essa tela permite a confirmação do cancelamento de um horário. 
+
+É preciso que todos os [[Fluxo:EntidadesDeFluxo:ItemDeFila|Agendamentos]] estejam cancelados antes; somente [[Fluxo:EntidadesDeFluxo:Horario|Horário]] em [[Entidades:Status:StatusHorario:1Disponivel|Disponível]] podem ser cancelados. Se este não for o caso, uma mensagem de erro aparecerá (wireframe2).  
+
+1. Local: #leitura# [[Tabelas:LOCALENTIDADE:NR SALAS LOCAL ENTIDADE|NR_LOCAL_ENTIDADE]]
+2. Horário: #leitura# cast(date, [[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]])
+3. Hora: #leitura# cast(hora, [[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]])
+4. Status: #leitura# [[Tabelas:HORARIO:TP STATUS HORARIO|TP_STATUS_HORARIO]]
+5. Sala: #leitura# [[Tabelas:HORARIO:NR SALA AGENDADA|NR_SALA_AGENDADA]]
+6. Voltar à lista: #botao#
+	a. [[Agendamentos]]
+7. Confirmar: #botao#

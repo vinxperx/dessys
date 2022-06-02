@@ -14,3 +14,8 @@ Criado terça 31 maio 2022
 #lista# - o item lista registros, mas não permite edição, normalmente servindo como consulta ou apenas apontando para outras telas
 #registro# - o item permite atualização de registros
 #consulta# - o item tem a função primária de servir de consulta
+
+#drop-down#xx#yy# - uma lista que exibe resultados(yy) a partir de um índice(xx), normalmente um id, que é o que de fato é inserido no sistema. 
+
+#filtro# - um filtro que elimina registros de serem exibidos.
+#botao# - indica um botão que dispara uma função

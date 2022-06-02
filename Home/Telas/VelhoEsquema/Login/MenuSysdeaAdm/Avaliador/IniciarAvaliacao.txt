@@ -2,14 +2,14 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2022-05-31T18:28:53-03:00
 
-====== ListarAvaliacoes ======
+====== IniciarAvaliacao ======
 Criado terça 31 maio 2022
 
+**Título**: Iniciar Avaliação
 **Acesso**: [[Avaliador]]
 **Tipo**: #tela# #lista#
 **Backlog**: [[./wireframe.png|wireframe]]
 **Credencial**: [[Entidades:Credenciais:6Avaliador|Avaliador]]
 **Status** **da** **tela**: #producao#
-**Arquivos**: [[./|pasta]]
 
-#wip#
+A tela lista as provas que estão no status unificado AU# [[Entidades:Status:StatusUnificado:3Autorizado|Autorizado]] mudando-as para o status [[Entidades:Status:StatusUnificado:6Iniciado|Iniciado]] .

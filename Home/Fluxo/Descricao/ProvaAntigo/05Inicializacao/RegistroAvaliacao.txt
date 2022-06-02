@@ -1,0 +1,34 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-02T15:04:50-03:00
+
+====== RegistroAvaliacao ======
+Criado quinta 02 junho 2022
+
+Os seguintes registros são inseridos na tabela de [[Tabelas:AVALIACAO|AVALIACAO]]: 
+
+[[Tabelas:AVALIACAO:DS MEDIDA EXTRA AVALIACAO]] - NULL
+[[Tabelas:AVALIACAO:DT DIVULGACAO RESULTADO AVALIACAO]] - NULL
+[[Tabelas:AVALIACAO:DT ENCERRA PROCESSO AVALIACAO]] - NULL
+[[Tabelas:AVALIACAO:DT ENVIO DADOS AVALIACAO]] - NULL
+[[Tabelas:AVALIACAO:DT FIM AVALIACAO]] - NULL
+[[Tabelas:AVALIACAO:DT INICIO AVALIACAO]] - Insere a hora em que a prova mudou de status de [[Entidades:Status:StatusUnificado:3Autorizado|Autorizado]] para [[Entidades:Status:StatusUnificado:6Iniciado|Iniciado]]. 
+[[Tabelas:AVALIACAO:ID AVALIACAO]] - Automático
+[[Tabelas:AVALIACAO:ID AVALIADOR ELE]] - Conforme o ELE escolhido [[Tabelas:USUARIO:ID USUARIO|ID_USUARIO]]
+[[Tabelas:AVALIACAO:ID AVALIADOR SME]] - Conforme o SME escolhido [[Tabelas:USUARIO:ID USUARIO|ID_USUARIO]]
+[[Tabelas:AVALIACAO:ID AVALIADOR TERCEIRA ESCUTA]] - Opcional, conforme o Avaliador de terceira escuta [[Tabelas:USUARIO:ID USUARIO|ID_USUARIO]]
+[[Tabelas:AVALIACAO:ID CARGA]] - Usada para determinar na carga de quem o processo está [[Tabelas:USUARIO:ID USUARIO|ID_USUARIO]]
+[[Tabelas:AVALIACAO:ID LOCAL ENTIDADE]] - Determina o [[Tabelas:USUARIO:ID USUARIO|ID_USUARIO]]
+[[Tabelas:AVALIACAO:ID NOTA FINAL]] - NULL
+[[Tabelas:AVALIACAO:ID NOTA FINAL ENTIDADE]] - NULL
+[[Tabelas:AVALIACAO:ID STATUS AVALIACAO]] - 04 [[Entidades:Status:StatusProva:4EmAtribuicao|Em Atribuição]]
+[[Tabelas:AVALIACAO:ID USUARIO]] - Piloto que faz a prova [[Tabelas:USUARIO:ID USUARIO|ID_USUARIO]]
+[[Tabelas:AVALIACAO:ID VERSAO PROVA]] - [[Tabelas:VERSAO PROVA:ID VERSAO PROVA|ID_VERSAO_PROVA]]
+[[Tabelas:AVALIACAO:NR AVALIACAO ENTIDADE]] - NULL
+[[Tabelas:AVALIACAO:NR NOTA FINAL AVALIACAO]] - NULL
+[[Tabelas:AVALIACAO:NR NOTA FINAL ENTIDADE]] - NULL
+[[Tabelas:AVALIACAO:NR PROCESSO]] - NULL
+[[Tabelas:AVALIACAO:SN POSSUI RECURSO AVALIACAO]] - NULL
+[[Tabelas:AVALIACAO:SN SUCESSO AVALIACAO]] - NULL
+
+

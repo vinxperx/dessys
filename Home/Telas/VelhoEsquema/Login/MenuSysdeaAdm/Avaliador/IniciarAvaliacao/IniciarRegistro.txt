@@ -1,0 +1,31 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-02T14:22:47-03:00
+
+====== IniciarRegistro ======
+Criado quinta 02 junho 2022
+
+**Título**: Iniciar Avaliação
+**Acesso**: [[Avaliador]]
+**Tipo**: #tela# #registro#
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:6Avaliador|Avaliador]]
+**Status** **da** **tela**: #producao#
+**Fluxo**: [[Fluxo:Descricao:ProvaAntigo:05Inicializacao|Inicialização]]
+
+A tela exibe: 
+
+1. Local: #leitura# select de [[Tabelas:LOCALENTIDADE:TX TITULO LOCAL ENTIDADE|TX_TITULO_LOCAL_ENTIDADE]] a partir de [[Tabelas:HORARIO:ID LOCAL ENTIDADE|ID_LOCAL_ENTIDADE]]
+2. Data: #leitura# cast(date, [[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]])
+3. Hora: #leitura# cast(hour, [[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]])
+4. Status: #leitura# [[Tabelas:AVALIACAO:ID STATUS AVALIACAO|ID_STATUS_AVALIACAO]]
+5. Sala: #leitura# [[Tabelas:HORARIO:NR SALA AGENDADA|NR_SALA_AGENDADA]]
+6. Avaliador ELE: #leitura# [[Tabelas:AVALIACAO:ID AVALIADOR ELE|ID_AVALIADOR_ELE]]
+7. Avaliador SME: #leitura# [[Tabelas:AVALIACAO:ID AVALIADOR SME|ID_AVALIADOR_SME]]
+8. Piloto: #leitura# select de [[Tabelas:PESSOA SYSDEA:NM NOME PESSOA|NM_NOME_PESSOA]] a partir de [[Tabelas:AVALIACAO:ID USUARIO|ID_USUARIO]]
+9. id Piloto: #leitura# [[Tabelas:AVALIACAO:ID USUARIO|ID_USUARIO]]
+10. Versões: exibição em #drop-down#[[Tabelas:VERSAO PROVA:ID VERSAO PROVA|ID_VERSAO_PROVA]]#[[Tabelas:VERSAO PROVA:TX SEQUENCIA VERSAO PROVA|TX_SEQUENCIA_VERSAO_PROVA]]# 
+	a. #filtro#[[Tabelas:VERSAO PROVA:ID VERSAO PROVA|ID_VERSAO_PROVA]]#select de avaliação das versões que o candidato já fez#
+11. Botão iniciar: #botao# Muda a prova para o status AU#6 Iniciado.
+12. Botão Voltar ao Painel do Usuário: permite ao usuário retornar para [[Avaliador]].
+

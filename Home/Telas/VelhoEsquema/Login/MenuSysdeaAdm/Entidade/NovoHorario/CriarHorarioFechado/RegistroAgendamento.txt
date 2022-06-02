@@ -11,5 +11,5 @@ Os registros na tabela de agendamento quando a reserva de um novo horário são:
 #registro#[[Tabelas:AGENDAMENTO|AGENDAMENTO]]#[[Tabelas:AGENDAMENTO:ID HORARIO|ID_HORARIO]]# indica o horário ao qual o agendamento está vinculado.
 #registro#[[Tabelas:AGENDAMENTO|AGENDAMENTO]]#[[Tabelas:AGENDAMENTO:ID AGENDAMENTO|ID_AGENDAMENTO]]# gerado automaticamente, chave primária.
 #registro#[[Tabelas:AGENDAMENTO|AGENDAMENTO]]#[[Tabelas:AGENDAMENTO:ID USUARIO|ID_USUARIO]]# o usuário vinculado ao horário. 
-#registro#[[Tabelas:AGENDAMENTO|AGENDAMENTO]]#[[Tabelas:AGENDAMENTO:TP STATUS AGENDAMENTO|TP_STATUS_AGENDAMENTO]]# o [[Entidades:Status:StatusAgendamento|Status do Agendamento]]. 
+#registro#[[Tabelas:AGENDAMENTO|AGENDAMENTO]]#[[Tabelas:AGENDAMENTO:TP STATUS AGENDAMENTO|TP_STATUS_AGENDAMENTO]]# no status [[Entidades:Status:StatusAgendamento:2Reservado|Reservado]].
 

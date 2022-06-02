@@ -11,19 +11,22 @@ Criado segunda 30 maio 2022
 **Backlog**: [[./wireframe.png|wireframe]]
 **Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
 **Status** **da** **tela**: #producao#
-**Arquivos**: [[./|pasta]]
 
 
-Esta tela exibe algumas informações do agendamento em questão:
+A tela exibe informações mais detalhadas do horário
 
-**Entidade**: provavelmente deduzido de [[Tabelas:HORARIO:ID LOCAL ENTIDADE|ID_LOCAL_ENTIDADE]].
-**Filial**: [[Tabelas:HORARIO:ID LOCAL ENTIDADE|ID_LOCAL_ENTIDADE]] do registro da tabela [[Tabelas:HORARIO|HORARIO]].
-**Preço da prova**: [[Tabelas:HORARIO:VL PRECO PROVA|VL_PRECO_PROVA]] do registro da tabela [[Tabelas:HORARIO|HORARIO]].
-**Data e hora**: [[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]] do registro da tabela [[Tabelas:HORARIO|HORARIO]].
-**Status**: [[Tabelas:HORARIO:TP STATUS HORARIO|TP_STATUS_HORARIO]] da tabela [[Tabelas:HORARIO|HORARIO]]. 
-**Sala**: [[Tabelas:HORARIO:NR SALA AGENDADA|NR_SALA_AGENDADA]] da tabela [[Tabelas:HORARIO|HORARIO]].
-**Avaliador ELE**: [[Tabelas:HORARIO:ID AVALIADOR ELE|ID_AVALIADOR_ELE]] da tabela [[Tabelas:HORARIO|HORARIO]].
-**Avaliador SME**:  [[Tabelas:HORARIO:ID AVALIADOR SME|ID_AVALIADOR_SME]] da tabela [[Tabelas:HORARIO|HORARIO]].
+1. **Entidade: **#leitura# [[Tabelas:HORARIO:ID LOCAL ENTIDADE|ID_LOCAL_ENTIDADE]].
+2. **Filial: **#leitura# [[Tabelas:HORARIO:ID LOCAL ENTIDADE|ID_LOCAL_ENTIDADE]] do registro da tabela [[Tabelas:HORARIO|HORARIO]].
+3. **Preço da prova: **#leitura# [[Tabelas:HORARIO:VL PRECO PROVA|VL_PRECO_PROVA]] do registro da tabela [[Tabelas:HORARIO|HORARIO]].
+4. **Data e hora**: #leitura# [[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]] do registro da tabela [[Tabelas:HORARIO|HORARIO]].
+5. **Status**: #leitura# [[Tabelas:HORARIO:TP STATUS HORARIO|TP_STATUS_HORARIO]] da tabela [[Tabelas:HORARIO|HORARIO]]. 
+6. **Sala**: #leitura# [[Tabelas:HORARIO:NR SALA AGENDADA|NR_SALA_AGENDADA]] da tabela [[Tabelas:HORARIO|HORARIO]].
+7. **Avaliador ELE**: #leitura# [[Tabelas:HORARIO:ID AVALIADOR ELE|ID_AVALIADOR_ELE]] da tabela [[Tabelas:HORARIO|HORARIO]].
+8. **Avaliador SME**:  #leitura# [[Tabelas:HORARIO:ID AVALIADOR SME|ID_AVALIADOR_SME]] da tabela [[Tabelas:HORARIO|HORARIO]].
+9. Agendamentos: #botao#
+[[Agendamentos]]
+10. Cancelar Horário: #botao#
+	a. [[+ConfirmarCancelarHorario|Confirmar Cancelamento]]
 
 É possível cancelar o horário nesta tela por meio do botão 'Cancelar Horário'.
 Também há um botão que retorna para [[Agendamentos]]. 

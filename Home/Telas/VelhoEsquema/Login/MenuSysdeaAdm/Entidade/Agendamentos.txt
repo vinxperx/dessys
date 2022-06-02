@@ -16,5 +16,5 @@ Criado segunda 30 maio 2022
 A tela de agendamentos lista os processos nos [[Entidades:Status:StatusAgendamento|status de agendamento]] : [[Entidades:Status:StatusAgendamento:2Reservado|reservado]], e [[Entidades:Status:StatusAgendamento:3Confirmado|confirmado]]  #teste#
 
 Para cada caso, é possível clicar em duas telas que redirecionam o usuário para:
-[[+Detalhes|Detalhes]] : onde é possível verificar os detalhes do agendamento em questão. 
-[[+Fila|Fila]]: Tela na qual é possível administrar a fila do agendamento. 
+[[+Detalhes|Detalhes]] : #botao# onde é possível verificar os detalhes do agendamento em questão. 
+[[+Fila|Fila]]: #botao# Tela na qual é possível administrar a fila do agendamento. 

@@ -5,7 +5,7 @@ Creation-Date: 2022-05-30T14:53:31-03:00
 ====== Fila ======
 Criado segunda 30 maio 2022
 
-**Título: **Fila
+**Título: **Agendamentos
 **Acesso**: [[Agendamentos]]
 **Tipo**: #tela# #lista#
 **Backlog**: 00039 [[./00039_wireframe.png|wireframe]]
@@ -13,6 +13,18 @@ Criado segunda 30 maio 2022
 **Status** **da** **tela**: #producao#
 **Arquivos**: [[./|pasta]]
 
-A tela Fila permite ao 
+A tela exibe as seguintes informações a respeito de cada agendamento relacionado a um horário:
 
-#wip#
+1. Status na fila: #leitura#, a tela exibe agendamentos em todos os status #teste#
+2. Filial da Entidade: #leitura#
+3. Piloto agendado: #leitura#
+	a. Informações do piloto: #leitura# 
+4. Canac: #leitura#
+5. Preço da prova: #leitura#
+6. Data: #leitura# cast(date,[[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]])
+7. Horário: #leitura# cast(hora,[[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]])
+8. Sala: #leitura# [[Tabelas:HORARIO:NR SALA AGENDADA|NR_SALA_AGENDADA]]
+9. Ações:
+	a. Confirmar Agendamento: #botao# [[+ConfirmarAgendamento|Confirmar Agendamento]]
+	b. Cancelar: #botao# [[+CancelarAgendamento|Cancelar Agendamento]] 
+
