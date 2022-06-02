@@ -8,7 +8,6 @@ Criado quarta 01 junho 2022
 Expandir: 
 [[Tabelas:FISCAL]]
 [[Tabelas:FISCALIZACAO]]
-[[Tabelas:NOTA]]
 [[Tabelas:RECURSO]]
 [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:ApoioAdministrativoAnac]] (colocar todos links)
 
