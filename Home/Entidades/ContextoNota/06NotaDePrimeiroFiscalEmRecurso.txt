@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-07T18:14:43-03:00
+
+====== 06NotaDePrimeiroFiscalEmRecurso ======
+Criado terça 07 junho 2022
+
+Nome: Nota de primeiro fiscal em recurso
+Código: 06

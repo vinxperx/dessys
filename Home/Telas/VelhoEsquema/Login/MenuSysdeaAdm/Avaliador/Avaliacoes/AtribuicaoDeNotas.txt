@@ -1,0 +1,43 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-07T15:52:31-03:00
+
+====== AtribuicaoDeNotas ======
+Criado terça 07 junho 2022
+
+**Título**: Provvas
+**Acesso**: [[Avaliacoes]]
+**Tipo**: #tela# #registro#
+**Backlog**: [[./wireframe1.png|wireframe1]]
+**Credencial**: [[Entidades:Credenciais:6Avaliador|Avaliador]]
+**Status** **da** **tela**: #producao#
+
+A tela lista os seguintes campos somente leitura:
+
+**Data da prova** #leitura#: [[Tabelas:HORARIO:DT HORARIO AGENDADO|ID_HORARIO_AGENDADO]]
+**CANAC** #leitura#: select do [[Tabelas:PILOTO:NR CANAC PILOTO|CANAC]] a partir do [[Tabelas:AVALIACAO:ID USUARIO|ID_USUARIO]]
+**N Avaliação SySDEA** #leitura#: [[Tabelas:AVALIACAO:ID AVALIACAO|ID_AVALIACAO]]
+**Entidade** #leitura#: select do [[Tabelas:ENTIDADE:NM ENTIDADE|NM_ENTIDADE]] a partir do  [[Tabelas:LOCALENTIDADE:ID USUARIO|ID_USUARIO entidade]]
+**Nome** #leitura#: select do [[Tabelas:PESSOA SYSDEA:NM NOME PESSOA|NM_NOME_PESSOA]] a partir do [[Tabelas:AVALIACAO:ID USUARIO|ID_USUARIO]]
+**Versão** #leitura#: select do [[Tabelas:VERSAO PROVA:TX SEQUENCIA VERSAO PROVA|TX_SEQUENCIA_VERSAO_PROVA]] a partir do [[Tabelas:AVALIACAO:ID VERSAO PROVA|ID_VERSAO_PROVA]].
+
+Para inserção pelo primeiro avaliador que atribuir:
+**Número de avaliação Entidade**: [[Tabelas:AVALIACAO:NR AVALIACAO ENTIDADE|NR_AVALIACAO_ENTIDADE]]
+**Processo**: [[Tabelas:AVALIACAO:NR PROCESSO|NR_PROCESSO]] #obrigatorio#
+**Observações**: #teste# para onde vão as observações
+
+E para inserção dos dois, no novo registro de nota criado:
+**Pronúncia**: [[Tabelas:NOTA:NR NIVEL PRONUNCIA|NR_NIVEL_PRONUNCIA]] #obrigatorio#
+**Estrutura:** [[Tabelas:NOTA:NR NIVEL ESTRUTURA|NR_NIVEL_ESTRUTURA]] #obrigatorio#
+**Vocabulário**: [[Tabelas:NOTA:NR NIVEL VOCABULARIO|NR_NIVEL_VOCABULARIO]] #obrigatorio#
+**Fluência**: [[Tabelas:NOTA:NR NIVEL FLUENCIA|NR_NIVEL_FLUENCIA]] #obrigatorio#
+**Compreensão**: [[Tabelas:NOTA:NR NIVEL COMPREENSAO|NR_NIVEL_COMPREENSAO]] #obrigatorio#
+**Interações**: [[Tabelas:NOTA:NR NIVEL INTERACAO|NR_NIVEL_INTERACAO]] #obrigatorio#
+
+E inserção automática:
+**Agregado**: [[Tabelas:NOTA:NR NIVEL GERAL|NR_NIVEL_GERAL]]
+
+Se faltar algum dado obrigatório, a tela faz um refresh e dá uma mensagem de erro. 
+
+
+

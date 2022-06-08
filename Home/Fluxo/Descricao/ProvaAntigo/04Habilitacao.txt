@@ -7,29 +7,19 @@ Criado segunda 30 maio 2022
 
 **Cliente**: O piloto comparece ao local do exame, e o profissional administrativo sinaliza isso ao sistema, que libera as funcionalidades de aplicação.  
 **Agente**: [[Entidades:Usuarios:Entidade|A2]]
+**Tela**: [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Entidade:AgendamentosDoDia:HabilitarAvaliacao|Habilitar Avaliação]]
 
 **Fluxo**
 
-Passar o status da prova de
+O agente administrativo confirma que o piloto chegou ao local de prova, o que habilita o [[Entidades:Usuarios:AvaliadorELE|ELE]] que, a partir deste ponto, pode iniciar a prova.
 
 **Interação com o sistema**
 
 1. Entrar na tela inicial, [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Entidade|Entidade]]
 2. Clicar em [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Entidade:AgendamentosDoDia|Agendamentos do dia]]
 3. Localizar a prova na lista.
-4. Conferir as seguintes informações:
-	a. Filial
-	b. Preço
-	c. Data
-	d. Hora
-	e. Sala
-	f. Avaliador ELE na tabela de horário
-	g. Avaliador SME na tabela de horário
-	h. Piloto Agendado
-5. O agente também insere as seguintes informações:
-	a. [[Tabelas:HORARIO:ID AVALIADOR ELE|ID_AVALIADOR_ELE]] na tabela [[Tabelas:HORARIO|HORARIO]], podendo o A2 trocá-lo.
-	b. [[Tabelas:HORARIO:ID AVALIADOR SME|ID_AVALIADOR_SME]] na tabela [[Tabelas:HORARIO|HORARIO]], podendo o A2 trocá-lo.
-6. Clicar no botão Confirmar para Habilitar a Avaliação. 
+4. Conferir as informações de leitura e inserir as informaçoes na tela.
+5. Clicar no botão Confirmar para Habilitar a Avaliação. 
 
 **Registros em tabelas**
 

@@ -1,0 +1,46 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-07T18:04:53-03:00
+
+====== MatrizIndividualDeNiveis ======
+Criado terça 07 junho 2022
+
+Matrizes individuais de níveis são produzidas por um único avaliador, e podem possuir níveis intermediários e uma nota. 
+Os níveis intermediários (N) são atribuídos por uma análise qualitativa: para cada quesito, depois de verificar a performance do candidato, o avaliador decide, com base na sua própria experiência, um valor: 1, 2, 3, 4, 5, 6 ou 7. 
+A nota (T), quando existe, é igual ao menor dos níveis intermediários dentro daquela matriz: 
+
+T = Menor{Np, Ne, Nv, Nf, Nc, Ni}
+
+Por exemplo, a matriz do ELE consolidada(mec) pode possuir os seguintes valores: 
+
+Mec - {4, 5, 4, 4, 4, 5 {4}}
+
+Há diversos tipos de matrizes individuais que podem ser produzidas. Nas entidades credenciadas, há três:
+	1) Matriz de blind rating;
+	2) Matriz com discussão;
+	3) A matriz de terceira escuta. 
+
+Na matriz de blind rating, o avaliador realiza a atribuição dos níveis intermediários absolutamente sozinho. Na matriz com discussão, os avaliadores conversam sobre os níveis intermediários e podem argumentar um com o outro sobre o valor a ser atribuído em cada caso.  
+
+Durante um exame, na instituição, são produzidos até cinco matrizes individuais, cada uma composta de um jeito diferente:
+Matriz de blind rating do avaliador ELE – matriz completa, produzida pelo ELE durante a avaliação como rascunho, e que não entra no cálculo da matriz de níveis da instituição. 
+
+Matriz consolidada do avaliador ELE – matriz completa, produzida pelo ELE de forma definitiva como sua opinião sobre aquele candidato, e que entra no cálculo da matriz de níveis da instituição. 
+
+Matriz de blind rating do avaliador SME – matriz completa, produzida pelo ELE durante a avaliação como rascunho, e que não entra no cálculo da matriz de níveis da instituição.
+
+Matriz consolidada do avaliador SME – matriz completa, produzida pelo SME de forma definitiva como sua opinião sobre aquele candidato, e que entra no cálculo da matriz de níveis da instituição.
+
+Matriz de terceira escuta (opcional) – matriz parcial, produzida quando é detectada diferença crítica nas matrizes consolidadas dos examinadores. 
+
+No regime regular, são produzidas quatro matrizes individuais:
+	1. Matriz de blind rating do SME (Msb) 
+	2. Matriz consolidada do SME (Msc)
+	3. Matriz de blind rating do ELE (Meb)
+	4. Matriz consolidada do ELE (Mec)
+No regime de terceira escuta, são produzidas cinco matrizes individuais:
+	1. Matriz de blind rating do SME (Msb) 
+	2. Matriz consolidada do SME (Msc)
+	3. Matriz de blind rating do ELE (Meb)
+	4. Matriz consolidada do ELE (Mec)
+	5. Matriz de terceira escuta (M3e)

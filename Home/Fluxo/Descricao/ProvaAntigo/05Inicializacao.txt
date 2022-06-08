@@ -7,10 +7,13 @@ Criado terça 31 maio 2022
 
 **Cliente**: O piloto compareceu para realizar a prova, e o ELE diz ao sistema a versão de prova que vai aplicar. 
 **Agente**: [[Entidades:Usuarios:AvaliadorELE|Avaliador ELE]]
+**Tela**: [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Avaliador:IniciarAvaliacao|Iniciar Avaliação]] e [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Avaliador:IniciarAvaliacao:IniciarRegistro|Iniciar Registro]]
 
 **Fluxo**
 
-O agente insere o número da versão de prova e muda o status da prova de [[Entidades:Status:StatusUnificado:3Autorizado|Autorizado]] para [[Entidades:Status:StatusUnificado:6Iniciado|Iniciado]]. 
+A prova fica pronta para a aplicação, ao permitir o ELE escolher a versão. 
 
-No fluxo antigo a tela apenas prepara a prova para aplicação, ao permitir o ELE escolher a versão, e deixar a prova para inserção dos registros.  Quando esse fluxo se completa é criado um novo [[+RegistroAvaliacao|registro]] na tabela de [[Tabelas:AVALIACAO|AVALIACAO]]. 
+**Registros em tabelas**
 
+O agente insere o número da versão de prova e muda o status da prova de AU# [[Entidades:Status:StatusUnificado:3Autorizado|Autorizado]] para [[Entidades:Status:StatusUnificado:6Iniciado|Iniciado]]. 
+É criado um novo [[+RegistroAvaliacao|registro]] na tabela de [[Tabelas:AVALIACAO|AVALIACAO]]. 

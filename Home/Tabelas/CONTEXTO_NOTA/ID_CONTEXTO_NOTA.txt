@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-07T18:10:03-03:00
+
+====== ID CONTEXTO NOTA ======
+Criado terça 07 junho 2022
+
+#PK# #int# #naonulo#

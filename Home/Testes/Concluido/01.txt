@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-02T21:17:21-03:00
+
+====== 01 ======
+Criado quinta 02 junho 2022
+[[Tabelas:VERSAO PROVA:QT APLICACAO VERSAO PROVA]]
+#concluidott#
+
+Teste para verificar quando a variável contadora das versões de prova é marcada. 
+
+O processo SySDEA 66356 está distribuído para o usuário marcus.percinoto para determinar o momento. 
+
+Foi gravado um vídeo com essa finalidade, e o número de vezes em que a versão 15 foi aplicada não saiu de 171 até o processo ser distribuído para o fiscal, ficando em status [[Entidades:Status:StatusProva:9FA|FA.]] 
+
+O teste foi rodado e a variável não mudou, o que leva a crer que o dado foi inserido em algum momento (a migração do Dataling para o SySDEA?) mas o sistema não atualiza os dados. Há uma grande diferença entre a consulta feita sobre as provas e a da tabela de avaliação. 

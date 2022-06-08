@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-07T17:56:31-03:00
+
+====== 01NotadeAvaliadorDadaPorELE ======
+Criado terça 07 junho 2022
+
+Nome: Nota de avaliador dada por ELE
+Código: 01
+
+A nota de avaliador dada por [[Usuarios:AvaliadorELE|ELE]] é a matriz de níveis dada pelo ELE no contexto da avaliação. 
+

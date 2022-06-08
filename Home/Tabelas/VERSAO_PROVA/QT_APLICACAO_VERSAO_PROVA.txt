@@ -7,4 +7,7 @@ Criado terça 31 maio 2022
 
 #int# 
 
-Essa variável conta quantas vezes a versão foi usada. Onde exatamente ela é computada? #teste# 
+#letramorta#
+
+Essa variável conta quantas vezes a versão foi usada. Onde exatamente ela é computada? #concluidott#
+[[Testes:Concluido:01]]

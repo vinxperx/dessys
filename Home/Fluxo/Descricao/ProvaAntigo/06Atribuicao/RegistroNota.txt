@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-07T16:16:46-03:00
+
+====== RegistroNota ======
+Criado terça 07 junho 2022
+
+Conforme a escolha do avaliador:
+
+Pronúncia: [[Tabelas:NOTA:NR NIVEL PRONUNCIA|NR_NIVEL_PRONUNCIA]]
+Estrutura: [[Tabelas:NOTA:NR NIVEL ESTRUTURA|NR_NIVEL_ESTRUTURA]]
+Vocabulário: [[Tabelas:NOTA:NR NIVEL VOCABULARIO|NR_NIVEL_VOCABULARIO]]
+Fluência: [[Tabelas:NOTA:NR NIVEL FLUENCIA|NR_NIVEL_FLUENCIA]]
+Compreensão: [[Tabelas:NOTA:NR NIVEL COMPREENSAO|NR_NIVEL_COMPREENSAO]]
+Interações: [[Tabelas:NOTA:NR NIVEL INTERACAO|NR_NIVEL_INTERACAO]]
+
+Calculado, como o menor dos valores acima:
+
+Agregado: [[Tabelas:NOTA:NR NIVEL GERAL|NR_NIVEL_GERAL]]
+
+Além disso, automaticamente: 
+Contexto nota: [[Tabelas:NOTA:ID CONTEXTO NOTA|ID_CONTEXTO_NOTA]] conforme o autor da nota, [[Entidades:ContextoNota:01NotadeAvaliadorDadaPorELE|1]] se ele for ELE ou [[Entidades:ContextoNota:02NotaDeAvaliadorDadaPorSME|2]] se ele for SME.
+[[Tabelas:NOTA:DT ATRIBUICAO NOTA|DT_ATRIBUICAO_NOTA]], [[Tabelas:NOTA:ID AVALIACAO|ID_AVALIACAO]], [[Tabelas:NOTA:ID USUARIO|ID_USUARIO]].

@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-07T18:15:56-03:00
+
+====== 11EncaminhamentoTerceiraEscuta ======
+Criado terça 07 junho 2022
+
+Nome: Encaminhamento terceira escuta
+Código: 11

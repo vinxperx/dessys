@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-07T17:55:53-03:00
+
+====== ContextoNota ======
+Criado terça 07 junho 2022
+
+O contexto da nota especifica quando uma matriz de níveis foi formulada:
+

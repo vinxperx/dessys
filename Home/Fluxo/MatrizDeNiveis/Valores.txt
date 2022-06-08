@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-07T18:04:22-03:00
+
+====== Valores ======
+Criado terça 07 junho 2022
+
+Para cada nível intermediário ou nota em uma matriz, há sete valores possíveis, cada um correspondente a uma descrição e um valor de nível numérico:
+						i. Pré-elementar: 1; 
+						ii. Elementar: 2;
+						iii. Pré-operacional: 3;
+						iv. Operacional: 4; 
+						v. Avançado: 5;
+						vi. Expert: 6
+						vii. Indicação para expert: 7.
