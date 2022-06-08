@@ -9,3 +9,10 @@ O cancelamento no modelo antigo acontece no seguinte modelo:
 
 1. Primeiro é preciso cancelar todos os agendamentos (normalmente só 1 mesmo) relativos àquele horário: [[+Agendamento|Cancelar Agendamento]]
 2. Quando o horário fica disponível, então cancela-se o horário: [[+Horario|Cancelar Horario]].
+3. Se por acaso o horário já estiver [[Entidades:Status:StatusHorario:1Disponivel|Disponível]] porque foi criado sem piloto, ele pode ser cancelado .
+4. Podem ser cancelados agendamentos em:
+	a. [[Entidades:Status:StatusUnificado:1Reservado|Reservado]]
+	b. [[Entidades:Status:StatusUnificado:2Confirmado|Confirmado]]
+5. A partir de [[Entidades:Status:StatusUnificado:3Autorizado|Autorizado]] a prova não pode mais ser cancelada. Ela deve ser habilitada e enviada para a ANAC para cancelamento aqui.
+6. No fluxo antigo, a gente pergunta para credenciado se o candidato chegou a entrar em contato com a prova. Se não, a gente aqui cancela a versão de prova, colocando 125 no lugar. Caso contrário, se o piloto chegou a começar a prova e saiu no meio, então a gente mantém aquela versão interditada. 
+

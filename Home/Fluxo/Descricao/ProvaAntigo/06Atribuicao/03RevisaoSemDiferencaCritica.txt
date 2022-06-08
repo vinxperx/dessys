@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-08T16:07:47-03:00
+
+====== 03RevisaoSemDiferencaCritica ======
+Criado quarta 08 junho 2022
+
+**Cliente**: Os avaliadores.  
+**Agente**: Avaliador [[Entidades:Usuarios:AvaliadorELE|ELE]] e/ou [[Entidades:Usuarios:AvaliadorSME|SME]].
+**Tela**: [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Avaliador:Avaliacoes:RevisarAvaliacoes|Revisar]]
+
+**Fluxo**
+
+Verifica se as notas estão corretas, e encaminha a prova para a ANAC ou para a Terceira Escuta. 
+
+**Registros em tabela**
+
+É criado um novo registro na tabela [[+RegistroNota]]
+
+São atualizados alguns registros em [[+RegistroAvaliacao]]

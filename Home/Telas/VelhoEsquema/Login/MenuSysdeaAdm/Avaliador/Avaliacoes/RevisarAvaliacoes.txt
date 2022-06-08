@@ -1,0 +1,39 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-08T15:44:39-03:00
+
+====== RevisarAvaliacoes ======
+Criado quarta 08 junho 2022
+
+**Título**: Revisão de Notas
+**Acesso**: [[Avaliacoes]]
+**Tipo**: #tela# #registro#
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:6Avaliador|Avaliador]]
+**Status** **da** **tela**: #producao#
+
+A tela lista os seguintes campos somente leitura:
+
+**N Avaliação SySDEA** #leitura#: [[Tabelas:AVALIACAO:ID AVALIACAO|ID_AVALIACAO]]
+**CANAC** #leitura#: select do [[Tabelas:PILOTO:NR CANAC PILOTO|CANAC]] a partir do [[Tabelas:AVALIACAO:ID USUARIO|ID_USUARIO]]
+**Entidade** #leitura#: select do [[Tabelas:LOCALENTIDADE:TX TITULO LOCAL ENTIDADE|TX_TITULO_LOCAL_ENTIDADE]] a partir [[Tabelas:HORARIO:ID LOCAL ENTIDADE|ID_LOCAL_ENTIDADE]]
+**Data da Prova** #leitura#: [[Tabelas:AVALIACAO:DT INICIO AVALIACAO|DT_INICIO_AVALIACAO]]
+**Número de Avaliação da Entidade** #leitura#: [[Tabelas:AVALIACAO:NR AVALIACAO ENTIDADE|NR_AVALIACAO_ENTIDADE]]
+**Número de** **Processo**: [[Tabelas:AVALIACAO:NR PROCESSO|NR_PROCESSO]] #obrigatorio#
+**Nome** #leitura#: select do [[Tabelas:PESSOA SYSDEA:NM NOME PESSOA|NM_NOME_PESSOA]] a partir do [[Tabelas:AVALIACAO:ID USUARIO|ID_USUARIO]]
+**Versão** #leitura#: select do [[Tabelas:VERSAO PROVA:TX SEQUENCIA VERSAO PROVA|TX_SEQUENCIA_VERSAO_PROVA]] a partir do [[Tabelas:AVALIACAO:ID VERSAO PROVA|ID_VERSAO_PROVA]].
+**Notas**
+	**ELE**: select [[Tabelas:PESSOA SYSDEA:NM NOME PESSOA|NM_NOME_PESSOA]] a partir [[Tabelas:AVALIACAO:ID AVALIADOR ELE|ID_AVALIADOR_ELE]]
+	**SME**: select [[Tabelas:PESSOA SYSDEA:NM NOME PESSOA|NM_NOME_PESSOA]] a partir de [[Tabelas:AVALIACAO:ID AVALIADOR SME|ID_AVALIADOR_SME]]
+
+Matriz de níveis do ELE
+
+Matriz de níveis do SME
+
+Matriz de Níveis de 3 escuta
+
+Matriz de Níveis Proposta
+
+**Encaminhar Avaliação**: #botao# desativado se houver diferença crítica
+**Editar Notas**: #botao# 
+**Terceira Escuta**: #botao# desativado se não houver diferença crítica. Dispara um pop-up.

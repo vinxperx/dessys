@@ -20,6 +20,7 @@ O agente administrativo confirma que o piloto chegou ao local de prova, o que ha
 3. Localizar a prova na lista.
 4. Conferir as informações de leitura e inserir as informaçoes na tela.
 5. Clicar no botão Confirmar para Habilitar a Avaliação. 
+6. A partir desse momento a prova não pode mais ser [[03Cancelamento|cancelada]].
 
 **Registros em tabelas**
 

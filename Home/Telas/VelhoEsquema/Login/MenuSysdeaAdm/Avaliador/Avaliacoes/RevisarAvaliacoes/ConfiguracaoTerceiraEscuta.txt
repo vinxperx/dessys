@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-08T16:00:50-03:00
+
+====== ConfiguracaoTerceiraEscuta ======
+Criado quarta 08 junho 2022
+
+**Título**: Confirmação
+**Acesso**: [[RevisarAvaliacoes]]
+**Tipo**: #popup# #registro#
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:6Avaliador|Avaliador]]
+**Status** **da** **tela**: #producao#
+
+A tela lista os seguintes campos somente leitura:
+
+Lista: #dropdown# [[Tabelas:AVALIADOR ENTIDADE|AVALIADOR_ENTIDADE]] 
+#melhora# mas sem filtro de contrato válido, mas com filtro para os avaliadores que já estão na prova. 
+
+Confirmar: #botao#
+Cancelar: #botao#
+

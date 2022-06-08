@@ -10,3 +10,5 @@ Criado quinta 02 junho 2022
 **Tela**: [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Entidade:Agendamentos:Fila:CancelarAgendamento|Cancelar Agendamento]]
 
 **Fluxo**
+
+O usuário entra na lista de horários, em Fila e cancela os agendamentos um por um. 

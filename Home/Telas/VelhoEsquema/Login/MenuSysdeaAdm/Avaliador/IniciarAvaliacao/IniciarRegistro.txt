@@ -16,7 +16,7 @@ Criado quinta 02 junho 2022
 A tela exibe: 
 
 1. Local: #leitura# select de [[Tabelas:LOCALENTIDADE:TX TITULO LOCAL ENTIDADE|TX_TITULO_LOCAL_ENTIDADE]] a partir de [[Tabelas:HORARIO:ID LOCAL ENTIDADE|ID_LOCAL_ENTIDADE]]
-2. Data: #leitura# cast(date, [[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]])
+2. Data: #leitura# cast(date, [[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]]) 
 3. Hora: #leitura# cast(hour, [[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]])
 4. Status: #leitura# [[Tabelas:AVALIACAO:ID STATUS AVALIACAO|ID_STATUS_AVALIACAO]]
 5. Sala: #leitura# [[Tabelas:HORARIO:NR SALA AGENDADA|NR_SALA_AGENDADA]]

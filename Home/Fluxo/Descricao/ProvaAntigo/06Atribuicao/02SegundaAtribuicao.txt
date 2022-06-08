@@ -1,9 +1,9 @@
 Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
-Creation-Date: 2022-06-07T15:31:13-03:00
+Creation-Date: 2022-06-08T15:31:57-03:00
 
-====== 06Atribuicao ======
-Criado terça 07 junho 2022
+====== 02SegundaAtribuicao ======
+Criado quarta 08 junho 2022
 
 **Cliente**: Os avaliadores inserem as notas relativas a um piloto que fez a prova.  
 **Agente**: Avaliador [[Entidades:Usuarios:AvaliadorELE|ELE]] e [[Entidades:Usuarios:AvaliadorSME|SME]].
@@ -11,9 +11,10 @@ Criado terça 07 junho 2022
 
 **Fluxo**
 
-O primeiro avaliador que estiver fazendo a atribuição insere alguns dados gerais e suas notas; o segundo avaliador insere apenas suas notas. 
+O segundo avaliador que estiver fazendo a atribuição insere suas notas. 
 
 **Registros em tabela**
 
-São criados dois ou às vezes três novos registro na tabela [[Tabelas:NOTA|NOTA]].
+É criado um novo registro na tabela [[+RegistroNota]]
 
+São atualizados alguns registros em [[+RegistroAvaliacao]]

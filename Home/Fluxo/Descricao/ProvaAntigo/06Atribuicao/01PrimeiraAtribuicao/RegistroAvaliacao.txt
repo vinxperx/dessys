@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-08T15:34:51-03:00
+
+====== RegistroAvaliacao ======
+Criado quarta 08 junho 2022
+
+N. SEI - [[Tabelas:AVALIACAO:NR PROCESSO|NR_PROCESSO]]
+Numero da entidade - [[Tabelas:AVALIACAO:NR AVALIACAO ENTIDADE|NR_AVALIACAO_ENTIDADE]]

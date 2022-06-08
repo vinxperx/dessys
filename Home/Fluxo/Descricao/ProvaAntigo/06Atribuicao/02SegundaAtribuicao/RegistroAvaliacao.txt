@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-08T15:40:32-03:00
+
+====== RegistroAvaliacao ======
+Criado quarta 08 junho 2022
+
+O [[Tabelas:AVALIACAO:ID STATUS AVALIACAO|ID_STATUS_AVALIACAO]] muda de [[Entidades:Status:StatusProva:4EmAtribuicao|4 Em Atribuicao]] para [[Entidades:Status:StatusProva:5EmRevisao|5 Em Revisao]].

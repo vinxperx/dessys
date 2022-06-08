@@ -10,3 +10,5 @@ Criado segunda 30 maio 2022
 **Função**
 
 A data de agendamento registra o horário no qual se espera realizar a prova. 
+
+[[Entidades:Tempos:HoraAgendada|Hora Agendada]]

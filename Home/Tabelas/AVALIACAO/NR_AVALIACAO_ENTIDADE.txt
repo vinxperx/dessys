@@ -7,4 +7,4 @@ Criado terça 31 maio 2022
 
 #int#
 
-É um número sequencial para registrar a entidade. 
+É um número sequencial para registrar a prova dentro da entidade. É um número antigo, já existia antes de qualquer sistema. Por exemplo, EPA-SP 255. O sistema registra só a parte 255. 
