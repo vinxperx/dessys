@@ -5,3 +5,5 @@ Creation-Date: 2022-06-08T16:09:56-03:00
 ====== RegistroAvaliacao ======
 Criado quarta 08 junho 2022
 
+Status da avaliação: [[Tabelas:AVALIACAO:ID STATUS AVALIACAO|ID_STATUS_AVALIACAO]] [[Entidades:Status:StatusProva:5EmRevisao|5]] -> [[Entidades:Status:StatusProva:7RecebidoPelaAnac|7]]
+Data de envio para a ANAC: [[Tabelas:AVALIACAO:DT ENVIO DADOS AVALIACAO|DT_ENVIO_DADOS_AVALIACAO]] NULL -> Data e hora em que o usuário clica no botão 'Encaminhar'

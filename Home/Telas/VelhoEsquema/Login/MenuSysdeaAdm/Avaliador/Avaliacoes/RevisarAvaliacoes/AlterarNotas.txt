@@ -1,0 +1,36 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-09T11:32:43-03:00
+
+====== AlterarNotas ======
+Criado quinta 09 junho 2022
+
+**Título**: Alterar Notas
+**Acesso**: [[RevisarAvaliacoes]]
+**Tipo**: #tela# #registro#
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:6Avaliador|Avaliador]]
+**Status** **da** **tela**: #producao#
+
+A tela lista os seguintes campos somente leitura, puxando os valores do registro para aquele avaliador, que 
+é a matriz de níveis com contexto [[Entidades:ContextoNota:01NotadeAvaliadorDadaPorELE|1]] ou [[Entidades:ContextoNota:02NotaDeAvaliadorDadaPorSME|2]].
+
+**Data da prova** #leitura#: [[Tabelas:HORARIO:DT HORARIO AGENDADO|ID_HORARIO_AGENDADO]]
+**CANAC** #leitura#: select do [[Tabelas:PILOTO:NR CANAC PILOTO|CANAC]] a partir do [[Tabelas:AVALIACAO:ID USUARIO|ID_USUARIO]]
+**N Avaliação SySDEA** #leitura#: [[Tabelas:AVALIACAO:ID AVALIACAO|ID_AVALIACAO]]
+**Entidade** #leitura#: select do [[Tabelas:ENTIDADE:NM ENTIDADE|NM_ENTIDADE]] a partir do  [[Tabelas:LOCALENTIDADE:ID USUARIO|ID_USUARIO entidade]]
+**Nome** #leitura#: select do [[Tabelas:PESSOA SYSDEA:NM NOME PESSOA|NM_NOME_PESSOA]] a partir do [[Tabelas:AVALIACAO:ID USUARIO|ID_USUARIO]]
+**Versão** #leitura#: select do [[Tabelas:VERSAO PROVA:TX SEQUENCIA VERSAO PROVA|TX_SEQUENCIA_VERSAO_PROVA]] a partir do [[Tabelas:AVALIACAO:ID VERSAO PROVA|ID_VERSAO_PROVA]].
+
+Os campos abaixo vão alimentar um novo registro que pode ser inserido:
+
+**Pronúncia**: [[Tabelas:NOTA:NR NIVEL PRONUNCIA|NR_NIVEL_PRONUNCIA]] #obrigatorio#
+**Estrutura**: [[Tabelas:NOTA:NR NIVEL ESTRUTURA|NR_NIVEL_ESTRUTURA]] #obrigatorio#
+**Vocabulário**: [[Tabelas:NOTA:NR NIVEL VOCABULARIO|NR_NIVEL_VOCABULARIO]] #obrigatorio#
+**Fluência**: [[Tabelas:NOTA:NR NIVEL FLUENCIA|NR_NIVEL_FLUENCIA]] #obrigatorio#
+**Compreensão**: [[Tabelas:NOTA:NR NIVEL COMPREENSAO|NR_NIVEL_COMPREENSAO]] #obrigatorio#
+**Interações**: [[Tabelas:NOTA:NR NIVEL INTERACAO|NR_NIVEL_INTERACAO]] #obrigatorio#
+**Agregado **#leitura#: [[Tabelas:NOTA:NR NIVEL GERAL|NR_NIVEL_GERAL]]
+
+Voltar à revisão de notas:  #botao# não registra a alteração
+Alterar: #botao# registra a alteração

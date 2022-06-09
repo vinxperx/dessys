@@ -5,3 +5,16 @@ Creation-Date: 2022-06-08T16:11:54-03:00
 ====== 04RevisaoComDiferencaCritica ======
 Criado quarta 08 junho 2022
 
+**Cliente**: Os avaliadores.  
+**Agente**: Avaliador [[Entidades:Usuarios:AvaliadorELE|ELE]] e/ou [[Entidades:Usuarios:AvaliadorSME|SME]].
+**Tela**: [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Avaliador:Avaliacoes:RevisarAvaliacoes|Revisar]] e [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Avaliador:Avaliacoes:RevisarAvaliacoes:ConfiguracaoTerceiraEscuta|EscolherAvaliador3Escuta]]
+
+**Fluxo**
+
+Verifica se as notas estão corretas, escolhe um avaliador para a terceira escuta, e encaminha a prova para o status apropriado. O usuário clica no botão Terceira Escuta e escolhe um avaliador.
+
+**Registros em tabela**
+
+É criado um novo registro na tabela [[Tabelas:NOTA|NOTA]] e na tabela [[Tabelas:AVALIACAO|AVALIACAO]] 
+
+São atualizados alguns registros em

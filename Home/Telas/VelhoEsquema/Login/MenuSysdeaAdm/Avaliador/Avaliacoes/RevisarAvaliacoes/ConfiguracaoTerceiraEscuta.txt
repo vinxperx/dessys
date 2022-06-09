@@ -12,7 +12,7 @@ Criado quarta 08 junho 2022
 **Credencial**: [[Entidades:Credenciais:6Avaliador|Avaliador]]
 **Status** **da** **tela**: #producao#
 
-A tela lista os seguintes campos somente leitura:
+A tela lista os seguintes campos:
 
 Lista: #dropdown# [[Tabelas:AVALIADOR ENTIDADE|AVALIADOR_ENTIDADE]] 
 #melhora# mas sem filtro de contrato válido, mas com filtro para os avaliadores que já estão na prova. 

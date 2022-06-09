@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-09T12:01:49-03:00
+
+====== 04aMudarAvaliadordeTerceiraEscuta ======
+Criado quinta 09 junho 2022
+
+**Cliente**: Os avaliadores.  
+**Agente**: Avaliador [[Entidades:Usuarios:AvaliadorELE|ELE]] e/ou [[Entidades:Usuarios:AvaliadorSME|SME]].
+**Tela**: [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Avaliador:Avaliacoes:RevisarAvaliacoes|Revisar]] e [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Avaliador:Avaliacoes:RevisarAvaliacoes:TrocarAvaliador3Escuta|Trocar3escuta]]
+
+**Fluxo**
+
+Clica no botão 3 escuta e muda o avaliador de Terceira Escuta que já havia sido escolhido. 
+
+**Registros em tabela**
+
+Tabela [[Tabelas:NOTA|NOTA]].

@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-09T11:41:56-03:00
+
+====== 03aAlteracaoDeNota ======
+Criado quinta 09 junho 2022
+
+**Cliente**: Os avaliadores.  
+**Agente**: Avaliador [[Entidades:Usuarios:AvaliadorELE|ELE]] e/ou [[Entidades:Usuarios:AvaliadorSME|SME]].
+**Tela**: [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Avaliador:Avaliacoes:RevisarAvaliacoes|RevisarAvaliacoes]] e [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Avaliador:Avaliacoes:RevisarAvaliacoes:AlterarNotas|Alterar Notas]]
+
+**Fluxo**
+
+O Avaliador [[Entidades:Usuarios:AvaliadorELE|ELE]] ou [[Entidades:Usuarios:AvaliadorSME|SME]] clica na nota que ele quer alterar, ele vai para a tela específica, confirma e o sistema altera sua nota.  
+
+**Registros em tabela**
+
+A tabela [[Tabelas:NOTA|NOTA.]]

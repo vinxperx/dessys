@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-09T12:13:12-03:00
+
+====== RegistroNota ======
+Criado quinta 09 junho 2022
+
+O registro de terceira escuta para aquela prova é mudado da seguinte forma:
+
+Permanece com valor NULL: 
+
+Pronúncia: [[Tabelas:NOTA:NR NIVEL PRONUNCIA|NR_NIVEL_PRONUNCIA]]  
+Estrutura: [[Tabelas:NOTA:NR NIVEL ESTRUTURA|NR_NIVEL_ESTRUTURA]]
+Vocabulário: [[Tabelas:NOTA:NR NIVEL VOCABULARIO|NR_NIVEL_VOCABULARIO]]
+Fluência: [[Tabelas:NOTA:NR NIVEL FLUENCIA|NR_NIVEL_FLUENCIA]]
+Compreensão: [[Tabelas:NOTA:NR NIVEL COMPREENSAO|NR_NIVEL_COMPREENSAO]]
+Interações: [[Tabelas:NOTA:NR NIVEL INTERACAO|NR_NIVEL_INTERACAO]]
+Agregado: [[Tabelas:NOTA:NR NIVEL GERAL|NR_NIVEL_GERAL]]
+
+Além disso, permanece: 
+
+Contexto nota: [[Tabelas:NOTA:ID CONTEXTO NOTA|ID_CONTEXTO_NOTA]]  -> [[Entidades:ContextoNota:11EncaminhamentoTerceiraEscuta|11]]
+
+[[Tabelas:NOTA:DT ATRIBUICAO NOTA|DT_ATRIBUICAO_NOTA]]: Data da nova atribuição.
+
+ [[Tabelas:NOTA:ID AVALIACAO|ID_AVALIACAO]], [[Tabelas:NOTA:ID USUARIO|ID_USUARIO]] igual ao novo usuário selecionado.
+

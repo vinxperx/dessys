@@ -11,7 +11,7 @@ Criado quarta 08 junho 2022
 
 **Fluxo**
 
-Verifica se as notas estão corretas, e encaminha a prova para a ANAC ou para a Terceira Escuta. 
+Verifica se as notas estão corretas, e encaminha a prova para a ANAC. A prova precisa estar no status [[Entidades:Status:StatusProva:5EmRevisao|5]].
 
 **Registros em tabela**
 

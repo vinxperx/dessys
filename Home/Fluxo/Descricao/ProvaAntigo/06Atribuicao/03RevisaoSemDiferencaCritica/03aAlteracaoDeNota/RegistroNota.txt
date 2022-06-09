@@ -1,11 +1,15 @@
 Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
-Creation-Date: 2022-06-08T16:09:49-03:00
+Creation-Date: 2022-06-09T11:46:20-03:00
 
 ====== RegistroNota ======
-Criado quarta 08 junho 2022
+Criado quinta 09 junho 2022
 
-Conforme a menor nota em cada critério para
+São feitos dois registros. O registro anterior tem seu valor de [[Tabelas:NOTA:ID CONTEXTO NOTA|ID_CONTEXTO_NOTA]] multiplicado por menos 1, isto é, se era 2 passa a ser -2 e assim por diante. 
+
+Um novo registro é criado, conforme abaixo:
+
+Conforme escolha do avaliador: 
 
 Pronúncia: [[Tabelas:NOTA:NR NIVEL PRONUNCIA|NR_NIVEL_PRONUNCIA]] 
 Estrutura: [[Tabelas:NOTA:NR NIVEL ESTRUTURA|NR_NIVEL_ESTRUTURA]]
@@ -19,6 +23,6 @@ Calculado, como o menor dos valores acima:
 Agregado: [[Tabelas:NOTA:NR NIVEL GERAL|NR_NIVEL_GERAL]]
 
 Além disso, automaticamente: 
-Contexto nota: [[Tabelas:NOTA:ID CONTEXTO NOTA|ID_CONTEXTO_NOTA]]  -> [[Entidades:ContextoNota:08NotaFinalDaEntidade|08 Notada Entidade]].
+Contexto nota: [[Tabelas:NOTA:ID CONTEXTO NOTA|ID_CONTEXTO_NOTA]]  = [[Entidades:ContextoNota:01NotadeAvaliadorDadaPorELE|01]] ou [[Entidades:ContextoNota:02NotaDeAvaliadorDadaPorSME|02]].
 
 [[Tabelas:NOTA:DT ATRIBUICAO NOTA|DT_ATRIBUICAO_NOTA]], [[Tabelas:NOTA:ID AVALIACAO|ID_AVALIACAO]], [[Tabelas:NOTA:ID USUARIO|ID_USUARIO]] igual a 111 (= ninguém deu a nota).

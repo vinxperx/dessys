@@ -11,6 +11,7 @@ Criado quarta 08 junho 2022
 **Backlog**: [[./wireframe.png|wireframe]]
 **Credencial**: [[Entidades:Credenciais:6Avaliador|Avaliador]]
 **Status** **da** **tela**: #producao#
+**Fluxos**: [[Fluxo:Descricao:ProvaAntigo:06Atribuicao:03RevisaoSemDiferencaCritica|Revisão sem diferença crítica]]
 
 A tela lista os seguintes campos somente leitura:
 
@@ -34,6 +35,6 @@ Matriz de Níveis de 3 escuta
 
 Matriz de Níveis Proposta
 
-**Encaminhar Avaliação**: #botao# desativado se houver diferença crítica
+**Encaminhar Avaliação**: #botao# desativado se houver diferença crítica ou se a prova estiver estiver no status [[Entidades:Status:StatusProva:4EmAtribuicao|4]]. Ele dispara os registros.
 **Editar Notas**: #botao# 
-**Terceira Escuta**: #botao# desativado se não houver diferença crítica. Dispara um pop-up.
+**Terceira Escuta**: #botao# desativado se não houver diferença crítica. Dispara um [[+ConfiguracaoTerceiraEscuta|popup]] para que seja escolhido o Avaliador de Terceira Escuta. Caso já exista um avaliador de terceira escuta, um popup diferente aparece para que a substituição seja feita. 

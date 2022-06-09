@@ -5,7 +5,7 @@ Creation-Date: 2022-05-31T18:41:01-03:00
 ====== Avaliacoes ======
 Criado terça 31 maio 2022
 
-**Título**: Provvas
+**Título**: Provas
 **Acesso**: [[Avaliador]]
 **Tipo**: #tela# #lista#
 **Backlog**: [[./wireframe.png|wireframe]]
@@ -22,5 +22,5 @@ CANAC - select([[Tabelas:PILOTO:NR CANAC PILOTO|CANAC]]) a partir do [[Tabelas:A
 Nome - select ([[Tabelas:PESSOA SYSDEA:NM NOME PESSOA|Nome da pessoa]]) a partir do [[Tabelas:AVALIACAO:ID USUARIO|ID_USUARIO]] da prova.
 Data da Avaliação - [[Tabelas:AVALIACAO:DT INICIO AVALIACAO|DT_INICIO_AVALIACAO,]] que reflete o [[Entidades:Tempos:TempoEfetivoDeInicio|Tempo Efetivo de Início]]
 Ações - #teste# descobrir o que esse campo faz
-Atribuir Notas - #botao# conduz à tela 
-Revisar Notas - #botao#
+Atribuir Notas - #botao# conduz à tela de [[+AtribuicaoDeNotas]]. O botão desativa quando a prova vai para o status: [[Entidades:Status:StatusProva:5EmRevisao|5]]
+Revisar Notas - #botao# conduz à tela [[+RevisarAvaliacoes]]

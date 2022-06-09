@@ -5,6 +5,17 @@ Creation-Date: 2022-05-31T18:41:09-03:00
 ====== 3EscutaAberta ======
 Criado terça 31 maio 2022
 
-3a Escuta Aberta
+**Título**: Listar Terceira Escuta
+**Acesso**: [[Avaliador]]
+**Tipo**: #tela# #lista#
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:6Avaliador|Avaliador]]
+**Status** **da** **tela**: #producao#
 
-#stub#
+Cada registro possui as seguintes informações:
+
+idAvaliacao: [[Tabelas:AVALIACAO:ID AVALIACAO|ID_AVALIACAO]]
+dthrAtribuicao: [[Tabelas:NOTA:DT ATRIBUICAO NOTA|DT_ATRIBUICAO_NOTA]] de quando o processo foi distribuído, no registro com CN = [[Entidades:ContextoNota:11EncaminhamentoTerceiraEscuta|11]]
+codigoContexto: [[Entidades:ContextoNota:11EncaminhamentoTerceiraEscuta|11]] #letramorta#
+Ações: #botao# Terceira Escuta
+
