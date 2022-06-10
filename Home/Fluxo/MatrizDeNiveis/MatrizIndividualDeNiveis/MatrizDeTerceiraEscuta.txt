@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-10T00:12:16-03:00
+
+====== MatrizDeTerceiraEscuta ======
+Criado sexta 10 junho 2022
+
+A terceira escuta é um regime de cálculo obrigatório que ocorre sempre que houver diferença crítica entre as notas do ELE e do SME (cf. diferença crítica, abaixo). O regime de terceira escuta afeta tanto a atribuição individual de níveis quanto o cálculo da matriz de níveis da instituição, conforme detalhado no cálculo de cada matriz.  
+
+A terceira escuta é realizada por um terceiro avaliador, seja ELE ou SME. É importante frisar, entretanto, que esse avaliador não participou da aplicação da prova. O avaliador realiza a escuta separadamente, e elabora uma matriz de níveis de terceira escuta. 
+
+A matriz de terceira escuta é parcial, e contém apenas os níveis correspondentes aos níveis causadores de diferença crítica(cf. Diferença crítica). A matriz de terceira escuta não possui nota (T). Exemplos de matrizes de terceira escuta:
+
+M3e: {∅,∅,3,3,∅,∅}
+M3e2: {∅,∅,∅,3,∅,∅}

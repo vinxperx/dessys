@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-09T23:59:58-03:00
+
+====== 07EncaminhamentoParaANAC ======
+Criado quinta 09 junho 2022
+
+**Cliente**: Os avaliadores encaminham a prova para a ANAC.  
+**Agente**: Avaliador [[Entidades:Usuarios:AvaliadorELE|ELE]] ou [[Entidades:Usuarios:AvaliadorSME|SME]].
+**Tela**: [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Avaliador:Avaliacoes|Avaliações]] e [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Avaliador:Avaliacoes:RevisarAvaliacoes|Revisar Alterações]]
+
+**Fluxo**
+
+O avaliador responsável pela revisão constata que não há nenhuma alteração de nível ou terceira escuta a ser feita, e encaminha a prova para a ANAC.
+
+**Registros em tabela**
+
+É criado um registro na tabela [[+RegistroNota|NOTA]].

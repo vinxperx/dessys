@@ -11,7 +11,7 @@ Criado segunda 30 maio 2022
 **Backlog**: [[./wireframe.png|wireframe]]
 **Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
 **Status** **da** **tela**: #producao#
-**Fluxo**: [[Fluxo:Descricao:ProvaAntigo:03Cancelamento:Agendamento|Agendamento]]
+**Fluxo**: [[Fluxo:Descricao:ProvaAntigo:03Cancelamento:CancelamentoAgendamento|Cancelar Agendamento]]
 
 Aqui o usuário consegue cancelar os agendamentos dentro da fila do Horário.
 

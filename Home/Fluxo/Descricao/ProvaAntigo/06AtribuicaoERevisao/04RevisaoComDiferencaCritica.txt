@@ -10,8 +10,7 @@ Criado quarta 08 junho 2022
 **Tela**: [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Avaliador:Avaliacoes:RevisarAvaliacoes|Revisar]] e [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Avaliador:Avaliacoes:RevisarAvaliacoes:ConfiguracaoTerceiraEscuta|EscolherAvaliador3Escuta]]
 
 **Fluxo**
-
-Verifica se as notas estão corretas, escolhe um avaliador para a terceira escuta, e encaminha a prova para o status apropriado. O usuário clica no botão Terceira Escuta e escolhe um avaliador.
+Verifica se as notas estão corretas e escolhe um avaliador para a terceira escuta, e encaminha a prova para o status apropriado. O usuário clica no botão Terceira Escuta e escolhe um avaliador.
 
 **Registros em tabela**
 

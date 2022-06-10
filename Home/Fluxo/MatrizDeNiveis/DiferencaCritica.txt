@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-09T19:51:00-03:00
+
+====== DiferencaCritica ======
+Criado quinta 09 junho 2022
+
+A diferença crítica ocorre quando todas as condições abaixo são verdadeiras: 
+	1) As notas (T) das matrizes dos examinadores ELE ou SME são diferentes;
+	2) Uma delas é menor ou igual a 3 (três) e outra é maior ou igual a 4 (quatro).
+
+(Tmec ≤ 3 ^ Tmsc ≥ 4) v (Tmsc ≤ 3 ^ Tmec ≥ 4) ⟺ DiffCrit
+
+A ocorrência de diferença crítica implica mudança no cálculo da matriz de níveis individuais consolidadas de cada avaliador, bem como na matriz de níveis da instituição (cf. Matriz de níveis da instituição e Matriz de níveis individuais).

@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-04-08T11:31:52-03:00
+
+====== 00001 ======
+Criado sexta 08 abril 2022
+
+**Título da tela alvo**:
+**Título da melhoria**:
+**Status**: [[Meta:StatusDeMelhorias:MelhoriaPlanejada|MelhoriaPlanejada]]
+**Wireframe**:
+**Pasta**: 
+
+**Pedido**: 
+A página carregar mais processos, só 20 é pouco demais, se pudesse ser 100 a distribuição seria mais rápida. Até prq não fica tanto assim ao ponto de pesar a pagina;
+Inserir filtros nos cabeçalhos das colunas na tela de distribuição de processos pelo [[Entidades:Usuarios:ApoioAdministrativoAnac|A3]].

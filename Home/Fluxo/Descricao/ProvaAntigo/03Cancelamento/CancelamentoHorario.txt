@@ -2,7 +2,7 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2022-06-02T19:30:05-03:00
 
-====== Horario ======
+====== CancelamentoHorario ======
 Criado quinta 02 junho 2022
 
 **Cliente**: Piloto pede para cancelar um teste
@@ -11,7 +11,7 @@ Criado quinta 02 junho 2022
 
 **Fluxo**
 
-Passar o [[Entidades:Status:StatusUnificado|status]] do horário para [[Entidades:Status:StatusUnificado:4Cancelado|Cancelado]]. Somente horários no status [[Entidades:Status:StatusHorario:1Disponivel|Disponível]] podem ser cancelados. Se esse não for o status do horário, é preciso cancelar os [[Agendamento|Agendamentos]] antes. 
+Passar o [[Entidades:Status:StatusUnificado|status]] do horário para [[Entidades:Status:StatusUnificado:4Cancelado|Cancelado]]. Somente horários no status [[Entidades:Status:StatusHorario:1Disponivel|Disponível]] podem ser cancelados. Se esse não for o status do horário, é preciso cancelar os [[CancelamentoAgendamento|Agendamentos]] antes. 
 
 **Interação com o sistema**
 

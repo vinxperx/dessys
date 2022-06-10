@@ -11,7 +11,7 @@ Criado quinta 02 junho 2022
 **Backlog**: [[./wireframe.png|wireframe]] , [[./wireframe2.png|wireframe2]]
 **Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
 **Status** **da** **tela**: #producao#
-**Fluxo**: [[Fluxo:Descricao:ProvaAntigo:03Cancelamento:Horario|Cancelar Horário]]
+**Fluxo**: [[Fluxo:Descricao:ProvaAntigo:03Cancelamento:CancelamentoHorario|Cancelar Horário]]
 
 Essa tela permite a confirmação do cancelamento de um horário. 
 

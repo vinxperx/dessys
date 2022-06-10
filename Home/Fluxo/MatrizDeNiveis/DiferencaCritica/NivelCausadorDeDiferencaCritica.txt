@@ -1,0 +1,29 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-10T00:34:24-03:00
+
+====== NivelCausadorDeDiferencaCritica ======
+Criado sexta 10 junho 2022
+
+O nível intermediário (Nx) seja causador de diferença crítica é aquele sem o qual a diferença crítica não existe. Para que um nível seja causador de diferença crítica duas condições precisam ser verdadeiras:
+	1) Há diferença crítica entre as notas (T) das duas matrizes consolidadas do ELE e do SME; 
+	2) O nível intermediário (Nx) em uma matriz é menor ou igual a três, enquanto é maior ou igual a 4 na outra matriz. 
+
+Nx=CauDiffCrit ⟺ ((DiffCrit) ^(Nxm1c  ≤ 3) ^(Nxm2c  ≥ 4))
+
+Onde
+Nx é o nível de x candidato a causador de diferença crítica
+CauDiffCrit significa causador de diferença crítica, 
+DiffCrit é a diferença crítica, que ocorre se T1 é menor ou igual a 3 e T2 é maior ou igual a 4, 
+Nxm1c é o valor de Nx na matriz consolidada 1 (ou do ELE ou do SME)
+Nxm2c é o valor de Nx na matriz consolidada 2 (ou do ELE ou do SME).
+
+Exemplos
+
+No caso abaixo existe diferença crítica porque há diferença crítica entre as notas (T). Os níveis causadores de diferença crítica são Pronúncia (Np) e Estrutura (Ne), porque Npmec e Nemec são menores ou igual a 3 e Npmsc e Nemsc são maiores ou igual a 4:
+Mec = {3, 3, 4, 4, 4, 4 {3}}
+Msc  = {4, 4, 4, 4, 4, 4 {4}}
+
+No caso abaixo não existe diferença crítica nem nível causador de diferença crítica, porque a primeira condição – a diferença crítica entre as notas – não existe:
+ELE {4, 3, 4, 3, 4, 3 {3}}
+SME {3, 4, 3, 4, 3, 4 {3}}

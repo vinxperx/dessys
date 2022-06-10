@@ -5,4 +5,24 @@ Creation-Date: 2022-05-31T18:41:15-03:00
 ====== 3EscutaFechada ======
 Criado terça 31 maio 2022
 
-#stub#
+**Título**: Listar Terceira Escuta Fechada
+**Acesso**: [[Avaliador]]
+**Tipo**: #tela# #lista#
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:6Avaliador|Avaliador]]
+**Status** **da** **tela**: #producao#
+**Fluxo**: [[Fluxo:Descricao:ProvaAntigo:06AtribuicaoERevisao:06ReatribuicaoEmTerceiraEscuta|Reatribuição em Terceira Escuta]]
+
+A tela lista as provas no status [[Entidades:Status:StatusProva:5EmRevisao|5 - Em Revisão]], e que tenham um registro em [[Tabelas:NOTA|NOTA]] com  [[Tabelas:NOTA:ID CONTEXTO NOTA|ID_CONTEXTO_NOTA]] igual a [[Entidades:ContextoNota:03NotaDeTerceiraEscuta|03]] e [[Tabelas:NOTA:ID USUARIO|ID_USUARIO]] da matriz igual ao usuário. 
+
+#melhora# a variável [[Tabelas:AVALIACAO:ID AVALIADOR TERCEIRA ESCUTA|ID_AVALIADOR_TERCEIRA_ESCUTA]] da tabela [[Tabelas:AVALIACAO|AVALIACAO]] não é marcada e 
+#melhora# A tela continua listando provas em outros status, para sempre listando provas das quais já foram feitas terceiras escutas. Entretanto, uma vez que a prova vai para o status 7, o botão deixa de funcionar.  
+
+Cada registro possui as seguintes informações:
+
+idAvaliacao: [[Tabelas:AVALIACAO:ID AVALIACAO|ID_AVALIACAO]]
+dthrAtribuicao: [[Tabelas:NOTA:DT ATRIBUICAO NOTA|DT_ATRIBUICAO_NOTA]] de quando o processo foi distribuído, no registro com CN = [[Entidades:ContextoNota:11EncaminhamentoTerceiraEscuta|11]]
+codigoContexto: [[Entidades:ContextoNota:11EncaminhamentoTerceiraEscuta|11]] #letramorta#
+Ações: #botao# Terceira Escuta - permite o acesso à tela
+
+#melhora# Caso não haja registros na lista, a tela, em vez de alertar o usuário, exibe uma lista vazia. 

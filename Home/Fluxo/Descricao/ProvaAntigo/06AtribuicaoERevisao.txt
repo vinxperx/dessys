@@ -2,12 +2,12 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2022-06-07T15:31:13-03:00
 
-====== 06Atribuicao ======
+====== 06AtribuicaoERevisao ======
 Criado terça 07 junho 2022
 
 **Cliente**: Os avaliadores inserem as notas relativas a um piloto que fez a prova.  
 **Agente**: Avaliador [[Entidades:Usuarios:AvaliadorELE|ELE]] e [[Entidades:Usuarios:AvaliadorSME|SME]].
-**Tela**: [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Avaliador:Avaliacoes|Avaliações]] e [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Avaliador:Avaliacoes:AtribuicaoDeNotas|Atribuição de Notas]]
+**Tela**: [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Avaliador:Avaliacoes|Avaliações]] e [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Avaliador:Avaliacoes:AtribuicaoDeNotas|Atribuição]]
 
 **Fluxo**
 

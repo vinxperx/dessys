@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-09T21:25:42-03:00
+
+====== RegistrosNota ======
+Criado quinta 09 junho 2022
+
+O registro que estiver nas seguintes condições é atualizado:
+
+Contexto nota: [[Tabelas:NOTA:ID CONTEXTO NOTA|ID_CONTEXTO_NOTA]]  [[Entidades:ContextoNota:11EncaminhamentoTerceiraEscuta|11]] -> [[Entidades:ContextoNota:03NotaDeTerceiraEscuta|3]]
+
+Dentre as notas causadoras de diferença crítica, atualizada de NULL para o valor escolhido: 
+
+Pronúncia: [[Tabelas:NOTA:NR NIVEL PRONUNCIA|NR_NIVEL_PRONUNCIA]]  
+Estrutura: [[Tabelas:NOTA:NR NIVEL ESTRUTURA|NR_NIVEL_ESTRUTURA]]
+Vocabulário: [[Tabelas:NOTA:NR NIVEL VOCABULARIO|NR_NIVEL_VOCABULARIO]]
+Fluência: [[Tabelas:NOTA:NR NIVEL FLUENCIA|NR_NIVEL_FLUENCIA]]
+Compreensão: [[Tabelas:NOTA:NR NIVEL COMPREENSAO|NR_NIVEL_COMPREENSAO]]
+Interações: [[Tabelas:NOTA:NR NIVEL INTERACAO|NR_NIVEL_INTERACAO]]
+Agregado: [[Tabelas:NOTA:NR NIVEL GERAL|NR_NIVEL_GERAL]]
+
+Além disso, automaticamente: 
+
+
+[[Tabelas:NOTA:DT ATRIBUICAO NOTA|DT_ATRIBUICAO_NOTA]]: Data em que o botão 'Salvar' foi apertado na tela.
+
+[[Tabelas:NOTA:ID AVALIACAO|ID_AVALIACAO]] sem alteração 
+[[Tabelas:NOTA:ID USUARIO|ID_USUARIO]] sem alteração, igual ao usuário selecionado.

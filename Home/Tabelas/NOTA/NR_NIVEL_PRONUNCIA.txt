@@ -2,6 +2,8 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2022-06-02T14:11:54-03:00
 
+
+
 ====== NR NIVEL PRONUNCIA ======
 Criado quinta 02 junho 2022
 

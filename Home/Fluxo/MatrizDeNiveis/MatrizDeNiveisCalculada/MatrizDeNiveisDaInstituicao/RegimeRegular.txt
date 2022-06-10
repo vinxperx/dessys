@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-10T00:18:54-03:00
+
+====== RegimeRegular ======
+Criado sexta 10 junho 2022
+
+No regime regular, cada nível intermediário da matriz de níveis da instituição (Mni) é calculado da seguinte forma:
+
+	* O nível correspondente na matriz de níveis da instituição (Nx pertencente a Mni) é igual a menor dos níveis correspondentes nas matrizes individuais (cada Nx pertencente a Mec ou Msc):
+
+∀ Nx ∈ Mni, (R=reg ⟺ Nxmni = Menor (Nxmec, Nxmsc)
+
+Onde 
+R é o regime de cálculo para aquela matriz, 
+reg é o regime regular, 
+Mni é a matriz de níveis da instituição
+Nxmec é o nível intermediário x dentro da matriz consolidada do ele
+Nxmsc é o nível intermediário x dentro da matriz consolidada do sme
+Nxmni é o nível intermediário x dentro da matriz de níveis da instituição
+
+	Por exemplo, na matriz abaixo, o nível de compreensão da matriz de níveis de instituição (Ncmni) é igual ao menor dos níveis consolidados de cada avaliador (Ncmec e Ncmsc) para aquele critério:
+Ncmni = Menor{Ncmec, Ncmsc} = Menor{4,5} = 4

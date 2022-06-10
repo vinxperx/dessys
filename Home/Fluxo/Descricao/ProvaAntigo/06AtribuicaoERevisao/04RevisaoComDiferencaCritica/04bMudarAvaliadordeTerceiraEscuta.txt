@@ -2,7 +2,7 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2022-06-09T12:01:49-03:00
 
-====== 04aMudarAvaliadordeTerceiraEscuta ======
+====== 04bMudarAvaliadordeTerceiraEscuta ======
 Criado quinta 09 junho 2022
 
 **Cliente**: Os avaliadores.  

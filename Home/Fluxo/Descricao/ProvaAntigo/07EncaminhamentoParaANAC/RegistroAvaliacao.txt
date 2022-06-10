@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-10T00:38:01-03:00
+
+====== RegistroAvaliacao ======
+Criado sexta 10 junho 2022
+
+A variável [[Tabelas:AVALIACAO:ID STATUS AVALIACAO|ID_STATUS_AVALIACAO]] é mudada para [[Entidades:Status:StatusProva:7RecebidoPelaAnac|7]].
+É preenchida a [[Tabelas:AVALIACAO:DT ENVIO DADOS AVALIACAO|DT_ENVIO_DADOS_AVALIACAO]].

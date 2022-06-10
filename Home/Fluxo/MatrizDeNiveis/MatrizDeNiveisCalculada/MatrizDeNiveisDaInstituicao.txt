@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-10T00:18:06-03:00
+
+====== MatrizDeNiveisDaInstituicao ======
+Criado sexta 10 junho 2022
+
+**Matriz de Níveis da Instituição - Mni**
+
+A matriz de níveis da instituição é uma matriz final calculada a partir de matrizes individuais. No caso da instituição credenciada, ela serve como proposta para os níveis ICAO de um candidato. A matriz de níveis da instituição é completa e possui seis níveis intermediários e um nível final:
+
+Mni = {Np, Ne, Nv, Nf, Nc, Ni{T}}
+
+A nota é calculada da mesma forma que no caso das matrizes individuais, sendo seu valor igual ao menor valor dos critérios individuais:
+Tmni = Menor{Npmni, Nemni, Nvmni, Nfmni, Ncmni, Nimni}
+
+Entretanto, ao contrário das matrizes individuais, os níveis individuais da matriz de níveis da instituição não são produzidos por avaliação qualitativa, mas calculados a partir das matrizes individuais, em dois regimes diferentes:
+
+	1) Regime regular;
+	2) Regime de terceira escuta. 

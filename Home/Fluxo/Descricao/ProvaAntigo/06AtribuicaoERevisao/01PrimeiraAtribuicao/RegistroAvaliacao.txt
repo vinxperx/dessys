@@ -7,3 +7,4 @@ Criado quarta 08 junho 2022
 
 N. SEI - [[Tabelas:AVALIACAO:NR PROCESSO|NR_PROCESSO]]
 Numero da entidade - [[Tabelas:AVALIACAO:NR AVALIACAO ENTIDADE|NR_AVALIACAO_ENTIDADE]]
+Data de fim da avaliação - [[Tabelas:AVALIACAO:DT FIM AVALIACAO|DT_FIM_AVALIACAO]]

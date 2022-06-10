@@ -11,7 +11,7 @@ Criado terça 31 maio 2022
 **Backlog**: [[./wireframe.png|wireframe]]
 **Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
 **Status** **da** **tela**: #producao#
-**Arquivos**: [[./|pasta]]
+**Fluxo:** [[Fluxo:Descricao:ProvaAntigo:04Habilitacao|Habilitar Avaliação]]
 
 **Funcionalidades**
 1. Filial #leitura#: [[Tabelas:LOCALENTIDADE:TX TITULO LOCAL ENTIDADE|TX_TITULO_LOCAL_ENTIDADE]]

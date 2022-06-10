@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-10T00:19:01-03:00
+
+====== RegimeDeTerceiraEscuta ======
+Criado sexta 10 junho 2022
+
+No regime de terceira escuta, os níveis são calculados de duas formas:
+	1. Para os níveis em que não houver valor na matriz de terceira escuta, o cálculo será no regime regular (cf. item anterior); 
+	2. Para os níveis em que houver valor na matriz de terceira escuta, o valor correspondente no valor final será igual à moda dos valores correspondentes nas três matrizes – Matriz do ELE consolidada (Mec), Matriz do SME consolidada(Msc) e Matriz de terceira escuta (M3e):
+
+∀ Nx ∈ Mni, (R=3escuta ^ Nxm3e ≠ ∅ ⟺ Nxmin = Moda (Nxmec, Nxmsc, Nx3e)
+
+Onde
+R é o regime de cálculo para aquela matriz, 
+3escuta é o regime de terceira escuta 
+Mni é a matriz de níveis da instituição
+Nxm3e é um nível intermediário x dentro da matriz de terceira escuta
+Nxmec é o nível intermediário x dentro da matriz consolidada do ele
+Nxmsc é o nível intermediário x dentro da matriz consolidada do sme
+Nxmni é o nível intermediário x dentro da matriz de níveis da instituição

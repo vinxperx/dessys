@@ -5,17 +5,21 @@ Creation-Date: 2022-05-31T18:41:09-03:00
 ====== 3EscutaAberta ======
 Criado terça 31 maio 2022
 
-**Título**: Listar Terceira Escuta
+**Título**: Listar Terceira Escuta Aberta
 **Acesso**: [[Avaliador]]
 **Tipo**: #tela# #lista#
 **Backlog**: [[./wireframe.png|wireframe]]
 **Credencial**: [[Entidades:Credenciais:6Avaliador|Avaliador]]
 **Status** **da** **tela**: #producao#
+**Fluxo**: [[Fluxo:Descricao:ProvaAntigo:06AtribuicaoERevisao:05AtribuicaoEmTerceiraEscuta|Atribuição em Terceira Escuta]]
+
+A tela lista as provas no status [[Entidades:Status:StatusProva:6PosAvaliacao|6 Pós Avaliação]] e que tenham uma Matriz de Níveis no [[Entidades:ContextoNota:11EncaminhamentoTerceiraEscuta|11]].
 
 Cada registro possui as seguintes informações:
 
 idAvaliacao: [[Tabelas:AVALIACAO:ID AVALIACAO|ID_AVALIACAO]]
 dthrAtribuicao: [[Tabelas:NOTA:DT ATRIBUICAO NOTA|DT_ATRIBUICAO_NOTA]] de quando o processo foi distribuído, no registro com CN = [[Entidades:ContextoNota:11EncaminhamentoTerceiraEscuta|11]]
 codigoContexto: [[Entidades:ContextoNota:11EncaminhamentoTerceiraEscuta|11]] #letramorta#
-Ações: #botao# Terceira Escuta
+Ações: #botao# Terceira Escuta - permite o acesso à tela [[+AtribuirNiveisTerceiraEscuta]]
 
+#melhora# Caso não haja registros na lista, a tela, em vez de alertar o usuário, exibe uma lista vazia. 

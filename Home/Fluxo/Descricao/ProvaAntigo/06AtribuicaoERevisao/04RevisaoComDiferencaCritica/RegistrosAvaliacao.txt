@@ -5,4 +5,4 @@ Creation-Date: 2022-06-09T11:58:01-03:00
 ====== RegistrosAvaliacao ======
 Criado quinta 09 junho 2022
 
-A variável [[Tabelas:AVALIACAO:ID STATUS AVALIACAO|ID_STATUS_AVALIACAO]] muda para [[Entidades:ContextoNota:06NotaDePrimeiroFiscalEmRecurso|06]]
+A variável [[Tabelas:AVALIACAO:ID STATUS AVALIACAO|ID_STATUS_AVALIACAO]] muda para [[Entidades:ContextoNota:06NotaDePrimeiroFiscalEmRecurso|06]] . 

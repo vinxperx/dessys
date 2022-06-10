@@ -11,7 +11,7 @@ Criado quarta 08 junho 2022
 **Backlog**: [[./wireframe.png|wireframe]]
 **Credencial**: [[Entidades:Credenciais:6Avaliador|Avaliador]]
 **Status** **da** **tela**: #producao#
-**Fluxos**: [[Fluxo:Descricao:ProvaAntigo:06Atribuicao:03RevisaoSemDiferencaCritica|Revisão sem diferença crítica]]
+**Fluxos**: [[Fluxo:Descricao:ProvaAntigo:06AtribuicaoERevisao:03RevisaoSemDiferencaCritica|Revisão sem diferença crítica]] ou [[Fluxo:Descricao:ProvaAntigo:06AtribuicaoERevisao:04RevisaoComDiferencaCritica|Revisão com Diferença Crítica]]
 
 A tela lista os seguintes campos somente leitura:
 

@@ -5,6 +5,29 @@ Creation-Date: 2022-06-07T18:04:53-03:00
 ====== MatrizIndividualDeNiveis ======
 Criado terça 07 junho 2022
 
+A matriz de nível é a base do sistema de cálculo das notas do SDEA, e consiste num conjunto de valores atribuídos para níveis intermediários(N), mais uma nota (T) que é calculada. Normalmente, a matriz de nível contém sete valores, seis para níveis intermediários, mais um para nota:
+
+Pronúncia (exemplo, 4)
+Estrutura (exemplo, 5)
+Vocabulário (exemplo, 4)
+Fluência (exemplo, 4)
+Compreensão (exemplo, 5)
+Interações (exemplo, 4)
+ 
+Nota (exemplo, 4)
+
+Nem todas as matrizes, porém, contêm os sete valores. Matrizes de terceira escuta, por exemplo, podem conter apenas um valor. Chamaremos de matrizes completas aquelas que têm os sete valores, e matrizes parciais aquelas que só tiverem alguns dos valores. 
+Neste documento, adotaremos a seguinte notação para as matrizes completas: 
+{P, E, V, F, C, I {T}}.
+
+Por exemplo {4, 5, 4, 4, 5, 4 {4}}
+
+Para matrizes parciais, utilizaremos a seguinte notação:
+
+{∅,∅,∅,Nf,∅,∅{∅}} 
+
+Esse é um exemplo de uma matriz com valor 4 apenas para o nível intermediário fluência(Nf).
+
 Matrizes individuais de níveis são produzidas por um único avaliador, e podem possuir níveis intermediários e uma nota. 
 Os níveis intermediários (N) são atribuídos por uma análise qualitativa: para cada quesito, depois de verificar a performance do candidato, o avaliador decide, com base na sua própria experiência, um valor: 1, 2, 3, 4, 5, 6 ou 7. 
 A nota (T), quando existe, é igual ao menor dos níveis intermediários dentro daquela matriz: 
