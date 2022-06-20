@@ -5,6 +5,22 @@ Creation-Date: 2022-06-01T10:05:37-03:00
 ====== ListarFiliais ======
 Criado quarta 01 junho 2022
 
-**Título**: Listar Filiais
+**Título: **ListarFiliais
+**Acesso**: [[Entidade]]
+**Tipo**: #lista# #consulta#
+**Backlog**: [[./wireframe.png|wireframe]] , [[./wireframe2.png|wireframe2]]
+**Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
+**Status** **da** **tela**: #producao#
 
-#stub#
+Esta tela permite que a instituição consulte quais filiais ela possui. A funcionalidade ainda não foi testada, mas presumivelmente não mudou. 
+
+Os campos que a tela mostra são:
+
+**Nome da entidade**:  [[Tabelas:ENTIDADE:NM ENTIDADE|NM_ENTIDADE]]
+**Título**:  [[Tabelas:LOCALENTIDADE:TX TITULO LOCAL ENTIDADE|TX_TITULO_LOCAL_ENTIDADE]]
+**Telefone**: Não há telefone cadastrado para o usuário. 
+**E-mail da Entidade**: [[Tabelas:LOCALENTIDADE:TX EMAIL LOCAL ENTIDADE|TX_EMAIL_LOCAL_ENTIDADE]]
+**Suspensa?**: [[Tabelas:LOCALENTIDADE:SN SUSPENSO LOCAL ENTIDADE|SN_SUSPENSO_LOCAL_ENTIDADE]]
+**Detalhes**: #botao# [[+DetalhesFiliais]]
+
+

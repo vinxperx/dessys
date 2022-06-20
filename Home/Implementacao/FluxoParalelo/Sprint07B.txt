@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-13T13:58:17-03:00
+
+====== Sprint07B ======
+Criado segunda 13 junho 2022
+
+Aqui vamos reportar e repassar os fluxos testados no ambiente de validação, conforma a sprint em questão. 
+

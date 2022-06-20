@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-13T17:02:00-03:00
+
+====== DetalhesFiliais ======
+Criado segunda 13 junho 2022
+
+**Título: **Detalhes Filiais
+**Acesso**: [[Entidade]]
+**Tipo**: #consulta#
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
+**Status** **da** **tela**: #producao#
+
+Nome: [[Tabelas:ENTIDADE:NM ENTIDADE|NM_ENTIDADE]]
+Telefone1: Web Service
+Rua:Web Service
+Complemento: Web Service
+Município: Web Service
+Telefone2: Web Service
+Número: Web Service
+Bairro: Web Service
+UF: Web Service
+Número de salas: [[Tabelas:LOCALENTIDADE:NR SALAS LOCAL ENTIDADE|NR_SALAS_LOCAL_ENTIDADE]]
+Filial Suspensa? : [[Tabelas:LOCALENTIDADE:SN SUSPENSO LOCAL ENTIDADE|SN_SUSPENSA_LOCAL_ENTIDADE]]
+Filial da Entidade:  [[Tabelas:LOCALENTIDADE:TX TITULO LOCAL ENTIDADE|TX_TITULO_LOCAL_ENTIDADE]]

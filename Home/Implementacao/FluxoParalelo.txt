@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-13T13:56:05-03:00
+
+====== FluxoParalelo ======
+Criado segunda 13 junho 2022
+
+O objetivo desta entrada é comparar os procedimentos antigos e novos com a finalidade de determinar diversos aspectos da implantação do SySDEA, entre os quais se incluem:
+
+1. Os fluxos podem correr completamente em paralelo? Isto é, quando a gente colocar o fluxo novo em produção, haverá algum prejuízo para o fluxo antigo? Isso é especialmente importante porque o fluxo antigo permanecerá em diversas entidades. 
