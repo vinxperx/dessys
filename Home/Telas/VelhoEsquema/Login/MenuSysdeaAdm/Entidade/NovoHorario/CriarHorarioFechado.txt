@@ -11,7 +11,7 @@ Criado quarta 25 maio 2022
 **Backlog**: [[./wireframe.png|wireframe]]
 **Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
 **Status** **da** **tela**: #producao#
-**Fluxo**: [[Fluxo:Descricao:ProvaAntigo:01Reserva|Reserva]]
+**Fluxo**: [[Fluxo:Antigo:Aplicacao:01Reserva|Reserva]]
 
 
 1. **CANAC do Piloto**: [[Tabelas:PILOTO:NR CANAC PILOTO|NR_CANAC_PILOTO]].

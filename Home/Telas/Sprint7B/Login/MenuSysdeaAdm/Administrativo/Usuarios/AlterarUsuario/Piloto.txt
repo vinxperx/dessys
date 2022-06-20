@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-20T20:02:52-03:00
+
+====== Piloto ======
+Criado segunda 20 junho 2022
+
+**Título**: Piloto
+**Acesso**: [[VisualizarUsuario]]
+**Tipo**: #tela# #leitura# #registro# #aba#
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:2Admin|Admin]]
+**Status** **da** **tela**: #7B#
+**Fluxo**: [[Fluxo:Novo7B:CadastroDeUsuario:03AlteracaoDeUsuario:07AlteracaoDeUsuarioPiloto|AlteracaoUsuarioPiloto]]
+
+Mostra os dados vinculados ao piloto:
+
+CANAC: [[Tabelas:PILOTO:NR CANAC PILOTO|NR_CANAC_PILOTO]]
+Telefone:  [[Tabelas:PILOTO:NR TELEFONE CONTATO PILOTO|NR_TELEFONE_CONTATO_PILOTO]]
+Agendamento ativo?  sim ou não baseado em  [[Tabelas:PILOTO:SN AGENDAMENTO ATIVO PILOTO|SN_AGENDAMENTO_ATIVO_PILOTO]]
+Nível Atual: #drop-down# baseado em [[Tabelas:PILOTO:TP NIVEL ATUAL PILOTO|TP_NIVEL_ATUAL_PILOTO]]
+Observação:  [[Tabelas:PILOTO:DS OBSERVACAO PILOTO|DS_OBSERVACAO_PILOTO]]

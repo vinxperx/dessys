@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-20T19:14:54-03:00
+
+====== Entidade ======
+Criado segunda 20 junho 2022
+
+**Título**: Entidade
+**Acesso**: [[AlterarUsuario]]
+**Tipo**: #tela# #registro# #aba#
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:2Admin|Admin]]
+**Status** **da** **tela**: #7B#
+**Fluxo**: [[Fluxo:Novo7B:CadastroDeUsuario:03AlteracaoDeUsuario:04AlteracaoDadosEntidade|Alteracao Dados Entidade]]
+**Item**: [[Backlogs:30463|30463]]
+
+A tela detalha e oferece para edição informações pertinentes à entidade em questão. 
+
+CNPJ: [[Tabelas:ENTIDADE:NR CNPJ ENTIDADE|NR_CNPJ_ENTIDADE]]
+Nome da entidade: [[Tabelas:ENTIDADE:NM ENTIDADE|NM_ENTIDADE]]
+E-mail da entidade: [[Tabelas:USUARIO:TX EMAIL USUARIO|TX_EMAIL_USUARIO]]
+E-mail do representante administrativo: [[Tabelas:ENTIDADE:TX EMAIL REPRESENTANTE ADMINISTRATIVO ENTIDADE|TX_EMAIL_REPRESENTANTE_ADMINISTRATIVO_ENTIDADE]]
+Tipo de entidade: [[Tabelas:ENTIDADE:TP TIPO ENTIDADE|TP_TIPO_ENTIDADE]]
+Suspensa: [[Tabelas:ENTIDADE:SN SUSPENSA ENTIDADE|SN_SUSPENSA_ENTIDADE]]
+Ativa: [[Tabelas:ENTIDADE:SN ATIVA ENTIDADE|SN_ATIVA_ENTIDADE]]
+
+#problema# a tela não permite o cadastro de um e-mail para dois usuários, o que pode exigir recadastro

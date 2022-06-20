@@ -7,4 +7,4 @@ Criado segunda 30 maio 2022
 
 **Hora Agendada - H**
 
-É a hora estimada em que uma prova deve começar, registrada na tabela de [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Entidade:NovoHorario:CriarHorarioFechado:RegistroHorario|Horario]] durante a [[Fluxo:Descricao:ProvaAntigo:01Reserva|Reserva]]. 
+É a hora estimada em que uma prova deve começar, registrada na tabela de [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Entidade:NovoHorario:CriarHorarioFechado:RegistroHorario|Horario]] durante a [[EntidadesDeFluxo:Descricao:AplicacaoProvaAntigo:01Reserva|Reserva]]. 

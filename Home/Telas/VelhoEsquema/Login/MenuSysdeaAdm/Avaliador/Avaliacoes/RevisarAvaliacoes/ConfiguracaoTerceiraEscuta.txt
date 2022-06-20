@@ -11,7 +11,7 @@ Criado quarta 08 junho 2022
 **Backlog**: [[./wireframe.png|wireframe]]
 **Credencial**: [[Entidades:Credenciais:6Avaliador|Avaliador]]
 **Status** **da** **tela**: #producao#
-**Fluxo**: [[Fluxo:Descricao:ProvaAntigo:06AtribuicaoERevisao:04RevisaoComDiferencaCritica:04aEscolherAvaliador3Escuta|Escolher Avaliador Terceira Escuta]]
+**Fluxo**: [[Fluxo:Antigo:Aplicacao:06AtribuicaoERevisao:04RevisaoComDiferencaCritica:04aEscolherAvaliador3Escuta|Escolher Avaliador Terceira Escuta]]
 
 A tela lista os seguintes campos:
 

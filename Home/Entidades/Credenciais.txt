@@ -5,4 +5,5 @@ Creation-Date: 2022-05-30T13:10:24-03:00
 ====== Credenciais ======
 Criado segunda 30 maio 2022
 
-As credenciais de 1 a 8 já existiam no sistema e permanceram.
+As credenciais de 1 a 8 já existiam no sistema e permanceram. Elas estão registradas na tabela [[Tabelas:ROLE|ROLE]]. 
+

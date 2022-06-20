@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-20T19:31:46-03:00
+
+====== TP QUALIFICACAO FISCAL ======
+Criado segunda 20 junho 2022
+
+#char#2# #nulo#

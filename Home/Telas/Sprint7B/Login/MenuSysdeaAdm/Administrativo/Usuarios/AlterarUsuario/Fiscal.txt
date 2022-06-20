@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-20T19:56:12-03:00
+
+====== Fiscal ======
+Criado segunda 20 junho 2022
+
+**Título**: Avaliador
+**Acesso**: [[VisualizarUsuario]]
+**Tipo**: #tela#  #registro# #aba#
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:2Admin|Admin]]
+**Status** **da** **tela**: #7B#
+**Fluxo**: [[Fluxo:Novo7B:CadastroDeUsuario:03AlteracaoDeUsuario:05AlteracaoDeDadosDeFiscal|Alteracao de Dados de Fiscal]]
+**Item**: [[Backlogs:30463|30463]]
+
+A tela detalha informações pertinentes ao fiscal em questão.
+
+Matrícula SIAPE:  [[Tabelas:FISCAL:NR SIAPE FISCAL|NR_SIAPE_FISCAL]]
+Em atividade:  [[Tabelas:FISCAL:SN EM ATIVIDADE FISCAL|EM_ATIVIDADE]]
+

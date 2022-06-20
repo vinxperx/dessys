@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-20T17:36:48-03:00
+
+====== CadastrarUsuario ======
+Criado segunda 20 junho 2022
+
+**Título**: Visualizar Usuário
+**Acesso**: [[Usuarios]]
+**Tipo**: #tela# #registro# 
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:2Admin|Admin]]
+**Status** **da** **tela**: #7B#
+**Fluxo**: [[Fluxo:Novo7B:CadastroDeUsuario:03AlteracaoDeUsuario:01AlteracaoDeDadosBasicos|Alteracao de Dados Basicos]]
+
+Item: [[Backlogs:30462|30462]]
+
+#wip#
+
+**Dados básicos**
+
+Nome de usuário: [[Tabelas:USUARIO:NM USUARIO|NM_USUARIO]]
+Email:  [[Tabelas:USUARIO:TX EMAIL USUARIO|TX_EMAIL_USUARIO]]
+Ativo:  [[Tabelas:USUARIO:FG USUARIO ATIVO|FG_USUARIO_ATIVO]] 
+
+**Credenciais**
+
+Lista de credenciais para ser acrescentada #leitura#, conforme select [[Tabelas:PERMISSAO|PERMISSAO]] where [[Tabelas:USUARIO:ID USUARIO|ID_USUARIO]]
+
+**Informações adicionais por credencial**
+
+Caso haja uma credencial, abas podem ser acessadas abaixo:
+[[+Avaliador]]
+[[+Entidade]]
+[[+Fiscal]]
+[[+PessoaFisica]]
+[[+Piloto]]
+
+
+

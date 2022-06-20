@@ -14,4 +14,5 @@ Criado terça 31 maio 2022
 
 O login é obtido do nome de usuário: [[Tabelas:USUARIO:NM USUARIO|NM_USUARIO]] (o sistema não tem um 'ou e-mail').
 A senha atual é obtida de: [[Tabelas:USUARIO:TX SENHA USUARIO|TX_SENHA_USUARIO]] e [[Tabelas:USUARIO:TX STAMP USUARIO|TX_STAMP_USUARIO]].
+Existe a necessidade de um captcha.
 A tela não possui um registro de entrada. #melhora#

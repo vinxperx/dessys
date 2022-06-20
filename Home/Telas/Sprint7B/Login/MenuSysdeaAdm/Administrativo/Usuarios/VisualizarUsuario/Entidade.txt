@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-20T18:37:00-03:00
+
+====== Entidade ======
+Criado segunda 20 junho 2022
+
+**Título**: Entidade
+**Acesso**: [[VisualizarUsuario]]
+**Tipo**: #tela# #leitura# #registro# #aba#
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:2Admin|Admin]]
+**Status** **da** **tela**: #7B#
+**Fluxo**: 
+
+A tela detalha informações pertinentes à entidade em questão. 
+
+CNPJ: #leitura# [[Tabelas:ENTIDADE:NR CNPJ ENTIDADE|NR_CNPJ_ENTIDADE]]
+Nome da entidade: #leitura# [[Tabelas:ENTIDADE:NM ENTIDADE|NM_ENTIDADE]]
+E-mail da entidade: #leitura# [[Tabelas:USUARIO:TX EMAIL USUARIO|TX_EMAIL_USUARIO]]
+E-mail do representante administrativo: #leitura# [[Tabelas:ENTIDADE:TX EMAIL REPRESENTANTE ADMINISTRATIVO ENTIDADE|TX_EMAIL_REPRESENTANTE_ADMINISTRATIVO_ENTIDADE]]
+Tipo de entidade: #leitura# [[Tabelas:ENTIDADE:TP TIPO ENTIDADE|TP_TIPO_ENTIDADE]]
+Suspensa: #leitura# [[Tabelas:ENTIDADE:SN SUSPENSA ENTIDADE|SN_SUSPENSA_ENTIDADE]]
+Ativa: #leitura# [[Tabelas:ENTIDADE:SN ATIVA ENTIDADE|SN_ATIVA_ENTIDADE]]

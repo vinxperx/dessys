@@ -1,5 +1,5 @@
 Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
+Wiki-Format: zim 0.4
 Creation-Date: 2022-05-05T13:32:59-03:00
 
 ====== 30463 ======
@@ -12,6 +12,8 @@ Criado quinta-feira 05 maio 2022
 **Wireframe**: [[.\dependencias_perfis_credenciais.png|wireframe01]], [[.\30463_wireframe_3.png|wireframe02]], [[.\30463_wireframe_2.png|wireframe03]], [[.\30463_wireframe_1.png|wireframe04]], [[.\30463_wiframe_4.png|wireframe05]],
 **Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
 **Arquivos**: [[..\30463|pasta]]
+
+**Tela**: [[Telas:Sprint7B:Login:MenuSysdeaAdm:Administrativo:Usuarios:AlterarUsuario|Alterar Usuário]]
 
 #erronoTFS#
 #syncTFS#

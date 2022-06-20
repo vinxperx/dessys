@@ -11,7 +11,7 @@ Criado terça 31 maio 2022
 **Backlog**: [[./wireframe.png|wireframe]]
 **Credencial**: [[Entidades:Credenciais:6Avaliador|Avaliador]]
 **Status** **da** **tela**: #producao#
-**Fluxo**: [[Fluxo:Descricao:ProvaAntigo:06AtribuicaoERevisao:05AtribuicaoEmTerceiraEscuta|Atribuição em Terceira Escuta]]
+**Fluxo**: [[Fluxo:Antigo:Aplicacao:06AtribuicaoERevisao:05AtribuicaoEmTerceiraEscuta|Atribuição em Terceira Escuta]]
 
 A tela lista as provas no status [[Entidades:Status:StatusProva:6PosAvaliacao|6 Pós Avaliação]] e que tenham uma Matriz de Níveis no [[Entidades:ContextoNota:11EncaminhamentoTerceiraEscuta|11]].
 

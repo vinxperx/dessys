@@ -1,0 +1,29 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-20T17:35:49-03:00
+
+====== Usuarios ======
+Criado segunda 20 junho 2022
+
+**Título**: Pesquisar Usuários
+**Acesso**: [[Entidades:Credenciais:2Admin|Admin]]
+**Tipo**: #tela# #lista#
+**Backlog**: [[./wireframe.png|wireframe]]
+**Item**: [[Backlogs:30467|30467]]
+**Credencial**: [[Entidades:Credenciais:2Admin|Admin]]
+**Status** **da** **tela**: #producao#
+
+Cadastrar Novo Usuário: [[+CadastrarUsuario]]
+
+Para cada usuário, a tela lista os seguintes dados:
+
+Cpf/CNPJ: [[Tabelas:PESSOA SYSDEA:NR CPF PESSOA|NR_CPF_PESSOA]] ou [[Tabelas:ENTIDADE:NR CNPJ ENTIDADE|NR_CNPJ_ENTIDADE]]
+Nome completo: [[Tabelas:PESSOA SYSDEA:NM NOME PESSOA|NM_NOME_PESSOA]] ou [[Tabelas:ENTIDADE:NM ENTIDADE|NM_ENTIDADE]]
+Nome de usuário: [[Tabelas:USUARIO:NM USUARIO|NM_USUARIO]]
+Credencial: select ([[Tabelas:PERMISSAO|PERMISSAO]]) where [[Tabelas:PERMISSAO:ID USUARIO|ID_USUARIO]]
+Email: [[Tabelas:USUARIO:TX EMAIL USUARIO|TX_EMAIL_USUARIO]]
+Status: #teste#
+Ações:
+	Alterar: #botao# [[+AlterarUsuario]]
+Ativar / Inativar: #botao# altera o status do usuário para inativo, variável [[Tabelas:USUARIO:FG USUARIO ATIVO|FG_USUARIO_ATIVO]] 
+Visualizar: #botao# Permite acessar a tela [[+VisualizarUsuario]]

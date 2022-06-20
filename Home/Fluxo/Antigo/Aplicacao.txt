@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-05-25T10:30:23-03:00
+
+====== Aplicacao ======
+Criado quarta 25 maio 2022
+
+O fluxo de agendamento antigo

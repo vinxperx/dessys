@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-20T11:53:34-03:00
+
+====== Administrativo ======
+Criado segunda 20 junho 2022
+
+**Título: **Administrativo
+**Acesso**: [[MenuSysdeaAdm|SySDEAADM]]
+**Tipo**: #aba# #hub#
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:2Admin|Admin]]
+**Status** **da** **tela**: #7B#
+**Arquivos**: pasta
+
+Esta é a aba inicial do avaliador. Aqui, o avaliador tem acesso a diversas funcionalidades:

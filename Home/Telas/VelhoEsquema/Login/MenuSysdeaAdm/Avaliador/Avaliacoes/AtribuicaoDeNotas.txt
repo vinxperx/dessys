@@ -11,7 +11,7 @@ Criado terça 07 junho 2022
 **Backlog**: [[./wireframe1.png|wireframe1]]
 **Credencial**: [[Entidades:Credenciais:6Avaliador|Avaliador]]
 **Status** **da** **tela**: #producao#
-**Fluxo**: [[Fluxo:Descricao:ProvaAntigo:06AtribuicaoERevisao:01PrimeiraAtribuicao|Primeira Atribuição]] ou [[Fluxo:Descricao:ProvaAntigo:06AtribuicaoERevisao:02SegundaAtribuicao|Segunda Atribuição]]
+**Fluxo**: [[Fluxo:Antigo:Aplicacao:06AtribuicaoERevisao:01PrimeiraAtribuicao|Primeira Atribuição]] ou [[Fluxo:Antigo:Aplicacao:06AtribuicaoERevisao:02SegundaAtribuicao|Segunda Atribuição]]
 
 A tela lista os seguintes campos somente leitura:
 

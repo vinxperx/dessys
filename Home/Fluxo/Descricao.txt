@@ -1,7 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2022-05-25T10:29:34-03:00
-
-====== Descricao ======
-Criado quarta 25 maio 2022
-

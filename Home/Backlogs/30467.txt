@@ -1,5 +1,5 @@
 Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
+Wiki-Format: zim 0.4
 Creation-Date: 2022-05-05T11:46:52-03:00
 
 ====== 30467 ======
@@ -13,5 +13,6 @@ Criado quinta-feira 05 maio 2022
 **Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
 **Arquivos**: [[..\30467|pasta]]
 
+Tela: [[Telas:Sprint7B:Login:MenuSysdeaAdm:Administrativo:Usuarios|Pesquisar Usuarios]]
 #erronoTFS#
 #syncTFS#

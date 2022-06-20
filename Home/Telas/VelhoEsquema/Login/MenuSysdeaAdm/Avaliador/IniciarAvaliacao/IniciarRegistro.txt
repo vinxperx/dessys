@@ -11,7 +11,7 @@ Criado quinta 02 junho 2022
 **Backlog**: [[./wireframe.png|wireframe]]
 **Credencial**: [[Entidades:Credenciais:6Avaliador|Avaliador]]
 **Status** **da** **tela**: #producao#
-**Fluxo**: [[Fluxo:Descricao:ProvaAntigo:05Inicializacao|Inicialização]]
+**Fluxo**: [[Fluxo:Antigo:Aplicacao:05Inicializacao|Inicialização]]
 
 A tela exibe: 
 

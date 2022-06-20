@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-20T18:36:43-03:00
+
+====== Avaliador ======
+Criado segunda 20 junho 2022
+
+**Título**: Avaliador
+**Acesso**: [[VisualizarUsuario]]
+**Tipo**: #tela# #leitura# #registro# #aba#
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:2Admin|Admin]]
+**Status** **da** **tela**: #7B#
+**Fluxo**: 
+
+A tela detalha informações pertinentes ao avaliador em questão. 
+
+Data de conclusão de curso: #leitura# [[Tabelas:AVALIADOR:DT CONCLUSAO CURSO AVALIADOR|DT_CONCLUSAO_CURSO_AVALIADOR]]
+Data de início de atividade de avaliador: #leitura# [[Tabelas:AVALIADOR:DT INICIO ATIVIDADE AVALIADOR|DT_INICIO_ATIVIDADE_AVALIADOR]]
+Data de validade de certificação do avaliador: #leitura# [[Tabelas:AVALIADOR:DT VALIDADE CERTIFICACAO AVALIADOR|DR_VALIDADE_CERTIFICACAO_AVALIADOR]]
+Quantidade máxima de provas: #leitura# [[Tabelas:AVALIADOR:QT MAXIMO PROVAS AVALIADOR|QT_MAXIMO_PROVAS_AVALIADOR]]
+Avaliador Ativo: #leitura# [[Tabelas:AVALIADOR:SN ATIVO AVALIADOR|SN_ATIVO_AVALIADOR]]
+Avaliador em Atividade: #leitura# [[Tabelas:AVALIADOR:SN EM ATIVIDADE AVALIADOR|SN_EM_ATIVIDADE_AVALIADOR]]
+Avaliador Suspenso: #leitura# [[Tabelas:AVALIADOR:SN SUSPENSO AVALIADOR|SN_SUSPENSO_AVALIADOR]]
+Qualificação do avaliador: #leitura# [[Tabelas:AVALIADOR:TP QUALIFICACAO AVALIADOR|TP_QUALIFICACAO_AVALIADOR]] (01 - ELE, 02 - SME, 03 - ELE e SME)

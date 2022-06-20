@@ -7,4 +7,4 @@ Criado terça 31 maio 2022
 
 #bit#
 
-Todos marcados com 1, parece ser validado na [[Fluxo:Descricao:ProvaAntigo:04Habilitacao|Habilitação]]. #teste#
+Todos marcados com 1, parece ser validado na [[Fluxo:Antigo:Aplicacao:04Habilitacao|Habilitação]]. #teste#

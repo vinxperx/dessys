@@ -11,7 +11,7 @@ Criado segunda 30 maio 2022
 **Backlog**: [[./wireframe.png|wireframe]]
 **Credencial**: [[Entidades:Credenciais:7Entidade|Entidade]]
 **Status** **da** **tela**: #producao#
-**Fluxo**: [[Fluxo:Descricao:ProvaAntigo:02Confirmacao|Confirmação]]
+**Fluxo**: [[Fluxo:Antigo:Aplicacao:02Confirmacao|Confirmação]]
 
 **Campos**
 

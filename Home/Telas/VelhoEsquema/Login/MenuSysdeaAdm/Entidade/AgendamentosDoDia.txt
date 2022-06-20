@@ -24,6 +24,6 @@ A tela de agendamentos do dia lista processos de qualquer data nos status [[Enti
 **Sala**: [[Tabelas:HORARIO:NR SALA AGENDADA|NR_SALA_AGENDADA]]
 **Habilitar Avaliação**:  #botao# muda o status para o status [[Entidades:Status:StatusUnificado:3Autorizado|Autorizado]].
 
-Para cada prova, a tela dá ao usuário a opção de [[Fluxo:Descricao:ProvaAntigo:04Habilitacao|habilitar]] a avaliação no caso de provas com status [[Entidades:Status:StatusUnificado:2Confirmado|Confirmado]] e [[Entidades:Status:StatusUnificado:4Cancelado|Cancelado]].  
+Para cada prova, a tela dá ao usuário a opção de [[Fluxo:Antigo:Aplicacao:04Habilitacao|habilitar]] a avaliação no caso de provas com status [[Entidades:Status:StatusUnificado:2Confirmado|Confirmado]] e [[Entidades:Status:StatusUnificado:4Cancelado|Cancelado]].  
 
 #possiveisproblemas# A tela não filtra por data ([[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]]), a tela tem infos inúteis como o o preço ([[Tabelas:HORARIO:VL PRECO PROVA|VL_PRECO_PROVA]]), a tela lista a sala ([[Tabelas:HORARIO:NR SALA AGENDADA|NR_SALA_AGENDADA]]), mas carece de outras úteis, como o horário ([[Tabelas:HORARIO:DT HORARIO AGENDADO|DT_HORARIO_AGENDADO]]). Na verdade, apenas agendamentos no status [[Entidades:Status:StatusUnificado:2Confirmado|Confirmado]] podem ser habilitados. Quando clicado o botão para outros status, o sistema exibe uma mensagem de erro. 

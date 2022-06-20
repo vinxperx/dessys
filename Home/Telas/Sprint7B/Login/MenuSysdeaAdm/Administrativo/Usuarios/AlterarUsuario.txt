@@ -1,0 +1,41 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-20T18:55:15-03:00
+
+====== AlterarUsuario ======
+Criado segunda 20 junho 2022
+
+**Título**: Visualizar Usuário
+**Acesso**: [[Usuarios]]
+**Tipo**: #tela# #registro# 
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:2Admin|Admin]]
+**Status** **da** **tela**: #7B#
+**Fluxo**: [[Fluxo:Novo7B:CadastroDeUsuario:03AlteracaoDeUsuario:01AlteracaoDeDadosBasicos|Alteracao de Dados Basicos]]
+
+**Item**: [[Backlogs:30463|30463]]
+
+Pode-se pesquisar por Nome, Nome de usuário, CPF/CNPJ ou credencial. 
+A tela lista os seguintes registros, divididos em três seções. 
+
+**Dados básicos**
+
+Nome de usuário: [[Tabelas:USUARIO:NM USUARIO|NM_USUARIO]]
+Email:  [[Tabelas:USUARIO:TX EMAIL USUARIO|TX_EMAIL_USUARIO]]
+Ativo:  [[Tabelas:USUARIO:FG USUARIO ATIVO|FG_USUARIO_ATIVO]] 
+
+**Credenciais**
+
+Lista de credenciais #leitura#, conforme select [[Tabelas:PERMISSAO|PERMISSAO]] where [[Tabelas:USUARIO:ID USUARIO|ID_USUARIO]]
+
+**Informações adicionais por credencial**
+
+Caso haja uma credencial, abas podem ser acessadas abaixo:
+[[+Avaliador]]
+[[+Entidade]]
+[[+Fiscal]]
+[[+PessoaFisica]]
+[[+Piloto]]
+
+#erro# [[./erro.png|erro]]
+

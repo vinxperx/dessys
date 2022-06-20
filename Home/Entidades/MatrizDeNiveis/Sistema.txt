@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-07T18:05:55-03:00
+
+====== Sistema ======
+Criado terça 07 junho 2022
+
+No sistema, a Matriz de Níveis é representada por um registro na tabela de [[Tabelas:NOTA|NOTA]].

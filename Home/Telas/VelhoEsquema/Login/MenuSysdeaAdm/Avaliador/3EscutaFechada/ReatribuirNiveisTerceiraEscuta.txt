@@ -11,7 +11,7 @@ Criado quinta 09 junho 2022
 **Backlog**: [[./wireframe.png|wireframe]]
 **Credencial**: [[Entidades:Credenciais:6Avaliador|Avaliador]]
 **Status** **da** **tela**: #producao#
-**Fluxo**: [[Fluxo:Descricao:ProvaAntigo:06AtribuicaoERevisao:06ReatribuicaoEmTerceiraEscuta|Reatribuição em Terceira Escuta]]
+**Fluxo**: [[Fluxo:Antigo:Aplicacao:06AtribuicaoERevisao:06ReatribuicaoEmTerceiraEscuta|Reatribuição em Terceira Escuta]]
 
 A tela lista os seguintes campos somente leitura:
 
@@ -25,7 +25,7 @@ A tela lista os seguintes campos somente leitura:
 **Processo**: #leitura# [[Tabelas:AVALIACAO:NR PROCESSO|NR_PROCESSO]] 
 **Observações**: #leitura# #teste# para onde vão as observações
 
-E para inserção dos dois, de acordo com aquelas que forem causadoras de [[Fluxo:MatrizDeNiveis:DiferencaCritica|diferença crítica]]: 
+E para inserção dos dois, de acordo com aquelas que forem causadoras de [[Entidades:MatrizDeNiveis:DiferencaCritica|diferença crítica]]: 
 
 **Pronúncia**: [[Tabelas:NOTA:NR NIVEL PRONUNCIA|NR_NIVEL_PRONUNCIA]] #obrigatorio#
 **Estrutura:** [[Tabelas:NOTA:NR NIVEL ESTRUTURA|NR_NIVEL_ESTRUTURA]] #obrigatorio#

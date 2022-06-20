@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-20T11:46:21-03:00
+
+====== InclusaoLocalDeAplicacao ======
+Criado segunda 20 junho 2022
+
+**Cliente**: Entidade que abriu um novo local de aplicação
+**Agente**: Administrativo, também conhecido como A2
+**Telas**: [[Telas:VelhoEsquema:Login:MenuSysdeaAdm:Entidade:NovoHorario:CriarHorarioFechado|Criar Horario Fechado]]
+
+**Fluxo**

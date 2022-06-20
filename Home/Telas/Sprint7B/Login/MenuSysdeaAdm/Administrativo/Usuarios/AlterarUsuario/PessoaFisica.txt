@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-20T19:57:52-03:00
+
+====== PessoaFisica ======
+Criado segunda 20 junho 2022
+
+**Título**: Pessoa Física
+**Acesso**: [[VisualizarUsuario]]
+**Tipo**: #tela# #leitura# #registro# #aba#
+**Backlog**: [[./wireframe.png|wireframe]]
+**Credencial**: [[Entidades:Credenciais:2Admin|Admin]]
+**Status** **da** **tela**: #7B#
+**Fluxo**: [[Fluxo:Novo7B:CadastroDeUsuario:03AlteracaoDeUsuario:06AlteracaoDadosPessoaFisica|Alteracao Dados Pessoa Fisica]]
+
+Mostra os dados vinculados à pessoa física:
+
+CPF: [[Tabelas:PESSOA SYSDEA:NR CPF PESSOA|NR_CPF_PESSOA]]
+Nome completo: [[Tabelas:PESSOA SYSDEA:NM NOME PESSOA|NM_NOME_PESSOA]]
+Data de nascimento: [[Tabelas:PESSOA SYSDEA:DT NASCIMENTO PESSOA|DT_NASCIMENTO_PESSOA]]

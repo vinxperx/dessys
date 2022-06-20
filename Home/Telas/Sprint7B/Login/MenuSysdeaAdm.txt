@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-20T11:53:11-03:00
+
+====== MenuSysdeaAdm ======
+Criado segunda 20 junho 2022
+
+**Título: **Menu SySDEA Administrativo
+**Backlog**: [[./wireframe.png|wireframe.png]]
+**Tipo**: #tela# #hub#
+**Credencial**: [[Entidades:Credenciais|Todas]]
+**Status da tela**: #7B#
+**Arquivos**: pasta 
+
+O menu SySDEA ADM foi uma tela desenvolvida na PROFLING. Ela é estruturada em abas, que aparecem ou não conforme a credencial do usuário. 
+
+As abas que podem aparecer são:
+
+1. Administrativo - para a credencial [[Entidades:Credenciais:2Admin|Admin]].
+

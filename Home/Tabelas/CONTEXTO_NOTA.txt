@@ -5,4 +5,4 @@ Creation-Date: 2022-06-07T17:55:40-03:00
 ====== CONTEXTO NOTA ======
 Criado terça 07 junho 2022
 
-A tabela lista os contextos em que as [[Fluxo:MatrizDeNiveis|Matrizes de Níveis]] podem ser dadas. Os valores variam de 1 a 16, no fluxo antigo, e podem ser negativos, indicando que aquela instância de matriz específica foi apagada. Por exemplo, uma matriz atribuída por um SME que foi apagada (refeita, etc.) terá valor -2.
+A tabela lista os contextos em que as [[Entidades:MatrizDeNiveis|Matrizes de Níveis]] podem ser dadas. Os valores variam de 1 a 16, no fluxo antigo, e podem ser negativos, indicando que aquela instância de matriz específica foi apagada. Por exemplo, uma matriz atribuída por um SME que foi apagada (refeita, etc.) terá valor -2.

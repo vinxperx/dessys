@@ -1,8 +1,31 @@
 Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
-Creation-Date: 2022-06-07T18:05:55-03:00
+Creation-Date: 2022-06-07T17:57:30-03:00
 
 ====== MatrizDeNiveis ======
 Criado terça 07 junho 2022
 
-No sistema, a Matriz de Níveis é representada por um registro na tabela de [[Tabelas:NOTA|NOTA]].
+**Arquivos**: [[./|pasta]] 
+
+#wip#
+
+A matriz de nível é a base do sistema de cálculo das notas do SDEA, e consiste num conjunto de valores atribuídos para níveis intermediários(N), mais uma nota (T) que é calculada. Normalmente, a matriz de nível contém sete valores, seis para níveis intermediários, mais um para nota:
+
+[[+ValoresIntermediarios:Pronuncia|Pronúncia]] (exemplo, 4)
+[[+ValoresIntermediarios:Estrutura|Estrutura]] (exemplo, 5)
+[[+ValoresIntermediarios:Vocabulario|Vocabulário]] Vocabulário (exemplo, 4)
+[[+ValoresIntermediarios:Fluencia|Fluência]] (exemplo, 4)
+[[+ValoresIntermediarios:Compreensao|Compreensão]] (exemplo, 5)
+[[+ValoresIntermediarios:Interacoes|Interações]] (exemplo, 4)
+ 
+[[+Nota|Nota]] (exemplo, 4)
+
+Nem todas as matrizes, porém, contêm os sete valores. Matrizes de terceira escuta, por exemplo, podem conter apenas um valor. Chamaremos de //matrizes completas// aquelas que têm os sete valores, e //matrizes parciais// aquelas que só tiverem alguns dos valores. 
+Neste documento, adotaremos a seguinte notação para as matrizes completas: 
+{P, E, V, F, C, I {T}}.
+Por exemplo {4, 5, 4, 4, 5, 4 {4}}
+
+Para matrizes parciais, utilizaremos a seguinte notação:
+{∅,∅,∅,4,∅,∅,{∅}}
+
+Esse é um exemplo de uma matriz com valor 4 apenas para o nível intermediário fluência(Nf).

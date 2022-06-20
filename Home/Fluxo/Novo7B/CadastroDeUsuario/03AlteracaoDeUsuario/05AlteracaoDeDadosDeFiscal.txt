@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-20T19:56:20-03:00
+
+====== 05AlteracaoDeDadosDeFiscal ======
+Criado segunda 20 junho 2022
+
+**Cliente**: Qualquer usuário precisa modificar Dados da entidade
+**Agente**: [[Entidades:Usuarios:Administrador|Administrador]]
+**Telas**: [[Telas:Sprint7B:Login:MenuSysdeaAdm:Administrativo:Usuarios:AlterarUsuario|Alterar Usuario]] e [[Telas:Sprint7B:Login:MenuSysdeaAdm:Administrativo:Usuarios:AlterarUsuario:Fiscal|Fiscal]]

@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-20T11:52:51-03:00
+
+====== Login ======
+Criado segunda 20 junho 2022
+
+**Título: **Login
+**Backlog**: [[./wireframe.png|wireframe.png]]
+**Tipo**: #tela# #hub#
+**Credencial**: [[Entidades:Credenciais|Todas]]
+**Status da tela**: #producao#
+**Arquivos**: pasta 
+
+O login é obtido do nome de usuário: [[Tabelas:USUARIO:NM USUARIO|NM_USUARIO]] (o sistema não tem um 'ou e-mail').
+A senha atual é obtida de: [[Tabelas:USUARIO:TX SENHA USUARIO|TX_SENHA_USUARIO]] e [[Tabelas:USUARIO:TX STAMP USUARIO|TX_STAMP_USUARIO]].
+Existe a necessidade de um captcha.
+A tela não possui um registro de entrada. #melhora#
