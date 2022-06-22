@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-21T15:15:45-03:00
+
+====== Fluxos ======
+Criado terça 21 junho 2022
+
+1. #ok# #pr# Aplicação fluxo antigo ambiente novo
+2. #ok# #pr# Aplicação fluxo antigo ambiente novo terceira escuta 
+3. #ok# #pr# Filial - Testado dentro da entidade 
+4. #ok# #pr# FA - Para fluxo antigo
+5. #pr# FC2 - Para fluxo antigo
+6. #pr# FC - Para fluxo antigo -
+7. #pr# Desarquivamento Recurso - fluxo antigo
+8. #pr# Recurso 1 - fluxo antigo
+9. #pr# Recurso 2 - fluxo antigo
+10. FA - Para fluxo novo  
+11. FC - Para fluxo novo
+12. FC2 - Para fluxo novo 
+13. Aplicação fluxo novo ambiente novo
+14. Desarquivamento Recurso - fluxo novo
+15. Recurso 1 - fluxo novo
+16. Recurso 2 - fluxo novo
+17. Códigos de erro (erro 0, erro 1)
+
+
+A prova vai para 'pronta' sozinha cerca de 10min antes da aplicação. 
+Mas e se ele errar? Como que ele inicia essa prova? E se a prova expirar? Quem pode de repente ajudar? (talvez precise de uma tela) 

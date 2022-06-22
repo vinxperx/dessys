@@ -1,0 +1,44 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-21T15:15:03-03:00
+
+====== CronogramaInicial ======
+Criado terça 21 junho 2022
+
+
+1. Mapeamento  - 21/06/2022 - 15/07/2022
+
+Verificar que todos os fluxos estão de fato funcionando. 
+22/06/2022 até 08/07/2022
+
+Reunião TI na semana seguinte 
+
+Cadastro três versões 
+
+Output - 
+
+	a. Backlogs - O que for preciso de backlog para implementar o fluxo novo (ou aparar arestas no fluxo velho) precisa ser despachado até esta data.
+	b. Instruções de dumping - 
+		1. Jogar os dados de produção em Validação 2 e o novo sistema em Validação 2 - credenciais? variáveis novas?
+[[+LQI]] das provas antigas
+
+2. Validação 2 – 01/08/2022 – Colocar em produção até a 7B conforme Validação 2
+
+	Banco de hoje, frontend de 31/12/2021
+
+	Realizar orientações eventuais quanto ao fluxo intermediário. 
+
+3. Produção – 08/08/2022 – Colocar em produção 
+	a. Dispara o cadastro da prova atual no SDEA
+	b. Atualizar lista de questões interditadas
+
+4. Cortar a fitinha  – 15/08/2022 – Primeira prova aplicada
+		Rodar a consulta LQI
+		Aplica algumas provas no esquema novo
+
+Etapa 5 – 22/08/2022 – Primeira entidade rodando novo fluxo
+
+Etapa 6 – 12/09/2022 – Todas as entidades rodando fluxo novo
+
+Etapa 7 – Depende de novas questões – Todas as entidades rodando fluxo novo com as novas questões
+
