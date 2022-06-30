@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-27T10:08:07-03:00
+
+====== EmailFluxoAntigo ======
+Criado segunda 27 junho 2022
+
+O e-mail com fluxo antigo não funciona na versão de validação. 

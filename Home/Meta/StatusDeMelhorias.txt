@@ -5,3 +5,4 @@ Creation-Date: 2022-04-08T11:36:39-03:00
 ====== StatusDeMelhorias ======
 Criado sexta 08 abril 2022
 
+#paralisante# - Se a melhoria não for implementada, ela paralisará certos setores. 

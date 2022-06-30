@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-27T10:14:12-03:00
+
+====== EmailFluxoNovo ======
+Criado segunda 27 junho 2022
+
+O email de fluxo novo funciona normalmente.
