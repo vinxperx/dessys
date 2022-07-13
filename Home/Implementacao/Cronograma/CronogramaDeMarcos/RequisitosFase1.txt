@@ -6,13 +6,14 @@ Creation-Date: 2022-07-12T20:47:59-03:00
 Criado terça 12 julho 2022
 
 Requisitos para implementação da Fase 1
-Desenvolvimento
+
+**Desenvolvimento**
 
 [[Backlogs:35475]] 
 [[Backlogs:35477]]
 [[Backlogs:35476]]
 
-Correções
+**Correções**
 
-Tela modelos de testes de mídias não funciona nem para o credenciado, nem para o administrador.  #paralisante#
-A tela histórico de aplicações não carrega #paralisante#
+1. Tela modelos de testes de mídias não funciona nem para o credenciado, nem para o administrador.  #paralisante#
+2. A tela histórico de aplicações não carrega #paralisante#

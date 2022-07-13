@@ -8,21 +8,25 @@ Criado terça 12 julho 2022
 Descrição
 
 Enquanto administrador do sistema
-Quero um aplicativo que possa gerar uma consulta SQL
+Quero um script/aplicativo que possa gerar uma consulta SQL
 Para atualizar a Lista de Questões Interditadas dos pilotos
 Com base na correspondência entre questões e versões
 
 Critério de Aceitação
 
-001 - Dado que seja fornecido uma planilha do tipo CSV
-Contendo a correspondência entre versões e conjuntos de questões cadastradas
-Então o aplicativo deve ler a planilha CSV
+001 - Dado que seja fornecido duas planilhas do tipo CSV
+Uma de CORRESPONDENCIA entre versões e conjuntos de questões cadastradas, ID_VERSAO, ID_QUESTAO
+Outra de LISTA DE PROVAS realizadas: ID_CANDIDATO, ID_PROVA, ID_VERSAO
+Então o aplicativo deve ler as planilhas CSV
 E gerar uma consulta SQL conforme as regras de negócio abaixo
 A fim de interdite as questões referentes aos conjuntos para os candidatos que já fizeram aquelas versões.
 
 RN1 - No seu início, o aplicativo deve realizar a correspondência entre questões e versões utilizando a planilha de versões (wireframe1), e para cada versão, fará a correspondência com o ID da questão. 
 
-RN2 - Uma vez feita a correspondência entre versões e questões, o script/aplicativo deve ler o banco e, para cada usuário, realizar as seguintes operações:
+a) Se houver alguma versão no sistema que não está especificada na planilha, o script a ignora
+b) Se houver alguma versão na planilha que não existe no sistema, o script para e exibe uma mensagem de erro
+
+RN2 - Uma vez feita a correspondência entre versões e questões, o script/aplicativo deve ler a planilha LISTA DE PROVAS e para cada usuário, realizar as seguintes operações:
 
 1. Verificar quais versões o candidato já fez
 2. Criar uma lista preliminar (LP), composta pela união de todas as questões correspondentes às versões que ele já fez
@@ -30,11 +34,20 @@ RN2 - Uma vez feita a correspondência entre versões e questões, o script/apli
 4. Então o aplicativo deve compor finalmente a LASI (Lista A Ser Interditada) da seguinte forma: LASI = LP - CQI
 5. Finalmente, o aplicativo deve acrescentar à consulta SQL cláusulas para interditar as questões da LASI para aquele piloto.
 
-RN3 - O aplicativo/script deve repetir o procedimento para todos os pilotos que já fizeram prova do SySDEA.
+RN3 - O script deve repetir o procedimento para todos os pilotos que já fizeram prova do SySDEA.
 
-RN4 - O aplicativo/script deve gerar uma consulta do tipo SQL que pode ser rodada pelo atualizador do sistema.
+RN4 - As cláusulas entre pilotos podem ser separadas por comentários. Exemplo: 
 
-RN5 - A consulta deve ser tal que deve poder ser rodada várias vezes sem duplicação de questões nas Listas de Questões Interditadas (dado que o arquivo CSV seja coerente).
+[[/*]]  Piloto: Fulano José da Silva, CANAC 123456, Versões 12, 13 , 14  */
+Insert into ....
+Insert into ....
+Insert into ....
+
+[[/*]] Piloto: Beltrano José de Souza .... */
+
+RN5 - O script deve gerar uma consulta do tipo SQL que pode ser rodada pelo administrador do sistema.
+
+RN6 - A consulta deve ser tal que deve poder ser rodada várias vezes sem duplicação de questões nas Listas de Questões Interditadas (dado que o arquivo CSV seja coerente).
 
 
 

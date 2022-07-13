@@ -20,9 +20,9 @@ Então o sistema mostrará, para cada prova na seção de pendentes no status de
 002 - Dado que o usuário clique no botão 'Prova extemporânea',
 Então o sistema exibirá uma mensagem de alerta (RN1)
 E abrirá um prompt para o usuário inserir uma justificativa que terá permanência como observação (RN2)
-E gerará uma instância de prova semelhante à que gera para provas no status Autorizado, vinculando-a à prova,
-E fará as mudanças para os status de prova que a tela 30468 faz quando iniciando uma prova normal, exceto no disposto em contrário
+E gerará uma instância de prova semelhante em tudo ao que ocorre em FazerAplicação (30457) RN 1 - 8, exceto quando disposto em contrário
 E enviará um e-mail para o e-mail de alerta de prova extemporânea para o e-mail de ocorrências de aplicação (35476)
+E registrará a prova como extemporânea com uma variável do tipo S/N
  
 
 RN1 - A mensagem de alerta será: 'Você está gerando uma prova extemporânea. Essa ação não pode ser desfeita. A autoridade será notificada.'
@@ -31,7 +31,18 @@ RN2 - Será inserida uma observação:
 
 Prova extemporânea. Data de início efetivo: (data em que a prova foi gerada). Justificativa: (Texto inserido pelo usuário)
 
-RN3 - O Tempo Efetivo de Início será considerado como o momento do clique no botão 'Prova extemporânea'. Todos os outros tempos serão calculados a partir dele, como se
-a aplicação fosse a de uma prova normal.
+RN3 - O Tempo Efetivo de Início será considerado como o momento do clique no botão 'Prova extemporânea'. Todos os outros tempos serão calculados a partir dele, como se a aplicação fosse a de uma prova normal (30457).
+
+RN4 - Uma vez o botão Aplicar na tela Pesquisar Avaliação for clicado, o sistema deve passar o registro do candidato para o status AU# Iniciada. A prova ficará no status 3 Chave Gerada. 
+
+RN5 - Uma vez que a prova for gerada (status 3, chave gerada), a chave da prova também deve ser gerada e registrada para posterior recuperação. 
+
+RN6 - A descrição dos tempos de prova se encontra no wireframe 'Tempos de aplicação'. 
+
+RN7 - A descrição dos status de prova e agendamento unificado (AU#) relativos à aplicação se encontra no wireframe 'Status prova'.
+
+RN8 - O Tempo Efetivo de Início da prova, que é quando o usuário clica em 'Aplicar ext.', será registrado em DT_INICIO_AVALIACAO.
+
+RN9 - As entidades de conteúdo bem como entidades estatísticas devem ser alterada para Instanciadas caso aplicável, conforme Instanciação (em anexo). 
 
  
