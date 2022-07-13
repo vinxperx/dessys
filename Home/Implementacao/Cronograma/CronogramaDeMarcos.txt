@@ -20,7 +20,7 @@ Output -
 	a. Backlogs - O que for preciso de backlog para implementar o fluxo novo (ou aparar arestas no fluxo velho) precisa ser despachado até esta data.
 	b. Instruções de dumping - Validação 1 31/12/2021 -   Validação 2 31/12/2022
 		1. Jogar os dados de produção em Validação 2 e o novo sistema em Validação 2 - credenciais? variáveis novas?
-[[+LQI]] das provas antigas
+[[Requisitos:LQI]] das provas antigas
 
 2. Validação 2 – 01/08/2022 – Colocar em produção até a 7B conforme Validação 2
 

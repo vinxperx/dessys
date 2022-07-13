@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-07-04T17:39:06-03:00
+
+====== ChaveamentoAutorizacao ======
+Criado segunda 04 julho 2022
+
+É preciso adicionar um parâmetro na tela de Esta tela de Definir Parâmetros de Aplicação: se as provas podem ou não ser aplicadas extratempo. 
+
+Se esse parâmetro estiver marcado como sim, na tela de aplicação será oferecida uma nova opção aos usuários para as provas expiradas: aplicar prova fora de hora. Isso significa que será gerada uma instância para esta prova. O administrador do sistema então receberá um e-mail informando da eventualidade. 
+
+Trata-se de um mecanismo de proteção caso a rotina de atualização do status falhe.  
+

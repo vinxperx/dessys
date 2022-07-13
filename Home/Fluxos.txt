@@ -14,11 +14,11 @@ Criado terça 21 junho 2022
 7. #pr# #ok# Desarquivamento Recurso - fluxo antigo
 8. #pr# #ok# Recurso 1 - fluxo antigo
 9. #pr# #ok# Recurso 2 - fluxo antigo
-10. Aplicação fluxo novo ambiente novo
-11. Rodar a prova em tablet (29/06/2022)
-12. FA - Para fluxo prova gerada  
-13. FC - Para fluxo prova gerada
-14. FC2 - Para fluxo prova gerada 
+10. Aplicação fluxo novo ambiente novo - #ok# - o que acontece se a rotina dá problema?
+11. Rodar a prova em tablet (29/06/2022) - preocupante (suporte, segurança?) - Cancelado
+12. FA - Para fluxo prova gerada   - #ok#
+13. FC - Para fluxo prova gerada - #ok#
+14. FC2 - Para fluxo prova gerada #ok#
 15. Desarquivamento Recurso - prova gerada
 16. Recurso 1 - prova gerada
 17. Recurso 2 - prova gerada

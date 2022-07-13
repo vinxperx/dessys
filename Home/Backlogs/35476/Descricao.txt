@@ -1,0 +1,31 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-07-12T20:59:02-03:00
+
+====== Descricao ======
+Criado terça 12 julho 2022
+
+Descrição
+
+Enquanto usuário logado como administrador do sistema
+Quero poder cadastrar um e-mail de ocorrências de aplicação
+Para receber alertas. 
+
+Critério de aceitação
+
+001 - Dado que o usuário com a credencial Admin acesse a tela de Parâmetros de Aplicação 31331
+Quero que haja um espaço para cadastro do e-mail de ocorrências de aplicação
+
+002 - Dado que o usuário preencha o campo de e-mail de ocorrências de aplicação (RN1)
+E clique no botão salvar
+Então o sistema verifica se a entrada é válida e salva o e-mail com os outros parâmetros de aplicação
+
+003 - Dado que o usuário preencha o campo de e-mail com erro
+Ou o deixe em branco
+E clique em salvar
+O sistema emitirá uma mensagem de confirmação (RN3)
+E então automaticamente fará o rollback para o e-mail default.
+
+RN1 - O campo será de texto e verificará se a entrada corresponde à de um e-mail.
+RN2 - O e-mail default é proficiencia.linguistica@anac.gov.br.
+RN3 - Mensagem de confirmação: 'O e-mail inserido não é válido. O sistema voltará a usar o default'.

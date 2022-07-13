@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-07-12T20:57:12-03:00
+
+====== SSprint08B ======
+Criado terça 12 julho 2022
+
+
+1. [[Backlogs:35476|35476 - Melhoria_parametro_de_aplicacao]]
+

@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-07-12T20:55:50-03:00
+
+====== 35476 ======
+Criado terça 12 julho 2022
+
+**Título**: Melhoria_parametros_de_aplicacao
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv#
+**Implementação: **
+**Wireframe**: [[./wireframe1.png|wireframe1]], [[./wireframe2.png|wireframe2]]
+**Status**: 
+**Arquivos**: [[..\34323|pasta]]
+

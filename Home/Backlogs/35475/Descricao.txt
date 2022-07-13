@@ -1,0 +1,37 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-07-12T21:25:31-03:00
+
+====== Descricao ======
+Criado terça 12 julho 2022
+
+Descrição
+
+Enquanto usuário logado em pesquisar aplicação (30468)
+Quero dispor de uma funcionalidade adicional para as provas na seção pendentes
+Que permita gerar uma prova fora de tempo.
+
+Critério de Aceitação
+
+001 - Dado que o usuário com a credencial apropriada acesse a tela
+E haja provas no status 'Expirado' na seção 'Pendentes'
+Então o sistema mostrará, para cada prova na seção de pendentes no status de expirado, um botão adicional além dos outros dois já exibidos: Prova extemporânea.
+
+002 - Dado que o usuário clique no botão 'Prova extemporânea',
+Então o sistema exibirá uma mensagem de alerta (RN1)
+E abrirá um prompt para o usuário inserir uma justificativa que terá permanência como observação (RN2)
+E gerará uma instância de prova semelhante à que gera para provas no status Autorizado, vinculando-a à prova,
+E fará as mudanças para os status de prova que a tela 30468 faz quando iniciando uma prova normal, exceto no disposto em contrário
+E enviará um e-mail para o e-mail de alerta de prova extemporânea para o e-mail de ocorrências de aplicação (35476)
+ 
+
+RN1 - A mensagem de alerta será: 'Você está gerando uma prova extemporânea. Essa ação não pode ser desfeita. A autoridade será notificada.'
+
+RN2 - Será inserida uma observação:
+
+Prova extemporânea. Data de início efetivo: (data em que a prova foi gerada). Justificativa: (Texto inserido pelo usuário)
+
+RN3 - O Tempo Efetivo de Início será considerado como o momento do clique no botão 'Prova extemporânea'. Todos os outros tempos serão calculados a partir dele, como se
+a aplicação fosse a de uma prova normal.
+
+ 

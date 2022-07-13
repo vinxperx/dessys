@@ -1,0 +1,43 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-07-12T21:19:23-03:00
+
+====== Descricao ======
+Criado terça 12 julho 2022
+
+Descrição
+
+Enquanto administrador do sistema
+Quero um aplicativo que possa gerar uma consulta SQL
+Para atualizar a Lista de Questões Interditadas dos pilotos
+Com base na correspondência entre questões e versões
+
+Critério de Aceitação
+
+001 - Dado que seja fornecido uma planilha do tipo CSV
+Contendo a correspondência entre versões e conjuntos de questões cadastradas
+Então o aplicativo deve ler a planilha CSV
+E gerar uma consulta SQL conforme as regras de negócio abaixo
+A fim de interdite as questões referentes aos conjuntos para os candidatos que já fizeram aquelas versões.
+
+RN1 - No seu início, o aplicativo deve realizar a correspondência entre questões e versões utilizando a planilha de versões (wireframe1), e para cada versão, fará a correspondência com o ID da questão. 
+
+RN2 - Uma vez feita a correspondência entre versões e questões, o script/aplicativo deve ler o banco e, para cada usuário, realizar as seguintes operações:
+
+1. Verificar quais versões o candidato já fez
+2. Criar uma lista preliminar (LP), composta pela união de todas as questões correspondentes às versões que ele já fez
+3. Verificar quais questões da LP já estão interditadas para aquele candidato no sistema (Conjunto de questões interditadas para o candidato, CQI)
+4. Então o aplicativo deve compor finalmente a LASI (Lista A Ser Interditada) da seguinte forma: LASI = LP - CQI
+5. Finalmente, o aplicativo deve acrescentar à consulta SQL cláusulas para interditar as questões da LASI para aquele piloto.
+
+RN3 - O aplicativo/script deve repetir o procedimento para todos os pilotos que já fizeram prova do SySDEA.
+
+RN4 - O aplicativo/script deve gerar uma consulta do tipo SQL que pode ser rodada pelo atualizador do sistema.
+
+RN5 - A consulta deve ser tal que deve poder ser rodada várias vezes sem duplicação de questões nas Listas de Questões Interditadas (dado que o arquivo CSV seja coerente).
+
+
+
+ 
+
+

@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-06-21T15:24:59-03:00
+
+====== TestesDeMidias ======
+Criado terça 21 junho 2022
+
+Conserto:
+
+Tela 1: Administrativo>Modelo_de_teste_de_midia [[./wireframe3.png|wireframe3]], [[./wireframe4.png|wireframe4]]
+Tela 2: Aplicador>SySDEAProva>Aplicacao>Teste_midia [[./wireframe1.png|wireframe1]], [[./wireframe2.png|wireframe2]]
+
+
+

@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-07-12T22:01:46-03:00
+
+====== Historico de aplicacoes ======
+Criado terça 12 julho 2022
+
+Tela: [[./wireframe1.png|wireframe1]]

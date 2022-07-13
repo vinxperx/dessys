@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-07-12T21:23:58-03:00
+
+====== 35475 ======
+Criado terça 12 julho 2022
+
+**Título**: Melhoria_pesquisar_aplicacao
+**Tipo**: #desenvolvimento#
+**Módulo**: #prv#
+**Implementação: **
+**Wireframe**:  [[./wireframe.png|wireframe]]
+**Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
+**Arquivos**: [[..\34323|pasta]]
+
+

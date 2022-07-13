@@ -5,6 +5,6 @@ Creation-Date: 2022-06-28T13:49:36-03:00
 ====== Paralisantes ======
 Criado terça 28 junho 2022
 
-Tela modelos de testes de mídias não funciona
+Tela modelos de testes de mídias não funciona  #paralisante#
 
-#paralisante#
+A tela histórico de agendamentos não carrega #paralisante#
