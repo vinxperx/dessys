@@ -17,3 +17,8 @@ Requisitos para implementação da Fase 1
 
 1. Tela modelos de testes de mídias não funciona nem para o credenciado, nem para o administrador.  #paralisante#
 2. A tela histórico de aplicações não carrega #paralisante#
+
+**Lista de credenciais**
+
+Eles propõem com base no que está em produção
+A gente valida
