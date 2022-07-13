@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2022-07-13T13:24:23-03:00
+
+====== Producao ======
+Criado quarta 13 julho 2022
+
+Fase 1 - Colocar o sistema de 31/12/2021 e o banco atual (13/07/2022) no ambiente de Validação 2
+
+Fase 2 - Colocar o sistema de 31/12/2021 e o banco atual em produção
+
+Fase 3 - Resolver pendências para o fluxo novo
+

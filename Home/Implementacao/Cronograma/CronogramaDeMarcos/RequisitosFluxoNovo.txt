@@ -2,10 +2,13 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2022-07-12T20:47:59-03:00
 
-====== RequisitosFase1 ======
+====== RequisitosFluxoNovo ======
 Criado terça 12 julho 2022
 
-Requisitos para implementação da Fase 1
+Pode ser colocado no ambiente de Validação 2 (Produção de hoje com Sistema 31/12) todos os itens
+
+
+Requisitos para implementação do fluxo novo
 
 **Desenvolvimento**
 
