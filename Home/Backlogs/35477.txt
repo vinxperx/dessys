@@ -5,10 +5,10 @@ Creation-Date: 2022-07-05T12:55:35-03:00
 ====== 35477 ======
 Criado terça 05 julho 2022
 
-**Título**: GeradordeConsultasSQLDeListaDeQuestoesInterditadas
+**Título**: LQIVersoes
 **Tipo**: #migracao#
 **Módulo**: #mig# #ela#
-**Implementação: **
+**Implementação: **[[./wireframe.png|wireframe]] , [[./wireframe2.png|wireframe2]]
 **Wireframe**: 
 **Status**: [[Meta:StatusDeItens:Validacao|Validacao]]
 **Arquivos**: [[..\34323|pasta]]
